@@ -1,0 +1,102 @@
+% Provide the hardcore conditional macros.
+
+% \providecommand{\varname}[3]{{\ensuremath{{#1}_{\scriptscriptstyle #2}^{\scriptscriptstyle #3}}}}
+% \providecommand{\subvar}[2]{\varname{#1}{#2}{}}
+% \providecommand{\vecvar}[4][\@empty]{\varname{\boldsymbol{#2}}{\ifx\@empty#1\else\mathrm{#1,}\fi#3}{\mathsf{#4
+
+\makeatletter
+\providecommand{\ifbold}[2]{\if b\expandafter\@car\f@series\@nil#1\else#2\fi}
+\providecommand{\mathcheck}[2][\@empty]{\ifmmode#2\else\ifx\@empty#1\ensuremath{#2}\else#1\fi\fi}
+\newcommand{\vectest}[4][\@empty]{\ensuremath{\boldsymbol{#2}_{\scriptscriptstyle\ifx\@empty#1\else\mathrm{#1,}\fi#3}^{\mathsf{\scriptscriptstyle#4}}}}
+\newcommand{\mattest}[4][\@empty]{\ensuremath{\boldsymbol{\mathsf{#2}}_{\scriptscriptstyle\ifx\@empty#1\else\mathrm{#1,}\fi#3}^{\mathsf{\scriptscriptstyle#4}}}}
+\makeatother
+
+% General formatting commands
+\providecommand{\sub}[2]{\mathcheck{{#1}_{\scriptscriptstyle \mathrm{#2}}}}
+\providecommand{\highlight}[1]{{\bf \color{blue}#1}}
+\providecommand{\metalline}[2]{\mathcheck[\mbox{#1\,{\sc #2}}]{\mathrm{#1}\,\textsc{#2}}}
+
+% Units / Symbols
+\providecommand{\angstrom}{\mathcheck[\AA]{\mathrm{\text{\AA}}}}
+\providecommand{\centimeter}{\mathcheck{\mathrm{cm}}}
+\providecommand{\ckpc}{\mathcheck{\mathrm{ckpc}}}
+\providecommand{\cmpc}{\mathcheck{\mathrm{cMpc}}}
+\providecommand{\ergs}{\mathcheck{\mathrm{ergs}}}
+\providecommand{\hertz}{\mathcheck{\mathrm{Hz}}}
+\providecommand{\hour}{\mathcheck{\mathrm{hr}}}
+\providecommand{\kelvin}{\mathcheck{\mathrm{K}}}
+\providecommand{\kilometer}{\mathcheck{\mathrm{km}}}
+\providecommand{\lbsolar}{\sub{\mathrm{L}}{\sun, B}}
+\providecommand{\logten}{\sub{\log}{10}}
+\providecommand{\meter}{\mathcheck{\mathrm{m}}}
+\providecommand{\minute}{\mathcheck{\mathrm{min}}}
+\providecommand{\msolar}{\sub{\mathrm{M}}{\sun}}
+\providecommand{\nanometer}{\mathcheck{\mathrm{nm}}}
+\providecommand{\planck}{\sub{h}{\mathrm{p}}}
+\providecommand{\pkpc}{\mathcheck{\mathrm{pkpc}}}
+\providecommand{\pmpc}{\mathcheck{\mathrm{pMpc}}}
+\providecommand{\sun}{\mathcheck{\odot}{\hbox{$\odot$}}}
+\providecommand{\second}{\mathcheck{\mathrm{s}}}
+\providecommand{\steradian}{\mathcheck{\mathrm{sr}}}
+\providecommand{\yr}{\mathcheck{\mathrm{yr}}}
+\providecommand{\Zsolar}{\mathcheck{\mathrm{Z}_{\sun}}}
+
+% Acronyms
+\providecommand{\cmb}{\mathcheck[CMB]{\mathrm{CMB}}}
+\providecommand{\fwhm}{\mathcheck[FWHM]{\mathrm{FWHM}}}
+\providecommand{\igm}{\mathcheck[IGM]{\mathrm{IGM}}}
+\providecommand{\imf}{\mathcheck[IMF]{\mathrm{IMF}}}
+\providecommand{\lae}{\mathcheck[LAE]{\mathrm{LAE}}}
+\providecommand{\lcdm}{\mathcheck{\Lambda\mathrm{CDM}}}
+\providecommand{\lya}{\mathcheck[Ly\ifbold{$\boldsymbol\alpha$}{$\alpha$}]{\mathrm{Ly}\alpha}}
+
+% Names
+\providecommand{\jossquasar}{\mathcheck[PKS 0424-131]{\mathrm{PKS 0424-131}}}
+\providecommand{\etftwo}{\mathcheck[SDSS J10067+0013]{\mathrm{SDSS J10067+0013}}}
+
+% Variables
+\providecommand{\critflux}{\mathcheck{\Phi_{0}}}
+\providecommand{\dutycycle}{\sub{\epsilon}{\mathrm{DC}}}
+\providecommand{\equivwidth}{\mathcheck{\mathrm{EW}}}
+\providecommand{\fdilution}{\sub{f}{\mathrm{dil}}}
+\providecommand{\fdust}{\sub{f}{\mathrm{dust}}}
+\providecommand{\fescape}{\sub{f}{\mathrm{esc}}}
+\providecommand{\fstar}{\sub{f}{\star}}
+\providecommand{\hubble}{\mathcheck{h}}
+\providecommand{\hubbletime}{\sub{t}{\mathrm{hub}}}
+\providecommand{\igmtrans}{\sub{\mathcal{T}}{\igm{}}}
+\providecommand{\ionlum}{\sub{\dot{Q}}{\mathrm{H}}}
+\providecommand{\lyalum}{\sub{L}{\lya{}}}
+\providecommand{\mfp}{\sub{r}{mfp}}
+\providecommand{\nfrac}{\sub{\chi}{\igm{}}}
+\providecommand{\omegab}{\sub{\Omega}{b}}
+\providecommand{\omegal}{\sub{\Omega}{\Lambda}}
+\providecommand{\omegam}{\sub{\Omega}{m}}
+\providecommand{\sigmaeight}{\sub{\sigma}{8}}
+\providecommand{\sfr}{\sub{\dot{M}}{\star}}
+\providecommand{\tilt}{\sub{n}{s}}
+\providecommand{\virialtemp}{\sub{T}{\mathrm{vir}}}
+\providecommand{\uvbg}{\sub{\Gamma}{BG}}
+\providecommand{\uvcontlum}{\sub{L}{\lambda, UV}}
+\providecommand{\vband}{\mathcheck{V}}
+\providecommand{\wltrans}{\mathcheck{\langle \mathrm{e}^{-\tau}\rangle}}
+\providecommand{\zsys}{\sub{z}{sys}}
+
+% Constants
+\providecommand{\lyafreq}{\sub{\nu}{\lya{}}}
+\providecommand{\lyawl}{\sub{\lambda}{\lya{}}}
+
+% Text Coloring
+\providecommand{\blackbold}{\mathcheck{\textcolor{black}{\textbf{black}}}}
+\providecommand{\redbold}{\mathcheck{\textcolor{red}{\textbf{red}}}}
+
+% References
+\providecommand{\eqnref}[1]{Eqn.\ (\ref{#1})}
+\providecommand{\figref}[1]{Fig.\ \ref{#1}}
+\providecommand{\secref}[1]{\S\ref{#1}}
+\providecommand{\tblref}[1]{Table \ref{#1}}
+
+% Citation aliases
+\defcitealias{Francis:2004p2989}{FBH04}
+\defcitealias{Ouchi:2008p3716}{O08}
+\defcitealias{Dijkstra:2007p1}{D07}

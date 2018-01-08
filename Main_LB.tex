@@ -1,0 +1,66 @@
+\documentclass[a4paper,11pt,twoside]{unimelb-thesis_CODBD}%
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{color}
+\usepackage{dcolumn}
+\usepackage{graphicx}
+\usepackage{natbib}
+
+% Set up geometry and line spacing
+% \usepackage[top=0.5in, bottom=0.5in, left=1.0in, right=0.75in, headheight=13.0pt, includeheadfoot]{geometry} % Pinched Crown @ 10pt
+\usepackage[top=3.0cm, bottom=2.25cm, left=3.5cm, right=3.00cm, headheight=15.5pt, includeheadfoot]{geometry} % A4 @ 11pt
+% \usepackage[top=4cm, bottom=3.0cm, left=3.5cm, right=3.0cm, headheight=15.5pt]{geometry}
+
+\usepackage{setspace}
+\onehalfspacing
+
+% Set up the font to use
+\usepackage[T1]{fontenc}
+\renewcommand{\encodingdefault}{T1}
+
+% Import custom macros and commands
+\include{macros}
+
+% Add a path to the images.
+\graphicspath{{./images/}}
+
+
+% Define the thesis metadata
+\title{My Thesis title}%
+\author{Joe\ Smith}%
+\date{June\ 2012}%
+\degree{Doctor of Philosophy}%
+\faculty{School of Physics}%
+
+
+\begin{document}
+    \maketitle%
+
+    \frontmatter%
+    \include{abstract}
+    \include{declaration}
+    \include{preface}
+    \include{acknowledgements}
+    \tableofcontents%
+    \listoffigures%
+    \listoftables%
+%    \listoffixmes%
+
+    \mainmatter%
+    \include{chapter1}
+%    \include{chapter2}
+%    \include{chapter3}
+%    \include{chapter4}
+%    \include{chapter5}
+%    \include{chapter6}
+
+    \backmatter%
+    \bibliographystyle{mn2e}%
+    \addcontentsline{toc}{chapter}{\bibname}%
+    \bibliography{my_bibliography}%
+
+    \appendix%
+    \include{appendix1}%
+
+\end{document}

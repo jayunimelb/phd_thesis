@@ -1,0 +1,5 @@
+\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Chapter\ 1:}{\relax \mathversion {bold}Introduction}}{1}
+\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Chapter\ 2:}{\relax \mathversion {bold}Data}}{3}
+\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Chapter\ 3:}{\relax \mathversion {bold}Data Analysis}}{5}
+\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Appendix\ A:}{\relax \mathversion {bold}Appendix A}}{7}
+\contentsline {section}{\numberline {A.1}Section in an appendix}{7}
