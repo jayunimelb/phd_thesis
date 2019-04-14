@@ -51,4 +51,224 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
+
+\section{Data}
+In this section first we briefly explain the SPTpol survey form which we obtain CMB data sets.
+Then we describe the Dark Energy Survey (DES) from which obtain galaxy cluster catalog.
+
+
+\subsection{South Pole Telescope}
+South Pole Telescope (SPT) is a 10-m diameter telescope with one-degree field of view optimized to measure CMB temperature and polarisation anisotropies at high angular resolution (\pending{cite Carlstorm and Padin}). SPT is located at Amundsen Scott South Pole Station, extremely dry and highly stable weather makes it one of the best available sites on Earth for mili-meter and sub mili-meter wavelength observations. 
+
+Polarisation sensitive camera, SPTpol, was installed on SPT during the austral summer \pending{2011-2012}. SPTPol focal plane has a total of 1536 transition edge bolometers with 360 detectors at 90 GHz and 1176 detectors at 150GHz. For more details regarding the design and fabrication of detectors we direct the readers to \pending{cite Sayre and Henning 2012}. 
+SPTpol covers 500 $deg^{2}$ of southern sky extending four hours of right ascension ranging from \pending{ra1 to ra 2} and fifteen degrees of declination from \pending {dec 1 to dec2}.  
+Time Order Data (TOD) is taken with constant elevation back-and-forth raster scans. 
+After each scan telescope is elevated in declination by \pending{9'} until the whole survey area is covered, one such cycle is called observation.
+Relative calibration between detector TOD amplitudes is performed with regular observations of galactic HII regions of RCW38.
+TOD are filtered to get rid of undesired atmospheric contamination, instrumental noise 1/f, and scan-synchronous structures before making maps. 
+Detector TODs are flagged and removed if a glitch is found (a sudden DC jump) or mean square (rms) noise is 5 $\sigma$ above or below the median of all the detectors during an observation.  
+For detailed explanation of observation stratergy and map making please refer to \pending{Henning et al}. \pending{perhaps more details??}.
+After all the filtering and data cuts, we combine the timestreams into maps with 0.25' square pixels using Sanson-Flamsteed or Mercator equal area projection (cite Keisler and Crites paper). 
+However, to reduce the computational time we downsample the maps into 0.5' square pixels.  
+We use data from Planck and SPT-SZ for absolute calibration at map level (\pending{Crites 2015 and Schaffer 2011}).
+Observational data of three years (2013-2016) is combined to obtain final maps. 
+We use jackknife resampling technique to calculate noise at map level and is found to be 7.5 uK' 
+
+Response functions: angular response function, also know as beam, is measured by observing Venus and bright point sources present in SPTpol survey field. 
+The beam for the full three years of data set (2013 - 2016 ) is well fit by 1.22\am\ FWHM Gaussian. 
+Filtering of the TOD and binning them into pixels will result in loss of information from certain modes and this is quantified in transfer function. 
+As was done by previous SPT works \pending{cite Baxter and temp Paper?} the filtering function can be approximated as:
+\begin{equation}
+F(l) = e^{(-l_{1}/ \mid l \mid)^{6}}  e^{(-l_{2}/ l_{x})^{6} }  e^{(-l_{x}/ l_{3})^{6} }
+\end{equation}
+where, l is the multipole, $l_{x}$ is the component along x direction, and for the maps used in this analysis $l_{1}$, $l_{2}$, and $l_{3}$ are 300, 300 and 2000 respectively.
+
+\subsection{Dark Energy Survey}
+Dark Energy Survey is a five year optical to near infrared with five-band ($griz$Y) photometric survey covering 5000 deg$^{2}$ of southern sky. 
+It uses Dark Energy Camera which is mounted at the prime focus of the Victor M. Blanco 4m telescope Cerro Tololo Inter American Observatory (CTIO) (\pending {Flaugher 2015}).
+Recently it has completed it fifth year of observations and we will use year 3 observation data in this work.
+
+DES uses redmapper algorithm (\pending{Rykoff 2014})to detect galaxy clusters, which exploits the fact that bulk of the cluster population is made up of old, red-sequence galaxies. 
+redMapper algorithm also provides the list of possible member galaxies for each cluster candidate and their corresponding membership probabilities.
+Optical richness, $\lambda $, of given cluster is nothing but the sum of membership probabilities of all the member galaxies. 
+For more details regarding the redMapper alogorithm and its application to DES data please refer to \pending{Rykoff 2016}.
+DES year 3 completely covers SPTpol survey area. 
+In this work we have used RM cluster catalog version \pending{$y3_gold:v6.4.22.$}, which contains 54,112 galaxy clusters above a richness ($\lambda$) cut of 20. 
+Of these, 5828 clusters fall within SPTpol survey area and extend over a redshift range of 0.1$\leq$ z $\leq$0.9. 
+We remove clusters which fall on the edge of SPTpol map or are within 10 \am\ of point sources above 50 mJy (\pending(cite point source catalog paper)).
+These cuts leave us with 4003 clusters with median redshift of 0.77.
+Once we have the position (RA, DEC) of the cluster from DES survey, we take corresponding 10\am\ X 10\am\ cutout from SPTPol map which is used for our analysis.
+
+
+\section{Methods}
+
+%In this section 
+We now turn to the method for measuring the cluster lensing signal. We first describe the extraction of cluster cutouts for the analysis. 
+Next, we present the lensing pipeline starting with the simulations used in the analysis and the calculation of the cluster convergence profiles.
+This is followed by a description of the modified QE which uses an SZ-cleaned gradient map to %largely 
+eliminate the SZ bias. 
+
+\subsection{Cluster cutouts}
+
+We extract \boxsize\ cutouts from the \sptpol{} temperature (SZ-free and 150 GHz) maps around each cluster from the \desrm\ cluster catalog. 
+This corresponds to a roughly $\sim$45 Mpc region around the cluster at $\tilde{z} = 0.72$.
+%While one cannot expect any cluster lensing signal at such large distances from the cluster centre, we emphasize it is necessary to correctly reconstruct the lensing potential using the background CMB.
+While this is much larger than the virial radius of the cluster, we emphasize it is necessary to correctly reconstruct the lensing potential using the background CMB.
+This is because the amplitude of the lensing signal is proportional to the level of the background gradient, and the CMB has power on scales much larger than the typical cluster size of a few arcminutes.
+%Since the large-scale modes $\ell \la 300$ were filtered out in the \sptpol{} maps, working with even larger cutouts is not necessary.
+Since large-scale modes at $\ell \la 300$ are filtered out of the \sptpol{} maps, working with even larger cutouts is not necessary.
+%For analysis with the \lgmca{} map, which has power on even larger scales, we extract \boxsizelgmca\ cutouts around the clusters from the \lgmca{} (using \texttt{HEALPix gnomview} command at $0.^{\prime}5$ resolution) and \sptpol{} 150 GHz temperature maps.
+For analysis with the \lgmca{} map, which does not employ similar large-scale filtering, we extract \boxsizelgmca\ cutouts around clusters from the \lgmca{} (using the \texttt{HEALPix gnomview} command at $0.^{\prime}5$ resolution) and \sptpol{} 150 GHz temperature maps.
+%While the CMB power spectrum peaks around $\ell \sim 200$, going beyond this box-size is not important as the modes below $\ell<300$ are filtered in the \sptpol{} maps.
+%For the polarization MLE, however, since we do not have to estimate the background CMB gradient we only use the \MLboxsize region around the cluster centre for the fitting process.
+%Once the lensing signal is extracted, we limit the modelling and likelihood calculations to \MLboxsize\ region around the cluster.
+We limit the modelling and likelihood calculations to a \MLboxsize\ region around the cluster after extracting the lensing signal.
+
+\subsection{Simulations of the microwave sky}
+
+
+%We create Gaussian realizations of the ``lensed'' CMB power spectra from \texttt{CAMB} \citep{lewis00} for the fiducial \planck\ 2015 cosmology \citep{planck15-something}.
+
+We obtain large-scale structure lensed CMB power spectra for fiducial \planck\ 2015 cosmology \citep{planck15-13} using Code for Anisotropies in the Microwave Background (\texttt{CAMB}, %\footnote{\url{https://camb.info/}}
+\citealt{lewis00}) and create \boxsize\ Gaussian realizations of the CMB temperature map with $0.^{\prime}25$ pixel resolution.\footnote{We have confirmed that the results are unchanged when going to smaller initial pixels.}
+%We create these simulated T/Q/U maps with $0.^{\prime}25$ pixels in \boxsize\ boxes.\footnote{We have confirmed that the results are unchanged when going to smaller initial pixels.} 
+Given the small angular extent, these simulations are done in the flat-sky approximation. 
+Thus we can employ 2D Fourier transforms instead of spherical harmonic transforms, with the angular wavenumber $\bar{k}$ related to multipole $\ell$ by $\ell = |\bar{k}|$. 
+These simulations are then lensed using the simulated galaxy cluster convergence profiles from the next section. 
+In some cases, we apply frequency-dependent foreground (not lensed by the cluster) realizations (see \S\ref{sec_validation}). 
+The simulated maps are convolved by the instrumental beam functions, and are rebinned to $0.^{\prime}5$ pixels to reduce the computational requirements. 
+
+For realistic simulations, we must also account for the filtering applied to the real data. 
+As was done by \citetalias{baxter18} and other SPT works, the map filtering can be approximated by a function of the form:
+\begin{equation}
+F_{\bar{\ell}} = e^{-(\ell_{1}/|\bar{\ell}|)^{6}}  e^{-(\ell_{2}/\ell_{x})^{6}} e^{-(\ell_{x}/\ell_{3})^{6}},
+\label{eq_filter_TF}
+\end{equation}
+and for the maps used: $\ell_{1}$ = 300, $\ell_{2}$ = 300, and $\ell_{3}$ = 20,000. 
+We validate the robustness of this approximation in \S\ref{subsec_TF}.
+In some cases, we add instrumental noise realizations to the filtered, simulated map. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Cluster convergence profile}
+\label{sec_clus_profile} 
+
+The total convergence profile for a galaxy cluster includes contributions from its own matter overdensity (the {\it 1-halo} term) as well as from correlated structures along the line-of-sight (the {\it 2-halo} term; \citealt{seljak00a,cooray02}). 
+For the {\it 1-halo} term, \kappaonehalomz, we use a Navarro-Frenk-White (NFW, \citealt{navarro96}) profile to model the underlying dark matter (DM) density profile of the \desrm\ galaxy clusters. 
+In \S\ref{subsec_clusprofile} we %will 
+quantify the robustness of the inferred masses to this assumption by instead using Einasto DM profile \citep{einasto89}. 
+We use the photometric redshift measurements in the \desrm{} cluster catalog and use the \citet{duffy08} halo concentration formula to obtain the concentration parameter $c_{200}$. 
+The convergence profile \kappaonehalofull\ at a radial distance $\theta$ for a spherically symmetric lens like NFW is the ratio of the surface mass density of the cluster and the critical surface density of the universe at the cluster redshift $\Sigma(\theta)/\Sigma(crit)$. 
+We adopt the closed-form expression of the NFW convergence profile given by Eq. (2.8) of \citet{bartelmann96}. 
+%\pending{Pending: Explain mis-centering correction}. 
+%For pipeline validation using mock cluster datasets we limit the convergence to just \kappaonehalomz{} of the cluster.
+When evaluating the pipeline using mock cluster datasets we leave out the {\it 2-halo} term
+
+For the real data, we also consider the uncertainties in the cluster centres and the lensing arising from structures surrounding the cluster.
+We model the {\it 2-halo term} contribution, \kappatwohalomz, to the total lensing convergence, using Eq. (13) of \citet{oguri11}. 
+We adopt the \citet{tinker10} formalism to calculate the bias $b_h(M,z)$ of a halo with mass M $\equiv$ \mvir. 
+As we will see in \S\ref{sec_nfw_model_fitting}, we also correct the convergence profile for the offsets in the DES cluster centroids.
+Throughout this work, we neglect redshift uncertainties as \citetalias{raghunathan17b} demonstrated that the impact of \emph{photo-z} errors is negligible.  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Quadratic estimator}
+\label{sec_method_QE}
+
+%For the temperature lensing analysis, we use a QE due to concerns about biases related to the SZ signal in the temperature maps. 
+%As we will show, it is conceptually easy to eliminate the SZ bias in the QE framework. 
+%Both estimators used in this analysis attempt to use the lensing-induced correlations to recover the lensing signal. 
+%Where the MLE did this through the structure of the pixel-pixel covariance matrix, the QE correlates two maps: one map of the CMB gradient on large scales, and one map of the CMB temperature fluctuations on small-scales. 
+In this work, we use a quadratic lensing estimator \citep{hu07} to extract the cluster lensing signal.
+The QE uses two maps to reconstruct the lensing convergence: one map of the CMB gradient on large scales, and one map of the CMB temperature fluctuations on small-scales.
+In the absence of lensing, the two maps would be uncorrelated. 
+The reconstructed convergence profile will be \citep{hu07}:
+\begin{equation}
+\hat{\kappa}_{\bL} = -A_{\ell} \int d^{2}\bnhat\ e^{-i\bnhat.\bL}\ Re \left\{ \nabla . \left[ G(\bnhat) L^{*}(\bnhat)\right]\right\},
+\label{eq_QE_kappa}
+\end{equation} 
+where $G$ is the temperature gradient map and $L$ is the temperature fluctuations map, both optimally filtered to maximize the lensing \snr.
+Since the desired input to the QE is the gradient of the unlensed CMB, the gradient map $G$ is low-pass filtered (LPF) at $\ell_{G}$ %\sim 2000$ 
+\citep{hu07} to avoid multipoles where the cluster lensing or foregrounds begin to enter. 
+The LPF negligibly degrades the lensing $S/N$ as these scales are in the Silk damping tail  of the CMB \citep{silk68}.
+The normalization factor $A_{\ell}$ can be calculated following Eq. (18) of \cite{hu07}.
+
+%The challenge is that the cluster's own SZ signal also introduces correlations that can partially mimic the lensing signal. 
+In the case of a temperature lensing estimator, $TT$, a CMB temperature map is used in both the legs of the QE: $G$ and $L$.
+In that case, the challenge is that the cluster's own SZ signal also introduces undesired correlations that can contaminate the lensing signal. 
+An obvious way to mitigate the SZ bias would be to generate an SZ-free map from a linear combination of single-frequency maps; this has been done in previous analyses \citep{baxter15}. 
+However this linear combination can substantially increase the map noise, and degrade the lensing S/N. 
+For instance, the SZ-free map used by \citet{baxter15} had a noise level approximately three times higher than the 150\,GHz map would have had. 
+Modelling the SZ signal is possible in principle as an alternative,  but we do not yet have an adequate understanding of the intracluster medium (ICM) to do so reliably. 
+The LPF in the gradient map $\ell_{G}$ reduces, but doesn't eliminate this correlation. 
+The bias will be particularly large for massive nearby clusters that span a large angular extent on the sky.
+Thus, the choice of the $\ell_G$ is a trade-off between S/N and biases from foreground emission. 
+For example, 
+\citetalias{baxter18}, using the \sptsz{} temperature maps ($\Delta_{T} = 18$\ukam{}), 
+chose $\ell_{G} = 1500$ and
+reported a conservative upper limit of $11\%$ on the SZ-induced bias due to clusters in the richness range $\lambda \in [20,40]$.
+%A similar point has been made about Galactic foreground biases \citep{whats that sehgal/bataglia paper?}. 
+
+\subsubsection{SZ-free map for gradient estimation}
+\label{subsec_QE_modificaltion}
+A key point in this analysis is that for 
+QE-based lensing reconstruction, we only need to eliminate SZ-induced correlations between the two maps $G$ and $L$, which can be done by removing the SZ signal from either one of the maps.
+Hence, instead of setting an arbitrary $\ell_{G}$ to reduce the SZ-bias, we eliminate the bias completely by working with a SZ-cleaned map, $T^{\tszfreemapnotation}$, for the gradient estimation $G$.
+Recently, \citet{madhavacheril18} also made a successful demonstration of this method independently using simulations.
+This is a crucial point since the CMB has an extremely red spectrum: while the noise is important at small angular scales, the large-scales of the gradient map are measured at high S/N even in a comparatively noisy SZ-free map. 
+We use two different $T^{\tszfreemapnotation}$ maps here: one is a linear combination of the \sptpol{} 95 and 150\,GHz temperature data, and the other is the \planck{} \lgmca{} CMB map \citep{bobin16}.
+The second map $L$ will be constructed from the lower noise \sptpol{} 150\,GHz data, $T^{150}$, alone. 
+
+We can now write down expressions for the two maps, G and L:
+\begin{eqnarray}
+G_{\bL} &=& i\bL{} \,W_{\ell}^{G}\, T^{\tszfreemapnotation}_{\bL},\\
+L_{\bL} &=& W_{\ell}^{L} \,T^{150}_{\bL}.
+\label{eq_QE_filtered_gradient_lensing_maps}
+\end{eqnarray}
+Here, $W_{\ell}^{G}$ and $W_{\ell}^{L}$ are the optimal linear filters to maximize the lensing S/N:
+\begin{eqnarray}
+W_{\ell}^{G} &=&   \left\{
+\begin{array}{l l}
+C^{unl}_{\ell} (C_{\ell} + N_{\ell}^{\tszfreemapnotation})^{-1}&, ~\ell \le \ell_{G}\\\notag
+0&, ~{\rm otherwise}
+\end{array}\right.\\
+W_{\ell}^{L} &= & (C_{\ell} + N_{\ell}^{150})^{-1}
+\label{eq_QE_filters}
+\end{eqnarray} with $(C_{\ell}^{{\rm unl}})C_{\ell}$ corresponding to (un)lensed CMB temperature power spectra
+calculated using \texttt{CAMB}.
+%The choice of the low-pass filter scale on the gradient, $\ell_G$, is a trade-off between S/N and biases from foreground emission. 
+%We set $\ell_G=2000$ in this work for clusters with richness 
+$N_{\ell}$ is the noise spectrum for the indicated map,
+with the beam and filter transfer function (Eq. \ref{eq_filter_TF}) deconvolved.
+We also add estimates of foreground power, such as radio galaxy emission, into $N_{\ell}$.
+As described above, $\ell_G$ is chosen to suppress power from signals other than the primary unlensed CMB.
+We set $\ell_G=2000$ in this work for clusters with richness $\lambda < 60$.
+For the rest, we use $\ell_G=1000$ as the higher convergence signal from these massive clusters can slightly under estimate the background gradient.
+While this is a significant change in $\ell_G$, we will see below that it causes negligible effect in our final results.
+For the analysis with the \lgmca{} maps we use $\ell_G=1500$ since the \lgmca{} maps are highly contaminated (>20\%) by the dust emission from high redshift galaxies at smaller scales.
+
+Although this method essentially eliminates the SZ bias, creating an SZ-free map can enhance  other foregrounds (relative to the CMB) along with the noise. 
+We %will 
+look into possible biases from other foregrounds in \S\ref{subsec_tszbias} using the Sehgal simulations \citep[hereafter \citetalias{sehgal10}]{sehgal10}. 
+ 
+\subsection{Weighting scheme and the stacked convergence}
+\label{subsec_weights}
+%Like mentioned earlier, 
+The lensing \snr{} for a single cluster is much less than unity, and we must stack the lensing signal from several clusters to achieve a reasonable \snr.
+Here we describe the weights used for stacking the reconstructed convergence maps across the cluster sample.
+
+We decompose the weights for each cluster into two components: 
+The first is the inverse noise variance weight, $w_{k}$, constructed from the observed standard deviation $\sigma_{\kappa}$ in the reconstructed \sptpol{} convergence maps in a ring between $10^{\prime}$ and $30^{\prime}$ around the cluster. 
+The noise in convergence is proportional to the noise in the respective gradient map and increases, as expected, when $\ell_{G}$ is reduced.
+The second weight comes from the noise in the convergence maps due to the presence of SZ signal in the second leg of the QE, the \sptpol{} 150 GHz map.
+While our method completely eliminates the SZ-induced lensing bias, the presence of SZ-signal in the second map tends to increase the variance in the convergence maps. 
+The noise is proportional to the SZ brightness and as one can expect is higher for massive clusters.
+Note that the lensing signal of a cluster is proportional to its mass $M$ while the SZ signal increases roughly as $M^{5/3}$.
+Given that our cluster sample contains $\le 4\%$ clusters with richness $\lambda \ge 60$ (\mbox{\mvir\ $\sim 5.2\ \times$ \munits} at $z=0.5$), this extra noise does not completely average out and our results are sample variance limited.
+%%%commentingthisoutfornow\pending{Pending: SR: Emphasise this is not a bias}.
+
 \end{document}
