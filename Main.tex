@@ -1,7 +1,7 @@
 \documentclass[a4paper,11pt,twoside]{unimelb-thesis_CODBD}%
 
 \NeedsTeXFormat{LaTeX2e}
-
+\usepackage{amsmath,amsfonts,bm}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{booktabs}
@@ -23,8 +23,26 @@
 \usepackage[top=3.0cm, bottom=2.25cm, left=3.5cm, right=3.0cm, headheight=15.5pt, includeheadfoot]{geometry} % A4 @ 11pt
 % \usepackage[top=4cm, bottom=3.0cm, left=3.5cm, right=3.0cm, headheight=15.5pt]{geometry}
 \newcommand{\pending}[1]{\textcolor{red}{#1}}
-
+\newcommand{\arcmin}{\ensuremath{^{\prime}}}
 \newcommand{\figwidth}{1.0\textwidth}
+\newcommand{\bL}{\bm{\ell}}
+\newcommand{\am}{$^{\prime}$}
+\newcommand{\sptpol}{SPTpol}
+\newcommand{\sqdeg}{deg$^{2}$}
+\newcommand{\ukam}{${\rm \mu K^{\prime}}$ }
+\newcommand{\fitAforvlsamplewithsyserrorsformatted}{\ensuremath{2.70 \pm 0.51~{\rm [stat.]} \pm~0.06~{\rm [sys.]}}}
+\newcommand{\bnhat}{\bm{\hat{\mbox{n}}}}
+\newcommand{\mvir}{M_{200m}}
+\newcommand{\RM}{redMaPPer} 
+\newcommand{\ML}{\ensuremath{M-\lambda}}
+\newcommand{\whichyear}{\mbox{Year-3}}
+\newcommand{\whichcatversion}{\texttt{y3\_gold:v6.4.22}}
+\newcommand{\tbd}[1]{\textcolor{red}{#1}}
+\newcommand{\ukarcmin}{\ensuremath{\mu}{\rm K-arcmin}}
+\newcommand{\msol}{M_{\odot}}
+\newcommand{\munits}{\times 10^{14}\ \msol}
+\newcommand{\sr}[1]{\textcolor{red}{[SR: #1]}}
+\newcommand{\snr}{$S/N$}
 \usepackage{setspace}
 \onehalfspacing
 %
@@ -80,6 +98,9 @@
 \setcounter{chapter}{2} %3
 		 \include{chapter3}
 
+%  -------  Template Fitting  -------  
+\setcounter{chapter}{3} %4
+		 \include{chapter4}
 \small
 \setlength{\bibsep}{1.0mm}
 %\bibliographystyle{avebib}
