@@ -1,5 +1,30 @@
 \contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Chapter\ 1:}{\relax \mathversion {bold}Introduction}}{1}
 \contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Chapter\ 2:}{\relax \mathversion {bold}Data}}{3}
-\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Chapter\ 3:}{\relax \mathversion {bold}Data Analysis}}{5}
-\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Appendix\ A:}{\relax \mathversion {bold}Appendix A}}{7}
-\contentsline {section}{\numberline {A.1}Section in an appendix}{7}
+\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Chapter\ 3:}{\relax \mathversion {bold}modified Quadratic Estimator}}{5}
+\contentsline {section}{\numberline {3.1}Thermal Sunayev-Zel'dovich effect}{5}
+\contentsline {section}{\numberline {3.2}Methods}{7}
+\contentsline {section}{\numberline {3.3}Quadratic Estimator}{7}
+\contentsline {subsection}{\numberline {3.3.1}mitigating magnification bias}{9}
+\contentsline {section}{\numberline {3.4}modifications of Quadratic Estimator}{10}
+\contentsline {subsection}{\numberline {3.4.1}modified Quadratic Estimator}{10}
+\contentsline {section}{\numberline {3.5}Data}{11}
+\contentsline {section}{\numberline {3.6}South Pole Telescope}{11}
+\contentsline {subsection}{\numberline {3.6.1}SPTpol{} {\rm 500} deg$^{2}$ survey}{11}
+\contentsline {subsection}{\numberline {3.6.2}DES and the {\rm redMaPPer} catalog}{12}
+\contentsline {subsection}{\numberline {3.6.3}fitting model}{13}
+\contentsline {section}{\numberline {3.7}cluster cutouts and weighing scheme}{14}
+\contentsline {section}{\numberline {3.8}Results and Discussion}{15}
+\contentsline {subsection}{\numberline {3.8.1}Stacked mass measurements}{16}
+\contentsline {subsection}{\numberline {3.8.2}Mass-richness \ensuremath {M-\lambda }{} scaling relation calibration}{17}
+\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Chapter\ 4:}{\relax \mathversion {bold}Template Fitting}}{19}
+\contentsline {section}{\numberline {4.1}Method}{19}
+\contentsline {subsection}{\numberline {4.1.1}Template fitting to reduce the SZ variance}{20}
+\contentsline {section}{\numberline {4.2}Results}{24}
+\contentsline {subsection}{\numberline {4.2.1}Sources of uncertainty in the CMB-Cluster Lensing Measurement}{24}
+\contentsline {section}{\numberline {4.3}Results}{25}
+\contentsline {subsection}{\numberline {4.3.1}Performance comparision}{26}
+\contentsline {subsection}{\numberline {4.3.2}Robustness of template fitting method}{26}
+\contentsline {subsection}{\numberline {4.3.3}Miscentering}{27}
+\contentsline {section}{\numberline {4.4}Forecasts}{28}
+\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Appendix\ A:}{\relax \mathversion {bold}Appendix A}}{31}
+\contentsline {section}{\numberline {A.1}Section in an appendix}{31}

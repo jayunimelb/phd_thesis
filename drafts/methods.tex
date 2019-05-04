@@ -1,0 +1,138 @@
+\documentclass[usenatbib, twocolumn, nofootinbib, reprint, emulateapj, amsart]{revtex4-1}
+\usepackage{newtxtext,newtxmath}
+\usepackage[normalem]{ulem}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{color}
+\usepackage{amsmath,amsfonts,bm}%,amsfonts,amsthm,bm}
+\usepackage{hyperref}% add hypertext capabilities
+% Depending on your LaTeX fonts installation, you might get better results with one of these:
+%\usepackage{mathptmx}
+%\usepackage{txfonts}
+\usepackage{natbib	}
+\usepackage[T1]{fontenc}
+\usepackage{ae,aecompl}
+\usepackage{relsize}
+
+\usepackage{graphicx}	% Including figure files
+\usepackage{amsmath}	% Advanced maths commands
+\usepackage{amssymb}% Extra maths symbols
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%our macros
+\newcommand{\sr}[1]{\textcolor{red}{[SR:] #1}}
+\newcommand{\pending}[1]{\textcolor{red}{#1}}
+\newcommand{\tbd}[1]{\textcolor{red}{#1}}
+\newcommand{\refresponse}[1]{\textcolor{blue}{#1}}
+\newcommand{\fittingradius}{10^{\prime}}
+\newcommand{\arcmin}{^{\prime}}
+\newcommand{\micron}{$\mu$}
+\newcommand{\msolar}{\ensuremath{\mbox{M}_{\odot}}}
+\newcommand{\nver}{\hat{\mathbf{n}}}
+\newcommand{\snr}{$S/N$}
+\newcommand{\bL}{\bm{\ell}}
+\newcommand{\bnhat}{\bm{\hat{\mbox{n}}}}
+\newcommand{\ukarcmin}{\ensuremath{\mu}{\rm K-arcmin}}
+\newcommand{\cmmnt}[1]{}
+%%experiments
+\newcommand{\spt}{SPT-3G}
+\newcommand{\mvir}{M_{200m}}
+\newcommand{\msol}{M_{\odot}}
+\newcommand{\munits}{\times 10^{14}\ \msol}
+
+\newcommand{\advact}{AdvACT}
+\newcommand{\so}{SO}
+%our macros
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\section{Cosmic Microwave Background cluster lensing}
+Cosmic Microwave Background (CMB) photons while passing through intervening galaxy cluster gets lensed and we call this phenomenon as CMB-cluster lensing.
+ Lensing remaps the unlensed CMB field based on the angular deflection caused by cluster gravitational potential.
+ In mathematical form CMB cluster lensing can be written as the equation below
+ \begin{eqnarray}
+T(\hat{\textbf{n}})& = & \widetilde{T} (\hat{\textbf{n}} + \vec{\alpha}(\hat{\textbf{n}}))\\
+Q(\hat{\textbf{n}}) & = & \widetilde{Q} (\hat{\textbf{n}} + \vec{\alpha}(\hat{\textbf{n}}))\\
+U(\hat{\textbf{n}}) & = & \widetilde{U} (\hat{\textbf{n}} + \vec{\alpha}(\hat{\textbf{n}}))
+\end{eqnarray}
+where $ \widetilde{T}$ is unlensed temperature field, $\widetilde{U}$ and $\widetilde{Q}$ are the unlensed polarisation fields.
+$\vec{\alpha}(\hat{\textbf{n}})$ denotes the deflection angle and is directly proportional to the mass of the galaxy cluster.
+
+Lensing signal by an individual cluster is too weak to detect, so we need to stack many clusters to obtain a significant signal.
+ For example, the lensing induced distortion due to a $2 \times 10^{14} \ M_{\odot}$ mass galaxy cluster  is $\sim 5.0$ and $0.5 \ \mu K$ in temperature and polarization respectively.
+In this chapter, we will discuss various methods available in literature to extract this weak lensing signal.
+\section{Quadratic Estimator}
+%Here we give formalism of the temperature quadratic estimator; this can be extended to polarisation. 
+%Equation 1 can be expanded in taylor series as follows 
+%\begin{equation}
+%T(\hat{\textbf{n}}) = \widetilde{T}(\hat{\textbf{n}}) + \nabla \widetilde{T} . \vec{\alpha} + ..
+%\end{equation}
+Typical size of galaxy cluster is of the order of few arc minutes. 
+Primordial CMB doesn't have power at such small scales due to diffusion damping \cite{Silk} and can be approximated as a gradient. 
+Lensing due to galaxy cluster induces a dipole kind of structure oriented along the direction of background gradient with hot and cold spots swapped.
+For a given cluster mass and redshift, the magnitude of this dipole scales linearly with the magnitude of the CMB gradient. 
+%Quadratic estimator is designed to exploit this correlation between large scale CMB gradient and small scale dipole.
+This correlation between large scale CMB gradient and small scale dipole is known as the gradient approximation.
+Below we provide the mathematical formalism for temperature quadratic estimator.%, as polarisation estimator follows.
+
+ Under the gradient approximation, we construct an estimator of lensing convergence by multiplying the lensing map and the gradient map.
+The gradient approximation doesn't hold for all fourier modes, only for the modes which are correlated by reconstruction.
+Hence the maps are pre filtered in the fourier space to get minimum variance estimator
+% As the gradient approximation induces correlation between ulensed temperature gradient and the lensed field, we form quadratic estimator by multiplying filtered temperature gradient and lensed temperature fields.  
+% The lensed field $T_{L}(\hat{n})$ can be prefiltered in Fourier space to isolate modes for which gradient approximation is valid
+ \begin{equation}
+ \hat{k_{l}} = -A_{l} \int d^{2} \hat{n} e^{i\hat{n}.l} Re{\nabla .[G(\hat{n}) L^{*}(\hat{n})]}
+ \end{equation}
+ where $G(\hat{n})$, $L(\hat{n})$ are filtered gradient and lensing maps respectively, $A_{l}$ is the normalisation parameter.
+  We obtain $G(\hat{n})$, $L(\hat{n})$ from the observed temperature map as follows
+  \begin{eqnarray}
+  L(\hat{n}) = \int \frac{d^{2}l}{(2\pi)^{2}} e^{il .\hat{n}} W^{T}_{l} T_{l}\\
+  G(\hat{n}) = \nabla (\int\frac{d^{2}l}{(2\pi)^{2}} e^{il .\hat{n}} W^{TT}_{l} T_{l}   )
+  \end{eqnarray}
+ where $T_{l}$ is the observed temperature map in fourier space.  
+ Fourier filters $W^{T}_{l}$ and $W^{TT}_{l}$ are given by 
+ \begin{eqnarray}
+ W^{T}_{l} = (C^{TT}_{l} + N^{TT}_{l})^{-1}\\
+ W^{TT}_{l} =  \widetilde{C}^{TT}_{l}(C^{TT}_{l} + N^{TT}_{l})^{-1}
+ \end{eqnarray}
+ where  $\widetilde{C}^{TT}_{l}$,$C^{TT}_{l} $  is the unlensed and large scale structure lensed CMB power spectrum, $ N^{TT}_{l}$ is the noise power spectrum.
+ 
+ \pending{plot showing the schematic representation of QE}
+ 
+ \subsection{mitigating magnification bias}
+Galaxy cluster magnifies the background image and decreases the observed temperature gradient behind it , which leads to a low bias in reconstruction.
+The bias is due to the overlap in scales between the unlensed temperature gradient and the lensed temperature field. 
+Though wiener filter reduces the bias, it is not removed completely.
+We can reduce the bias further by exploiting the prior knowledge on unlensed CMB power spectrum.
+ From fig 1 which shows the unlensed rms gradient as a function of multipoles, it is evident that most of the power for the gradient map comes from scales below l<2000.
+ So by low pass filtering the gradient map, we separate the unlensed temperature gradient and the lensed temperature field with almost no loss in SNR.
+ \pending{include wayne hu's plot}
+ 
+ \subsection{fitting model}
+To obtain the mass of the cluster, we need compare the observed lensing profile to the convergence model generated using an assumed halo mass profile.
+Essentially we assume cluster to follow NFW profile and generate the model as function of mass $k(M)$. 
+With model prediction in hand we can write down the likelihood of observing the data as:
+\begin{equation}
+-2 ln L (k | M) = (k - k_{m})(M) C^{-1} [(k - k_{m})]^{T}
+\end{equation}
+where k is the observed lensing convergence profile, $k_{m}$ is lensing convergence for NFW profile at mass M, C is the covariance matrix. 
+ 
+\section{modified Quadratic Estiatmator}
+While designed to pull the lensing induced correlations, QE is equally sensitive to any other signal present in both G and L maps.
+The major systematic for lensing analysis is thermal Sunyaey -Zel'dovich (tSZ) effect, which is an order of magnitude greater than lensing signal biases the analysis if not taken into account. 
+ Previous studies either used a tSZ free map or a more stringent low pass filtering of the gradient map.
+ Both the method are suboptimal as they decrease the SNR. 
+ 
+ During my thesis we came up with a new approach to completely remove the tSZ bias. 
+ Any foreground signal which is present in both the maps will lead to a systematic bias, so by getting rid of the foreground signal in one of the maps (either G or L) should eliminate the bias completely.
+  As shown in fig 1 most of the gradient power comes from multipoles l <2000 and CMB is not limited by noise at those scales.
+  So, natural choice would be to eliminate tSZ in the gradient map by using linear combination of different frequencies. 
+  
+
+  
+
+
+\section{Refined m QE}
+\section{Maximum Likelihood Estimator}
+
+
+\end{document}

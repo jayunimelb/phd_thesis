@@ -1,0 +1,116 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[usenatbib, twocolumn, nofootinbib, reprint, emulateapj, amsart]{revtex4-1}
+\usepackage{newtxtext,newtxmath}
+\usepackage[normalem]{ulem}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{color}
+\usepackage{amsmath,amsfonts,bm}%,amsfonts,amsthm,bm}
+\usepackage{hyperref}% add hypertext capabilities
+% Depending on your LaTeX fonts installation, you might get better results with one of these:
+%\usepackage{mathptmx}
+%\usepackage{txfonts}
+\usepackage{natbib	}
+\usepackage[T1]{fontenc}
+\usepackage{ae,aecompl}
+\usepackage{relsize}
+
+\usepackage{graphicx}	% Including figure files
+\usepackage{amsmath}	% Advanced maths commands
+\usepackage{amssymb}% Extra maths symbols
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%our macros
+\newcommand{\sr}[1]{\textcolor{red}{[SR:] #1}}
+\newcommand{\pending}[1]{\textcolor{red}{#1}}
+\newcommand{\tbd}[1]{\textcolor{red}{#1}}
+\newcommand{\refresponse}[1]{\textcolor{blue}{#1}}
+\newcommand{\fittingradius}{10^{\prime}}
+\newcommand{\arcmin}{^{\prime}}
+\newcommand{\micron}{$\mu$}
+\newcommand{\msolar}{\ensuremath{\mbox{M}_{\odot}}}
+\newcommand{\nver}{\hat{\mathbf{n}}}
+\newcommand{\snr}{$S/N$}
+\newcommand{\bL}{\bm{\ell}}
+\newcommand{\bnhat}{\bm{\hat{\mbox{n}}}}
+\newcommand{\ukarcmin}{\ensuremath{\mu}{\rm K-arcmin}}
+\newcommand{\cmmnt}[1]{}
+%%experiments
+\newcommand{\spt}{SPT-3G}
+\newcommand{\mvir}{M_{200m}}
+\newcommand{\msol}{M_{\odot}}
+\newcommand{\munits}{\times 10^{14}\ \msol}
+
+\newcommand{\advact}{AdvACT}
+\newcommand{\so}{SO}
+%our macros
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\section{South Pole Telescope}
+The South Pole Telescope (SPT) is a 10 m diameter, wide-field, offset Gregorian telescope, located at the Amundsen-Scott South Pole station in Antartica. 
+Atmosphere at south pole is extremely dry and exceptionally stable making it one of the best sites on earth for observations at millimeter and sub-millimeter wavelengths.
+SPT has completed two surveys so far, SPT-SZ and SPTpol. 
+SPT-SZ  covered 2500 $deg^{2}$ of southern sky at 90, 150, and 220 GHz; SPTpol is described in detail in the next section.
+
+
+\section{SPT\lowercase{pol}}
+In early 2012, a polarization sensitive camera was installed on SPT.
+SPTpol observed 500 $deg^{2}$ of southern sky in both temperature and polarization at 90 and 150GHz. 
+
+
+To complement the polarization-sensitive receiver, we modified the telescope to reduce ground pickup by installing a 1 m guard ring around the 10 m primary and a small ``snout" near prime focus at the top of the receiver cabin in 2012.
+In 2013, before the second SPTpol observing season commenced, we also installed larger ``side shields" that reach from either side of the guard ring to the front edge of the telescope.
+
+The SPTpol focal plane is composed of 1536 feedhorn-coupled transition edge sensor (TES) detectors:
+360 detectors in 180 polarization-sensitive pixels at 95\,GHz, and 1176 detectors in 588 polarization-sensitive pixels at 150\,GHz.
+More details about the design and fabrication of the 95 and 150\,GHz pixels can be found in \cite{sayre12} and \cite{henning12}, respectively.
+The detectors are operated in their superconducting transitions at $\sim\,500$\,mK and we use superconducting quantum interference device (SQUID) amplifiers and a digital frequency-domain multiplexing readout system \citep{dobbs12b, dehaan12} to record detector time-ordered data.
+In this analysis, we use data from the 150\,GHz detectors.
+We include data from 95\,GHz only when defining point sources to mask during data processing.
+The full 5 yr, two-frequency SPTpol dataset will be used in future work.
+
+\section{Observations and Data Reduction}
+In this section, we describe the observations of the SPTpol $500$ survey field.
+We follow with a description of the data processing pipeline that starts with detector time-ordered data and ends with a set of 125 maps we use to estimate the CMB temperature and polarization power spectra.
+
+\subsection{Observations}
+The SPTpol survey field is a $500$, patch of sky spanning 4 hr of right ascension, from 22 hr to 2 hr, and 15 degrees of declination, from $-65$
+The field also overlaps the survey region of the BICEP/Keck series of experiments 
+We include measurements from three seasons of dedicated CMB observations during which the Sun was below the horizon or far from our observing field: 2013 April 30 --- 2013 November 27, 2014 March 25 --- 2014 December 12, and 2015 March 27 --- 2015 October 26.
+Over 9087 hr of dedicated observations, the field was independently mapped 3491 times.
+A fourth season of observations on this field ended in 2016 September, but these data are currently under study and are not included in this analysis.
+
+A single observation of the field consists of either 106 or 109 constant-elevation raster scans depending on the observing strategy discussed below, with the telescope first scanning right and then left.
+After each right/left scan pair, the telescope makes a step in elevation of either $9.2$ or $9.0e$ before making another set of paired scans.
+This process repeats until the field is completely mapped once, and we define the corresponding set of scans as a single ``observation." 
+
+Over the observation period covered here, we used two strategies to observe the field, ``lead-trail" and ``full-field" observing.  
+From the beginning of observations through 2014 May 29, we mapped the field using an azimuthal lead-trail strategy, similar to that described in C15.
+In this observing mode, the field is split into two equal halves in right ascension, a ``lead'' half-field and a ``trail'' half-field.
+The lead half-field is observed first over a period of 2 hr, followed immediately by a 2 hr trail half-field observation, with the scan speed and elevation steps defined such that the lead and trail observations occur over the same azimuth range.  
+For lead-trail observations, we scan the half-fields at a rate of 1.09 degrees per second in azimuth, or 0.59 degrees per second on the sky at the central declination of the field.  
+To increase sensitivity to larger scales on the sky, on 2014 May 29 we switched to mapping the field with a full-field strategy, where constant-elevation scans are made across the entire range of right ascension of the field over a 2 hr period.
+To reduce noise at low multipoles, corresponding to larger scales on the sky, we increased the scanning speed to 2 degrees per second in azimuth, or 1.1 degrees per second on the sky.
+Higher scanning speeds move sky signals of interest to higher temporal frequencies, away from instrumental $1/f$ noise.
+
+In addition to CMB field observations, we also routinely take a series of measurements for calibration and data quality control.  See \citet{schaffer11} and C15 for more details.
+
+\subsection{Time stream Processing}
+The raw data are composed of digitized, time-ordered  data, or ``time streams," for each detector in the focal plane.
+These time streams are filtered before making maps to remove low-frequency signal from the atmosphere, instrumental $1/f$ noise, and scan-synchronous structure, as well as to reduce high-frequency signals that could alias down into the signal band when binning.
+
+We Fourier-transform the time streams to apply a low-pass filter and to downsample the data by a factor of 2 to reduce computational requirements.
+Three harmonics of two spectral lines originating from the pulse tube coolers, needed to cool the instrument to cryogenic temperatures, are notch-filtered at this time.
+We calculate the filtered detector power spectral densities (PSDs) to determine inverse-noise-variance weights for mapmaking.
+
+On a scan-by-scan basis, we subtract Legendre polynomial modes from each detector's time stream.
+For lead-trail observations, we perform a fifth-order polynomial subtraction, while we use a ninth-order polynomial subtraction on full-field observations since the observations are twice as long in right ascension.
+This filtering step performs an effective high-pass filter on the data at $ 50$ in the scan direction, which sets the lower multipole bound for this analysis.
+(Since the telescope is located at one of the geographic poles and each scan is performed at a constant elevation, time stream filtering only removes modes in the direction of the scan on the sky, from right ascension.)
+Additionally, if during a scan a detector passes within $5$ of an extragalactic source with unpolarized flux $> 50$\,mJy at either 95 or 15 the relevant time stream samples are masked during polynomial filtering.
+To remove power from higher multipoles that would alias into the signal band through map pixelization, we also perform a temporal frequency low pass on the time streams that corresponds to n the telescope scan direction.
+
+
+\section{Dark Energy Survey}
+
+\end{document}

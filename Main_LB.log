@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.8)  6 JAN 2018 16:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.8)  10 JAN 2018 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -367,7 +367,12 @@ No file preface.tex.
 \openout2 = `acknowledgements.aux'.
 
 No file acknowledgements.tex.
-(./Main_LB.toc)
+(./Main_LB.toc
+Overfull \hbox (0.28105pt too wide) detected at line 2
+\T1/cmr/bx/n/10.95 Appendix A: 
+ []
+
+)
 \tf@toc=\write3
 \openout3 = `Main_LB.toc'.
 
@@ -399,8 +404,7 @@ No file acknowledgements.tex.
 ]
 \openout2 = `chapter1.aux'.
 
-
-(./chapter1.tex
+ (./chapter1.tex
 Chapter 1.
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <48> not available
@@ -418,28 +422,6 @@ No file Main_LB.bbl.
 
 (./appendix1.tex
 Appendix A.
-! Argument of \@xdblarg has an extra }.
-<inserted text> 
-                \par 
-l.2 \section
-            {Section in an appendix}
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \@xdblarg was complete.
-<to be read again> 
-                   \par 
-l.2 \section
-            {Section in an appendix}
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
 ) [3
 
 
@@ -453,27 +435,30 @@ LaTeX Font Warning: Size substitutions with differences
  )
 (\end occurred when \iftrue on line 139 was incomplete) 
 Here is how much of TeX's memory you used:
- 3923 strings out of 493014
- 50498 string characters out of 6133352
+ 3925 strings out of 493014
+ 50520 string characters out of 6133352
  121793 words of memory out of 5000000
- 7348 multiletter control sequences out of 15000+600000
- 18645 words of font info for 54 fonts, out of 8000000 for 9000
+ 7349 multiletter control sequences out of 15000+600000
+ 19421 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,45p,289b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,45p,370b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016
 /texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2016/tex
-mf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/public/cm-super/sfbx3583.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2016/texmf-dist/font
-s/type1/public/cm-super/sfti1200.pfb>
-Output written on Main_LB.pdf (11 pages, 120350 bytes).
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/public/cm-super/sfbx3583.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/cm-super/sfti1200.pfb>
+Output written on Main_LB.pdf (11 pages, 154768 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
