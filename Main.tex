@@ -2,6 +2,7 @@
 
 \NeedsTeXFormat{LaTeX2e}
 \usepackage{amsmath,amsfonts,bm}
+\usepackage{caption,tabularx,booktabs}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{booktabs}
@@ -18,14 +19,29 @@
 \usepackage{afterpage}
 \usepackage[export]{adjustbox}[2011/08/13]
 \usepackage{float}
+\usepackage{multirow}
+\usepackage{dcolumn}
+\usepackage{lineno}
+\usepackage{seqsplit}
 % Set up geometry and line spacing
 % \usepackage[top=0.5in, bottom=0.5in, left=1.0in, right=0.75in, headheight=13.0pt, includeheadfoot]{geometry} % Pinched Crown @ 10pt
 \usepackage[top=3.0cm, bottom=2.25cm, left=3.5cm, right=3.0cm, headheight=15.5pt, includeheadfoot]{geometry} % A4 @ 11pt
 % \usepackage[top=4cm, bottom=3.0cm, left=3.5cm, right=3.0cm, headheight=15.5pt]{geometry}
+\newcommand{\boxsize}{$300^{\prime} \times 300^{\prime}$}
 \newcommand{\pending}[1]{\textcolor{red}{#1}}
 \newcommand{\arcmin}{\ensuremath{^{\prime}}}
 \newcommand{\figwidth}{1.0\textwidth}
 \newcommand{\bL}{\bm{\ell}}
+\newcommand{\kappaonehalofull}{$\kappa^{1h}(\theta)$}
+\newcommand{\kappatwohalofull}{$\kappa^{2h}(\theta)$}
+\newcommand{\kappatotalmz}{${\kappa}(M, z)$}
+\newcommand{\kappatotalaalphaz}{${\kappa}^{tot}(A, \alpha, z)$}
+\newcommand{\kappaonehalo}{${\kappa}^{1h}$}
+\newcommand{\kappatwohalo}{${\kappa}^{2h}$}
+\newcommand{\kappatotal}{${\kappa}^{tot}$}
+\newcommand{\kappaonehalomz}{${\kappa}^{1h}(M,z)$}
+\newcommand{\kappatwohalomz}{${\kappa}^{2h}(M, z)$}
+
 \newcommand{\am}{$^{\prime}$}
 \newcommand{\howmanysigmaforfullsample}{8.7$\sigma$}
 \newcommand{\sptpol}{SPTpol}
@@ -53,6 +69,9 @@
 \newcommand{\fitmassforfullsamplewithsyserrors}{\ensuremath{1.28^{+0.14}_{-0.18} {\rm ~[stat.]} \pm 0.03 ~{\rm [sys.]} }} % $\times$ \munits }
 \newcommand{\fitmassforfullsamplewitherrorslgmca}{\pending{ xx}}% $\times$ \munits }
 \newcommand{\fitmassforfullsamplewithszfreemaps}{$1.76^{+0.23}_{-0.29}$}% $\times$ \munits }
+\newcommand{\beambl}{$B_{\ell}$}
+\newcommand{\comment}[1]{}
+
 \usepackage{setspace}
 \onehalfspacing
 %
