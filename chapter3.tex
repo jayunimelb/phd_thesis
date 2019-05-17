@@ -402,8 +402,7 @@ The dominant error comes from the uncertainty in the DES RM cluster centroids sh
 \centering
 
 \includegraphics[width=0.45\textwidth, keepaspectratio]{figs/tsz_bias_checks_sehgal_sims.pdf}
-%\caption{The recovered normalization parameter of the \ML relation for our fiducial analysis with $T^{\tszfreemapnotation}$ and $T^{150}$ in the two legs of the QE is shown in purple. The equivalent results with just the 150 GHz and different $\ell_{\rm G}$ = 1500 (2000) cutoff scales for the gradient estimation is shown in red? (orange) colors. }
-\caption{ss}
+\caption{ Quantifying the level o fbias due to residual foregrounds and the SZ signal using S10 simulations. The recovered lensing mass, un-biased for the fiducial case with SZ-free map for gradient estimation and $l_{G} = 2000$ is shown as black circles. The equivalent biased results with just the 150\, GHz map and $l_{G} = 1500 (2000)$ cutoff scales for the gradient estimation are shown as red squares (orange diamonds). Each light shaded point corresponds to an individual simulation run with clusters from the ES RM Year-3 flux-limited sample. The darker data points are the values obtained for 10 $\times$ the sample size}
 \label{fig_QE_sehgal_sims}
 \end{figure}
 
@@ -532,13 +531,13 @@ For the smaller volume-limited sample, the no-lensing hypothesis is ruled out at
 The radially binned convergence profiles that are used to estimate the cluster masses are shown in Fig. \ref{fig_QE_stacked_maps_radprf} along with the best-fit model curves. 
 \begin{figure}
 \includegraphics[width=\linewidth]{figs/kappa_model_MF_y3_v6_4_22_full_vl_JODY.pdf}
-\caption{It shows}
+\caption{The inverse-variance weighted stacked convergence maps at the location of 4002 and 1741 clusters in the range $\lambda$ $\in$ [20,1000] from flux limited (left) and the volume-limited (right) samples of the DES RM Year-3 cluster catalog. The contour corresponds to the regions above $3.5 \sigma$. The null hypothesis of no-lensing is rejected at $8.7\sigma$ and $6.7 \sigma $ for the two cases respectively.}
 \label{fig:fig_QE_stacked_maps}
 \end{figure}
 
 \begin{figure}
 \includegraphics[width=\linewidth]{figs/kappa_model_MF_y3_v6_4_22_full_vl_radprf_JODY.pdf}
-\caption{It shows}
+\caption{The azimuthally averaged radial profile of the stacked convergence maps from Fig. 3. The black circles and orange diamonds correspond to the flux and volume-limited Year-3 DES RM cluster samples. The error bars are the diagonal value of the covariance matrix estimated using the jackknife technique in Ea. (10). The data points for the two sample have been artificially shifted from the bin centres to avoid cluttering. }
 \label{fig:fig_QE_stacked_maps}
 \end{figure}
 
@@ -582,7 +581,7 @@ using the publicly available \emph{emcee} \citep{mackey13} code to sample the li
 %The first 100 steps from all walkers were discarded as the burn-in phase.
 \begin{figure}
 \includegraphics[width=\linewidth]{figs/M_rich_fitting_y3_v6_4_22_full_vl_JODY.pdf}
-\caption{It shows}
+\caption{Marginalized posteriors of the normalization parameter A of the M-$\lambda$ relation for the volume-limited sample of the RM cluster-catalog. The result is consistent with the best-fit values obtained by DES weak-lensing measurements (M18), shown as the shaded region}
 \end{figure}
 subsection{Comparison to literature}\label{subsec_lit_comparison}
 We now compare our results to similar works from the literature performed with the RM cluster catalogs from the SDSS and DES experiments. 
@@ -605,6 +604,6 @@ All the others use galaxy weak-lensing measurements and are represented as open 
 \begin{figure}
 \centering
 \includegraphics{figs/lit_comparisons_JODY.pdf}
-\caption{ss}
+\caption{Comparison of $M_{200m}$ mass estimates of galaxy clusters obtained using the M-$\lambda$ relation from different works in the literature using the RM cluster catalogs. The points have been normalized using the $1\sigma$ error from the analysis with the Year-3 volume-limited sample of the DES RM catalog. The filled (open) points represent measurements using the CMB-cluster lensing (galaxy weak-lensing) technique}
 \label{fig_lit_comparison}
 \end{figure}
