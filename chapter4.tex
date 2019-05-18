@@ -314,7 +314,24 @@ The first signs of this transition can be seen in Fig.~\ref{fig:template_fitting
  %\label{fig:boat1}
 %\end{figure}
 
-
+\subsection{Miscentering}
+Previous works have found a positional offset of 0.5$\arcmin$ between the SZ and X-ray centroid \citep{linden14} or location of the brightest central galaxy (BCG)\citep{song12b}.
+Template fitting methods provides optimal results if cluster center is the SZ center.
+While this is not a problem for SZ selected clusters as both cluster and SZ center coincide, however, this may be a concern for clusters selected via X-ray or optical surveys.
+In such cases our new method will be optimal if we have additional fitting parameters for positional offsets.
+It is important to note that in such cases we can't use high pass filtered map as the lensing induced ``dipole" present in the HPF map biases our fitting to lower masses. %as the fitted positional offset will be.
+This bias can be removed by combining different frequency channels to remove CMB with slight decrement in SNR.
+%Detailed analysis of positional offset effects are out of the scope this p
+\begin{figure}[htb]
+\includegraphics[width=\linewidth]{figs/miscentering_results.pdf}
+ \caption{
+Our new method is robust to realistic SZ simulations. 
+The red and black solid curves show the performance of modified QE for the Sehgal and Takahashi simulations respectively. 
+The dashed lines show the improvement in each case when template fitting is used to reduce the SZ variance in the small-scale map. 
+ \sr{ Change xlabel to $\mvir$}.
+ }
+\label{fig:realistic_sims}
+\end{figure}
 
 \subsection{Robustness of template fitting method}
 \label{subsec:simsz}
@@ -342,7 +359,7 @@ The dashed lines show the improvement in each case when template fitting is used
 The plotted uncertainties are for a stack of 1000 galaxy clusters of the quoted mass at $z=0.7$. 
  }
 \label{fig:realistic_sims}
-\end{figure}
+\end{figure}[ht]
 
 %\subsection{Miscentering}
 %Previous works have found a positional offset of 0.5$\arcmin$ between the SZ and X-ray centroid \citep{linden14} or location of the brightest central galaxy (BCG)\citep{song12b}.
