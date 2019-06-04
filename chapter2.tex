@@ -23,16 +23,19 @@ Deflection angle is related to gravitational potential as $\nabla \phi (\hat{n})
 In literature, there are several methods to extract lensing singal from CMB data. 
 During my thesis, I mainly worked on two methods for extracting lensing signal from the observed CMB data: Maximum Likelihood Estimator (MLE) and Quadratic Estimator (QE). 
 In this chapter, I will explain the MLE in detail. While we compare the results of MLE with QE, QE is explained in detail in next chapter.
-\begin{figure}
+\begin{figure}[ht]
+\begin{center}
 \includegraphics[width=\linewidth, keepaspectratio]{figs/lensing_signal.pdf}
  \caption{Lensing effect on CMB due to a galaxy cluster of mass $5\times 10^{14}$ \msolar.
   On the top panel we show the effect of cluster lensing on CMB temperature field.
   Bottom two panels are for the stokes Q and U parameters. 
  } 
 \label{fig:lensing_signal}
+\end{center}
 \end{figure}
 
 \section{Maximum Likelihood Estimator}
+\label{sec_MLE}
 Gravitational lensing by a galaxy cluster induces extra pixel-pixel correlations. 
 MLE extracts the lensing signal by modeling these pixel-pixel correlations in the form of covariance matrix.
 
@@ -51,7 +54,9 @@ We also checked that by increasing the boxsize to 14\am we gain an improvement i
  \begin{eqnarray}
 Q = E + B\\
 U = E + B
+ \label{eq:coord_trans}
  \end{eqnarray}
+ 
  \pending{correct the equations}
  While we only use  \smallboxsize  for final calculations we simulate a bigger box (50\am) to take into account the large scale gradient.
  These Gaussian realizations are then lensed by an assumed galaxy cluster density profile (explained in next section). 
@@ -122,7 +127,7 @@ The surface mass density or also know as the projected mass density of the halo 
  \end{equation}
  where r is the radial distance, x is the corresponding 2D planar distance and s is distance along the line of sight with s =0 being the plane of the cluster.
  The critical surface density of the Universe at cluster redshift is given by
- \begin{equation}b
+ \begin{equation}
  \sigma_{crit} = \frac{c^{2}}{4\pi G} \frac{D_{cmb}}{D_{clus}D_{cmb,clus}}
  \end{equation}
  where $D_{cmb}$ is the comoving distance to the epoch of recombination (z= 1100), $D_{clus}$ is the comoving distance to the cluster (in our case comoving distance to the redshift), and $D_{cmb,clus}$ is the comoving distance between the CMB and the cluster.
@@ -169,7 +174,7 @@ The surface mass density or also know as the projected mass density of the halo 
  \lambda = \frac{L (M_{200} =0)}{max(L(M_{200}))}
  \end{equation} 
  According the Wilk's theorem, in many cluster limit $\lambda $ follows chi-square statistic with one degree of freedom ($M_{200}$ in our case).
- The detections reported in this chapter is equal to $-2 ln (\chi)$
+ The detection significance reported in this chapter is equal to $-2 ln (\chi)$
  Similarly, we obtain the errors on mass estimate by calculating masses at which $-2lnL(M_{est}) + 2 ln L (M_{200})$ is equal to 1, where $M_{est}$ is the best fit mass.
  
  
@@ -179,8 +184,8 @@ The surface mass density or also know as the projected mass density of the halo 
  In addition to that, it provides equivalent conditions to allow for a fair comparison between MLE and QE.
  To validate the pipeline we simulated 100,000 galaxy clusters each at a mass of $2*10^{14} M{\odot}$ and at redshift of $z = 0.7$; later we added white noise realisation at 1\ukam.
  In the top panel of Fig 1, the black solid line represents the combined likelihood for temperature MLE estimator, solid orange curve is that for the polarisation QU estimator and the dashed orange curve is for EB estimator. 
- We calculated the detection significance as mentioned above, lensing signal in temperature is detected at 400$\sigma$ and 110$\sigma$ for the polarisation MLE. 
- Null test results are shown in bottom panel of figure 1., for which we turned of lensing in our pipeline.
+ We calculated the detection significance as mentioned above, lensing signal detected at 400$\sigma$ and 110$\sigma$ for temperature and polarisation MLE respectively. 
+ Null test results are shown in bottom panel of Fig. 1, for which we turned of lensing in our pipeline.
  As expected for all the three MLE estimators (T, QU, and EB) the likelihoods peak at zero mass.
  
  \begin{figure}
@@ -195,9 +200,37 @@ The surface mass density or also know as the projected mass density of the halo 
  So even for future CMB-S4 experiment temperature has to be the primary channel from pure SNR perspective.
  Only below noise-level of  0.075 \ukam, polarisation starts competing with temperature.
  As pointed out earlier, the lensing signal is directly proportional to the background CMB gradient, gradient in polarisation is 10$\times$ smaller than that of temperature as shown in ~\ref{fig:lensing_signal}. However, below noise-level of 0.075\ukam the CMB temperature background gradient acts as a source of noise. 
-
+ 
+ Orange squares and green circles represent MLEs using polarisation QU maps and EB maps respectively. 
+ As expected, there is no significant differences between their performance from a theoretical standpoint. 
+ The apparent difference at higher experimental noise levels is not statistically significant.
+ However, using QU maps simplifies the analysis as these modes are directly measured by the experiment and doesn't involve co-ordinate transformation ~\ref{eq:coord_trans}. In this chapter, I have considered only $QU_{MLE}$ polarisation estimator.
+ 
+  
+ Lastly, we compare the performance of temperature MLE (solid black triangles) and QE (orange solid squares). 
+ QE is a first order approximation of MLE.
+ %While both temperature MLE and QE perform equally well at higher noise levels, MLE has clear advantage over QE at low noise levels.
+ At higher noise levels (low SNRs) the effect of higher order terms is negligible, hence no difference between the performance of MLE and QE estimators.
+ However, at low noise levels (high SNRs) MLE outperforms QE. 
+  Though not show here, there is no difference between polarisation MLE and QE for the range of the experimental noise we have considered.
+  This is not surprising as polarisation lensing SNR is low for the considered noise levels.
+ 
+ The effect of higher order terms can be recovered using an iterative version of QE as shown in \cite{Yoo and Zaldarriaga}.
+ We find that MLEs performance is improves by a factor of 2 at noise level of 0.1\ukam  for our fiducial sample of 100,000 clusters each at  $M_{200} = 2 \times 10^{14}$ \msolar and redshift of 0.7. 
+  
+Both MLE and QE estimators share a common difficulty in regards with the assume cluster density profile.
+This dependence shows up in different places in each estimators.
+ \begin{itemize}
+ \item In MLE as explained in ~\ref{sec_MLE} we fit the lensed CMB templates to the observed data. The lensed CMB templates are obtained by assuming a cluster density profile. 
+ \item QE works by the exploiting the correlation between the background CMB gradient and lensing dipole to obtain lensing convergence profile. 
+ We fit models to these lensing convergence profile to extract the mass of the cluster.
+ 
+ \end{itemize}
+There is no reason not take advantage of the improved performance of MLE over QE at low experimental noise levels. 
  \begin{figure}
-\includegraphics[width=\linewidth, keepaspectratio]{figs/fig1-eps-converted-to.pdf}
+\includegraphics[]{figs/fig1-eps-converted-to.pdf}
  \caption{In the top panel we show the combined likelihood of 100,000 clusters each at redshift of 0.7 and at mass of $2\times 10^{14} M_{\odot}$ for temperature and polarisation MLE estimators. The difference between QU and EB estimator isn't statistically significant. In the bottom panel we show the results of null test and as expected the likelihood peaks at zero for all three estimators}
  \end{figure}
+   
+   \subsection{Effects of astrophysical foregrounds}
    
