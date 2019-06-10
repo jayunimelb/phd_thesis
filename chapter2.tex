@@ -413,16 +413,79 @@ We get similar large bias levels when we used an analytic modelling for the clus
 Here we give a brief review of Thermal Sunayev-Zel'dovich (tSZ) effect and is explained in detail in the next chapter.
 CMB photons while passing through galaxy cluster are inverse compton scattered of high energetic electrons present in cluster's hot intra cluster medium.
 This results in excess of photons at higher frequency and deficit of photons at lower frequency, this is known as tSZ effect.
-tSZ effect is an order of magnitude greater than lensing signal and will induce statistical and systematic uncertainties if not taken into account.
-In the next chapter we discuss the method through which we eliminate the tSZ bias in QE estimator.
+tSZ effect is an order of magnitude greater than lensing signal and will induce significant statistical and systematic uncertainties if not taken into account.
+In the next two chapters we discuss in detail the methods through which we eliminate the tSZ bias in QE estimator.
 Here, we quantify the tSZ bias in the MLE and discuss the methods that can be used to reduce the bias.
 We consider two different approaches:
 \begin{itemize}
 \item use frequency channels to eliminate the tSZ
 \item model the tSZ effect in the pixel-pixel covariance matrix
 \end{itemize}
+In an ideal world both of these approaches should completely eliminate the bias, however, due imperfect knowledge in the instrument calibration or the model will result in a bias. 
+To evaluate the performance of each approach,  we use Compton $y$ maps produced on a $5^{\circ} \times 5^{\circ}$ box at resolution $2.'5$ from the smoothed-particle hydrodynamics (SPH) simulations of  \citet{mccarthy2013}.
+Neglecting relativistic corrections, we convert the Compton $y$ maps into tSZ maps by
+\begin{eqnarray}
+\Delta T = y T_{\rm CMB} \left[x \left(\frac{e^{x/2} + e^{-x/2}}{e^{x/2} - e^{-x/2}}  \right)\right]
+\end{eqnarray} where $x = \frac{h\nu}{k_{\rm B}T_{\rm CMB}}$, $\nu$ is the frequency in GHz, $T_{\rm CMB} = 2.73\ K$, $k$ is the Boltzmann constant, and $h$ is the Planck constant.
 
+\subsection{tSZ frequency cleaning}
+ Using the spectral dependence of tSZ we can eliminate it by using CMB maps observed at different frequency channels.
+ In this chapter we assume the CMB is observed at 90 GHz and 150 GHz channels with Gaussian beam of FWHM 1.7\am and 1\am respectively.
+ The tSZ amplitude at 90 GHz is 1.67 times that of 150 GHz.
+ tSZ free map is obtained as follows:
+ \begin{equation}
+\widetilde{T}(\hat{\textbf{n}})  =  \frac{1.67\widetilde{T}_{{150}}(\hat{\textbf{n}}) - T_{{90}}(\hat{\textbf{n}})}{f-1}
+\end{equation}
+where
+\begin{equation}
+\widetilde{T}_{{150}}(\hat{\textbf{n}})  =  T(\hat{\textbf{n}})_{{150}} \ast \frac{B_{{90}}(\hat{\textbf{n}})}{B_{{150}}(\hat{\textbf{n}})},
+\label{eq_smooth}
+\end{equation}
+ f is 1.67. It is important to note that 150 GHz has to smoothed with 90 GHz beam using \ref{eq_smooth} before subtracting out tSZ.
+  For the analysis we have also assumed that the experimental noise level in both 90 and 150 GHz channels to be 1 \ukam. 
+  Under these assumptions using tSZ free map will eliminate the bias (b = 0.0 $\pm$ 0.7), however, it will degrade the final SNR by a factor of three.
+  In practice, it is unlikely to obtain a precise value of factor 'f' due the uncertainties in frequency band widths or errors in relative calibration of frequency bands.
+  To evaluate the bias in the final results due to the uncertainties in the factor `f', we use simulations. 
+  We assume an uncertainty of 1\% in f, which is overly conservative for future CMB surveys but comparable to that of current surveys.
+ An error in f will result in leakage of tSZ in the final tSZ free maps and will bias the results.
+ For 1\% uncertainty in `f' we find the final results to be biased low by -6.3 $\pm$ 0.7 percent. 
+ The bias can shift depending on whether the SZ leakage is over estimated or under estimated.
+  
+tSZ has no power at 217 GHz and one might consider of using 217 GHz frequency channel instead of creating tSZ free maps. 
+However, the power dusty galaxies are increase significantly with frequency.
+So, the foreground power in 217 GHz channel is much more than 90 or 150 GHz channels. 
+In addition to that, we should also take into account the contamination due to the correlation between the tSZ and cosmic infrared background due to these dusty galaxies.
+ Current estimates find the correlation co-efficient to be $0.113^{+0.057}_{-0.054}$; estimating the tSZ-CIB signal at 220 GHz would yeild a signal nearly three quarters of the tSZ signal at 150 GHz. 
+ In order to use 217 GHz channel, more work needs to be done in constraining the tSZ-CIB correlation.
+ 
+ \subsection{tSZ fitting}
+ Instead of removing the tSZ signal, one can include it in the pixel-pixel covariance matrix.
+Following \S\ref{sec_kSZ_bias}, we calculate the expected tSZ contribution using SPH simulations from \citet{mccarthy2013}.
+As would be expected, the bias is consistent with zero for perfect knowledge of the tSZ signal (b = $1.0 \pm 0.6\%$).
+However, this bias increases quickly if the tSZ contribution is mis-estimated.
+Analogously to the tSZ cleaning case, we would expect percent-level errors to lead to significant (order 6\%) biases.
+Given that the current uncertainties in modeling the tSZ signal from galaxy clusters are more than an order of magnitude larger, it will be extremely challenging to achieve the sub-percent precision necessary to make this approach viable.
+Another way is to tSZ model out of the 150 GHz channel.
+ While this method doesn't degrade the SNR unlike the frequency cleaning, however, imperfect knowledge in theoretical modelling will result in a bias.
+ 
+ 
+ \subsection{Dusty galaxies in the cluster and other foregrounds}
+\label{sec_DG_sys_bias}
+
+
+Galaxy clusters are known to host overdensities of dusty galaxies, with several papers measuring the resulting tSZ-CIB correlation \citep{actdunkley2013, george2015, PLANCKTSZCIB2016}.
+We describe our modeling of these DG overdensities\footnote{For implementation reasons, in this section, we include all foregrounds mentioned in the Appendix \ref{sec_appendix}, even ones that are not cor\
+related with the cluster itself, such as radio galaxies.} in the Appendix \ref{sec_appendix_extragal}.
+If ignored, the tSZ-CIB correlation may substantially bias the recovered masses from temperature estimators, especially at higher frequencies.
+The emission from dusty galaxies rises sharply with frequency, by an order of magnitude in $\mu K^2_{\rm CMB}$ from 90 to 150\,GHz and again from 150 to 220\,GHz.
+Polarization estimators (at least at 150\,GHz and lower frequencies) are essentially unaffected due to the lower polarization fraction  of dusty galaxies (expected to be less than 4\% \citep{seiffert2007,sptpol_delensing_2017}).
+The tSZ-CIB correlated power could be handled analogously to either the tSZ fitting or cleaning approaches in \S\ref{subsec:tszbias}.
+However, a multi-frequency cleaning scheme will be less effective than for the tSZ effect since the spectral dependence of thermal dust emission varies between individual galaxies.
+Here we look only at bias for the fitting approach where the extra pixel-pixel covariance due to the clustered dusty galaxies is folded into the likelihood.
+The recovered mass is somewhat low: $b=4.5 \pm 1.7\%$.
+The existence of a bias (higher than $2\sigma$) is slightly surprising since one would expect zero bias in the perfect information limit, and the significance is low enough that it may be a statistical fluke.
+The dramatic increase in the uncertainty -- from 0.25\% to 1.7\% -- reflects the plateauing of the dotted line in right panel of Fig.~\ref{fig_delM_M_1000_clusters_T_QU_EB_ideal_FG}.
+Unsubtracted foreground power effectively sets a lower bound on the instrumental noise.
 
 
  
-   

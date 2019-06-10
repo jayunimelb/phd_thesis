@@ -2,10 +2,10 @@
 
 \NeedsTeXFormat{LaTeX2e}
 \usepackage{amsmath,amsfonts,bm}
-\usepackage{caption,tabularx,booktabs}
+\usepackage{caption,booktabs}
+\usepackage{tabularx}
 \usepackage{amsmath}
 \usepackage{amssymb}
-\usepackage{booktabs}
 \usepackage{color}
 \usepackage{dcolumn}
 \usepackage{graphicx}
@@ -15,7 +15,7 @@
 \usepackage[round]{natbib}
 \usepackage[compact]{titlesec}
 \usepackage[acronym]{glossaries} % Used to make a list of abbreviations
-\usepackage{longtable}
+\usepackage{long}
 \usepackage{afterpage}
 \usepackage[export]{adjustbox}[2011/08/13]
 \usepackage{float}
@@ -108,9 +108,9 @@
 	\include{Stmt_of_cont}
 	\include{Acknowledgements}
 
- 	\tableofcontents
+ 	\ofcontents
 
-	\listoftables
+	\listofs
  	\listoffigures	
 	\printglossary[type=\acronymtype,title=List of Acronyms]	
 	
