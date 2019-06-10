@@ -487,5 +487,90 @@ The existence of a bias (higher than $2\sigma$) is slightly surprising since one
 The dramatic increase in the uncertainty -- from 0.25\% to 1.7\% -- reflects the plateauing of the dotted line in right panel of Fig.~\ref{fig_delM_M_1000_clusters_T_QU_EB_ideal_FG}.
 Unsubtracted foreground power effectively sets a lower bound on the instrumental noise.
 
+\section{A look into the future}
+\label{sec_forecast}
 
- 
+\begin{figure}
+\centering
+\includegraphics[width=1.\textwidth, height=0.68\textwidth,clip=]{figs/fig3.eps}
+\caption{The expected residual foreground and noise power spectrum for the future CMB experiments.
+The 90, 150, and 220 GHz channels have been combined using a constrained ILC technique to remove the tSZ effect while minimizing other extragalactic foregrounds and instrumental power.
+The left and the right panels correspond to temperature and polarization respectively.
+The plateauing of the residual temperature spectrum reflects the limited foreground removal possible with three frequency channels.
+Specifications about each experiment are listed in Table \ref{tab_forecast_future_CMBexp}.}
+\label{fig_ILC_res}
+\end{figure}
+
+In this final section we forecast the cluster mass uncertainties from CMB-cluster lensing for the AdvACT, Simons Array, and SPT-3G experiments, which we will collectively refer to as the Stage III experiments, \
+and also for the proposed CMB-S4 experiment.
+In addition to presenting the mass uncertainties for fiducial versions of these experiments, we examine how the mass uncertainty would change as a function of the beam size and map noise levels.
+This information can be used to evaluate design tradeoffs while planning the CMB-S4 experiment.
+
+\subsection{Expected lensing mass uncertainties for future CMB experiments}
+\label{subsec:cmbs3s4}
+
+We expect the next generation of CMB experiments, which will have substantially more detectors and a concomitant reduction in map noise levels, to dramatically improve the cluster mass calibration possible from\
+ CMB-cluster lensing.
+The experimental configuration of all the experiments considered is given in Table \ref{tab_forecast_future_CMBexp}.
+Three options for telescope size (and therefore beam sizes) are listed for the proposed CMB-S4 experiment.
+While current results have mass uncertainties of order $\ge 20$\% \citep{baxter2015,act_cmass2015,planckXXIV2015}, we expect Stage III experiments to reach 3\% and CMB-S4 to approach 1\%.
+
+There are two reasons for the improvements.
+First, with more detectors comes lower map noise levels (and larger survey areas).
+The deepest current experiments reach approximately $5\,\mu$K-arcmin in temperature; the Stage III surveys  (AdvACT \citep{advact_2016};  Simons Array \citep{PB2_2016}, and SPT-3G \citep{benson2015_3g}) forecas\
+t a few $\mu$K-arcmin; and projections for CMB-S4 are $\sim$\,1\,$\mu$K-arcmin.
+Lower noise improves the lensing significance on any individual galaxy cluster.
+Second, lower noise levels and larger survey areas translate into substantially more galaxy clusters.
+Current ground-based SZ cluster catalogs have fewer than 1000 clusters \citep{ACTSZ2013, bleem2015}, but SPT-3G is forecast to find 8000 clusters \citep{benson2015_3g}, AdvACT 10,000 clusters \citep{advact_2016} and we assume ad-hoc that CMB-S4 will find 100,000 clusters.
+In addition to the internally discovered clusters, optical surveys like DES \citep{rykoff2016}, and in the future LSST \citep{lsst_science_book} and Euclid \citep{euclid_science_book}, will yield extremely larg\
+e numbers of galaxy clusters within the CMB survey regions, as will the X-ray satellite eROSITA \citep{erosita_science_book}.
+This method is perfectly suited to determining the mass calibration for these external cluster catalogs as well.
+
+\begin{figure*}[tbh]
+\centering
+\includegraphics[width=0.46\textwidth, height=0.5\textwidth,clip=]{figs/fig4.eps}
+\includegraphics[width=0.5\textwidth, height=0.5\textwidth,clip=]{figs/fig5.eps}
+\caption{The performance of the polarization MLE is very sensitive both to the angular resolution and map noise level of an experiment; the gains for the temperature MLE are much smaller. The numbers correspond\
+ to the CMB-cluster lensing mass uncertainty (in percent) of the cluster sample containing 100,000 clusters after the addition of foregrounds (dotted lines in right panel of Fig. \ref{fig_delM_M_1000_clusters_T_QU_EB_ideal_FG}).
+Improving the beam from $3.'5$ to $1'$ enhances the SNR by a factor of two for the CMB-S4 noise levels.
+The saturation of $T_{\rm ML}$ is due to the larger impact of foregrounds on the temperature maps. }
+\label{fig_beam_dependency_T_QU}
+\end{figure*}
+
+To provide realistic estimates of the mass uncertainties, we perform a constrained internal linear combination (ILC) of data from 90, 150, and 220 GHz channels based on the \texttt{SMICA} (Spectral Matching Ind\
+ependent Component Analysis) algorithm \citep{smicacardoso, PLANCKCOMPSEP2014} to eliminate the tSZ signal from the temperature data and minimize the residual power in other extragalactic foregrounds and instru\
+mental noise in both temperature and polarization.
+The resulting power spectra of the instrumental noise and residual foregrounds for different CMB experiments are shown in Fig.~\ref{fig_ILC_res}.
+At $\ell \le 2000$, the temperature curves are dominated by residual foreground power as three frequency bands are insufficient to completely eliminate the foreground power in the assumed model (see Appendix).
+As a result, the temperature noise curves  converge at $\ell \le 2000$ despite the very different noise levels of the  experiments.
+During this process, we convolve the 90 and 220 GHz spectra by the ratio of 150 GHz beam and their native beams, so that the final effective beam size matches 150 GHz.
+
+The expected performance of each  experiment is given in Table \ref{tab_forecast_future_CMBexp}.
+One significant uncertainty is the number of clusters to assume for each experiment.
+As accurately modeling the survey selections functions for SZ, optical, and X-ray surveys is beyond the scope of this work, we make the simplifying assumption that all Stage III experiments will have 10,000 clu\
+sters and the CMB-S4 experiment will have 100,000 clusters.
+%This is of order the number expected to be discovered through the tSZ effect by the SPT-3G (8000 clusters; \citet{benson2015_3g}) or AdvACT (10,000 clusters; \citet{advact_2016}), but likely an over-estimate f\
+or the Simons Array due to its larger 3.5$^\prime$ beam size.                                                                                                                                                      
+This is of order the number expected to be discovered through the tSZ effect by the SPT-3G or AdvACT (see above), but likely an over-estimate for the Simons Array due to its larger 3.5$^\prime$ beam size.
+On the other hand, the experimental beam size is irrelevant when predicting the size of cluster samples from optical or X-ray surveys that overlap with the CMB surveys.
+The DES or LSST surveys should provide samples with more than 50,000 clusters for all of the Stage III CMB experiments \citep{rykoff2016, lsst_science_book}.
+Given a specific sample size, the mass uncertainty can be obtained by rescaling the numbers provided in Table \ref{tab_forecast_future_CMBexp} by $\sqrt{\frac{N_{sample}}{N_{clus}}}$.
+
+Even considering concerns about potential biases from astrophysical signals, the temperature channel will be extremely important for the cluster mass estimates from the Stage III CMB experiments.% (AdvACT, Simo\
+ns Array, SPT-3G).
+ The mass uncertainty on the fiducial 10,000 cluster sample  is similar in temperature from all three experiments, with a range from 3.3\% (SPT-3G) to 5.9\% (the Simons Array wide survey). These uncertainties ar\
+e as large as the likely systematic uncertainties, and the statistical uncertainties on polarization are higher by a factor of two or more. As an example of scaling the results with sample size, we replace the \
+fiducial sample size by the expected number counts for SZ-discovered clusters with SPT-3G (8000) and optically detected clusters from the DES (50,000). SPT-3G would achieve a 3.6\% mass uncertainty with a sampl\
+e of 8000 SZ-selected clusters and a 1.5\% uncertainty on a sample of 50,000 optically-selected clusters. The shallow portions of the Simons Array or AdvACT surveys cannot contribute much for the polarization e\
+stimator; lower noise levels are essential. The polarization estimator can be within a factor of two for the deep surveys of the Simons Array or SPT-3G. For instance, the polarization estimator for SPT-3G on 80\
+00 clusters yields a 6.8\% mass calibration, to be compared to the 3.6\% mass calibration from temperature (ignoring systematic uncertainties).
+
+
+The lower level of systematic uncertainty for polarization comes into play for the CMB-S4 experiment. First, for the extremely low noise levels of CMB-S4, the performance of the temperature and polarization cha\
+nnels is nearly identical (0.95\% vs.~0.98\%) for an instrument with $2'$ beam resolution. Second, the magnitude of the temperature-only systematic errors (primarily from the SZ effect) is now several times lar\
+ger than the raw statistical uncertainties, and would dominate the temperature error budget. We can expect cluster mass calibrations from CMB-S4's polarization data at the 1\% level.
+
+The mass calibration forecasts in  Table \ref{tab_forecast_future_CMBexp} are highly complementary  to and competitive with the masses obtained by stacking optical weak lensing measurements. For example, LSST h\
+opes to achieve a mass uncertainty of 1\% by stacking few thousands of clusters at redshifts $z < 0.5$ \citep{lsst_science_book}. At high redshifts, since the number density of background galaxies decrease rapi\
+dly, the constraints from optical lensing measurements tend to weaken. Calibrating the high redshift end of the mass function is the true power of CMB-cluster lensing which will allow us to place important cons\
+traints on the redshift evolution of mass-observable scaling relations out to high redshifts $z \ge 1.5$.
