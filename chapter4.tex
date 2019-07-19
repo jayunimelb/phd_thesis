@@ -3,19 +3,19 @@
 
 Modified Quadratic Estimator (mQE) developed in the last chapter completely eliminates the thermal Sunyaev-Zel'dovich (SZ) bias by using a SZ free gradient map. 
 Though SZ bias is removed in mQE, SZ present in the second leg induces extra variance in the reconstructed lensing convergence profile. 
-Unlike the variance due to other sources such as instrumental noise, uncorrelated foregrounds etc., SZ variance depends on the mass of galaxy cluster.
+Unlike the variance due to other sources such as instrumental noise, uncorrelated foregrounds etc., SZ variance depends on the mass of the galaxy cluster.
 SZ variance scales roughly with the mass of cluster as $M^{5/3}$.
-For DES X SPTpol clusters we used in the last chapter, we downweighed the massive clusters to take the SZ variance into account. 
-This didn't have much effect on the final analysis as we had only few massive clusters. 
+For DES X SPTpol clusters which we used in the last chapter, we downweighed the massive clusters to take the SZ variance into account. 
+This didn't have much effect on the final SNR as we had only few massive clusters. 
 However, with future low noise CMB surveys such as SPT-3G, CMB-S4, Simons Observatory etc., downweighing won't be an optimal solution.
 The chapter is organised as follows: in  \S\ref{sec_methods} we describe the template fitting approach which will significantly reduce SZ variance, followed by results in \S\ref{results}. 
-We forecast mass uncertainties future experiments using our proposed method in section and then we finally conclude in section.
+We forecast mass uncertainties future experiments using our proposed method in section ~\ref{forecasts} and then we finally conclude in section.
 \section{Method}
 \label{sec_methods}
-In this section, I review the modified QE \citep{madhavacheril18, raghunathan18}, and then present a new refinement  of it designed to reduce the SZ variance for massive galaxy clusters or for low noise surveys. 
-I then discuss various sources of uncertainties present in the CMB-cluster lensing analysis. 
+In this section, I present template fitting approach which will significantly reduce the SZ variance in high mass cluster and/or low noise surveys. 
+I then discuss the effect of SZ variance and experimental variance as a function of experimental noise and cluster mass. 
 
-
+\iffalse{
 \subsection{Modifying the Quadratic Estimator to remove SZ bias}
 \label{sec_mQE}
 
@@ -39,7 +39,7 @@ The large-scale gradient map is chosen because the CMB has much more power on la
 Note that while multiple foregrounds can be removed in principle, in practice the focus has been on removing the SZ signal. 
 This is simply because the SZ signal introduces the largest bias.  
 With the SZ signal present in only one of the two maps, there is no SZ-induced correlation between the two maps and no net bias on the reconstruction of the lensing convergence. 
-
+}\fi
 \subsection{Template fitting to reduce the SZ variance}
 \label{sec_sz_template_fitting}
 
@@ -54,14 +54,14 @@ However, template fitting can significantly reduce the SZ power in the small-sca
 To be unbiased, we must fit the template to a CMB-subtracted map or account for the information loss from template projection in the normalization factor $A_l$ of Eqn.~\ref{eq_QE_kappa}. 
 The latter tact (correcting $A_l$) might have advantages if one needed to suppress multiple kinds of cluster emission, e.g., dusty and radio galaxies in addition to the thermal SZ effect. 
 Projecting a template from the Compton-$y$ map will either not help these other cluster signals. 
-However, we expect these other signals to be small compared to the SZ flux for massive galaxy clusters \pending{citations needed}. 
+However, we expect these other signals to be small compared to the SZ flux for massive galaxy clusters. %\pending{citations needed}. 
 In this work, we take the first approach and fit the template to a Compton-$y$ map created from a linear combination of 95 and 150\,GHz maps. 
 Effectively, we have used the different spectral dependence of the SZ and CMB to eliminate the CMB, and thus any correlation between the removed template and the lensing dipole in the CMB map. 
 
 
 We choose to use a radially symmetric template at the fixed cluster location in this work. 
 Unless otherwise noted, we assume the beam to be a Gaussian with FWHM = 1\arcmin{} at 150\, GHz and 1\arcmin.7 at 90\,GHz. 
-As this beam size is significant compared to the actual size of clusters at $z>0.3$, clusters are approaching the effective point source limit where the specific details of their shape would not matter. 
+As this beam size is significantly large compared to the actual size of clusters at $z>0.3$, clusters are approaching the effective point source limit where the specific details of their shape would not matter. 
 Thus we choose to use a simple Gaussian template as the baseline template in this work. 
 We also compare the results to template fitting with more physically motivated Arnaud profile \citep{arnaud10}, convolved by the experimental Gaussian beam.  
 The residuals of removing a 2\arcmin.0 FWHM Gaussian from an Arnaud profile convolved by a 1\arcmin.7 beam are illustrated in Fig.~\ref{fig:residual}. 

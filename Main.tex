@@ -1,6 +1,7 @@
-\documentclass[a4paper,11pt,twoside]{unimelb-thesis_CODBD}%
+\documentclass[a4paper,12pt,twoside]{unimelb-thesis_CODBD}%
 
 \NeedsTeXFormat{LaTeX2e}
+\usepackage[version=3]{mhchem}
 \usepackage{amsmath,amsfonts,bm}
 \usepackage{caption,booktabs}
 \usepackage{tabularx}
@@ -21,10 +22,10 @@
 \usepackage{multirow}
 \usepackage{dcolumn}
 \usepackage{lineno}
-\usepackage{seqsplit}
-% Set up geometry and line spacing
+\usepackage{seqsplit}			
+% Set up geometry and line spacing `
 % \usepackage[top=0.5in, bottom=0.5in, left=1.0in, right=0.75in, headheight=13.0pt, includeheadfoot]{geometry} % Pinched Crown @ 10pt
-\usepackage[top=3.0cm, bottom=2.25cm, left=3.5cm, right=3.0cm, headheight=15.5pt, includeheadfoot]{geometry} % A4 @ 11pt
+\usepackage[top=3.0cm, bottom=2.25cm, left=3.5cm, right=3.0cm, headheight=16.5pt, includeheadfoot]{geometry} % A4 @ 11pt
 % \usepackage[top=4cm, bottom=3.0cm, left=3.5cm, right=3.0cm, headheight=15.5pt]{geometry}
 \newcommand{\boxsize}{$300^{\prime} \times 300^{\prime}$}
 \newcommand{\smallboxsize}{$10^{\prime} \times 10^{\prime}$}
@@ -87,7 +88,7 @@
 
 \author{\Large{\textsc{Sanjaykumar Patil}}}
 \date{}%
-\degree{Doctor of Philosophy}%
+\degree{Doctor of ||Philosophy}%
 \faculty{\textsc{School of Physics}}%
 
 %Make the abbreviations
@@ -119,21 +120,24 @@
 \setcounter{chapter}{0} %1
 		\include{chapter1}
 
+\setcounter{chapter}{1}
+		\include{chapter_cluster}
+
 %  -------  Relevant theory  -------  
-\setcounter{chapter}{1} %2
+\setcounter{chapter}{2} %2
 		 \include{chapter2}
 		 
 %  -------  Data Analysis  -------  
-\setcounter{chapter}{2} %3
+\setcounter{chapter}{3} %3
 		 \include{chapter3}
 
 %  -------  Template Fitting  -------  
-\setcounter{chapter}{3} %4
+\setcounter{chapter}{4} %4
 		 \include{chapter4}
 \small
 \setlength{\bibsep}{1.0mm}
 %\bibliographystyle{avebib}
-%\bibliographystyle{plainnat}
+%\biblio`graphystyle{plainnat}
 \bibliographystyle{mn2e}
 \bibliography{bibliography}
 \normalsize
