@@ -2,24 +2,24 @@
 \label{ch:Intro}
 Cosmology answers age-old "where did we come from?" questions.
 Over the last two and half decades decades with flood of data from cosmological experiments we have entered "precision era" in cosmology.
-%With wide observational data sets and under the assumption of the concordance model of cosmology, which is built on strong theoretical premises of General Theory of relativity; the constituents of the Universe can be divided into four main components. 
-Using the available cosmological data and under the assumption of widely accepted standard model of Cosmology ($\Lambda$CDM) which is built on strong theoretical premises of General Theory of relativity; the constituents of the Universe can be divided into three main components. 
-Only 5\% of the Universe is made up of baryons \pending{Raunch}, which is mainly in the form of stars and gas in galaxies. 
-Approximately 27\% is made up of dark matter, which is responsible for additional gravitational effects in the Large Scale Structures.
-Remaining 68\% is made up of elusive dark energy, which is responsible for the accelerated expansion of the Universe. 
-This chapter reviews the theoretical frame work of the current cosmological paradigm and also the Cosmic Microwave Background.
+%With wide observational data sets and under the assumption of the concordance model of cosmology, which is built on strong theoretical premises of General Theory of relativity; the constituents of the universe can be divided into four main components. 
+Using the available cosmological data and under the assumption of widely accepted standard model of Cosmology ($\Lambda$CDM) which is built on strong theoretical premises of General Theory of relativity; the constituents of the universe can be divided into three main components. 
+Only 5\% of the universe is made up of baryons, which is mainly in the form of stars and gas in galaxies. 
+Approximately 27\% \cite{prkye02} is made up of dark matter, which is responsible for additional gravitational effects in the Large Scale Structures.
+Remaining 68\% is made up of elusive dark energy, which is responsible for the accelerated expansion of the universe. 
+This chapter reviews the theoretical frame work of the homogenous universe and the Cosmic Microwave Background (CMB).
  
-\subsection{Expanding Universe}
-In 1929, Edwin Hubble observed that in the galaxies that are farther away from us are moving away at a faster rate. 
-This became the first observational evidence of expanding Univerese. 
+\subsection{Expanding universe}
+In 1929, Edwin Hubble observed that the galaxies that are farther away from us are moving away at a faster rate. 
+This became the first observational evidence of expanding universe. 
 The wavelength of the light emitted by galaxy gets stretched due to expansion. 
 This apparent shift in wavelength or frequency is called redshift:
 \begin{equation}
 z = \frac{\lambda_{o} - \lambda_{e}}{\lambda_{e}}  = \frac{\lambda_{o}}{\lambda_{e}} - 1%{\lambda_{o} - \lamda_{e}}{\lambda_{e}} = \frac{\lambda_{o}}{\lambda_{e}} - 1
 \end{equation}
-where $\lambda_{o}$ and $\lambda_{e}$ are the wavelengths observed and emitted respectively.
+where $\lambda_{o}$ and $\lambda_{e}$ are the observed and emitted wavelengths respectively.
 
-Hubble's law states that the velocity of galaxy is directly proportional to its distance can be mathematically written as 
+Hubble's law states that the receding velocity of galaxy is directly proportional to its distance which can be mathematically written as 
 \begin{equation}
 v = H_{o} d
 \end{equation}
@@ -27,18 +27,18 @@ where v is the velocity, d is the proper distance, and $H_{o}$ is the Hubble con
 \begin{equation}
 H_{o}  = 100 h\; km\: s^{-1} M\!pc^{-1}
 \end{equation} 
-where $h$ is the dimensionless Hubble parameter. Value of `h' as measured by $Planck$ \pending{planck 2018 paper} is 0.674 $\pm$ 0.005.
-The rough age of the Universe also known as the Hubble time is given by 
+where $h$ is the dimensionless Hubble parameter. Value of `h' as measured by $Planck$ \cite{planck18-6} is 0.674 $\pm$ 0.005.
+The rough age of the universe also known as the Hubble time is given by 
 \begin{equation}
-t_{H} = 9.836 \:X \:10^{9}\: h^{-1}\: yr
+t_{H} = \frac{1}{H_{0}} = 9.836 \:X \:10^{9}\: h^{-1}\: yr.
 \end{equation}
 Hubble distance is defined as the distance light travelled in Hubble time which is roughly $3 \:X\: 10^{3}\: h^{-1}\: Mpc$
 
 The current paradigm of cosmology rests on the following three main assumptions
 \begin{itemize}
-\item General Theory of Relativity is valid on all length scales in the Universe
-\item The different components of the Universe obey equation of state
-\item Universe is homogeneous and isotropic at sufficiently large length scales (CP)
+\item General Theory of Relativity is valid on all length scales in the universe
+\item The different components of the universe obey equation of state
+\item universe is homogeneous and isotropic at sufficiently large length scales (Copernican Principal or CP)
 \end{itemize}
 Friedmann-Lemaître-Robertson-Walker (FLRW) metric is the only metric in General Relativity consistent with last assumption (CP) and expanding universe.
 It is given by:
@@ -46,20 +46,20 @@ It is given by:
 ds^{2} = dt^{2} - a^{2}(t)[\frac{dr^{2}}{1-kr^{2}} + r^{2} (d\theta^{2} + sin^{2}(\theta) d\phi^{2})]
 \footnote{we have set speed of light, c = 1}
 \end{equation}
-where $a(t)$ is the scale factor, r is the comoving distance, and k is the curvature which is set to zero in flat $\Lambda$CDM cosmology. 
-While measuring distances is crucial in understanding the underlying cosmology, it can be tricky in an expanding Universe.
+where $a(t)$ is the scale factor, r is the comoving distance, and $k$ is the curvature ($k$ zero in flat $\Lambda$CDM cosmology). 
+While measuring distances is crucial in understanding the underlying cosmology, it can be tricky in an expanding universe.
 
-In a time interval `dt' light travels a comoving distance of dt/a(t). The comoving distance light could have travelled since the beginning of the Universe is obtained by integrating the equation below 
+In a time interval `dt' light travels a comoving distance of dt/a(t). The comoving distance light could have travelled since the beginning of the universe is obtained by integrating the equation below 
 \begin{equation}
 \eta = \int^{t}_{0} dt/a(t)
 \end{equation} 
 $\eta$ is the comoving horizon, no information could have travelled between the regions that are seperated by distance $\ge \eta$. 
-We can get the comoving distance between an astrophysical object at redshift of z in a similar way
+We can get the comoving distance between an astrophysical object at redshift of $z$ in a similar way
 \begin{equation}
 \chi(a) = \int^{t_{0}}_{t(a)} \frac{dt'}{a(t')} = \int^{0}_{z} \frac{dz}{z^{2}(z) H(z)}
 \end{equation}
-where H(z) is the hubble parameter which depends on the cosmology. 
-At late times the Universe is matter dominated, so we can ignore the contribution of the other components in the Universe and analytically integrate the above equation 
+where $H(z) = \dot{a}/a$ is the Hubble parameter which depends on the cosmology. 
+At late times the universe is matter dominated, so we can ignore the contribution of the other components in the universe and analytically integrate the above equation 
 \begin{equation}
 \chi(a) = \frac{2}{H_{0}}[1-\frac{1}{\sqrt{1+z}}]
 \end{equation}
@@ -68,7 +68,7 @@ Another way to measure the distance in cosmology is by measuring the angle $\the
 \begin{equation}
 d_{A} = \frac{l}{\theta}
 \end{equation}
-The subscript A stands for the angular diameter distance. The comoving size of an object is given by $l$/$a$, the angle subtended in terms of comoving distance is $\theta$ = ($l$/a)/($\chi$), plugging this in above equation gives
+The subscript `A' stands for the angular diameter distance. The comoving size of an object is given by $l$/$a$, the angle subtended in terms of comoving distance is $\theta$ = ($l$/a)/($\chi$), plugging this in above equation gives
 \begin{equation}
 d_{A} = a \chi = \frac{\chi}{1+z} 
 \end{equation}
@@ -80,27 +80,28 @@ d_{A} = a \chi = \frac{\chi}{1+z}
  Comoving Luminosity is related to intrinsic luminosity as $L(\chi)  = L a^{2}$, plugging this in the above equation we get Luminosity distance as 
  \begin{equation}
 d_{L} =  \chi * (1+z)
+\label{eq:luminosity_dist}
  \end{equation}
-It is worth to note here that the type Ia supernovae have constant intrinsic luminosity and are known as standard candles. 
-Cosmologists measured the luminosity distance of these supernovaes as funciton of redshift to constrain the constituents of cosmology. 
+%It is worth to note here that the type Ia supernovae have constant intrinsic luminosity and are known as standard candles. 
+%Cosmologists measured the luminosity distance of type Ia supernovaes as function of redshift which became the first direct observation evidence of dark energy \cite{knop03}.%to constrain the constituents of cosmology. 
  
- \begin{figure}
+ \begin{figure}[ht]
  \includegraphics[width = \columnwidth]{figs/dist_redshift.pdf}
  \caption{Cosmological distances as a function of redshift; solid lines represent matter dominated universe.}
 \label{fig:dist}
  \end{figure} 
- In ~\ref{fig:dist}, I have plotted cosmological distances as a function of redshift; dashed lines represent the $Planck$ cosmology and solid lines represent matter only Universe. 
- Its worth here to note that the cosmological distances depend on the underlying cosmology. 
- Infact the luminosity distances of supernovae is the first observation evidence of dark energy \pending{cite supernovae paper}.
+ Fig. ~\ref{fig:dist}, shows cosmological distances as a function of redshift; dashed lines represent the $Planck$ \citep{planck18-6} cosmology and solid lines represent matter only universe. 
+ %Its worth here to note that the cosmological distances depend on the underlying cosmology. 
+ %In fact the luminosity distances of supernovae were the first observational evidence of dark energy \pending{cite supernovae paper}.
   
  \subsection{Friedmann Equations}
-The mathematical formalism of the Universe is so far based on the assumption of isotropy and homogeneity in an expanding Universe which led us to the FLRW metric.
-General theory of relativity relates the dynamics of the background Universe to the matter and energy content in the Universe via Einstein Field Equations
+The mathematical formalism of the universe so far based on the assumption of isotropy and homogeneity in an expanding universe which led us to the FLRW metric.
+General theory of relativity relates the dynamics of the background universe to the matter and energy content in the universe via Einstein Field Equations
 \begin{equation}
  R_{\mu \nu} - \frac{1}{2} g_{\mu \nu} R = 8 \pi GT_{\mu \nu}
 \end{equation}
-where L.H.S corresponds the geometry of the Universe and R.H.S to the matter and energy content of the Universe.
-In the above equation $R_{\mu \nu}$ is the Ricci tensor which depends on the metric and its derivatives, R is the Ricci scalar and $g_{\mu \nu}$ is the metric.  $T_{\mu \nu}$ is the stress energy tensor given by 
+while L.H.S corresponds to the geometry of the universe, R.H.S represents the matter and energy content in the universe.
+In the above equation $R_{\mu \nu}$ is the Ricci tensor which depends on the metric and its derivatives, R is the Ricci scalar and $g_{\mu \nu}$ is the metric.  Stress energy tensor, $T_{\mu \nu}$, is given by:
 \begin{equation}
 T^{\mu}_{\nu} = (\rho + P) u^{\mu} u _{\nu } - P \delta^{\mu}_{\nu}
 \end{equation}
@@ -115,14 +116,13 @@ while all three spatial component reduce to
 \frac{\ddot{a}}{a} = -\frac{4 \pi G} {3} (\rho + P )
 \label{Fred1}
 \end{equation}
-where $\rho$ = $\Sigma_{i} \rho_{i}$ and P = $\Sigma_{i} P_{i}$ is the sum of energy density and pressure of all the components in the Universe.
- Equations ~\ref{Fred1} and ~\ref{Fred2} are the Friedmann equations governing the evolution of the background Universe. 
- 
- In a flat Universe (k = 0) the kinetic energy of the Universe is just enough to over the gravitational pull of the matter; the energy density which satifies this condition is called the critical density
+where $\rho$ = $\Sigma_{i} \rho_{i}$ and P = $\Sigma_{i} P_{i}$ are the sum of energy density and pressure of all the components in the universe respectively.
+ Equations ~\ref{Fred1} and ~\ref{Fred2} are the Friedmann equations governing the evolution of the background universe. \\\\  The energy density of the universe just enough to stop the expansion is called critical density. For flat universe $k$  =0, it is given by
+%  d In a flat universe ($k$ = 0) the kinetic energy of the universe is just enough to over the gravitational pull of the matter; the energy density which satifies this condition is called the critical density
  \begin{equation}
  \rho_{crit}  = \frac{3 H^{2}}{8\pi G}
  \end{equation}
-Note that the value of critical density is depends on Hubble's constant which is time dependent, the present value of critical density is approximately $10^{-27} kg/ m^{3}$. While this is equivalent to 6 hydrogen atoms per cubic meter, the best achievable terrestrial vacuum is $10^{14}$ molecules per cubic meter. Critical density is used to define dimensionless density parameters as $\Omega_{i} = \rho_{i}/\rho_{crit}$. Assuming all the components in the Universe are perfect isotropic fluids, we can write down the stress energy tensor as
+Note that the value of critical density depends on Hubble's constant which is time dependent, the present value of critical density is approximately $10^{-27} kg/ m^{3}$. While this is equivalent to 6 hydrogen atoms per cubic meter, the best achievable terrestrial vacuum is $10^{14}$ molecules per cubic meter. Critical density is used to define dimensionless density parameters as $\Omega_{i} = \rho_{i}/\rho_{crit}$. Assuming all the components in the universe are perfect isotropic fluids, we can write down the stress energy tensor as
 \begin{equation}
 T^{\mu}_{\nu} = 
 \begin{pmatrix}
@@ -136,33 +136,33 @@ Using the energy-momentum conservation condition
 \begin{equation}
 \dot{\rho}  + H(3\rho + P)  = 0
 \end{equation}
-Note that the continuity equation holds of individual species as long as we neglect the energy exchange among different components. 
-As mentioned earlier the cosmological fluids are expected to obey the equation of state: P = w $\rho$. 
+Note that the continuity equation holds for individual species as long as we neglect the energy exchange among different components. 
+As mentioned earlier the cosmological fluids are expected to obey the equation of state: P = $w$ $\rho$. 
 Plugging this in the above equation we can solve for density as function of scale factor
 \begin{equation}
 \rho(a) \propto exp(-3 \int^{\infty}_{0} \frac{da'}{a'} [1+w(a')])
 \end{equation}
-For a time-independent w the above equation reduces to $\rho \propto a^{-3 (1+w)}$. 
+For a time-independent equation of state parameter $w$ the above equation reduces to $\rho \propto a^{-3 (1+w)}$. 
 
-Depending on the value of equation of state parameter 'w' the component of the universe can be classified as follows:
+Depending on the value of equation of state parameter `w' the components of the universe can be classified as follows:
 \begin{itemize}
-\item{\textbf{Non relativistic matter}}: For non-relativistic matter such as dark matter and baryons the energy density is equal to the rest mass energy. The pressure is much smaller than the energy-density (P << $\rho$). In such cases we can approximate w = 0, plugging it in the above equation will result in $\rho \propto a^{-3}$
+\item{\textbf{Non relativistic matter}}: For non-relativistic matter such as dark matter and baryons the energy density is equal to the rest mass energy. The pressure is much smaller than the energy-density (P << $\rho$). In such cases we can approximate w = 0, plugging it in the above equation results in $\rho \propto a^{-3}$
 \item{\textbf{Relativistic matter}}:  Pressure is related to the energy-density of relativistic matter as $P = 1/3 \rho$. This includes photons and neutrinos whose density scales with scale factor as $\rho \propto a^{-4}$
-\item{\textbf{Dark Energy}}: It is a hypothetical form of energy which is responsible for late time acceleration of the Universe. While the equation of state parameter depends on the model of Dark Energy and in many of models it is time dependent, here we assume it to be w = -1. Substituting it in the above equation we get $\rho \propto a^{0}$ and hence the cosmic dilution doesn't affect the dark energy density. 
+\item{\textbf{Dark Energy}}: It is a hypothetical form of energy which is responsible for late time cosmic acceleration. While the equation of state parameter depends on the model of Dark Energy and in many of models it is time dependent, here we assume it to be w = -1. Substituting it in the above equation we get $\rho \propto a^{0}$ and hence the cosmic dilution doesn't affect the dark energy density. 
  \end{itemize}
- It is important here to note that the cosmic dilution has different effect on different components. While radiation component is subdominant in today's Universe, it played a major role in the early Universe. Fig. ~\ref{scaling} shows the energy density of different components as a function of scale factor; as one expects at late times cosmological constant and matter are dominant component, whereas at earlier times radiation played a significant role in the evolution of background Universe.
- \begin{figure}
+ It is important here to note that the cosmic dilution has different effect on different components. While radiation component is subdominant in today's universe, it played a major role in the early universe. Fig. ~\ref{fig:scaling} shows the energy density of different components as a function of scale factor; as one expects at late times cosmological constant and matter are dominant component, whereas at earlier times radiation played a significant role in the evolution of background universe.
+ \begin{figure}[ht]
  \includegraphics[width = \columnwidth]{figs/dummy.pdf}
- \label{scaling}
+ \label{fig:scaling}
+ \caption{Scaling of various components as function of scale factor (a). While radiation is dominant component in the early universe, dark energy is dominant at present.}
  \end{figure}
-With the density scaling relations in hand and substituting a = 1/(1+z), we can rewrite ~\ref{Fred2} for a flat Universe as 
+With the density scaling relations in hand and substituting a = 1/(1+z), we can rewrite ~\ref{Fred2} for a flat universe as 
 \begin{equation}
 H^{2}(z) = H^{2}_{0} (\Omega_{ro}(1+z)^{4} + \Omega_{mo}(1+z)^{3} + \Omega_{\Lambda}) 
 \end{equation} 
-where $\Omega_{ro}$,$\Omega_{mo}$ and $\Omega_{\Lambda}$ are the density parameters of radiation, matter and dark energy respectively.
-
-\subsection{Cosmic Inventory}
-The above theoretical framework provides the evolution of different components as a function of scale factor. Now we look at the observational constraints obtained on these parameters. CMB temperature is measured precisely by the FIRAS instrument on COBE satellite \pending{cite COBE}, $T = 2.725$ K $\pm$ 0.002K. While neutrinos also contribute to radiation density, cosmic neutrinos have not been observed yet. For bosons such as photons the energy density as a function of temperature is given by 
+where $\Omega_{ro}$,$\Omega_{mo}$ and $\Omega_{\Lambda}$ are the density parameters of radiation, matter and dark energy respectively. 
+ \subsection{Cosmic Inventory}
+The above theoretical framework provides the evolution of different components as a function of scale factor. Now we look at the observational constraints obtained on these parameters. CMB temperature is measured precisely by the FIRAS instrument \cite{mather94} on COBE satellite \cite{fixsen96b}, $T = 2.725$ K $\pm$ 0.002K. While neutrinos also contribute to radiation density, cosmic neutrinos have not been observed yet. For bosons such as photons the energy density as a function of temperature is given by 
 \begin{equation}
 \rho_{\gamma} = \frac{\pi^{2}}{15} T^{4}
 \end{equation} 
@@ -174,37 +174,37 @@ which corresponds to
 Unlike photons the energy density of baryons cannot be obtained by measuring its temperature, it needs to be measured directly. 
 There are two main independent ways to measure the baryon density: 
 \begin{itemize}
-\item Cosmic Microwave Background (CMB): by measure the amplitude of the first and seconds of CMB power spectrum
+\item Cosmic Microwave Background (CMB): by measuring the amplitude of the first and second peaks of CMB power spectrum
 \item  Big Bang Nucleosynthesis (BBN): by measuring the primordial deuterium abundance.
 \end{itemize}
-From CMB power spectrum analysis we have $\Omega_{b} h^{2}$ = $0.0224 \pm 0.0001$  \pending{cite planck} and that from BBN is $0.0226 \pm 0.00034$ \pending{cite cooke etal.}. Both of these measurements agree with each other remarkably well within error limits.
+From CMB power spectrum analysis we have $\Omega_{b} h^{2}$ = $0.0224 \pm 0.0001$  \cite{planck16-8} and that from BBN is $0.0226 \pm 0.00034$ \cite{cooke16}. Both of these measurements agree with each other remarkably well within error limits.
 
 
-Dark matter forms 85\% of total matter content in the Universe, however, it doesn't interact with the radiation as Baryon does. 
-As dark matter interacts gravitationally, by measuring the gravitational field in a given system we can infer the total mass content. 
-One of the ways to measure the total matter (dark matter + baryon) which is relevant for my thesis is by using galaxy cluster gas mass fraction. 
-Galaxy clusters (detailed review is in next chapter) are so large that the ratio of gas mass to that of total cluster mass is expected to reflect the ration baryon to the total mass in the Universe \pending{cite grego and white}. Constraints on dark matter density as measured by $Planck$ is $\Omega_{dm} h^{2} =  0.120 \pm 0.001$.
+Dark matter forms 85\% of total matter content in the universe. Unlike baryons, dark matter doesn't interact with the radiation. 
+As dark matter interacts only gravitationally, by measuring the gravitational field in a given system we can infer the total mass content. 
+One of the ways to measure the total matter (dark matter + baryon) is by using galaxy cluster gas mass fraction. 
+Galaxy clusters (detailed review is in next chapter) are so large that the ratio of gas mass to that of total cluster mass is expected to reflect the ratio baryon to the total mass in the universe\cite{white93a,grego01}. Constraints on dark matter density as measured by $Planck$ is $\Omega_{dm} h^{2} =  0.120 \pm 0.001$ \cite{planck16-8}.
 
-As per current cosmological observations the major contribution for the energy density content in the Universe is from dark energy. There are several observational probes to constrain this mysterious component which is responsible for the late time acceleration of the Universe.   While galaxy cluster number density can be used to constrain the dark energy as will be explained in next chapter, here I focus on type Ia supernovae. 
-
+As per current cosmological observations the major contribution for the energy density content in the universe is from dark energy. There are several observational probes to constrain this mysterious component which is responsible for the late time acceleration of the universe.  The first direct observational evidence is from type Ia supernovae. Supernovae have constant intrinsic luminosity and are known as standard candles. 
+Cosmologists measured the luminosity distance (~\ref{eq:luminosity_dist}) of type Ia supernovaes as function of redshift to constrain $\Omega_{\Lambda}$  $\approx$ 0.7\cite{knop03}.
 
 
 \subsection{Cosmic Microwave Background}
-Cosmic Microwave Background (CMB) was theoretically predicted by George Gamov in 1940s as an observational relic of Hot Big Bang(HBB) model \pending{cite}. 
-It was observed accidentally by Aron Penzias and Robert Wilson in 1964 at the Bell Laboratories \pending{cite} for which there were awarded Nobel prize in physics (1978). Almost three decades after its discovery, Cosmic Background Explorer (COBE) detected anisotropies in CMB at a tiny level of 10 in a million. Far-Infrared Absolute Spectrophotometer (FIRAS) , an instrument mounted on COBE measured the black body temperature of CMB to be  $\sim$ 2.7K. Since then a number of experiments have been designed to measure the anisotropies in the CMB.
+Cosmic Microwave Background (CMB) was theoretically predicted by George Gamov in 1940s as an observational relic of Hot Big Bang(HBB) model \cite{gamov46}. 
+It was observed accidentally by Aron Penzias and Robert Wilson in 1964 at the Bell Laboratories for which there were awarded Nobel prize in physics (1978) \cite{penzias65}. Almost three decades after its discovery, Cosmic Background Explorer (COBE) detected anisotropies in CMB at a tiny level of 10 in a million. Far-Infrared Absolute Spectrophotometer (FIRAS) , an instrument mounted on COBE measured the black body temperature of CMB to be  $\sim$ 2.7K. Since then a number of experiments have been designed to measure the anisotropies in the CMB.
 
-High density and temperature of the early Universe ensured that all the components interacted with each other multiple times remaining in thermal equilibrium. 
-Photons ($\gamma$), protons (p) and electrons (e) were tightly coupled into a state called photon-baryon plasma; proton and electrons interacted with each other through Coulomb scattering and photon interacted with electrons through Thompson scattering
+High density and temperature of the early universe ensured that all the components interacted with each other multiple times remaining in thermal equilibrium. 
+Photons ($\gamma$), protons (p) and electrons (e) were tightly coupled into a state called photon-baryon plasma; proton and electrons interacted with each other through Coulomb scattering and photon interacted with electrons through Thompson scattering:
 \begin{eqnarray}
 \cee{p + e^{-} <=> H + \gamma}
 \label{Coulomb}\\
 \cee{\gamma + e^{-} <=> e^{-} + \gamma}
 \end{eqnarray} 
-As the Universe expands energy density dilutes and the temperature decreases. When the temperature decreases below the ionization energy of hydrogen, E < 13.6 eV the equilibrium condition of Eq.~\ref{Coulomb} is distorted to  $\cee{p + e^{-} -> H + \gamma}$. This results in the creation of hydrogen atoms and the electron density decreases, which results in decoupling of photons from the photon-baryon plasma. This epoch is called the epoch of recombination; observations suggest that it happened at redshift of  $z$ = $1089.90 \pm 0.23$ \pending{planck} 
+As the universe expands energy density dilutes and the temperature decreases. When the temperature decreases below the ionization energy of hydrogen, E < 13.6 eV the equilibrium condition of Eq.~\ref{Coulomb} is distorted to  $\cee{p + e^{-} -> H + \gamma}$ \footnote{To be precise, recombination occurs at slightly lower temperature (~1MeV) due to the large over abundance of photons with respect to baryons}. This results in the creation of neutral hydrogen atoms and the electron density decreases, which results in decoupling of photons from the photon-baryon plasma. This epoch is called the epoch of recombination; observations suggest that it happened at redshift of  $z$ = $1089.90 \pm 0.23$ \cite{planck16-8} 
 
-As a radiation of the early Universe, CMB provides a wealth of cosmological information. As inflation predicts the early Universe is extremely homogenous with inhomogeneteis of the order of 10 in a million which is imprinted as anisotropies in CMB. Over the evolution of the Universe slightly overdense regions of the early universe collapsed gravitationally to form the large scale structures that we see today. Analysing these structures involve complicated non-inear physics, however, CMB can be analysed linearly. In addition to that, $z \sim 1100$ provides long lever arm on the geometry of the universe.
+As a radiation of the early universe, CMB provides a wealth of cosmological information. As inflation predicts the early universe is extremely homogenous with inhomogeneties of the order of 10 in a million which is imprinted as anisotropies in CMB. Over the evolution of the universe slightly over dense regions of the early universe collapsed gravitationally to form the large scale structures that we see today. Analysing these structures involve complicated non-linear physics, however, CMB can be analysed linearly. In addition to that, $z \sim 1100$ provides long lever arm on the geometry of the universe.
 
-\begin{figure}
+\begin{figure}[ht]
 \includegraphics[width = \columnwidth]{figs/CMB_map.pdf}
  \label{cmb map}
  \caption{CMB as observed by $Planck$ satellite. Credits: ESA/$Planck$ collaboration}
@@ -214,7 +214,7 @@ As a radiation of the early Universe, CMB provides a wealth of cosmological info
 In the early universe photons, baryons, and dark matter are tightly coupled to each other in a complicated way. 
 The systematic way to understand these couplings is by using Boltzmann equations. 
 Boltzmann equations are easier to solve in Fourier space, as different Fourier modes evolve independently in linear approximation. 
-This section closely follows \pending{Scott}, here I summarize the Boltzmann equations for cold dark matter, photons, and baryons which were the dominant component of the universe at recombination.
+This section closely follows \pending{Scott and Dodelson}, here I summarize the Boltzmann equations for cold dark matter, photons, and baryons which were the dominant component of the universe at recombination.
 
 
 The evolution of photon distribution is coupled to electrons and metric. Photon Boltzmann equation in the Fourier space is given by:
@@ -225,19 +225,19 @@ where T represents the photon temperature, $\hat{p}$ is the photon direction, $v
 Variables with $\tilde{}$ denotes Fourier transform, ones with $\dot{}$ denotes derivative with respect to conformal time $\eta$.
 $\dot{\tilde{\phi}}$ and $\dot{\tilde{\psi}}$ represent the conformal time derivative of the metric. 
 
-Cold dark matter (CDM) evolution is the simplest among all, it has only two free parameters velocity and density. 
+Cold dark matter (CDM) evolution is the simplest among all as it has only two free parameters velocity and density. 
 CDM Boltzmann equation is given by:
 \begin{eqnarray}
 \dot{\tilde{\delta}} + ik\tilde{v} + 3 \dot{\tilde{\Phi}} = 0\\
 \dot{\tilde{v}} + \frac{\dot{a}}{a} \tilde{v} + ik \tilde{\Psi} = 0
 \end{eqnarray}
-where v is the dark matter velocity, a is the scale factor, and $\delta$ is the fractional dark matter over density 
+where $v$ is the dark matter velocity, a is the scale factor, and $\delta$ is the fractional dark matter over density 
 \begin{equation}
 \delta = \frac{\delta \rho}{\rho} 
 \end{equation}
 $\rho$ is the dark matter density.
 
-Proton and electrons are tightly coupled to each other by Coulomb forces. In addition to the electrons interact with photons through Thompson scattering. 
+Proton and electrons are tightly coupled to each other by Coulomb forces. In addition to that the electrons also interact with photons through Thompson scattering. 
 Both protons and electrons are analysed together as baryons, the Boltzmann equation for baryons is given by
 \begin{eqnarray}
 \dot{\tilde{\delta_{b}}} + ik\tilde{v_{b}} + 3 \dot{\tilde{\Phi}} = 0 \\
@@ -247,7 +247,9 @@ where $\rho_{\gamma}$ and $\rho_{b}$ are the photon and baryon density respectiv
 
 All the above Boltzmann equations can be solved numerically to a great precision for a given cosmological model by using publically available codes such as CAMB and CMBFAST.
 \begin{figure}[ht]
-\includegraphics[width = \columnwidth]{figs/PS.pdf}
+\includegraphics[width = \columnwidth]{figs/cmb_ps.pdf}
+\caption{Angular power spectrum of CMB primary temperature anisotropies for $Planck$ cosmology \citep{planck18-6}.}
+\label{fig:cmb_ps}
 \end{figure}
 \subsection{Primary anisotropies}
 \textbf{Temperature Power Spectrum}:
@@ -255,20 +257,21 @@ All the above Boltzmann equations can be solved numerically to a great precision
 \begin{equation}
 T = T_{0}(1+ \beta.\hat{n} + \frac{T(\hat{n})}{T_{0}})
 \end{equation}
-where $T_{0}$ is the average CMB temperature, $\beta $ is the dipole term due to the relative velocity of Earth with respect to Hubble flow which is equal to $\frac{v}{c}$ where v is the Earth's relative velocity. 
+where $T_{0}$ is the average CMB temperature, $\beta $ is the dipole term due to the relative velocity of Earth with respect to Hubble flow which is equal to $\frac{v}{c}$ where $v$ is the Earth's relative velocity. 
 The last term in the equation represents the anisotropies in the CMB which here after we denote by $\Phi(\hat{n})  = \frac{T(\hat{n})}{T_{0}}$. 
-Note that in the above equation we ignored the foregrounds, systematics, and experimental noise level. The oder of the anisotropies ($\phi$) is two orders of magnitude smaller than effect due to doppler boost. 
+Note that in the above equation we ignored the foregrounds, systematics, and experimental noise level. %The oder of the anisotropies ($\phi$) is two orders of magnitude smaller than effect due to doppler boost. 
 
 Due to the intrinsic stochastic nature of fluctuations in CMB, we cannot predict the value of temperature at a given location, however, we can tackle the problem statistically. 
-The observed fluctuations can be decomposed in terms of spherical harmonics as follows
+As an function on the surface of sphere, CMB fluctuations can be decomposed in terms of spherical harmonics as follows:
 \begin{eqnarray}
 \Phi(\hat{n}) = \Sigma_{l} \Sigma_{m} a^{T}_{lm} Y_{lm} (\hat{n}) \\
 a^{T}_{lm} = \int d\Omega \Phi(\hat{n}) Y_{lm} (\hat{n})
 \end{eqnarray}
-where $Y_{lm}$ are the spherical harmonic basis used to define function on a sphere, $a^{T}_{lm}$ are the harmonic coefficients. 
+where $Y_{lm}$ are the spherical harmonic basis, %used to define function on a sphere
+$a^{T}_{lm}$ are the harmonic coefficients. 
 It is important to note here that angular scale $\theta$ is related to multipole $l$ as $\theta \sim 1/l$. 
 
-The randomness of the fluctuations wont let us predict the value of the harmonic coefficient $a^{T}_{lm}$. However, different theories predict the distribution from which the $a^{T}_{lm}$ are picked. As inflation predicts the fluctuations are Gaussian random field, then the distribution of harmonic coefficients is also Gaussian. The harmonic coefficients satisfy 
+The randomness of the fluctuations wont let us predict the value of the harmonic coefficient $a^{T}_{lm}$. However, different theories predict the distribution from which the $a^{T}_{lm}$ are picked. As per inflationary paradigm CMB fluctuations are a realisation of a  Gaussian random field, then the distribution of harmonic coefficients is also Gaussian. The harmonic coefficients satisfy 
 \begin{eqnarray}
 \langle a^{T}_{lm} \rangle = 0,\\
 \langle a^{T}_{lm} a^{T*}_{l'am'}\rangle = \delta_{l l'}\delta_{m m'} C^{TT}_{l},\\
@@ -283,20 +286,20 @@ The idea is to replace the ensemble average with the spatial sample average i.e 
 \end{equation}
 This measured power spectrum is fitted to the calculated power spectrum (as explained in ~\ref{eqns}) to extract cosmological information. For historical reasons the CMB power spectrum is conventially parameterized as 
  \begin{equation}
- D_{l} = \frac{l(l+1)}{2\pi} C_{l}
+ D_{l} = \frac{l(l+1)}{2\pi} C_{l}.
  \end{equation}
-\pending{include power spectrum from CAMB}
 
-\textbf{Poalrisation power spectra}
+\textbf{CMB polarisation}
 CMB is partially polarised (linear) at 10\% level due to the Thompson scattering of photons by electrons at the surface of last scattering. 
 Only anisotropic scattering results in polarisation. Before recombination photons and electrons were tightly coupled resulting no net local anisotropy. 
 However, during the period of recombination there is slight anisotropy between photons and free electrons. 
-Though CMB polarisation signal is weak compared to its temperature counterpart, it provides invaluable information on inflation and on late time evolution of Universe through its lensing effects. 
-It was first detected observationally by Degree Angular Scale Interferometer (DASI) in 2002\pending{Kovac}.
+Though CMB polarisation signal is weak compared to its temperature counterpart, it provides invaluable information on inflation and on late time evolution of universe through its lensing effects. 
+In addition to that, foregrounds are only partially polarised.
+It was first detected observationally by Degree Angular Scale Interferometer (DASI) in 2002 \cite{kovac02}.
 
-\begin{figure}
+\begin{figure}[ht]
  \includegraphics[width = \columnwidth]{figs/quadrupole.pdf}
-\caption{The above figure depicts important scenarios as experienced by an electron at the time recombination; it is adopted from the works of Hu and White, Dodelson.   }
+\caption{The above figure depicts important scenarios as experienced by an electron at the time recombination; it is adopted from the works of \cite{hu97d} and \cite{dodelson_book}.   }
  \label{quadrupole}
 \end{figure}
   Note that only quadrupole anisotropy is responsible for CMB polarisation as shown in Fig ~\ref{quadrupole}. 
@@ -305,7 +308,7 @@ It was first detected observationally by Degree Angular Scale Interferometer (DA
  On the top right is that of dipole anisotropy which also results in no net polarisation. 
  Only the quadrupole anisotropy which is shown in the bottom panel results in net linear polarisation. 
  
- 
+
  
   
 

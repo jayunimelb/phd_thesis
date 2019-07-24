@@ -1,9 +1,9 @@
 \chapter{Maximum Likelihood Estimator}
 \label{ch:MLE}
-\section{Overview}
+\section{CMB lensing overview}
 While passing through intervening galaxy clusters, Cosmic Microwave Background (CMB) photons are deflected due to the cluster's gravitational potential. 
 This distortion is of the order of few arcminutes for a massive galaxy cluster.
-On galaxy cluster length scales (order of few arcminutes) CMB has no power due to diffusion damping \citep{silk96} and can be approximated as a gradient. 
+On galaxy cluster length scales (order of few arcminutes) CMB has no power due to diffusion damping \citep{silk68} and can be approximated as a gradient. 
 Gravitational lensing induces a dipole kind of structure on top of the background gradient with hot and clod spots swapped. 
 The strength of the gravitational lensing signal (lensing dipole) is directly proportional to the background gradient and the cluster mass. 
 As polarisation signal is an order of magnitude smaller than temperature, lensing signal in polarisation is also an order of magnitude smaller than that of temperature. 
@@ -20,11 +20,7 @@ U(\hat{n}) =  \tilde{U}(\hat{n} + \alpha(\hat{n}))
 where T represents the temperature field, Q and U are the stokes polarisation parameters respectively. 
 Tilde represents the unlensed fields, $\alpha(\hat{n})$ is the deflection angle vector due to the cluster lensing along the $\hat{n}$ direction. 
 Deflection angle is related to gravitational potential as $\nabla \phi (\hat{n})$ and is directly proportional to the mass of the cluster.
-
-In literature, there are several methods to extract lensing signal from CMB data. 
-During my thesis, I mainly worked on two methods: Maximum Likelihood Estimator (MLE) and Quadratic Estimator (QE). 
-In this chapter, I will explain the MLE in detail. While in section ,we compare the results of MLE with QE, QE is explained in detail in next chapter.
-\begin{figure}[t]
+\begin{figure}[ht]
 \begin{center}
 \includegraphics[width=\linewidth, keepaspectratio]{figs/lensing_signal.pdf}
  \caption{Lensing effect on CMB due to a galaxy cluster of mass $5\times 10^{14}$ \msolar.
@@ -34,6 +30,9 @@ In this chapter, I will explain the MLE in detail. While in section ,we compare 
 \label{fig:lensing_signal}
 \end{center}
 \end{figure}
+In literature, there are several methods to extract lensing signal from CMB data. 
+During my thesis, I mainly worked on two methods: Maximum Likelihood Estimator (MLE) and Quadratic Estimator (QE). 
+In this chapter, I will explain the MLE in detail. While in section ,we compare the results of MLE with QE, QE is explained in detail in next chapter.
 
 \section{Maximum Likelihood Estimator}
 \label{sec_MLE}
@@ -46,7 +45,7 @@ First I describe the calculation of covariance matrix which will act as a model,
 \label{sec_covmat}
 
  We calculate the covariance matrix using a set of simulated skies. 
- To calculate the simulated lensed CMB sky, first we generate the large-scale structure lensed CMB power spectra ($C^{TT}_{l}, C^{TE}_{l}, C^{EE}_{l},$ and $C^{BB}_{l}$) form CAMB for the $planck$ 2015 cosmology \citep{planck15_13}.  
+ To calculate the simulated lensed CMB sky, first we generate the large-scale structure lensed CMB power spectra ($C^{TT}_{l}, C^{TE}_{l}, C^{EE}_{l},$ and $C^{BB}_{l}$) form CAMB for the $Planck$ 2015 cosmology \citep{planck15-13}.  
  We generate Gaussian random realisations of these power spectra on a 50\am X 50\am box at 0.5\am resolution. 
  Q and U maps are converted from E and B maps as follows:
  \begin{eqnarray}
@@ -214,7 +213,7 @@ The surface mass density or also know as the projected mass density of the halo 
   Though not show here, there is no difference between polarisation MLE and QE for the range of the experimental noise we have considered.
   This is not surprising as polarisation lensing SNR is low for the considered noise levels.
  
- The effect of higher order terms can be recovered using an iterative version of QE as shown in \cite{Yoo and Zaldarriaga}.
+ The effect of higher order terms can be recovered using an iterative version of QE as shown in %\cite{Yoo and Zaldarriaga}.
  We find that MLEs performance is improves by a factor of 2 at noise level of 0.1\ukam  for our fiducial sample of 100,000 clusters each at  $M_{200} = 2 \times 10^{14}$ \msolar and redshift of 0.7. 
   
 Both MLE and QE estimators share a common difficulty in regards with the assume cluster density profile.
@@ -428,6 +427,7 @@ Neglecting relativistic corrections, we convert the Compton $y$ maps into tSZ ma
 \end{eqnarray} where $x = \frac{h\nu}{k_{\rm B}T_{\rm CMB}}$, $\nu$ is the frequency in GHz, $T_{\rm CMB} = 2.73\ K$, $k$ is the Boltzmann constant, and $h$ is the Planck constant.
 
 \subsection{tSZ frequency cleaning}
+\label{subsec:tszbias}
  Using the spectral dependence of tSZ we can eliminate it by using CMB maps observed at different frequency channels.
  In this chapter we assume the CMB is observed at 90 GHz and 150 GHz channels with Gaussian beam of FWHM 1.7\am and 1\am respectively.
  The tSZ amplitude at 90 GHz is 1.67 times that of 150 GHz.
@@ -459,7 +459,7 @@ In addition to that, we should also take into account the contamination due to t
  
  \subsection{tSZ fitting}
  Another way to take tSZ into account is by modeling it in pixel-pixel covariance matrix.
- We calculate the expected tSZ contribution using SPH simulations from \citet{mccarthy2013}.
+ We calculate the expected tSZ contribution using SPH simulations from \citet{mccarthy13}.
 As one expects, with perfect knowledge of tSZ we get a bias consistent with zero (b = $1.0 \pm 0.6\%$).
 However, similar to tSZ frequency cleaning the bias increases quickly if the tSZ contribution is mis-estimated.
 Misestimation of the order of percent-level would to lead to significant (order 6\%) biases.
@@ -473,11 +473,11 @@ Another way is to subtract tSZ model from the 150 GHz channel.
 \label{sec_DG_sys_bias}
 
 
-Galaxy clusters are known to host overdensities of dusty galaxies, with several papers measuring the resulting tSZ-CIB correlation \citep{actdunkley2013, george2015, PLANCKTSZCIB2016}.
+Galaxy clusters are known to host overdensities of dusty galaxies, with several papers measuring the resulting tSZ-CIB correlation \citep{dunkley13, george15, planck16tsz-cib}.
 We describe our modeling of these DG overdensities\footnote{For implementation reasons, in this section, we include all foregrounds mentioned in the Appendix \ref{sec_appendix}, even ones that are not correlated with the cluster itself, such as radio galaxies.} in the Appendix \ref{sec_appendix_extragal}.
 If ignored, the tSZ-CIB correlation may substantially bias the recovered masses from temperature estimators, especially at higher frequencies.
 The emission from dusty galaxies rises sharply with frequency, by an order of magnitude in $\mu K^2_{\rm CMB}$ from 90 to 150\,GHz and again from 150 to 220\,GHz.
-Polarization estimators (at least at 150\,GHz and lower frequencies) are essentially unaffected due to the lower polarization fraction  of dusty galaxies (expected to be less than 4\% \citep{seiffert2007,sptpol_delensing_2017}).
+Polarization estimators (at least at 150\,GHz and lower frequencies) are essentially unaffected due to the lower polarization fraction  of dusty galaxies (expected to be less than 4\% \citep{manzotti17,seiffert07}).
 The tSZ-CIB correlated power could be handled analogously to either the tSZ fitting or cleaning approaches in \S\ref{subsec:tszbias}.
 However, a multi-frequency cleaning scheme will be less effective than for the tSZ effect since the spectral dependence of thermal dust emission varies between individual galaxies.
 Here we look only at bias for the fitting approach where the pixel-pixel covariance due to the clustered dusty galaxies is folded into the likelihood.
@@ -512,15 +512,15 @@ We expect the next generation of CMB experiments, which will have substantially 
  CMB-cluster lensing.
 The experimental configuration of all the experiments considered is given in Table \ref{tab_forecast_future_CMBexp}.
 Three options for telescope size (and therefore beam sizes) are listed for the proposed CMB-S4 experiment.
-While current results have mass uncertainties of order $\ge 20$\% \citep{baxter2015,act_cmass2015,planckXXIV2015}, we expect Stage III experiments to reach 3\% and CMB-S4 to approach 1\%.
+While current results have mass uncertainties of order $\ge 20$\% \citep{baxter15,madhavacheril15,placksz15}, we expect Stage III experiments to reach 3\% and CMB-S4 to approach 1\%.
 
 There are two reasons for the improvements.
 First, with more detectors comes lower map noise levels (and larger survey areas).
-The deepest current experiments reach approximately $5\,\mu$K-arcmin in temperature; the Stage III surveys  (AdvACT \citep{advact_2016};  Simons Array \citep{PB2_2016}, and SPT-3G \citep{benson2015_3g}) forecas\
+The deepest current experiments reach approximately $5\,\mu$K-arcmin in temperature; the Stage III surveys  (AdvACT \citep{henderson16};  Simons Array \citep{suzuki15}, and SPT-3G \citep{benson14}) forecas\
 t a few $\mu$K-arcmin; and projections for CMB-S4 are $\sim$\,1\,$\mu$K-arcmin.
 Lower noise improves the lensing significance on any individual galaxy cluster.
 Second, lower noise levels and larger survey areas translate into substantially more galaxy clusters.
-Current ground-based SZ cluster catalogs have fewer than 1000 clusters \citep{ACTSZ2013, bleem2015}, but SPT-3G is forecast to find 8000 clusters \citep{benson2015_3g}, AdvACT 10,000 clusters \citep{advact_2016} and we assume ad-hoc that CMB-S4 will find 100,000 clusters.
+Current ground-based SZ cluster catalogs have fewer than 1000 clusters \citep{hasselfield13, bleem15}, but SPT-3G is forecast to find 8000 clusters \citep{benson2015_3g}, AdvACT 10,000 clusters \citep{advact_2016} and we assume ad-hoc that CMB-S4 will find 100,000 clusters.
 In addition to the internally discovered clusters, optical surveys like DES \citep{rykoff2016}, and in the future LSST \citep{lsst_science_book} and Euclid \citep{euclid_science_book}, will yield extremely larg\
 e numbers of galaxy clusters within the CMB survey regions, as will the X-ray satellite eROSITA \citep{erosita_science_book}.
 This method is perfectly suited to determining the mass calibration for these external cluster catalogs as well.

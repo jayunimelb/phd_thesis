@@ -1,11 +1,11 @@
-\documentclass[a4paper,12pt,twoside]{unimelb-thesis_CODBD}%
+\documentclass[a4paper,12pt,twoside]{unimelb-thesis}%
 
 \NeedsTeXFormat{LaTeX2e}
 \usepackage[version=3]{mhchem}
 \usepackage{amsmath,amsfonts,bm}
 \usepackage{caption,booktabs}
 \usepackage{tabularx}
-\usepackage{amsmath}
+%\usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{color}
 \usepackage{dcolumn}
@@ -22,7 +22,9 @@
 \usepackage{multirow}
 \usepackage{dcolumn}
 \usepackage{lineno}
-\usepackage{seqsplit}			
+\usepackage{seqsplit}
+\usepackage{hyperref}	
+		
 % Set up geometry and line spacing `
 % \usepackage[top=0.5in, bottom=0.5in, left=1.0in, right=0.75in, headheight=13.0pt, includeheadfoot]{geometry} % Pinched Crown @ 10pt
 \usepackage[top=3.0cm, bottom=2.25cm, left=3.5cm, right=3.0cm, headheight=16.5pt, includeheadfoot]{geometry} % A4 @ 11pt
@@ -73,6 +75,23 @@
 \newcommand{\beambl}{$B_{\ell}$}
 \newcommand{\comment}[1]{}
 
+\newcommand{\araa}{ARA\&A}
+\newcommand{\procspie}{Proceedings of the SPIE}
+\newcommand\nata{Nature Astronomy}
+
+\newcommand{\aap}{A\&A}%Astron. strophys.}
+\newcommand{\pasp}{PASP} 
+\newcommand{\prd}{PRD}
+\newcommand{\apj}{ApJ} 
+\newcommand{\aj}{Astrophysical Journal} 
+\newcommand{\apjs}{\apj S} 
+\newcommand\mnras{MNRAS}
+\newcommand\apss{Astrophysics and Space Science}
+\newcommand\JCAP{JCAP}
+\newcommand\jcap{JCAP}
+\newcommand\physrep{Physics Reports}
+\newcommand\prl{PRL}
+\newcommand\nbsp{ }
 \usepackage{setspace}
 \onehalfspacing
 %
@@ -88,7 +107,7 @@
 
 \author{\Large{\textsc{Sanjaykumar Patil}}}
 \date{}%
-\degree{Doctor of ||Philosophy}%
+\degree{Doctor of Philosophy}%
 \faculty{\textsc{School of Physics}}%
 
 %Make the abbreviations
@@ -136,10 +155,10 @@
 		 \include{chapter4}
 \small
 \setlength{\bibsep}{1.0mm}
-%\bibliographystyle{avebib}
-%\biblio`graphystyle{plainnat}
-\bibliographystyle{mn2e}
-\bibliography{bibliography}
+%\bibliographystyle{plain}
+\bibliographystyle{astron}	
+%\bibliographystyle{mn2e}
+\bibliography{spt}
 \normalsize
 
 \appendix%
