@@ -1,0 +1,37 @@
+\chapter{Discussions and future work}
+
+Cluster abundance as a function of mass and redshift is sensitive to the underlying cosmology. However, cluster cosmology is currently limited by uncertainty in the cluster mass estimation. CMB-cluster lensing offers one of the robust ways to accurately measure masses of galaxy clusters, especially for clusters at high redshift ($z  > 1$).
+We have developed three main methods to extract cluster lensing signal from CMB data: the MLE, the mQE and the template fitting approach. 
+
+In chapter ~\ref{ch:MLE} we developed the MLE approach, an optimal way to extract extract cluster lensing information from the temperature and the polarisation maps of CMB.	  
+Cluster's own SZ signals, the tSZ and the kSZ induce significant statistical and systematic uncertainties on the temperature MLE. 
+The tSZ signal is an order of magnitude greater than lensing signal. 
+We can fit a model to the tSZ signal, however, even a percent level misestimation of the tSZ model will result in 6\% bias.
+Another way to tackle tSZ bias is to exploit the spectral dependence of tSZ signal. 
+While a prefect knowledge of relative frequency calibration will eliminate tSZ bias, but it degrades the SNR by a factor of three \citep{baxter15}.
+  
+We modified the quadratic estimator in chapter ~\ref{ch:mqe} to eliminate tSZ bias with negligible decrease in SNR. 
+QE exploits the correlation between the gradient map and the lensing map to extract cluster lensing signal. 
+Though QE is a first order approximation of MLE, it is indeed a very good approximation as the CMB doesn't have power at small angular scales \citep{silk68}.
+As shown in Fig.~\ref{fig_performance} performance of QE and MLE are comparable at current experimental noise level. 
+ We used the mQE to constrain the mass of DES year 3 clusters using SPTpol CMB temperature maps. 
+ In addition to that we constrained the normalisation parameter of optical richness-mass scaling relation at 17\% level. 
+ The constraint is in good agreement with the corresponding optical weak lensing analysis.
+ 
+ While mQE eliminates the tSZ systematic uncertainty, the tSZ power present in the second leg of mQE induces extra variance in the lensing analysis. 
+ Unlike experimental and other uncorrelated foregrounds, tSZ induced variance is a function of mass. 
+ As we saw in chapter ~\ref{ch:template} the induced statistical uncertainty depends on the mass as $\approx M^{5/3}$. 
+ Although at current experimental noise levels the SZ induced statistical uncertainty is not significant, it will be a major source of contamination for future low noise surveys as shown in Fig. ~\ref{fig:variance}. We showed in ~\ref{fig:template_fitting} that by subtracting out a SZ template from the lensing map of mQE we can significantly reduce its variance. In addition to eliminating the tSZ induced bias our template fitting approach also significantly reduces the tSZ induced variance. 
+ 
+ \subsection*{Inpainting approach to eliminate tSZ and kSZ bias}
+ There is another novel approach in literature developed by \citet{raghunathan19} to mitigate the bias due to cluster's own SZ signals. 
+ The idea is to use inpainting to eliminate the tSZ and the kSZ signal from the large scale gradient map. 
+ In the inpainting approach the pixels at the cluster location are filled by using a constrained Gaussian realisation based on the information from the surrounding region.
+ \subsection*{Polarisation detection}
+ 
+ 
+
+\subsection*{Future work}
+\textbf{Quantify bias due to filaments}
+\textbf{kSZ effect}
+\textbf{Comparing new estimator with the MLE}

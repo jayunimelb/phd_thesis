@@ -82,7 +82,15 @@ We allow for two free parameters in the fitting: the overall amplitude of the te
 %Note that given the high-pass filter, we expect (and find) the DC term to be effectively zero. 
 While we include the DC term while fitting the template amplitude, we do not subtract DC level. 
 Only the template is subtracted from the small-scale map.
-
+\begin{figure}[ht]
+\includegraphics[width=\linewidth, keepaspectratio]{figs/template_fitting.pdf}
+ \caption{Template fitting significantly reduces SZ power, even with an imperfect match between the template and true SZ signal. 
+The top left panel (a) shows the expected Arnaud profile for a galaxy cluster of mass $\mvir = 5 \munits$ at z=0.7 after being smoothed by Gaussian beam with FWHM= 1\arcmin.7.
+The top right panel (b) shows the residuals after subtracting the best-fit 2\arcmin.0 FWHM Gaussian (the amplitude is free, but the FWHM is fixed). 
+The lower panel (c) shows one-dimensional slices through each panel: the solid, blue line is a slice through the beam-convolved Arnaud profile of (a), and the dashed green line is a slice through the residual map in (b). 
+ } 
+\label{fig:residual}
+\end{figure}
 
 
 With template fitting included, the Fourier transforms of the two maps used by the quadratic estimator can be written down as:
@@ -98,15 +106,6 @@ Compared to the modified QE \citep{madhavacheril18,raghunathan18}, the new eleme
 
 
 
-\begin{figure}
-\includegraphics[width=\linewidth, keepaspectratio]{figs/template_fitting.pdf}
- \caption{Template fitting significantly reduces SZ power, even with an imperfect match between the template and true SZ signal. 
-The top left panel (a) shows the expected Arnaud profile for a galaxy cluster of mass $\mvir = 5 \munits$ at z=0.7 after being smoothed by Gaussian beam with FWHM= 1\arcmin.7.
-The top right panel (b) shows the residuals after subtracting the best-fit 2\arcmin.0 FWHM Gaussian (the amplitude is free, but the FWHM is fixed). 
-The lower panel (c) shows one-dimensional slices through each panel: the solid, blue line is a slice through the beam-convolved Arnaud profile of (a), and the dashed green line is a slice through the residual map in (b). 
- } 
-\label{fig:residual}
-\end{figure}
 
 However the SZ emission in the small scale lensing map does add noise to the lensing reconstruction. 
 Since under self-similarity the SZ flux, $y$, is expected to scale with  \mbox{cluster mass $M$} as $y \propto M^{5/3}$ while the lensing signal is linear in mass, the additional SZ variance will generally be more important for high-mass clusters. 

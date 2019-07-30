@@ -8,11 +8,13 @@
 %\usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{color}
+\usepackage{bibentry}
 \usepackage{dcolumn}
 \usepackage{graphicx}
 \usepackage{epstopdf}
 \usepackage{MnSymbol}
 \usepackage{mathtools}
+%\usepackage[numbers]{natbib}
 \usepackage[round]{natbib}
 \usepackage[compact]{titlesec}
 \usepackage[acronym]{glossaries} % Used to make a list of abbreviations
@@ -24,13 +26,20 @@
 \usepackage{lineno}
 \usepackage{seqsplit}
 \usepackage{hyperref}	
-		
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}	
 % Set up geometry and line spacing `
 % \usepackage[top=0.5in, bottom=0.5in, left=1.0in, right=0.75in, headheight=13.0pt, includeheadfoot]{geometry} % Pinched Crown @ 10pt
 \usepackage[top=3.0cm, bottom=2.25cm, left=3.5cm, right=3.0cm, headheight=16.5pt, includeheadfoot]{geometry} % A4 @ 11pt
 % \usepackage[top=4cm, bottom=3.0cm, left=3.5cm, right=3.0cm, headheight=15.5pt]{geometry}
 \newcommand{\boxsize}{$300^{\prime} \times 300^{\prime}$}
 \newcommand{\smallboxsize}{$10^{\prime} \times 10^{\prime}$}
+\newcommand{\mediumboxsize}{$50^{\prime} \times 50^{\prime}$}
 \newcommand{\pending}[1]{\textcolor{red}{#1}}
 \newcommand{\arcmin}{\ensuremath{^{\prime}}}
 \newcommand{\figwidth}{1.0\textwidth}
@@ -49,6 +58,7 @@
 \newcommand{\howmanysigmaforfullsample}{8.7$\sigma$}
 \newcommand{\sptpol}{SPTpol}
 \newcommand{\sqdeg}{deg$^{2}$}
+\newcommand{\uk}{\rm \mu K}
 \newcommand{\ukam}{${\rm \mu K^{\prime}}$ }
 \newcommand{\fitAforvlsamplewithsyserrorsformatted}{\ensuremath{2.70 \pm 0.51~{\rm [stat.]} \pm~0.06~{\rm [sys.]}}}
 \newcommand{\bnhat}{\bm{\hat{\mbox{n}}}}
@@ -97,6 +107,7 @@
 %
 % Set up the font to use
 \usepackage[T1]{fontenc}
+
 \renewcommand{\encodingdefault}{T1}
 
 % Import custom macros and commands
@@ -115,6 +126,7 @@
 \makeglossaries
 \glsunsetall % Makes the first acronym call NOT expand the acronym - do that manually.
 
+%\nobibliography*
 \begin{document}
 
 \include{MacroAstroJour}
@@ -126,7 +138,7 @@
 	\include{Abstract}
 	\include{Stmt_of_cont}
 	\include{Acknowledgements}
-
+	\include{Preface}
  	\tableofcontents
 
 	\listoftables
@@ -153,10 +165,14 @@
 %  -------  Template Fitting  -------  
 \setcounter{chapter}{4} %4
 		 \include{chapter4}
+		 
+\setcounter{chapter}{5}
+		\include{conclusion}
 \small
 \setlength{\bibsep}{1.0mm}
-%\bibliographystyle{plain}
-\bibliographystyle{astron}	
+
+\bibliographystyle{plainnat}
+%\bibliographystyle{astron}	
 %\bibliographystyle{mn2e}
 \bibliography{spt}
 \normalsize
