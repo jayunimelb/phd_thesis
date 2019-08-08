@@ -28,11 +28,7 @@
 \usepackage{hyperref}	
 \usepackage{afterpage}
 
-\newcommand\blankpage{%
-    \null
-    \thispagestyle{empty}%
-    \addtocounter{page}{-1}%
-    \newpage}	
+	
 % Set up geometry and line spacing `
 % \usepackage[top=0.5in, bottom=0.5in, left=1.0in, right=0.75in, headheight=13.0pt, includeheadfoot]{geometry} % Pinched Crown @ 10pt
 \usepackage[top=3.0cm, bottom=2.25cm, left=3.5cm, right=3.0cm, headheight=16.5pt, includeheadfoot]{geometry} % A4 @ 11pt
@@ -85,6 +81,11 @@
 \newcommand{\beambl}{$B_{\ell}$}
 \newcommand{\comment}[1]{}
 
+%\newcommand{\fitmassforfullsamplewitherrors}{$1.28^{+0.14}_{-0.18}$}% $\times$ \munits }
+%\newcommand{\fitmassforfullsamplewithsyserrors}{\ensuremath{1.28^{+0.14}_{-0.18} {\rm ~[stat.]} \pm 0.03 ~{\rm [sys.]} }} % $\times$ \munits }
+%\newcommand{\fitmassforfullsamplewitherrorslgmca}{\pending{ xx}}% $\times$ \munits }
+%\newcommand{\fitmassforfullsamplewithszfreemaps}{$1.76^{+0.23}_{-0.29}$}% $\times$ \munits }
+
 \newcommand{\araa}{ARA\&A}
 \newcommand{\procspie}{Proceedings of the SPIE}
 \newcommand\nata{Nature Astronomy}
@@ -135,7 +136,7 @@
 
     \frontmatter%
 
-	\include{Abstract}
+	%\include{Abstract}
 	\include{Stmt_of_cont}
 	\include{Acknowledgements}
 	\include{Preface}
@@ -171,8 +172,8 @@
 \small
 \setlength{\bibsep}{1.0mm}
 
-\bibliographystyle{plainnat}
-%\bibliographystyle{astron}	
+%\bibliographystyle{abbrvnat}
+\bibliographystyle{plainnat}	
 %\bibliographystyle{mn2e}
 \bibliography{spt}
 \normalsize

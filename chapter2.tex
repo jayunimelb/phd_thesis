@@ -1,7 +1,7 @@
 \chapter{Maximum Likelihood Estimator}
 \label{ch:MLE}
 \section*{Overview}
-There are several methods in literature to extract cluster lensing signal from CMB data \citep{dodelson04, lewis06, baxter15, hu07, melin15,yoo08,horowitz19, raghunathan17a}. 
+There are several methods in literature to extract cluster lensing signal from CMB data \citep{dodelson04, lewis06, baxter15, hu07, melin15,yoo08,horowitz19, raghunathan17a,horowitz19}. 
  I worked mainly on two methods during my thesis: the Maximum Likelihood Estimator (MLE) and Quadratic Estimator (QE). 
 This chapter is organised as follows. In \S\ref{cmb_overview}, I provide a brief overview of CMB-cluster lensing, followed by description of MLE in \S\ref{sec_MLE}. The performance of MLE and QE is compared in \S\ref{sec_mle_results} and several sources of systematics are quantified in \S\ref{sys_bias}. The forecasts for future surveys are provided in \S\ref{sec_forecast} and the conclusions in \S\ref{sec_conclusion}. This chapter closely follows \citet{raghunathan17a}.
 
@@ -43,8 +43,8 @@ where $\widetilde{}$ represents unlensed fields, T represents the temperature fi
 $\vec{\alpha}(\hat{n})$ is the deflection angle along the $\hat{n}$ direction. 
 \\
 
-\subsection*{Deflection field:}
-\label{def_field}
+\subsection*{Deflection angle:}
+\label{sec_def_field}
 Deflection field depends on the density profile of a galaxy cluster. Here we provide a detailed calculation of deflection field for spherically symmetric Navarro-Frenk-White (NFW) density profile \cite{navarro96}.  Lensing convergence is related to deflection field as %$\nabla \phi (\hat{n})$ and is directly proportional to the mass of the cluster.
 %Deflection angle depends on the cluster mass profile. Here we provide the detailed calculation for Navarro-Frenk-White (NFW) density profile \cite{navarro96}. NFW density profile can be characterised by two free parameters $M_{200}$ and concentration parameter $c$ as:
 \begin{equation}
@@ -321,7 +321,7 @@ While tSZ can be eliminated, kSZ has the same spectral dependence as that of the
    where $M_{bias}$ is the final recovered mass when the bias source is included in the lensing analysis and $M_{true}$ is the input mass. 
    Error on the bias is obtained by calculating the scatter in 100 subsamples.
    
-   We report bias for all the sources considered in Table ~\ref{tab_sys_bias}. 
+   We report bias for all the sources considered in Table ~\ref{`}. 
  Other than errors in redshift, all other sources of bias should be considered carefully to achieve sub-percent uncertainty as claimed for future CMB surveys \citep{cmbs4-sb1}. 
  %Here we have not considered survey specific systematics such as false detections, selection function, and projection effects or some form of bias in weighing the clusters.
  \begin {table}[ht]
@@ -382,6 +382,7 @@ Its worth noting that in order to fully realise the potential of future surveys 
 Accurate and reliable simulations of structure formation on large volumes are needed in order to handle this source of systematic error at the sub-percent level.
 
 \subsection{Cluster mass profiles}
+\label{sec_den_profiles}
 As mentioned the lensing estimators assume a density profile which will certainly differ from the true cluster profile. 
 Any difference between the assumed mass profile and true cluster profile will bias the final results.
 In this work we assume the clusters to follow an NFW profile. 
@@ -468,6 +469,7 @@ We create mock lensed CMB maps for four sets of redshifts redshifts $z\in[0.5, 1
 The resulting bias is listed in Table~\ref{tab_sys_bias}. We do not detect a mass bias at any redshift. 
  
 \subsection{Bias due to the kinematic SZ signal}
+\label{sec_ksz_bias}
 CMB photons get doppler shifted due to the relative motion of the galaxy cluster with respect to the CMB rest frame, this is known as kinematic Sunyaev-Zel'dovich effect (kSZ) \citep{sunyaev72}.
 While the kSZ effect is an order magnitude smaller than the tSZ, unlike tSZ effect, the kSZ effect has the same spectral dependence as that of CMB. 
 We cannot combine multiple frequency channels to eliminate the kSZ effect. 
@@ -489,7 +491,7 @@ Final results are significantly biased low at 41\% level if the kSZ effect is no
  Given the current uncertainties in kSZ estimation, it acts as a serious obstacle in using temperature information of CMB-cluster lensing for future CMB surveys. 
  
  \subsection{Thermal Sunayev-Zel'dovich effect}
- 
+ \label{tSZ_effect_bias}
 Here we give a brief review of thermal Sunayev-Zel'dovich (tSZ) effect and is explained in detail in the next chapter.
 CMB photons while passing through galaxy cluster are inverse compton scattered of high energetic electrons present in the cluster's hot intra cluster medium.
 This results in excess of photons at higher frequency and deficit of photons at lower frequency, this is known as tSZ effect.

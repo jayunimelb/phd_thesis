@@ -1,34 +1,37 @@
 \chapter{Cluster Cosmology}
 \label{ch:clusters}
 \section{Overview}
-As described in the last chapter, on average the universe is homogenous - the expansion history, mean energy densities are reasonably well understood, at least empirically. However, the inhomogenities in the universe in the form of large scale structures such as galaxies, cluster of galaxies etc., carry a wealth of cosmological information. Given that ~85\% of matter in the universe is made up of cold dark matter, the growth of cosmic structure can be attributed to two main factors mainly: gravitational growth of initial density perturbations controlled by expansion of space and baryonic physics. According to inflationary paradigm and also observationally corroborated by CMB data, the initial density perturbations are scale independent. The matter distribution at late times can be probed by number of different observations: galaxy redshift surveys, weak gravitational lensing, galaxy cluster abundance; latter being the focus of this chapter.  %The chapter is organised as follows: in ~\ref{growth} I discuss the growth density perturbations during various regimes, followed by density power spectrum in ~\ref{density_ps}. In ~\ref{stats}, I explain the statistics of collapsed objects
-
+%As described in the last chapter, on average the universe is homogenous - the expansion history, mean energy densities are reasonably well understood, at least empirically. However, the inhomogenities in the universe in the form of large scale structures such as galaxies, cluster of galaxies etc., carry a wealth of cosmological information. Given that ~85\% of matter in the universe is made up of cold dark matter, the growth of cosmic structure can be attributed to two main factors mainly: gravitational growth of initial density perturbations controlled by expansion of space and baryonic physics. According to inflationary paradigm and also observationally corroborated by CMB data, the initial density perturbations are scale independent. The matter distribution at late times can be probed by number of different observations: galaxy redshift surveys, weak gravitational lensing, galaxy cluster abundance; latter being the focus of this chapter.  %The chapter is organised as follows: in ~\ref{growth} I discuss the growth density perturbations during various regimes, followed by density power spectrum in ~\ref{density_ps}. In ~\ref{stats}, I explain the statistics of collapsed objects
+In the last chapter, I introduced the CMB anisotropies which are sourced by small pertrubations of density in the early Universe.
+With time and gravity, these initially tiny perturbations grow to become galaxies, galaxy clusters etc.,
+This process of structure growth yields a plethora of tests of the cosmological model.
 \section{Linear theory of structure formation}
 \label{growth}
-In this section, I will describe the evolution of matter density perturbations in the linear regime (it closely follows Ryden 2003).
+In this section, I will describe the evolution of matter density perturbations in the linear regime. This section closely follows Ryden 2003.
 Assuming that universe is filled with pressure less matter with mean mass density $\rho_{m}(t)$. 
 %As we saw in the last chapter, mass density is related to scale parameter as $\rho_{m}(t) \propto a^{-3}(t)$. 
 By inducing a small density fluctuation ($\delta \ll 1$) within a region of spherical radius `R'
 \begin{equation}
 \rho(t) = \rho_{m}(t)(1+\delta).
 \end{equation}
- The gravitational pull at the tip of the spherical region is given by 
+ The gravitational pull on the outer shell of the sphere is given by%at the tip of the spherical region is given by 
 \begin{equation}
 \ddot{R} = -\frac{GM}{R^{2}}
+\label{clus_accel}
 \end{equation} 
-where M is the total mass within the sphere which by definition $M = 4 \pi /3 \: \rho R^{3}$
+where $M = 4 \pi /3 \: \rho R^{3}$ is the total mass within the sphere, we can rewrite Eqn. ~\ref{clus_accel}
 \begin{equation}
-\frac{\ddot{R}}{R}= -\frac{4\pi}{3} G\rho_{m} - \frac{4\pi}{3} G \rho_{m} \delta 
+\frac{\ddot{R}}{R}= -\frac{4\pi}{3} G\rho_{m} - \frac{4\pi}{3} G \rho_{m} \delta. 
 \end{equation}
-As the universe expands the mass within the sphere remains constant
+As the sphere expands the mass within the sphere is conserved
 \begin{equation}
-M = \frac{4\pi}{3} \rho_{m}(t)[1+\delta(t)]R(t)^{3}
+M = \frac{4\pi}{3} \rho_{m}(t)[1+\delta(t)]R(t)^{3}.
 \end{equation}
 From which we get 
 \begin{equation}
-R(t) \propto \rho_{m}(t)^{-1/3}[1+\delta(t)]^{-1/3}
+R(t) \propto \rho_{m}(t)^{-1/3}[1+\delta(t)]^{-1/3}.
 \end{equation}
-since $\rho_{m} \propto a^{-1/3}$ in an expanding universe,
+Since $\rho_{m} \propto a^{-1/3}$ in an expanding universe,
 \begin{equation}
 R(t) \propto a(t)[1+\delta(t)]^{-1/3}.
 \end{equation}
@@ -38,24 +41,25 @@ Taking two time derivatives of the above equation we get
 \end{equation}
 Rearranging the above equations we get 
 \begin{equation}
-\frac{\ddot{a}}{a} - \frac{1}{3}\ddot{\delta} - \frac{2\dot{a}}{3a} \dot{\delta} = -\frac{4 \pi}{3} G\rho_{m} (1-\delta)
+\frac{\ddot{a}}{a} - \frac{1}{3}\ddot{\delta} - \frac{2\dot{a}}{3a} \dot{\delta} = -\frac{4 \pi}{3} G\rho_{m} (1-\delta).
 \label{eq1}
 \end{equation}
-$\frac{\ddot{a}}{a}$ is the expansion of the background universe, substituting $\delta = 0$ in the above equation we get
+%$\frac{\ddot{a}}{a}$ is the expansion of the background universe, substituting $\delta = 0$ in the above equation we get
+We now want to split this up between the dynamics of the unperturbed universe ($\delta =0 $) and perturbation
 \begin{equation}
 \frac{\ddot{a}}{a}  = -\frac{4 \pi}{3} G\rho_{m}.
 \end{equation}
-Substituting the above relation in ~\ref{eq1}
+Substituting the above relation in Eqn. ~\ref{eq1} yields 
 \begin{equation}
-- \frac{1}{3}\ddot{\delta} - \frac{2\dot{a}}{3a} \dot{\delta}  = -\frac{4 \pi}{3} G\rho_{m}\delta
+- \frac{1}{3}\ddot{\delta} - \frac{2\dot{a}}{3a} \dot{\delta}  = -\frac{4 \pi}{3} G\rho_{m}\delta,
 \end{equation}
 or
 \begin{equation}
-\ddot{\delta} + 2 H\dot{\delta} = 4\pi G \rho_{m} \delta
+\ddot{\delta} + 2 H\dot{\delta} = 4\pi G \rho_{m} \delta.
 \end{equation}
 Considering the relativistic corrections the above equation changes to 
 \begin{equation}
-\ddot{\delta} + 2 H \dot{\delta} = \frac{4\pi G}{c^{2}} \rho_{m} \delta
+\ddot{\delta} + 2 H \dot{\delta} = \frac{4\pi G}{c^{2}} \rho_{m} \delta.
 \label{eq2}
 \end{equation}
 In the early radiation dominated phase of the universe $\Omega_{m} \ll 1$ and $H = 1/(2t)$ which results in 
@@ -68,7 +72,7 @@ solving which we get,
 \end{equation}
 During the radiation dominated epoch, baryon density oscillated as baryons and photons were tightly coupled. 
 Whereas the dark matter density grew at a logarithmic rate as predicted by the above equation.  
-Similarly, during the dark energy dominated epoch ~\ref{eq2} takes the form
+Similarly, during the dark energy dominated epoch Eqn. ~\ref{eq2} takes the form
 \begin{equation}
 \ddot{\delta} + 2 H_{\Lambda} \dot{\delta} \approx 0
 \end{equation}
@@ -79,7 +83,7 @@ which results in
 Dark matter density perturbation exponentially decays off in dark energy dominated epoch. 
 
 
-Only during the matter dominated epoch, density perturbations grow
+During the matter dominated epoch, density perturbations follow
 \begin{equation}
 \ddot{\delta} + \frac{4}{3t} \dot{\delta} -\frac{2}{3t^{2}} \delta = 0.
 \end{equation}  
@@ -87,7 +91,7 @@ Assuming a power law solution of the form $Dt^{n}$  and plugging it in above equ
 \begin{equation}
 \delta(t) \approx D_{1} t^{2/3} + D_{2} t^{-1}.
 \end{equation}
-
+Thus during matter domination matter perturbation grow as $t^{2/3}$. Given these different dynamics, studying how density perturbations grow can yield strong tests of cosmology and the constituents of the Universe. 
 \section{Power spectrum}
 \label{density_ps}
 In Fourier space the perturbations can be written as 
@@ -99,8 +103,9 @@ The matter power spectrum and auto correlation are related as follows:
 \langle \delta(x) \delta^{*}(x) \rangle = \int^{\infty}_{0} \frac{dk}{k} \frac{k^{3} |\delta^{2}(k)|}{2\pi^{2}} = \int^{\infty}_{0} \frac{dk}{k}\frac{k^{3} P(k)}{2\pi^{2}}
 \end{equation}
 where by definition $P(k) = |\delta^{2}(k)|$.
-According to inflationary paradigm the primordial fluctuations are nothing but macroscopic manifestations of quantum fluctuations. 
-As proposed by Harrison and Zel'dovich, these primordial fluctuations are scale-invariant \footnote{ otherwise it would imply a preferred mass scale for fluctuations entering the horizon}
+In the inflationary paradigm, the primordial fluctuations are quantum fluctuations that have been blown up to macroscopic scale by inflation. 
+%As proposed by Harrison and Zel'dovich, these primordial fluctuations are scale-invariant \footnote{ otherwise it would imply a preferred mass scale for fluctuations entering the horizon}
+In inflationary models, this primordial fluctuations are nearly scale invariant, since inflation has no preferred scale,
 \begin{equation}
 P_{primordial}(k) \propto k
 \end{equation}
@@ -136,46 +141,46 @@ Fig. ~\ref{fig_ps} shows the matter power spectrum at two different redshifts fo
 
 \section{Statistics of spherically collapsed objects}
 \label{stats}
-In the previous sections we derived equations for density perturbations in both real and Fourier space. However, in practice. we observe the density contrast, which is nothing but density perturbation averaged over a given volume. Mathematically, density contrast within a radius `R' is given by
+In the previous sections we introduced equations for density perturbations in both real and Fourier space. However, in practice, we observe the density perturbation averaged over a given volume which we define as 'density contrast'. Mathematically, density contrast within a radius `R' is given by
 \begin{eqnarray}
-\delta(x, R) = \int d^{3}x' W(|x' - x|) \delta(x') \\
-\delta(k, R) = W(k,R) \delta(k)
+\Delta(x, R) = \int d^{3}x' W(|x' - x|) \delta(x') \\
+\Delta(k, R) = W(k,R) \delta(k)
 \end{eqnarray}
-The variation of fluctuation at scale R is given by
+The variation in the observed density contrast in a sphere of radius R is given by
 \begin{equation}
-\sigma^{2}(R) = \langle \delta^{2}(x,R) \rangle = \int d lnk \nabla^{2}(k) |W(k,R)|^{2}
+\sigma^{2}(R) = \langle \Delta^{2}(x,R) \rangle = \int d lnk \nabla^{2}(k) |W(k,R)|^{2}
 \end{equation}
-where $\nabla(k)$ is the dimensionless power spectrum.
+where $\nabla(k) = \sqrt{k^{3}P(k)/2\pi^{2}}$ is the dimensionless power spectrum.
 %\begin{equation}
 %\nabla^{2}(k) = \frac{k^{3}P(k)}{2\pi^{2}}
 %\end{equation}
-Assuming that the density field follows Gaussian random distribution, the probability that the sphere of radius has density contrast $\delta$ is given by
+Assuming that the density field follows Gaussian random distribution, which is well supported by observation. The probability that the sphere of radius, R, has density contrast $\delta$ is given by
 \begin{equation}
-P(\delta, R) = \frac{1}{\sqrt(2 \pi \sigma^{2}(R))} exp(-\frac{\delta^{2}}{2\sigma^{2}(R)}) d\delta.
+P(\Delta, R) = \frac{1}{\sqrt(2 \pi \sigma^{2}(R))} exp(-\frac{\delta^{2}}{2\sigma^{2}(R)}) d\delta.
 \end{equation}
-It is important to note here that $P(\delta, R) = P(\delta, M)$, where R is related to M as $M = \frac{4\pi}{3} R^{3}$
+It is important to note here that we can also express $P(\Delta, R) = P(\Delta, M)$, where R is related to M as $M = \frac{4\pi}{3} R^{3}$
 \subsection{The Press-Schechter Theory}
 \label{halo-theory}
-In 1974 Press-Schechter came up with a simplistic model to predict the number of dark matter halos. The basic idea is that a sphere of radius `R' with density contrast $\delta$ will form a dark matter if $\delta$ greater than a critical value $\delta_{c}$. The probability of finding dark matter halos with mass greater than M is given by
+In 1974 Press-Schechter came up with a simple model to predict the number of dark matter halos \citep{press74}. The basic idea is that a sphere of radius `R' with density contrast $\Delta$ will form a dark matter if $\Delta$ greater than a critical value $\Delta_{c}$. The probability of finding dark matter halos with mass greater than M is given by
 \begin{equation}
-F(M) = \int^{\infty}_{\delta_{c}} P(\delta, M) d\delta = \frac{1}{2} erfc(\frac{\nu}{\sqrt(2)})
+F(M) = \int^{\infty}_{\Delta_{c}} P(\Delta, M) d\Delta = \frac{1}{2} erfc(\frac{\nu}{\sqrt(2)})
 \end{equation}
-where $\nu = \delta_{c}/ \sigma(M)$. The halo mass function, i.e, the number density of halos between mass M and M+dM is given by 
+where $\nu = \Delta_{c}/ \sigma(M)$. The halo mass function, i.e, the number density of halos between mass M and M+dM is given by 
 \begin{equation}
-\frac{dn(M,z)}{dM} = -\sqrt{\frac{2}{\pi}} \frac{\rho_{m}}{M} \frac{\delta_{c}}{\sigma^{2}(M,z)} \frac{d\sigma(M,z)}{dM}  exp(-\frac{\delta^{2}_{c}}{2 \sigma^{2}(M,z)}).
+\frac{dn(M,z)}{dM} = -\sqrt{\frac{2}{\pi}} \frac{\rho_{m}}{M} \frac{\Delta_{c}}{\sigma^{2}(M,z)} \frac{d\sigma(M,z)}{dM}  exp(-\frac{\Delta^{2}_{c}}{2 \sigma^{2}(M,z)}).
 \label{eq_press-shcech}
 \end{equation}
 The above equation predicts too many low-mass halos and too few high-mass halos compared to the N-body simulations. 
-For precise cosmological applications, the statistics rely on some form of ~\ref{eq_press-shcech} equation with some additional fitting parameters to achieve a better fit, for example \cite{tinker08, jenkins01}.
+For precise cosmological applications, current estimates of the halo mass function rely on some form of Eqn. ~\ref{eq_press-shcech} with some additional fitting parameters to achieve a better fit, for example \cite{tinker08, jenkins01}.
 
 \section{Galaxy Clusters \& Cosmology}
-\textbf{Galaxy clusters:}\\
-Galaxy clusters are the largest gravitationally bound objects in the universe with ten-thousands of galaxies. 
-These are the most massive objects, typically the mass within virial radius ranges from $10^{14} - 10^{15}$ $M_{\odot}$. 
-The majority the mass is in the form of invisible dark matter (80-87\%), which generally follows a spherically symmetric Navarro-Frenk-White model (NFW \cite{navarro97}). 
-Around 12\% of the cluster mass is in the form of hot intracluster medium (ICM)- sparse plasma that fills the cluster. 
-The temperature of the ICM is of the order of ten million Kelvin and thus predominantly emits in X-rays. 
-Remaining 2\% of the cluster mass is in the form of stars, cold gas, and dust in galaxies.
+\subsection{Galaxy Clusters}
+Galaxy clusters are the largest gravitationally bound objects in the universe with tens to hundreds of thousands of galaxies. 
+These are very massive objects with typical masses within virial radius\footnote{Virial radius corresponds to the radius of a spherical region which is sufficiently over dense with respect to the background density that it will detach from the Hubble expansion and start collapsing to form a structure} ranges from $10^{14} - 10^{15}$ $M_{\odot}$. 
+The majority the mass is in the form of invisible dark matter (80-87\%), which generally follows a spherically symmetric Navarro-Frenk-White (NFW) model  \citep{navarro97}. 
+Around 12\% of the cluster mass is in the form of hot intracluster medium (ICM)- a sparse hot plasma that fills the cluster. 
+The temperature of the ICM is of order ten million Kelvin and thus the ICM predominantly emits X-rays. 
+The remaining 2\% of the cluster mass is in the form of stars, cold gas, and dust in galaxies.
 
 \begin{figure}[ht]
 \includegraphics[width = \columnwidth]{figs/Abell_1689.jpg}
@@ -183,17 +188,17 @@ Remaining 2\% of the cluster mass is in the form of stars, cold gas, and dust in
 \label{cluster}
 \end{figure}
 
-Fig. ~\ref{cluster} shows the image of a galaxy cluster Abell 1689 which is in constellation Virgo. The X-ray emission due to hot ICM is shown as purple in the image; galaxies from the optical data are coloured yellow. The long arcs in the optical image is caused by distortion due to gravitational lensing. \\
+Fig. ~\ref{cluster} shows the image of a galaxy cluster Abell 1689 which is in constellation Virgo. The X-ray emission due to hot ICM is shown as purple in the image; galaxies from the optical data are coloured yellow. The long arcs in the optical image is caused by distortion due to strong gravitational lensing. \\
 
-\textbf{Cluster cosmology:}\\
-Clusters have historical significance in providing crucial information about underlying cosmological model. Dark matter was discovered in Coma cluster in 1930s, when Fritz Zwicky observed that galaxies in cluster were moving too fast to be held by the gravitational pull of the visible galaxies. In the 1990s cluster provided evidence for low matter density universe \cite{white93a}. %Clusters are so large that the ratio of baryon and dark matter content in the cluster should be equal to that of universe as a whole. The gas mass fraction $f_{gas}$ = $\Omega_{b} /\Omega_{m}$; the total baryonic mass can be calculated in rudimentary way by calculating mass of stars and hot gas in the cluster, $\Omega_{b}$ is obtained from big bang nucleosynthesis, one can constrain $\Omega_{m}$ \pending{white}.
+\subsection{Cluster cosmology}
+Clusters have long provided crucial information about the cosmological model. Dark matter was discovered in Coma cluster in 1930s, when Fritz Zwicky observed that galaxies in cluster were moving too fast to be held by the gravitational pull of the visible galaxies \citep{zwicky33}. In the 1990s cluster provided evidence for low matter density universe \citep{white93a}. %Clusters are so large that the ratio of baryon and dark matter content in the cluster should be equal to that of universe as a whole. The gas mass fraction $f_{gas}$ = $\Omega_{b} /\Omega_{m}$; the total baryonic mass can be calculated in rudimentary way by calculating mass of stars and hot gas in the cluster, $\Omega_{b}$ is obtained from big bang nucleosynthesis, one can constrain $\Omega_{m}$ \pending{white}.
 \begin{figure}[ht]
 \includegraphics[width = \columnwidth]{figs/cosmology.png}
 \caption{On the left is flat $\Lambda$CDM model: constraints on $\Omega_{m}$ and $\sigma_{8}$ from clusters in purple, from CMB observations in blue ($Planck$) and grey ($Planck$ and WMAP). On the right we have flat $w$CDM: constraints on $w$ and $\Omega_{m}$ for various cosmological probes. Cluster (purple) provide the tightest single-probe constraints.  }
 \label{clustercosmology}
 \end{figure}
 
-As seen in ~\ref{halo-theory}, halo/cluster abundance as a function of mass is sensitive to cosmological parameter such as $\Omega_{m}$ and $\sigma_{8}$. In addition to that, clusters are powerful probes of dark energy. The dark energy effects the evolution of universe in two different ways. 
+As seen in ~\S\ref{halo-theory}, halo/cluster abundance as a function of mass is sensitive to cosmological parameter such as $\Omega_{m}$ and $\sigma_{8}$. In addition to that, clusters are powerful probes of dark energy. The dark energy effects the evolution of universe in two different ways. 
 First, it accelerates the expansion of the universe. Second, it acts as anti gravity and hence slows down the structure formation. Cluster number count is sensitive to both of these effects: the abundance and the correlation function of galaxy clusters depend on expansion history and structure growth. 
 Constraints obtained on $\Omega_{m}$, $\sigma_{8}$, and dark energy equation of state parameter, $w$, is show Fig ~\ref{clustercosmology}.
 As can be inferred from the plot, cluster constraints are complementary to that of CMB anisotropies. For the above constraints, only 241 clusters from ROSAT all sky survey were used \cite{mantz15}. Given the statistical power of ongoing and future surveys, galaxy clusters have become indispensable probes of cosmology. \cite{so18,benson14}. %While the clusters are powerful probes of cosmology, the key issued the fidelity of the mass tracer. 
