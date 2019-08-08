@@ -98,19 +98,20 @@ So far I have tested template fitting approach \citep{patil19} on the simulated 
 The CMB-cluster lensing has come a long way from the detection regime in 2015 \citep{baxter15} to constraining optical richness-mass normalisation parameter by 10\% \citep{geach17}. 
 In order to fully realise the potential of CMB-cluster lensing for future surveys we need to develop estimators that are robust to foreground contamination. 
 The major contamination for the CMB cluster lensing in temperature maps is tSZ. 
-In this thesis, we developed estimators that are robust to the tSZ contamination. % modified the quadratic estimator to make it robust to the major contamination   
+In this thesis, we modified quadratic estimators that are robust to the tSZ contamination. % modified the quadratic estimator to make it robust to the major contamination   
 However, a lot of work remains to be done in the near future to achieve sub-percent mass uncertainties for future low noise surveys.
 
 The MLE performs better by a factor of two than QE for future low noise surveys (Fig. \ref{fig_performance}). 
 %While modifications to the QE are robust to tSZ contamination, we need to work on the MLE  % however, as we showed in chapters \ref{ch:mqe} and \ref{ch:template} QE can be modified to make it robust to CMB cluster lensing. 
-One of the ways to make it robust to the tSZ systematic uncertainty in the MLE is by marginalising over the tSZ model parameters. 
+In future we need to work on modifying MLE to make it robust to tSZ systematic and statistical uncertainty. 
+One of the ways to make it robust to the tSZ systematic uncertainty is by marginalising over the tSZ model parameters. 	
 While this approach is expected to remove the tSZ systematic, it will slightly affect the SNR and also increases the computational complexity. 
-In future we need to work on modifying MLE to make it robust to tSZ systematic and statistical uncertainty. %by multiple folds. 
+%by multiple folds. 
 %More work needs to be done in this regard. 
 
 The uncertainty in the cluster mass profile can bias the mass estimate by a few percent. 
 A few percent systematic bias is well within the statistical uncertainty at the current experimental noise level, however, it will become comparable in the near future. 
-In order to reduce the bias due to cluster profile we need better cluster p
+In order to reduce the bias due to cluster profile we need better models of cluster density profiles.
 
 %To quantify the presence of undetectable halos we used N-body simu%the temperature and polarisation estimator at 2.5\% and 6.3\% level respectively. 
 We 
