@@ -2,13 +2,15 @@
 \label{ch:template}
 
 The modified Quadratic Estimator (mQE) developed in the last chapter completely eliminates the thermal Sunyaev-Zel'dovich (SZ) bias by using a SZ free gradient map. 
-Though SZ bias is removed in the mQE, SZ present in the second leg induces extra variance in the reconstructed lensing convergence profile. 
+Though SZ bias is removed in the mQE, SZ present in the lensing map induces extra variance in the reconstructed lensing convergence profile. 
 Unlike the variance due to other sources (such as instrumental noise, uncorrelated foregrounds etc.,), SZ variance depends on the mass of the galaxy cluster.
-The SZ variance scales roughly with the mass of cluster as $M^{5/3}$.
-For DES X SPTpol clusters which we used in the last chapter, we downweighed the massive clusters to take the SZ variance into account. 
+The SZ variance scales roughly with the mass of the cluster as $M^{5/3}$.
+For DES X SPTpol clusters which we used in the previous chapter, we downweighed the massive clusters to take the SZ variance into account. 
 This didn't have much effect on the final SNR as we had only few massive clusters. 
-However, with future low noise CMB surveys such as SPT-3G, CMB-S4, Simons Observatory etc., downweighing won't be an optimal solution.
-This chapter is organised as follows: in  \S\ref{sec_methods} we describe the template fitting approach which will significantly reduce the SZ variance, followed by results in \S\ref{temp_fit_sec_results}. 
+However, with future low noise CMB surveys such as SPT-3G, CMB-S4, Simons Observatory etc.,\citep{bender18,cmbs4-sb1,so18} downweighing won't be an optimal solution.
+
+
+This chapter is organised as follows: in \S\ref{sec_simulations} we explain the simulations used in this chapter. In \S\ref{sec_methods}, we describe the template fitting approach which will significantly reduce the SZ variance, followed by results in \S\ref{temp_fit_sec_results}. 
 We forecast mass uncertainties for future experiments using our new method in ~\S\ref{forecasts} and then we finally conclude in \S\ref{temp_fit_conclusions}.
 
 %I present template fitting approach which will significantly reduce the SZ variance in high mass cluster and/or low noise surveys. 
@@ -17,12 +19,11 @@ We forecast mass uncertainties for future experiments using our new method in ~\
 \label{sec_simulations}
 
 We use simulations to validate our new method and also to forecast future experiments. 
-The simulations in this chapter are generated similarly to chapter \ref{ch:MLE}.
-Briefly, we create \mbox{$100^\prime \times 100^\prime$} unlensed Gaussian realizations of the \textit{Planck} 2015 \citep{planck15-13} best-fit lensed CMB power spectrum obtained from CAMB\footnote{\url{https://camb.info/}} \citep{lewis00}.
-These maps are then lensed by the cluster's convergence profile (see \S\ref{sec_def_field}). 
-We add simulated SZ emission (\S\ref{sec_tsz}) and then convolve the map
- by the assumed instrumental beam. 
-We take the instrumental beam to be Gaussian with a FWHM $=1^\prime.7$ at 90 GHz and $=1^\prime.0$ at 150 GHz. 
+%The simulations used here closely follow the ones described in chapter \ref{ch:MLE}.
+ We create \mbox{$100^\prime \times 100^\prime$} unlensed Gaussian realizations of the \textit{Planck} 2015 \citep{planck15-13} best-fit lensed CMB power spectrum obtained from CAMB\footnote{\url{https://camb.info/}} \citep{lewis00} (as explained in chapter \ref{ch:MLE}).
+These maps are then lensed by the cluster convergence profile (see \S\ref{sec_def_field}). 
+We add simulated SZ emission (\S\ref{sec_tsz}) and then convolve the map by the assumed instrumental beam. 
+We take the instrumental beam to be a Gaussian with a FWHM $=1^\prime.7$ at 95 GHz and $=1^\prime.0$ at 150 GHz. 
 Finally, we add Gaussian realizations of white noise at the specified noise level. 
  
 
@@ -43,11 +44,11 @@ We also discuss sources of uncertainties present in the CMB-cluster lensing anal
 \subsection{Template fitting to reduce the SZ variance}
 \label{sec_sz_template_fitting}
 
-An obvious way to eliminate the SZ variance is by using SZ-free maps for both the small-scale and gradient maps. 
-Of course this would undo the advantages of the modified QE for the instrumental noise in the small scale map. 
-One can also reduce this extra variance by projecting out a model template for the SZ signal, and thereby reducing the total amount of SZ power in the small-scale map. 
-Given the impossibility in creating a `perfect' SZ template, the template fitting will not completely eliminate the SZ signal in the small-scale map. 
-However, template fitting can significantly reduce the SZ power in the small-scale map, and thus reduce the SZ noise penalty on the lensing mass reconstruction. 
+An obvious way to eliminate the SZ variance is by using SZ-free maps for both the lensing and gradient maps. 
+Of course this would undo the advantages of the modified QE for the instrumental noise in the lensing map. 
+One can also reduce this extra variance by projecting out a model template for the SZ signal, and thereby reducing the total amount of SZ power in the lensing map. 
+Given the impossibility in creating a `perfect' SZ template, the template fitting will not completely eliminate the SZ signal in the lensing map. 
+However, template fitting can significantly reduce the SZ power in the lensing map, and thus reduce the SZ noise penalty on the lensing mass reconstruction. 
 
 
 
@@ -61,14 +62,14 @@ Effectively, we have used the different spectral dependence of the SZ and CMB to
 \begin{figure}[ht]
 \includegraphics[width=\linewidth, keepaspectratio]{figs/template_fitting.pdf}
  \caption{Template fitting significantly reduces SZ power, even with an imperfect match between the template and true SZ signal. 
-The top left panel (a) shows the expected Arnaud profile for a galaxy cluster of mass $\mvir = 5 \munits$ at z=0.7 after being smoothed by Gaussian beam with FWHM= 1\arcmin.7.
+The top left panel (a) shows the expected Arnaud profile for a galaxy cluster of mass $\mvir = 5 \times \:\munits$ at z=0.7 after being smoothed by Gaussian beam with FWHM= 1\arcmin.7.
 The top right panel (b) shows the residuals after subtracting the best-fit 2\arcmin.0 FWHM Gaussian (the amplitude is free, but the FWHM is fixed). 
-The lower panel (c) shows one-dimensional slices through each panel: the solid, blue line is a slice through the beam-convolved Arnaud profile of (a), and the dashed green line is a slice through the residual map in (b). 
+The lower panel (c) shows one-dimensional slices through each panel: the solid blue line is a slice through the beam-convolved Arnaud profile of (a), and the dashed green line is a slice through the residual map in (b). 
  } 
 \label{fig:residual}
 \end{figure}
 We choose to use a radially symmetric template at the fixed cluster location in this work. 
-Unless otherwise noted, we assume the beam to be a Gaussian with FWHM = 1\arcmin{} at 150\, GHz and 1\arcmin.7 at 90\,GHz. 
+Unless otherwise noted, we assume the beam to be a Gaussian with FWHM = 1\arcmin{} at 150\, GHz and 1\arcmin.7 at 95\,GHz. 
 As this beam size is significantly large compared to the actual size of clusters at $z>0.3$, clusters are approaching the effective point source limit where the specific details of their shape would not matter. 
 Thus we choose to use a simple Gaussian template as the baseline template in this work. 
 We also compare the results to template fitting with more physically motivated Arnaud profile \citep{arnaud10}, convolved by the experimental Gaussian beam.  
@@ -83,13 +84,13 @@ As SZ and CMB have different frequency dependence, we use linear combination of 
 %\begin{equation}
 %T_{sz} = \frac{B_{90}}{B_{150}} T_{90} - T_{150} 
 %\end{equation}
-%Since the template will be applied to that small-scale map that has been high pass filtered at $\ell > 2000$, we apply a matching high pass filter to the map used for fitting and the SZ model template. 
+%Since the template will be applied to that lensing map that has been high pass filtered at $\ell > 2000$, we apply a matching high pass filter to the map used for fitting and the SZ model template. 
 We then pull out a central $10\arcmin \times 10\arcmin$ cutout at the cluster location for fitting the template. 
-Since both the SZ emission and lensing signal extraction is concentrated within a few arcminutes of the cluster center, there is little reason to fit over a larger area. 
+Since the SZ emission is concentrated within a few arcminutes of the cluster center, there is little reason to fit over a larger area. 
 We allow for two free parameters in the fitting: the overall amplitude of the template, and a constant DC background level. 
 %Note that given the high-pass filter, we expect (and find) the DC term to be effectively zero. 
 We include the DC term while fitting the template amplitude, however, we do not subtract DC level. 
-Only the template is subtracted from the small-scale lensing map.
+Only the template is subtracted from the lensing map.
 
 
 
@@ -98,7 +99,7 @@ With template fitting included, the Fourier transforms of the two maps used by t
 G_{\ell} &=& i\ell W^{G}_{\ell} T^{\rm SZ-free}_{\ell}\\
 L_{\ell} &=& W^{L}_{\ell} \left(T_{\ell} - T_\ell^{\rm SZ-template}\right)
 \end{eqnarray}
-where, $G_{\ell}$ is the large-scale gradient map and $L_{\ell}$ is the small-scale map. 
+where, $G_{\ell}$ is the large-scale gradient map and $L_{\ell}$ is the lensing map. 
 $W^{G}_{l}$ and $W^{L}_{l} $ are the Wiener filters to maximize the lensing signal \cite{hu07}. 
 The mm-wave map is $T_{\ell}$ while the constructed SZ-free map is $T^{\rm SZ-free}_{\ell}$. 
 Compared to the modified QE \citep{madhavacheril18,raghunathan18}, the new element is the $T_\ell^{\rm SZ-template}$ term representing the SZ template fit. 
@@ -121,11 +122,11 @@ Compared to the modified QE \citep{madhavacheril18,raghunathan18}, the new eleme
  \label{fig:variance}
 \end{figure}
 
-Template fitting is intended to reduce the SZ variance, however it will do nothing for other sources of uncertainty such as instrumental noise, CMB sample variance and foreground emission (if not cleaned). 
+Template fitting is intended to reduce the SZ variance, however it will not suppress other sources of uncertainty such as instrumental noise, CMB sample variance and foreground emission. 
 Thus it will be useful to look at the relative magnitudes of these two terms, the SZ variance ($\sigma_{SZ}^{2}$) and the non-SZ variance ($\sigma_{\kappa}^{2}$), when interpreting the performance of template fitting in the next section. 
 
 
-The non-SZ variance depends on the survey parameters (i.e.~instrumental noise, and the degree to which foregrounds are cleaned) but is independent of the cluster properties. 
+The non-SZ variance or kappa variance depends on the survey parameters (i.e.~instrumental noise, and the degree to which foregrounds are cleaned) but is independent of the cluster properties. 
 We estimate the non-SZ variance, $\sigma_{\kappa}^{2}$, using simulations of the CMB plus instrumental noise. 
 Given the goal, we do not include the cluster's SZ emission.  
 We apply the lensing pipeline to the simulated skies to estimate the convergence maps. 
@@ -133,7 +134,7 @@ We fit the convergence map  to determine  a mass, and take the scatter in these 
 
 
 In contrast, the SZ variance should increase with cluster mass, $M$, roughly as $\sigma_{sz}^2 \propto M^{5/3}$, while being independent of the survey parameters. 
-We estimate the SZ variance using the same suite of simulations, however now adding the cluster's SZ emission to the small-scale lensing map. 
+We estimate the SZ variance using the same suite of simulations, however now adding the cluster's SZ emission to the lensing map. 
 We continue using an SZ-free map for other leg of the QE, the large-scale gradient map. 
 As before, we estimate the convergence maps, fit for masses and take the scatter in these inferred masses to estimate $\sigma_{SZ}^{2}$ + $\sigma_{\kappa}^{2}$.
 
@@ -162,7 +163,7 @@ We expect template fitting to significantly improve the mass uncertainties only 
  \caption{
  Projecting out an SZ template from the second leg o the modified QE improves the performance for all masses considered. 
  Here we show the percentage mass uncertainties from three methods for a sample of 1000 clusters at a experimental noise level of 3\,\ukarcmin{}.
- All the curves use an SZ-free map for the gradient, but make different assumptions about the second, high-pass filtered map. 
+ All the curves use an SZ-free map for the gradient, but make different assumptions about the second, lensing filtered map. 
 \label{fig:template_fitting}}
 \end{figure}
 
@@ -172,18 +173,18 @@ In this figure, we are assuming an SPT-3G like experiment with FWHM of 1$^\prime
 We compare four algorithms to estimate cluster masses. 
 In all cases we use a SZ-free gradient map (from a linear combination of 95 and 150\,GHz maps). 
 %The tSZ emission injected in the high-pass filtered 150\,GHz map is based on an Arnaud profile. 
-First, the red solid line shows the performance of the original modified QE without template fitting, where we have used SZ-free gradient map and 150GHz map with Arnaud SZ for the high pass filtered map. 
+First, the red solid line shows the performance of the original modified QE without template fitting, where we have used SZ-free gradient map and 150GHz map with Arnaud SZ for the lensing map. 
 %\sr{\sout{
-%The second, black solid line shows the results for an idealized case, where we again use an SZ-free gradient map but use a 150\,GHz map without SZ for the small-scale map. 
+%The second, black solid line shows the results for an idealized case, where we again use an SZ-free gradient map but use a 150\,GHz map without SZ for the lensing map. 
 %While the latter assumption is unphysical since there will be SZ emission at 150\,GHz, it is useful as a  representation of the performance limit for perfect SZ subtraction. }
-The second, black solid line shows the results for an idealized case, where we use a 150\,GHz map without SZ for the high-pass filtered map. 
+The second, black solid line shows the results for an idealized case, where we use a 150\,GHz map without SZ for the lensing map. 
 While this assumption is unphysical since there will be SZ emission at 150\,GHz, it is useful as a representation of the performance limit for perfect SZ subtraction. 
 Note that the relative performance improvement between the idealized and baseline case increases with mass as expected. 
 For these survey parameters, the idealized case has 17\% smaller uncertainties than the baseline for clusters of mass $1\times 10^{14}\,M_{\odot}$ and 50\% smaller for cluster masses of $5\times 10^{14}\,M_{\odot}$. 
 Template fitting recovers nearly all of this gain for high-mass clusters, as shown by the green triangles and blue squares (we have introduced an offset along mass axis for clarity). 
 The two lines reflect different templates for subtraction. 
 %\sr{\sout{The input simulated SZ signal is based on an Arnaud profile in both cases.}}
-The green triangle shows the performance of projecting out an Arnaud SZ template from the small-scale map. 
+The green triangle shows the performance of projecting out an Arnaud SZ template from the lensing map. 
 The blue square shows the results when using a Gaussian template instead, which is slightly mismatched to the assumed SZ signal. 
 There is no practical performance difference between the two templates. 
 For these assumed survey parameters, both templates are essentially indistinguishable from the idealized perfect SZ removal case at masses above $2\times 10^{14}\,M_{\odot}$. 
@@ -216,7 +217,7 @@ The first signs of this transition can be seen in Fig.~\ref{fig:template_fitting
 \includegraphics[width=\linewidth]{figs/miscentering_results.pdf}
  \caption{%Our new method is robust to realistic SZ simulations. 
 The red and black solid curves show the performance of modified QE for the Sehgal and Takahashi simulations respectively. 
-The dashed lines show the improvement in each case when template fitting is used to reduce the SZ variance in the small-scale map. 
+The dashed lines show the improvement in each case when template fitting is used to reduce the SZ variance in the lensing map. 
  \sr{ Change xlabel to $\mvir$}.
  }
 \label{fig:realistic_sims_pos}
@@ -245,7 +246,7 @@ As shown in the Fig. \ref{{fig:realistic_sims_pos}} template fitting approach wi
  \caption{
 Our new method is robust to realistic SZ simulations. 
 The red and black solid curves show the performance of modified QE for the Sehgal and Takahashi simulations respectively for a sample of 1000 clusters. 
-The dashed lines show the improvement in each case when template fitting is used to reduce the SZ variance in the small-scale map. 
+The dashed lines show the improvement in each case when template fitting is used to reduce the SZ variance in the lensing map. 
 The plotted uncertainties are for a stack of 1000 galaxy clusters of the quoted mass at $z=0.7$. 
  }
 \label{fig:realistic_sims}
@@ -328,19 +329,19 @@ CMB-S4 & 1.73 & 75,000 &1.92 & 1.33\\\hline
 \section{Discussion and Conclusion}
 \label{temp_fit_conclusions}
 
-We have presented an improved version of the quadratic estimator (QE) to estimate galaxy cluster masses through CMB lensing. 
-By projecting out an SZ template from the high-pass filtered leg of the QE, the algorithm substantially reduces the variance due to a cluster's own SZ emission. 
+We have presented an improved version of the QE to estimate galaxy cluster masses through CMB lensing. 
+By projecting out an SZ template from the lensing map of the QE, the algorithm substantially reduces the variance due to a cluster's own SZ emission. 
 The SZ variance can be significant fraction of the total variance for high-mass clusters or low-noise surveys. 
 Note that in the opposite limit of low masses or high noise (i.e. when the SZ variance is negligible), this template fitting may slightly reduce the overall S/N. 
 
 %\sr{Keeping this paragraph depends on the sigma for SZ sims...}.
 While the performance of the template fitting does depend on the fidelity with which the template accurately represents the true SZ signal, these variations do not seem to be a significant issue. 
-In part this is because upcoming CMB experiments will not have sufficient angular resolution to resolve most of the structure in the SZ emission; the instrumental beam at 150\,GHz for a 6\,m telescope is slightly larger than a typical high-redshift cluster. 
+In part this is because upcoming CMB experiments will not have sufficient angular resolution to resolve most of the structure in the SZ emission; the instrumental beam at 150\,GHz for a 6-meter telescope is slightly larger than a typical high-redshift cluster. 
 %\sr{Check what happens to fig4: \sout{We get similar results as far as the final mass uncertainties for two independent sets of SZ simulations} %\citep{sehgal10, takahashi17}}. 
 For mock SZ signals modeled using Arnaud profile, we find that the template removal approach reduces all of the additional variance due to the SZ signal. 
 The improvement is not 100\% for realistic SZ signals \citep{sehgal10, takahashi17} because of the SZ emission from the adjacent haloes along the line-of-sight that we do not attempt to remove. 
 
-The method presented in this work is not limited to the small-scale lensing. 
+The method presented in this work is not limited to the lensing lensing. 
 For example, \citet{madhavacheril18} demonstrated that the modified QE can also be employed to CMB lensing in general. 
 However, as shown here the thermal SZ signal from clusters detected at high \snr{} adds extra variance in the reconstructed lensing maps. 
 By using template fitting approach we reduced the variance significantly. 
@@ -395,7 +396,7 @@ We fit the convergence map  to determine  a mass, and take the scatter in these 
 \tbd{think I've made this inaccurate. need to fix/explain better}
 
 In contrast, the SZ variance should increase with cluster mass, $M$, roughly as $\sigma_{sz}^2 \propto M^{5/3}$, while being independent of the survey parameters. 
-We estimate the SZ variance using the same suite as simulations, however now adding the cluster's SZ emission to the small-scale lensing map. 
+We estimate the SZ variance using the same suite as simulations, however now adding the cluster's SZ emission to the lensing lensing map. 
 We continue using an SZ-free map for other leg of the QE, the large-scale gradient map. 
 As before, we estimate the convergence maps, fit for masses and take the scatter in these inferred masses to estimate $\sigma_{SZ}^{2}$ + $\sigma_{\kappa}^{2}$.
 
@@ -424,7 +425,7 @@ We compare four algorithms to estimate cluster masses.
 First, the red solid line shows the performance of the original modified QE without template fitting. 
 This uses  an SZ-free gradient map 
 (from a linear combination of 95 and 150\,GHz maps) and use a 150\,GHz map with SZ emission for the two legs of the QE. 
-The second, black dotted line shows the results for an idealized case, where we again use an SZ-free gradient map but use a 150\,GHz map without SZ for the small-scale map. 
+The second, black dotted line shows the results for an idealized case, where we again use an SZ-free gradient map but use a 150\,GHz map without SZ for the lensing map. 
 Obviously the latter assumption is unphysical since there will be SZ emission at 150\,GHz, but it shows the limit for how well perfect SZ subtraction might perform. 
 Note that the relative performance improvement between the idealized and baseline cases increases with mass as expected. 
 For these survey parameters, the idealized case has 17\% smaller uncertainties than the baseline for clusters of mass $1\times 10^14\,M_{\odot}$ and 50\% smaller for cluster masses of $5\times 10^14\,M_{\odot}$. 
@@ -439,7 +440,7 @@ modified QE uncertainties
 for the gradient map and using 
 
 
-no SZ in the small-scale map of the QE. 
+no SZ in the lensing map of the QE. 
 (2) using an SZ-free map only for the gradient leg of the QE, i.e. the modified QE, 
  and (3) improved version of the modified QE presented in this work, with an SZ-free map used for the gradient leg of the QE and projecting an SZ template out of the  HPF leg.
  
@@ -473,7 +474,7 @@ At low cluster masses, experimental noise level dominates over SZ noise.
  \caption{
  Projecting out an SZ template from the second leg o the modified QE improves the performance for all masses considered. 
  Here we show the percentage mass uncertainties from three methods for a sample of 1000 clusters at a experimental noise level of 3\,\ukarcmin{}.
- All the curves use an SZ-free map for the gradient, but make different assumptions about the second, high-pass filtered map. 
+ All the curves use an SZ-free map for the gradient, but make different assumptions about the second, lensing map. 
  %In the ideal case (red), the HPF map assumes 150\,GHz map noise levels with zero SZ signal -- a physically unrealistic option that is included to show the lower bound to how well a method to deal with the SZ signal might perform. 
  %At the other extreme, the green curve shows the results when a raw 150\,GHz map is used for the HPF leg, i.e.~it includes the full effects of SZ variance and sets the upper bound on the performance of methods to remove the SZ variance. 
  %The uncertainties for the simple template fitting method are shown by the black line. 
@@ -499,7 +500,7 @@ The red and black curves in the figure are the results of modified QE for Sehgal
  \caption{
 Our new method is robust to realistic SZ simulations. 
 The red and black solid curves show the performance of modified QE for the Sehgal and Takahashi simulations respectively. 
-The dashed lines show the improvement in each case when template fitting is used to reduce the SZ variance in the small-scale map. 
+The dashed lines show the improvement in each case when template fitting is used to reduce the SZ variance in the lensing map. 
  \sr{ Change xlabel to $\mvir$}.
  }
 \label{fig:realistic_sims}
@@ -518,7 +519,7 @@ This bias can be removed by combining different frequency channels to remove CMB
  \caption{
 Our new method is robust to realistic SZ simulations. 
 The red and black solid curves show the performance of modified QE for the Sehgal and Takahashi simulations respectively. 
-The dashed lines show the improvement in each case when template fitting is used to reduce the SZ variance in the small-scale map. 
+The dashed lines show the improvement in each case when template fitting is used to reduce the SZ variance in the lensing map. 
  \sr{ Change xlabel to $\mvir$}.
  }
 \label{fig:realistic_sims}
@@ -553,9 +554,9 @@ The results are given in Table \ref{table_forecast_setup}.
 \label{sec_mQE}
 
 
-Gravitational lensing by a compact object like a galaxy cluster creates a small-scale dipole pattern in the direction of the large-scale CMB temperature gradient. 
+Gravitational lensing by a compact object like a galaxy cluster creates a lensing dipole pattern in the direction of the large-scale CMB temperature gradient. 
 The QE \citep{hu02a} is based on extracting the correlation between dipole and the background gradient to estimate the lensing convergence $\hat{\kappa}_{\bL}$. 
-Specifically, the lensing convergence can be estimated from a weighted product of filtered versions of a gradient map $G(\hat{n})$ and  small-scale lensing map $L(\hat{n})$: 
+Specifically, the lensing convergence can be estimated from a weighted product of filtered versions of a gradient map $G(\hat{n})$ and  lensing lensing map $L(\hat{n})$: 
 \begin{equation}
 \hat{\kappa}_{\bL} = -A_{\ell} \int d^{2}\bnhat\ e^{-i\bnhat\cdot\bL}\ {\rm Re} \left\{ \nabla \cdot \left[ G(\bnhat) L^{*}(\bnhat)\right]\right\}.
 \label{eq_QE_kappa}
@@ -563,7 +564,7 @@ Specifically, the lensing convergence can be estimated from a weighted product o
 Here, $\bnhat$ is the pointing unit vector, $\bL$ is angular multipole, and $A_{l}$ is a normalization factor. 
 
 
-While designed to pull out the lensing-induced correlations between large-scale and small-scale CMB anisotropy, the QE is also sensitive to  correlations due to foreground emission.
+While designed to pull out the lensing-induced correlations between large-scale and lensing CMB anisotropy, the QE is also sensitive to  correlations due to foreground emission.
 Of particular concern is  the cluster's own SZ emission, which is typically an order of magnitude larger than lensing signal. 
 As shown by \citet{hu07}, the magnitude of the SZ bias can be lowered by decreasing the characteristic scale of the low pass filter on the gradient map. 
 However, a stronger low-pass filter obviously reduces the number of modes used to measure the gradient, and thus decreases the signal-to-noise. 
@@ -585,20 +586,20 @@ The SZ variance will also be more important in low-noise surveys, i.e.~when it i
  The correlation between the background gradient and lensing dipole is known as gradient approximation.    
 The QE \citep{hu02a} exploits the gradient approximation to estimate the lensing convergence profile $\hat{\kappa}$. 
  Gradient approximation doesn't hold for all Fourier modes, in fact it holds good for only those Fourier modes which are correlated by reconstruction. 
- Specifically, the lensing convergence can be estimated from a weighted product of filtered versions of a gradient map $G(\hat{n})$ and  small-scale lensing map $L(\hat{n})$: 
+ Specifically, the lensing convergence can be estimated from a weighted product of filtered versions of a gradient map $G(\hat{n})$ and  lensing lensing map $L(\hat{n})$: 
 \begin{equation}
 \hat{\kappa}_{\bL} =-A_{\ell}\int d^{2}\bnhat\ e^{-i\bnhat\cdot\bL}\ {\rm Re} \left\{ \nabla \cdot \left[ G(\bnhat) L^{*}(\bnhat)\right]\right\}.
 \label{eq_QE_kappa}
 \end{equation} 
 Here, $\bnhat$ is the pointing unit vector, $\bL$ is angular multipole, and $A_{l}$ is a normalization factor. 
 
-While designed to pull out the lensing-induced correlations between large-scale and small-scale CMB anisotropy, the QE is also sensitive to  correlations due to foreground emission.
+While designed to pull out the lensing-induced correlations between large-scale and lensing CMB anisotropy, the QE is also sensitive to  correlations due to foreground emission.
 Of particular concern is  the cluster's own SZ emission, which is typically an order of magnitude larger than lensing signal. 
 Two ways have been discussed in literature to eliminate/reduce the SZ bias.
 One way is to exploit the multiple frequency dependence of SZ signal and use linear combination of different frequencies to remove SZ.
 While this method completes eliminates SZ bias, it significantly increases the statistical uncertainty due to the higher noise level of the combined map.
 Another way is to lower the characteristic scale of the low pass filter on the gradient map as shown in  \citet{hu07}.
-Lowering the gradient cut results in separation of the modes present in gradient and small scale dipole map; hence reducing the unwanted correlation. 
+Lowering the gradient cut results in separation of the modes present in gradient and lensing dipole map; hence reducing the unwanted correlation. 
 However, a stronger low-pass filter obviously reduces the number of modes used to measure the gradient, and thus decreases the signal-to-noise. 
 
 On the other hand, the modified QE instead eliminates this bias without increasing the variance significantly by using an SZ-cleaned map for the large-scale gradient map. 
@@ -607,16 +608,16 @@ Note that while multiple foregrounds can be removed in principle, in practice th
 This is simply because the SZ signal introduces the largest bias.  
 With the SZ signal present in only one of the two maps, there is no SZ-induced correlation between the two maps and no net bias on the reconstruction of the lensing convergence. 
 
-However the SZ emission in the small scale lensing map does add noise to the lensing reconstruction. 
+However the SZ emission in the lensing map does add noise to the lensing reconstruction. 
 Since under self-similarity of the SZ flux, $y$, is expected to scale with cluster mass $M$ as $y\propto M^{5/3}$ while the lensing signal is linear in mass, the additional SZ variance will generally be more important for high-mass clusters. 
 The SZ variance will also be more important in low-noise surveys, i.e.~when it is larger than the instrumental noise in the convergence map.%the nominal variance of convergence map set by the instrumental noise level of the experiment. 
 
 \subsection{Template fitting to reduce the SZ variance}
 \label{sec_sz_template_fitting}
 
-As mentioned earlier, an obvious way to eliminate this SZ variance is by using SZ-free maps for both the small-scale and gradient maps. 
-Of course this would undo the advantages of the modified QE for the instrumental noise in the small scale map. 
-One can also reduce this extra variance by projecting out a model template for the SZ signal, and thereby reducing the total amount of SZ power in the small-scale map. 
+As mentioned earlier, an obvious way to eliminate this SZ variance is by using SZ-free maps for both the lensing and gradient maps. 
+Of course this would undo the advantages of the modified QE for the instrumental noise in the lensing map. 
+One can also reduce this extra variance by projecting out a model template for the SZ signal, and thereby reducing the total amount of SZ power in the lensing map. 
 
 Template fitting has been considered previously in the context of the original QE \citep{tbd?}. 
 However, in that setting, residual SZ signals would bias the lensing masses. 
@@ -640,11 +641,11 @@ We fit a radially symmetric Gaussian profile to the lensing dipole signal as sho
 \end{figure}
 
 If the position is freed, the template can shift to pick up the negative lobe of the lensing dipole signal resulting in a low bias. 
-Given the impossibility in creating a `perfect' SZ template, the template fitting will not completely eliminate the SZ signal in the small-scale map. 
-However, template fitting can significantly reduce the SZ power in the small-scale map, and thus reduce the SZ noise penalty on the lensing mass reconstruction. 
+Given the impossibility in creating a `perfect' SZ template, the template fitting will not completely eliminate the SZ signal in the lensing map. 
+However, template fitting can significantly reduce the SZ power in the lensing map, and thus reduce the SZ noise penalty on the lensing mass reconstruction. 
 
 In this work, we take the tact of fitting a radially symmetric template at the fixed cluster location. 
-Unless otherwise noted, we assume the beam to be a Gaussian with FWHM = 1\arcmin{} at 150 GHz and 1\arcmin.7 at 90\,GHz. 
+Unless otherwise noted, we assume the beam to be a Gaussian with FWHM = 1\arcmin{} at 150 GHz and 1\arcmin.7 at 95\,GHz. 
 As this beam size is significant compared to the actual size of clusters at $z>0.3$, clusters are approaching the effective point source limit where the specific details of their shape would not matter. 
 Thus we choose to use a simple Gaussian template as the baseline template in this work. 
 We also compare the results to template fitting with more physically motivated Arnaud profile \citep{arnaud10}, convolved by the experimental Gaussian beam.  
@@ -652,20 +653,20 @@ The residuals of removing a 2\arcmin.0 FWHM Gaussian from an Arnaud profile conv
 As argued above, the Gaussian significantly reduces the SZ signal despite the mismatch between the assumed profile and input SZ model. 
 While there should be small variations in the typical size of the cluster's SZ emission with mass and redshift, we neglect these variations and fix the size of the templates based on the expected median mass and redshift of the sample.
 
-Since the template will be applied to that small-scale map that has been high pass filtered at $\ell > 2000$, we apply a matching high pass filter to the map used for fitting and the SZ model template. 
+Since the template will be applied to that lensing map that has been high pass filtered at $\ell > 2000$, we apply a matching high pass filter to the map used for fitting and the SZ model template. 
 This high-pass filter step is done in cutouts of $100\arcmin \times 100\arcmin$; we then pull out a central $10\arcmin \times 10\arcmin$ cutout at the cluster location for fitting the template. 
 Since both the SZ emission and lensing signal extraction is concentrated within a few arcminutes of the cluster center, there is little reason to fit over a larger area. 
 We allow for two free parameters in the fitting: the overall amplitude of the template, and a constant DC offset. 
 Note that given the high-pass filter, we expect (and find) the DC term to be effectively zero. 
 In any case, while we fit for a DC term when normalizing the template, we do not then remove the DC term. 
-Only the template is subtracted from the small-scale map.
+Only the template is subtracted from the lensing map.
 
 With template fitting included, the Fourier transforms of the two maps used by the quadratic estimator can be written down as:
 \begin{eqnarray}
 G_{\ell} &=& i\ell W^{G}_{\ell} T^{\rm SZ-free}_{\ell}\\
 L_{\ell} &=& W^{L}_{\ell} \left(T_{\ell} - T_\ell^{\rm SZ-template}\right)
 \end{eqnarray}
-where, $G_{\ell}$ is the large-scale gradient map and $L_{\ell}$ is the small-scale map. 
+where, $G_{\ell}$ is the large-scale gradient map and $L_{\ell}$ is the lensing map. 
 $W^{G}_{l}$ and $W^{L}_{l} $ are the Wiener filters to maximize the lensing signal \cite{hu06}. 
 The mm-wave map is $T_{\ell}$ while the constructed SZ-free map is $T^{\rm SZ-free}_{\ell}$. 
 Compared to the modified QE \citep{madhavacheril15,raghunathan18}, the new element is the $T_\ell^{\rm SZ-template}$ term representing the SZ template fit. 
@@ -673,7 +674,7 @@ Compared to the modified QE \citep{madhavacheril15,raghunathan18}, the new eleme
 \begin{figure}
 \includegraphics[width=\linewidth]{figs/template_fitting.pdf}
  \caption{Template fitting significantly reduces SZ power, even with an imperfect match between the template and true SZ signal. 
-The top left panel (a) shows the expected Arnaud profile for a galaxy cluster of mass $\mvir = 5 \munits$ at z=0.7 after being smoothed by Gaussian beam with FWHM= 1\arcmin.7.
+The top left panel (a) shows the expected Arnaud profile for a galaxy cluster of mass zzjksfsjk$\mvir = 5 \times \: 10^{14}M_{\odot}$ at z=0.7 after being smoothed by Gaussian beam with FWHM= 1\arcmin.7.
 The top right panel (b) shows the residuals after subtracting the best-fit 2\arcmin.0 FWHM Gaussian (the amplitude is free, but the FWHM is fixed). 
 The lower panel (c) shows one-dimensional slices through each panel: the solid, blue line is a slice through the beam-convolved Arnaud profile of (a), and the dashed green line is a slice through the residual map in (b). 
  } 

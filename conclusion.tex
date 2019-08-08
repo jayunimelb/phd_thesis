@@ -37,7 +37,7 @@ By using tSZ free gradient map we eliminated the tSZ induced systematic bias wit
  In addition to that we also constrained the normalisation parameter of optical richness-mass scaling relation at 17\% level. 
  The constraint is in good agreement with the corresponding optical weak lensing analysis.
  
- While mQE eliminates the tSZ systematic uncertainty, the tSZ power present in the second leg of mQE induces extra variance in the lensing analysis. 
+ While mQE eliminates the tSZ systematic uncertainty, the tSZ power present in the small scale lensing map of mQE induces extra variance in the lensing analysis. 
  Unlike experimental noise and other uncorrelated foregrounds, tSZ induced variance is a function of mass. 
 The tSZ induced statistical uncertainty scales with mass as $\approx M^{5/3}$. 
  Although at current experimental noise levels the SZ induced statistical uncertainty is not significant, it will be a major source of contamination for future low noise surveys as shown in Fig. ~\ref{fig:variance}. We showed in ~\ref{fig:template_fitting} that by subtracting out a SZ template from the lensing map of mQE we can significantly reduce its variance. In addition to eliminating the tSZ induced bias our template fitting approach also significantly reduces the tSZ induced variance. 
@@ -104,8 +104,13 @@ However, a lot of work remains to be done in the near future to achieve sub-perc
 The MLE performs better by a factor of two than QE for future low noise surveys (Fig. \ref{fig_performance}). 
 %While modifications to the QE are robust to tSZ contamination, we need to work on the MLE  % however, as we showed in chapters \ref{ch:mqe} and \ref{ch:template} QE can be modified to make it robust to CMB cluster lensing. 
 One of the ways to make it robust to the tSZ systematic uncertainty in the MLE is by marginalising over the tSZ model parameters. 
-While this approach is expected to remove the tSZ systematic, it will slightly affect the SNR and also increases the computational complexity. %by multiple folds. 
+While this approach is expected to remove the tSZ systematic, it will slightly affect the SNR and also increases the computational complexity. 
+In future we need to work on modifying MLE to make it robust to tSZ systematic and statistical uncertainty. %by multiple folds. 
 %More work needs to be done in this regard. 
+
+The uncertainty in the cluster mass profile can bias the mass estimate by a few percent. 
+A few percent systematic bias is well within the statistical uncertainty at the current experimental noise level, however, it will become comparable in the near future. 
+In order to reduce the bias due to cluster profile we need better cluster p
 
 %To quantify the presence of undetectable halos we used N-body simu%the temperature and polarisation estimator at 2.5\% and 6.3\% level respectively. 
 We 

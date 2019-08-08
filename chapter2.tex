@@ -8,52 +8,54 @@ This chapter is organised as follows. In \S\ref{cmb_overview}, I provide a brief
 \section{CMB lensing overview}
 \label{cmb_overview}
 %Cosmic Microwave Background (CMB) photons are deflected while passing through the galaxy cluster due to the cluster's gravitational potential.
-While passing through the intervening galaxy cluster, Cosmic Microwave Background (CMB) photons are deflected due to the cluster's gravitational potential. 
-The resulting distortion in the path of CMB photons is called CMB-cluster lensing. 
-The distortion pattern can be understood with our prior knowledge of CMB.
+While passing through the intervening galaxy cluster, cosmic microwave background (CMB) photons are deflected due to the cluster's gravitational potential. 
+The resulting distortion in the path of the CMB photons is called CMB-cluster lensing. 
+The distortion pattern can be understood given what we know about the CMB and the cluster.
 %It is of the order of few arcminutes for a galaxy cluster of mass $M_{500c} = 10^{15} M_{\odot}$ at redshift of $z = 1$.
-Typically the angular size of galaxy cluster is of the order of a few arcminutes (for clusters above $z$>0.3). On these scales, CMB has no power due to diffusion damping \citep{silk68} and can be approximated as a gradient. 
-Gravitational lensing by a galaxy cluster induces a dipole kind of structure on top of the background gradient with hot and clod spots swapped. 
+Typically the angular size of galaxy cluster is of the order of a few arcminutes (at $z$>0.3). 
+On these scales, CMB power is heavily suppressed due to diffusion damping \citep{silk68}.
+Thus the unlensed CMB can be approximated as a gradient. 
+Gravitational lensing by a galaxy cluster induces a dipole structure on top of the background gradient with hot and clod spots swapped. 
 %The strength of the gravitational lensing signal (lensing dipole) is directly proportional to the background gradient and the cluster mass. 
-As CMB is polarised at 10\% level, lensing signal in polarisation is also an order of magnitude smaller than that of temperature. 
+As CMB is only polarised at the 10\% level, the lensing signal in polarisation is an order of magnitude smaller than that in temperature. 
 
 
-Fig ~\ref{fig:lensing_signal} shows the lensing signal for a cluster of mass $5 \times 10^{14}$ $M_{\odot}$ and at redshift of $z$ = 0.7.
-In  the left panels of Fig ~\ref{fig:lensing_signal}, we have the background CMB gradient for the temperature and polarisation stokes Q/U parameters, in the middle panel we have the corresponding lensed maps and in the right panel we have the lensing dipole signatures.
+Fig ~\ref{fig:lensing_signal} shows the lensing signal for a cluster of mass $5 \times 10^{14}$ $M_{\odot}$ at redshift of $z$ = 0.7.
+In  the left panels of Fig ~\ref{fig:lensing_signal}, we have the background CMB gradient for the temperature and polarisation Stokes Q/U parameters, in the middle panel we have the corresponding lensed maps and in the right panel we have difference map which clearly shows the lensing dipole signatures.
 \begin{figure}[ht]
 \begin{center}
 \includegraphics[width=\linewidth, keepaspectratio]{figs/lensing_signal.pdf}
- \caption{Lensing effect on CMB due to a galaxy cluster of mass $5\times 10^{14} M_{\odot}$ .
-  On the top panel we show the effect of cluster lensing on CMB temperature field.
-  Bottom two panels are for the stokes Q and U parameters.
-  The lensing signal for temperature is few $\mu$K and an order of magnitude smaller in polarisation.
-  Note that in the above simulation we haven't used either experimental noise or foregrounds. 
+ \caption{An illustration of the lensing effect on CMB due to a galaxy cluster of mass $5\times 10^{14} M_{\odot}$ .
+  The top panel shows the effect of cluster lensing on CMB temperature field.
+  The bottom two panels are for the Stokes Q and U parameters.
+  The amplitude of the lensing signal for temperature is a few $\mu$K and an order of magnitude smaller in polarisation.
+  Note that these images have neither experimental noise nor foregrounds
  } 
 \label{fig:lensing_signal}
 \end{center}
 \end{figure}
 
-The deflection induced due to lensing is nothing but remapping of the unlensed CMB temperature and polarisation fields based on the gravitational deflection angle. Mathematically lensing is expressed by the following equations
+Gravitational lensing remaps the unlensed CMB temperature and polarisation fields by the gravitational deflection angle. Mathematically lensing can be expressed by the following equations
 \begin{eqnarray}
 T(\hat{n}) = \widetilde{T}(\hat{n} + \vec{\alpha}(\hat{n}))\\
 Q(\hat{n}) = \widetilde{Q}(\hat{n} + \vec{\alpha}(\hat{n}))\\
 U(\hat{n}) =  \widetilde{U}(\hat{n} + \vec{\alpha}(\hat{n}))
 \end{eqnarray}
-where $\widetilde{}$ represents unlensed fields, T represents the temperature field, Q and U are the stokes polarisation parameters respectively. 
+where $\widetilde{}$ represents unlensed fields, T represents the temperature field, and Q and U are the Stokes polarisation parameters respectively. 
 $\vec{\alpha}(\hat{n})$ is the deflection angle along the $\hat{n}$ direction. 
 \\
 
 \subsection*{Deflection angle:}
 \label{sec_def_field}
-Deflection field depends on the density profile of a galaxy cluster. Here we provide a detailed calculation of deflection field for spherically symmetric Navarro-Frenk-White (NFW) density profile \cite{navarro96}.  Lensing convergence is related to deflection field as %$\nabla \phi (\hat{n})$ and is directly proportional to the mass of the cluster.
+The lensing induced deflection angles depend on the density profile of a galaxy cluster. Here we provide a detailed calculation of the deflection angle for a spherically symmetric Navarro-Frenk-White (NFW) density profile \citep{navarro96}.  Lensing convergence, $k$, is related to the deflection angle, $\vec{\alpha}$ as %$\nabla \phi (\hat{n})$ and is directly proportional to the mass of the cluster.
 %Deflection angle depends on the cluster mass profile. Here we provide the detailed calculation for Navarro-Frenk-White (NFW) density profile \cite{navarro96}. NFW density profile can be characterised by two free parameters $M_{200}$ and concentration parameter $c$ as:
 \begin{equation}
- k = \frac{1}{2}\nabla. \vec{\alpha} %#= -\nabla^{2} \phi
+ k = \frac{1}{2}\nabla. \vec{\alpha}. %#= -\nabla^{2} \phi
 \label{eq_kappa}
  \end{equation}
- where $\alpha$ is the deflection angle, $k$ is the lensing convergence profile. % and $\phi$ is the lensing potential.
- For symmetrical density profiles, the lensing convergence is equal to the ratio of surface mass density over the critical surface density of the Universe at the cluster redshift, $k = \frac{\Sigma(x)}{\Sigma_{crit}}$.
-The surface mass density or also known as the projected mass density of the halo is obtained by integrating the halo density profile along the line of sight. 
+% and $\phi$ is the lensing potential.
+ For symmetric density profiles, the lensing convergence is equal to the ratio of surface mass density over the critical surface density of the Universe at the cluster redshift, $k = \frac{\Sigma(x)}{\Sigma_{crit}}$.
+The surface mass density or the projected mass density of the halo is obtained by integrating the halo density profile along the line of sight. 
  \begin{equation}
  \Sigma(x) = 2 \int^{\infty}_{0} \rho(r) ds
  \label{eq:surface_density}
@@ -65,7 +67,7 @@ The surface mass density or also known as the projected mass density of the halo
  \end{equation}
  where $D_{cmb}$ is the comoving distance to the epoch of recombination (z= 1100), $D_{clus}$ is the comoving distance to the cluster, and $D_{cmb,clus}$ is the comoving distance between the CMB and the cluster.
  
- Unless otherwise mentioned, we define all the cluster quantities in this chapter with respect to $R_{200}$, which is defined as the radius within which the mean cluster density is 200 times the critical surface density of the Universe at cluster redshift $\rho_{crit}(z)$. By definition $M_{200}$ is given by 
+ Unless otherwise mentioned, we define all the cluster quantities in this thesis with respect to $R_{200}$, which is defined as the radius within which the mean cluster density is 200 times the critical surface density of the Universe at cluster redshift $\rho_{crit}(z)$. By definition $M_{200}$ is given by 
  \begin{equation}
  M_{200} = \int^{R_{200}}_{0}  4\pi x^{2} \rho(x) dx,
  \end{equation}
@@ -82,7 +84,7 @@ The surface mass density or also known as the projected mass density of the halo
  \end{equation}
  where $\delta_{c}$ is the characteristic over-density, $R_{s}$ is the characteristic scale radius, and $c$ is the dimensionless concentration parameter.
  The dimensionless over-density is given by $\delta_{c} = \rho_{0}/\rho_{crit}(z)$, where $\rho_{0}$ is the cluster central density and  $\rho_{crit}(z)$  is the critical density of the universe at cluster redshift.
- Plugging the above equation in ~\ref{eq:surface_density}, we get the surface density for the NFW halo. 
+ Plugging the above equation in ~\ref{eq:surface_density}, we can get the surface density for the NFW halo. 
  By changing the variables of integration to $s=\sqrt{r^{2} - x^{2}}$ and $ds = \frac{rdr}{\sqrt{r^{2} - x^{2}}}$ we obtain:
  \begin{equation}
  \Sigma(x) = 2\delta_{c} \rho_{crit}(z) R^{3}_{s} \int^{\infty}_{x} \frac{1}{r(R_{s} + r)^{2}} \frac{rdr}{\sqrt{r^{2} - x^{2}}}
@@ -95,35 +97,35 @@ The surface mass density or also known as the projected mass density of the halo
 we have set $c = 3.0$ following \cite{bhattacharya13}.
  
  
- Eqn. ~\ref{eq:sr_den} can be solved analytically and the explicit closed-form expression for the NFW case is given by \cite{bartelmann96}. 
- With $\Sigma(x)$ and $\Sigma_{crit}$ in hand we can use Eq. ~\ref{eq_kappa} to get the lensing deflection angle as function of cluster mass and redshift. 
+ Eqn.\ref{eq:sr_den} can be solved analytically and the explicit closed-form expression for the NFW case is given by \cite{bartelmann96}. 
+ With $\Sigma(x)$ and $\Sigma_{crit}$ in hand we can use Eq. \ref{eq_kappa} to get the lensing deflection angle as function of cluster mass and redshift. 
  Unless otherwise mentioned we assume the galaxy clusters follow the NFW profile. However,  the mathematical framework described above can be applied to any halo density profile. 
 
 
 \section{Maximum Likelihood Estimator}
 \label{sec_MLE}
-We developed the maximum likelihood estimator to constrain the CMB cluster lensing signal.
+We developed a maximum likelihood estimator to constrain the CMB cluster lensing signal.
  %Gravitational lensing by a galaxy cluster remaps the unlensed CMB field. 
- The unlensed CMB can be assumed to be a Gaussian random field to a very good approximation  \citep{planck14d}.
+ The unlensed CMB is a Gaussian random field to a very good approximation  \citep{planck14d}.
  CMB-cluster cluster lensing remaps this Gaussian random field based on the deflection angle.
- The remapping can be modeled in the form of a covariance between the data pixels. 
+ The remapping leads to a non-zero covariance between different map pixels that had formerly been independent. %can be modeled in the form of a covariance between the data pixels. 
  First, we describe the likelihood estimation in \S~\ref{lkhd_est}, followed by covariance matrix calculation in \S~\ref{sec_covmat}.
 \subsection*{Likelihood Estimation}
 \label{lkhd_est}
-  The likelihood of observing a particular set of pixelized values `$d$' is given by 
+  The likelihood of observing a particular map, d, is given by
   %With the covariance matrix in hand we calculate the likelihood given the data as follows 
   
   \begin{equation}
   -2lnL(d|\Sigma_{lens}) = ln |\Sigma_{lens}| + d^{T} \Sigma^{-1}_{lens} d,
   \end{equation}
- where $\Sigma_{lens}$ is the covariance matrix which acts as a model, $d$ is the pixel values of the observed temperature or polarisation maps.
+ where $\Sigma_{lens}$ is the covariance matrix which acts as a model, $d$ is the map vector of pixel values for temperature or polarisation.
   %The likelihood function extracts all the lensing information unlike the QE.
   %The pixel values are defined as the variations from the mean CMB temperature (polarisation) (which is zero).
   
   %Since the majority of the lensing singal is within few arcminutes from the cluster center, we carry out the lensing analysis within \smallboxsize\ of the cluster center to simplify and speed up the analysis. 
   %We also checked that by increasing the boxsize to 14\am\ we gain an improvement in a SNR of less than 1\%, however, that the increases the computational complexities. 
-  Lensing signal of a single galaxy cluster is too weak to be detected. 
-  We stack many clusters to increase SNR (signal to noise ratio) to a reasonable level
+ The lensing signal of a single galaxy cluster is too weak to be detected. 
+  We stack many clusters to increase signal to noise ratio (SNR) to a reasonable level
   \begin{equation}
   -2ln L(d| \Sigma_{lens})_{tot} = \Sigma^{n}_{i =0} w_{i} [ln |\Sigma_{lens}| + d^{T}_{i} \Sigma^{-1}_{lens}  d]
   \end{equation}
@@ -139,8 +141,8 @@ We developed the maximum likelihood estimator to constrain the CMB cluster lensi
 \subsection{Covariance matrix calculation}
 \label{sec_covmat}
 
- We calculate the covariance matrix using a set of simulated skies \footnote{more details about simulations are provided in ~\ref{sec_appendix_simulated_skies}}. 
- To simulated the lensed CMB sky, we first generate the large-scale structure lensed CMB power spectra ($C^{TT}_{l}, C^{TE}_{l}, C^{EE}_{l},$ and $C^{BB}_{l}$) form CAMB for the $Planck$ cosmology \citep{planck15-13}.  
+ We calculate the covariance matrix using a set of simulated skies \footnote{more details about simulations are provided in Appendix \ref{sec_appendix_simulated_skies}}. 
+ To simulated the lensed CMB sky, we first generate the large-scale structure lensed CMB power spectra ($C^{TT}_{l}, C^{TE}_{l}, C^{EE}_{l},$ and $C^{BB}_{l}$) from CAMB for the $Planck$ cosmology \citep{planck15-13}.  
  We generate Gaussian random realisations of these power spectra on a \mediumboxsize\ box at 0.25\am\ resolution. 
 The generated E and B maps are converted to Q and U maps using:
  \begin{equation}
@@ -151,24 +153,24 @@ The generated E and B maps are converted to Q and U maps using:
  
 
  These Gaussian realizations are then lensed by the deflection field (which is obtained as explained in ~\ref{def_field}). 
- We take out the central \smallboxsize\ for covariance matrix calculation.\footnote{lensing maps are generated on \mediumboxsize\ to take into account the large scale gradient on which the lensing signal is linearly dependent}
+ We use the central \smallboxsize\ to calculate the covariance matrix.\footnote{The lensing maps are generated on \mediumboxsize\ to take into account the large scale gradient, however, the lensing signal is concentrated in the center.}
  The lensing signal is of the order of few arcminutes even for a massive cluster and most of the lensing signal is within a radial distance of  10\am\ from the cluster center.
-Increasing the boxsize to 14\am\ $\times$ 14\am\ increases the SNR by $\le$ 1\%, while increasing the computational complexity by multiple folds.
+Increasing the boxsize to 14\am\ $\times$ 14\am\ increases the SNR by $\le$ 1\%, while increasing the computational complexity several fold.
 
  
- With simulated lensed CMB maps in hand we calculate the covariance matrix as follows
+ With simulated lensed CMB maps in hand, we calculate the covariance matrix as follows
  \begin{eqnarray}
 \Sigma_{lens}(M,z) & = & \left<(\textrm{\textbf{G}} - \left<\textrm{\textbf{G}}\right>) (\textrm{\textbf{G}} - \left<\textrm{\textbf{G}}\right>)^{T}\right>\\
   =   \frac{1}{n-1}\sum\limits_{i = 0}^{n} (\textrm{\textbf{G}}_{i} - \left<\textrm{\textbf{G}}\right>) (\textrm{\textbf{G}}_{i} - \left<\textrm{\textbf{G}}\right>)^{T} %(\textrm{\textbf{G}}_{i} - \left<\textrm{\textbf{G}}\right\
 %s>)^{T},
 \label{eq_lensed_cmb_cov_mass_z}
 \end{eqnarray}
- where vector $G_{i}$ is either the polarisation or temperature simulated data for the $i^{th}$ sky realisation and $\langle \rangle$ represents the ensemble average. 
+ where the vector $G_{i}$ is either the polarisation or temperature simulated data for the $i^{th}$ sky realisation and $\langle \rangle$ represents the ensemble average. 
  The number of simulated skies depend on the number of degrees of freedom in the covariance matrix. 
  In our case, the maximum number of degrees of freedom is for the polarisation estimator (concatenated Q/U or E/B maps), for which the covariance matrix is an 800 $\times$ 800 matrix. %the covariance matrix is a 800 $\times$ 800 matrix. 
- Number of simulations scale as twice the number of elements in the covariance matrix. 
-  We found that 1,30,000 simulations are sufficient to recover cluster masses without any detectable bias. 
-  We then multiply Hartlap correction term $\frac{(n_{sims} -n_{d} -1)}{n_{sims}}$, where $n_{sims}$ is 1,30,000 and $n_{d}$ is the length of the data vector 400(800) for T(QU), to remove any possible bias in $\Sigma^{-1}_{lens}$ due to the limited number of simulations. 
+ The number of simulations should scale with the number of elements in the covariance matrix. 
+  We find that 1,30,000 simulations are sufficient to recover cluster masses without any detectable bias. 
+  We then multiply the covariance matrix with Hartlap correction term $\frac{(n_{sims} -n_{d} -1)}{n_{sims}}$, where $n_{sims}$ is 1,30,000 and $n_{d}$ is the length of the data vector 400(800) for T(QU), to remove any possible bias in $\Sigma^{-1}_{lens}$ due to the finite number of simulations \citep{hartlap06}. 
   
  We also use these simulated skies to quantify the effects of statistical and systematic uncertainties.
  There are several astrophysical sources which act as a systematic bias for the CMB-cluster lensing analysis. 
