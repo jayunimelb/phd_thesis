@@ -175,11 +175,6 @@ For precise cosmological applications, current estimates of the halo mass functi
 
 \section{Galaxy Clusters \& Cosmology}
 \subsection{Galaxy Clusters}
-\begin{figure}[ht]
-\includegraphics[width = \columnwidth]{figs/Abell_1689.jpg}
-\caption{Galaxy cluster Abell 1689. Credits: HST/Chandra X-ray observatory}
-\label{cluster}
-\end{figure}
 According to the standard model of cosmology, galaxy clusters are the largest and most recent gravitationally collapsed objects to form because structure grows hierarchically. 
 A galaxy cluster contains hundreds to thousands of galaxies that are bound together by gravity.
 These are very massive objects with typical masses ranging from $10^{14} - 10^{15} $ times the mass of Sun ($M_{\odot}$). %\footnote{Virial radius corresponds to the radius of a spherical region which is sufficiently over dense with respect to the background density that it will detach from the Hubble expansion and start collapsing to form a structure}.
@@ -187,6 +182,11 @@ The majority the mass is in the form of invisible dark matter (80-87\%), which g
 Around 12\% of the cluster mass is in the form of hot intracluster medium (ICM)- a sparse hot plasma that fills the cluster. 
 The temperature of the ICM is of order ten million Kelvin and thus the ICM predominantly emits X-rays. 
 The remaining 2\% of the cluster mass is in the form of stars, cold gas, and dust in galaxies.
+\begin{figure}[H]
+\includegraphics[width = \columnwidth]{figs/Abell_1689.jpg}
+\caption{Galaxy cluster Abell 1689. Galaxy cluster are multi wavelength objects- optical galaxies are in yellow colour and X-ray emission from the hot intra cluster medium appears in purple.  Credits: HST/Chandra X-ray observatory. }
+\label{cluster}
+\end{figure}
 
 Fig. ~\ref{cluster} shows the image of a galaxy cluster Abell 1689 which is in constellation Virgo. The X-ray emission due to hot ICM is shown as purple in the image; galaxies from the optical data are coloured yellow. The long arcs in the optical image is caused by distortion due to strong gravitational lensing. \\
 
@@ -200,7 +200,7 @@ More recently, the community has been interested in using galaxy clusters to pro
 Galaxy clusters are powerful probes of dark energy. The dark energy effects the evolution of universe in two different ways. 
 First, it accelerates the expansion of the universe and thus slowing down the structure formation. Second, it affects the volume of the survey. Cluster number counts is sensitive to both of these effects: the abundance and the correlation function of galaxy clusters depend on the volume surveyed and rate of structure growth. Fig. \ref{de_plot} shows the cluster number count as a function of redshift for various dark energy equation of state parameters, $w$, and for fixed dark energy density parameter, $\Omega_{E}$. For fixed dark energy density, $\Omega_{E}$, and less negative $w$ implies less acceleration and thus higher velocity in the past. 
 This results in few clusters at low redshift due to decreased volume surveyed and more clusters at high redshift due to decreased structure growth \citep{mohr03}.
-\begin{figure}[htb]
+\begin{figure}[H]
 \includegraphics[width = \columnwidth]{figs/cluster_de_plot.png}
 \caption{The cluster count redshift distribution for a simulated 4000 deg$^{2}$ survey. On the top panel three models with different dark energy equation of state parameters are shown and statistical differences are quantified in the bottom panel \citep{mohr03}. }
 \label{de_plot}
@@ -211,24 +211,24 @@ As seen in ~\S\ref{halo-theory}, halo/cluster abundance as a function of mass is
 Constraints obtained on $\Omega_{m}$, $\sigma_{8}$, and dark energy equation of state parameter, $w$, is shown in Fig ~\ref{clustercosmology}.
 As can be inferred from the plot, cluster constraints are complementary to that of CMB anisotropies. For the above constraints, only 241 clusters from ROSAT all sky survey were used \citep{mantz15}. Given that ongoing and future surveys will detect tens to hundreds of thousands of galaxy clusters, clusters will become indispensable probes of cosmology \citep{so18, bender18, lsst09,erosita12,cmbs4-sb1}. %While the clusters are powerful probes of cosmology, the key issued the fidelity of the mass tracer. 
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \includegraphics[width = \columnwidth]{figs/cosmology.png}
 \caption{On the left is flat $\Lambda$CDM model: constraints on $\Omega_{m}$ and $\sigma_{8}$ from clusters in purple, from CMB observations in blue ($Planck$) and grey ($Planck$ and WMAP). On the right we have flat $w$CDM: constraints on $w$ and $\Omega_{m}$ for various cosmological probes. Cluster (purple) provide the tightest single-probe constraints \citep{mantz15}.  }
 \label{clustercosmology}
 \end{figure}
 \subsection{Cluster cosmology is limited by mass estimation}
-\begin{figure}[ht]
-\includegraphics[width = \columnwidth]{figs/mass_cosmology.png}
-\caption{Effects of systematics in mass estimation on cluster cosmology.}
-\label{m_cosmo}
-\end{figure}
+
 While clusters are powerful probes of cosmology, the use of clusters for cosmology is currently limited by the fidelity of the mass estimation. Many ways to measure the cluster mass relate a cluster observable $'O'$ to the cluster mass through a parametric relation 
 \begin{equation}
 O = A M^{B} f(z)^{C} +D
 \label{obs-mass}
 \end{equation} 
 where A is the normalisation parameter, D is the intrinsic scatter, B and C are the mass and redshift evolution parameters respectively. The trouble is that these depend on complicated baryonic physics which is not well understood and any error in the estimated mass will affect the inferred constraints from cluster cosmology. 
-
+\begin{figure}[H]
+\includegraphics[width = \columnwidth]{figs/mass_cosmology.png}
+\caption{Effects of systematics in mass estimation on cluster cosmology. Constraints on matter fluctuation amplitude parameter ($\sigma_{8}$) and matter density parameter ($\Omega_{m}$) from CMB data is shown in black contour. The coloured counters (orange, green, and blue) are the constraints obtained using cluster counts for three different mass observable scaling relation. }
+\label{m_cosmo}
+\end{figure}
 Fig. ~\ref{m_cosmo} shows the systematic effects of cluster mass estimation on cosmological parameters $\Omega_{m}$ and $\sigma_{8}$. The black contour represents the cosmological constraints obtained using CMB.
 The green, blue, and orange contours represent constraints due to cluster number count for three different mass-observable scaling relations.
 While cluster number counts provide complementary constraints to that of CMB, however, any systematic in mass estimation will eventually lead to uncertainties in cosmological parameters \citep{hasselfield13}. 
