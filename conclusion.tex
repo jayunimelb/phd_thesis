@@ -1,9 +1,9 @@
 \chapter{Discussions \& Future Work}
 The number density of galaxy clusters as a function of mass and redshift is highly sensitive to the underlying cosmology. However, cluster cosmology is currently limited by uncertainty in the cluster mass estimation. The upcoming optical, X-ray, and SZ surveys are expected to detect tens or even hundreds of thousands of galaxy clusters \citep{lsst09, cmbs4-sb1,erosita12,euclid10}. A robust cluster mass estimation is essential in order to fully realise the potential of these cluster catalogs.  CMB-cluster lensing offers one of the robust ways to accurately measure the masses of galaxy clusters, especially for clusters at high redshift ($z  > 1$). 
 
-The main projects I worked during my thesis have been discussed in chapters (~\ref{ch:MLE},~\ref{ch:mqe}, and, ~\ref{ch:template}). 
-In this chapter, I summarise the main findings of my thesis in \S~\ref{sum}. 
- In section \S\ref{pol_detection}, \S\ref{inpaint}, and \S\ref{sz_mass} I briefly discuss other CMB-cluster lensing projects which I was involved in. 
+The main projects I worked during my thesis have been discussed in chapters (\ref{ch:MLE},\ref{ch:mqe}, and, \ref{ch:template}). 
+In this chapter, I summarise the main findings of my thesis in \S\ref{sum}. 
+ In \S\ref{pol_detection}, and \S\ref{inpaint} I briefly discuss other CMB-cluster lensing projects I was actively involved in and provide the status of my current project in \S\ref{sz_mass}.
  % my PhD, I was also involved other CMB-cluster lensing projects; I will briefly discuss these projects in \S\ref{pol_detection} and \S\ref{inpainting}.
 Finally, I will consider directions for future work in \S\ref{concluding_remarks}.
 % projects that I have been a part of. 
@@ -13,12 +13,12 @@ Finally, I will consider directions for future work in \S\ref{concluding_remarks
 %Cluster abundance as a function of mass and redshift is sensitive to the underlying cosmology. However, cluster cosmology is currently limited by uncertainty in the cluster mass estimation. CMB-cluster lensing offers one of the robust ways to accurately measure masses of galaxy clusters, especially for clusters at high redshift ($z  > 1$).
 %We have developed three main methods to extract cluster lensing signal from CMB data: the MLE, the mQE and the template fitting approach. 
 
-In chapter ~\ref{ch:MLE}, we developed the Maximum Likelihood Estimator (MLE) approach, an optimal way to extract cluster lensing information from the temperature and the polarisation maps of the CMB.	  
+In chapter \ref{ch:MLE}, we developed the Maximum Likelihood Estimator (MLE) approach, an optimal way to extract cluster lensing information from the temperature and polarisation maps of the CMB.	  
 We found that MLE outperforms the Quadratic Estimator (QE) by a factor of 2 for future low noise surveys in the absence of astrophysical foregrounds. 
 The polarsiation EB and QU estimators perform identically. 
 While astrophysical foregrounds affect the temperature MLE and set an effective noise of few $\mu$K, the polarisation estimator is negligibly affected as foregrounds are only partially polarised.
 %However, we can exploit the frequency dependence of foregrounds to  
-We also quantified serval sources of systematics that affect the CMB cluster lensing in Table. ~\ref{tab_sys_bias}.
+We also quantified serval sources of systematics that affect the CMB cluster lensing in Table. \ref{tab_sys_bias}.
 Cluster's own SZ signals, the tSZ and the kSZ induce significant statistical and systematic uncertainties on the temperature MLE. 
 The tSZ signal is an order of magnitude greater than lensing signal. 
 We can fit a model to the tSZ signal, however, even a percent level misestimation of the tSZ model will result in 6\% bias.
@@ -26,13 +26,13 @@ Another way to tackle tSZ bias is to exploit the spectral dependence of tSZ sign
 While a prefect knowledge of relative frequency calibration will eliminate tSZ bias, but it degrades the SNR by a factor of three \citep{baxter15}.
  In chapters \ref{ch:mqe} and \ref{ch:template} we modify QE to eliminate tSZ systematic uncertainty and significantly reduce the tSZ statistical variance respectively.
    
-We modified the quadratic estimator (mQE) in chapter ~\ref{ch:mqe} to eliminate tSZ bias with negligible decrease in SNR. 
+We modified the quadratic estimator (mQE) in chapter \ref{ch:mqe} to eliminate tSZ bias with negligible decrease in SNR. 
 The QE exploits the correlation between the gradient map and the lensing map to extract cluster lensing signal.
 Any foreground present in both the maps will result in undesired correlation inducing a bias. 
 %tSZ present in both the maps induces undesired correlation  
 By using tSZ free gradient map we eliminated the tSZ induced systematic bias with only a slight decrease of SNR. 
 %Though QE is a first order approximation of MLE, it is indeed a very good approximation as the CMB doesn't have power at small angular scales \citep{silk68}.
-%As shown in Fig.~\ref{fig_performance} performance of QE and MLE are comparable at current experimental noise level. 
+%As shown in Fig.\ref{fig_performance} performance of QE and MLE are comparable at current experimental noise level. 
  We used the mQE to constrain the mass of DES year-3  clusters using SPTpol CMB temperature maps. 
  In addition to that we also constrained the normalisation parameter of optical richness-mass scaling relation at 17\% level. 
  The constraint is in good agreement with the corresponding optical weak lensing analysis.
@@ -40,15 +40,15 @@ By using tSZ free gradient map we eliminated the tSZ induced systematic bias wit
  While mQE eliminates the tSZ systematic uncertainty, the tSZ power present in the small scale lensing map of mQE induces extra variance in the lensing analysis. 
  Unlike experimental noise and other uncorrelated foregrounds, tSZ induced variance is a function of mass. 
 The tSZ induced statistical uncertainty scales with mass as $\approx M^{5/3}$. 
- Although at current experimental noise levels the SZ induced statistical uncertainty is not significant, it will be a major source of contamination for future low noise surveys as shown in Fig. ~\ref{fig:variance}. We showed in ~\ref{fig:template_fitting} that by subtracting out a SZ template from the lensing map of mQE we can significantly reduce its variance. In addition to eliminating the tSZ induced bias our template fitting approach also significantly reduces the tSZ induced variance. 
+ Although at current experimental noise levels the SZ induced statistical uncertainty is not significant, it will be a major source of contamination for future low noise surveys as shown in Fig. \ref{fig:variance}. We showed in \ref{fig:template_fitting} that by subtracting out a SZ template from the lensing map of mQE we can significantly reduce its variance. In addition to eliminating the tSZ induced bias our template fitting approach also significantly reduces the tSZ induced variance. 
 
  \section{Polarisation detection}
  \label{pol_detection}
  While the cluster lensing signal has been detected in CMB temperature data by many experiments \citep{baxter15, raghunathan18,geach17, baxter18}, the cluster lensing signal in CMB polarisation maps has been detected only recently by \citet{raghunathan19}. As a second author this publication, I worked on the pipeline to extract the CMB-cluster lensing signal and also wrote the draft of the paper.   
  The cluster lensing signal is weaker in polarisation than temperature, however, the astophysical foregrounds that significantly affect temperature and have negligible effect on polarisation channel.
-  The lensing SNR in polarisation is weaker compared to its temperature counter part at the present experimental noise level. However, as shown in Fig. ~\ref{fig_performance}, the foregrounds set an effective floor for CMB temperature estimator. %On the contrary, polaristion estimator is negligbly effected by foregrounds as foregrounds are largely unpolarised. 
-  As forecasts in Table ~\ref{tab_forecast_future_CMBexp} show, we expect the polarisation estimator to have comparable performance with that of temperature estimator for proposed \citet{cmbs4-sb1}.
- % Although cluster lensing signal in polarisation is an order of magnitude smaller than temperature, polarisation is negligibly affected by foregrounds and systematics. As show in chapter ~\ref{fig_performance} the foregrounds set an effective floor for CMB temperature estimator. On the contrary, polaristion estimator is negligbly effected by foregrounds and foregrounds are largely unpolarised. As shown in ~\ref{tab_forecast_future_CMBexp} we expect polarisation estimator to be competent with that of temperature estimator for proposed \citet{cmbs4-sb1}.
+  The lensing SNR in polarisation is weaker compared to its temperature counter part at the present experimental noise level. However, as shown in Fig. \ref{fig_performance}, the foregrounds set an effective floor for CMB temperature estimator. %On the contrary, polaristion estimator is negligbly effected by foregrounds as foregrounds are largely unpolarised. 
+  As forecasts in Table \ref{tab_forecast_future_CMBexp} show, we expect the polarisation estimator to have comparable performance with that of temperature estimator for proposed \citet{cmbs4-sb1}.
+ % Although cluster lensing signal in polarisation is an order of magnitude smaller than temperature, polarisation is negligibly affected by foregrounds and systematics. As show in chapter \ref{fig_performance} the foregrounds set an effective floor for CMB temperature estimator. On the contrary, polaristion estimator is negligbly effected by foregrounds and foregrounds are largely unpolarised. As shown in \ref{tab_forecast_future_CMBexp} we expect polarisation estimator to be competent with that of temperature estimator for proposed \citet{cmbs4-sb1}.
  %While many experiments have detected cluster lensing signal in CMB temperature data, none of them were able to detect lensing signal in polarisation data. 
  
  In \citet{raghunathan19}, we report the first detection of cluster lensing signal in CMB polarisation data at 4.8$\sigma$ significance. We used CMB polarisation QU maps from SPTPol 500 $deg^{2}$ survey and galaxy cluster catalog from DES year-3. The overlap of SPTpol and DES year-3 roughly has 18,000 clusters above a richness of $\lambda  > 10$. %Though detection significance in polarisation is much weaker than its temperature counter part (\S\ref{mqe_sec_results}), 
@@ -58,14 +58,14 @@ The tSZ induced statistical uncertainty scales with mass as $\approx M^{5/3}$.
  \label{inpaint}
 The cluster's own SZ signals, the tSZ and the kSZ, act as major sources of contamination when estimating the cluster mass using CMB temperature data. 
  While we can eliminate the tSZ systematic uncertainty by using tSZ-free gradient maps as we saw in \S\ref{sec_method}, the kSZ signal cannot be eliminated by using linear combination of different frequency channels as the kSZ and CMB have same spectral dependence. 
-% As we saw in ~\ref{ch:mqe},we can eliminate the tSZ bias by using tSZ free gradient maps with negligible loss in SNR.
+% As we saw in \ref{ch:mqe},we can eliminate the tSZ bias by using tSZ free gradient maps with negligible loss in SNR.
  %On the other hand kSZ is not frequency dependent and cannot be eliminated by using linear combination of different frequency channels. 
  
 % Both these SZ signals span a radial range of the order of few arc minutes from the cluster center. 
  %As we saw in 
 %Unlike the tSZ effect, we cannot use linear combination of different frequency channels to eliminate the kSZ bias. B
 %By combining multiple frequency channels to construct the tSZ -free gradient maps, we enhance the resulting experimental noise level as well as frequency dependent foregrounds. 
-As shown in \S~\ref{sec_ksz_bias}, the kSZ effect induces significant bias on the the lensing analysis if not considered. 
+As shown in \S\ref{sec_ksz_bias}, the kSZ effect induces significant bias on the the lensing analysis if not considered. 
  %During my thesis I was also part of a project which developed inpainting technique to mitigate the SZ bias. 
  In \citet{raghunathan19_in} we modified the quadratic estimator in order to eliminate both tSZ and kSZ induced systematic biases. 
 Both tSZ and kSZ signals span a radial range of the order of couple of arc minutes from the cluster center.
@@ -85,7 +85,7 @@ The SPT-SZ survey detected clusters via their tSZ signatures on CMB temperature 
 \citet{baxter15} used MLE on temperature maps to measure the average mass of these clusters. 
 In order to eliminate the tSZ bias \citet{baxter15} exploited the frequency dependence of tSZ to generate tSZ free maps, however, that resulted in a significant decrease of SNR. 
 
-In my new project (Patil et al., in preparation), I will be using the method we developed in  ~\ref{ch:mqe} to constrain the mass of the SPT-SZ cluster catalog (Patil et al. in preparation). This has two advantages over the previous work of \citet{baxter15}:
+In my new project (Patil et al., in preparation), I will be using the method we developed in  \ref{ch:mqe} to constrain the mass of the SPT-SZ cluster catalog (Patil et al. in preparation). This has two advantages over the previous work of \citet{baxter15}:
 \begin{itemize}
 \item by using a tSZ free gradient map we will completely eliminate tSZ bias
 \item by subtracting out a tSZ template from the lensing map we will significantly suppress the tSZ variance. 
@@ -135,7 +135,7 @@ Baryonic effects in simulations of halo density profile
 %Ran simulations and currently we have 11\% constraint.. signficant improvement over 3sigma detection
 \iffalse{
 \subsection{Bias estimation using simulations}
-We quantified the bias due to our assumption of NFW density profile in ~\ref{ch:MLE}. %several sources of systematics. 
+We quantified the bias due to our assumption of NFW density profile in \ref{ch:MLE}. %several sources of systematics. 
 In \S\ref{sec_den_profiles}, we considered three different halo density profiles: 
 \begin{itemize}
 \item Einasto profile
