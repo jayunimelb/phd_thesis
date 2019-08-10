@@ -102,20 +102,20 @@ The matter power spectrum and auto correlation are related as follows:
 \begin{equation}
 \langle \delta(x) \delta^{*}(x) \rangle = \int^{\infty}_{0} \frac{dk}{k} \frac{k^{3} |\delta^{2}(k)|}{2\pi^{2}} = \int^{\infty}_{0} \frac{dk}{k}\frac{k^{3} P(k)}{2\pi^{2}}
 \end{equation}
-where by definition $P(k) = |\delta^{2}(k)|$.
+where by definition $P(k) = |\delta^{2}(k)|$ is the matter power spectrum.
 In the inflationary paradigm, the primordial fluctuations are quantum fluctuations that have been blown up to macroscopic scale by inflation. 
 %As proposed by Harrison and Zel'dovich, these primordial fluctuations are scale-invariant \footnote{ otherwise it would imply a preferred mass scale for fluctuations entering the horizon}
 In inflationary models, this primordial fluctuations are nearly scale invariant, since inflation has no preferred scale,
 \begin{equation}
 P_{primordial}(k) \propto k
 \end{equation}
-
+\iffalse{
 \begin{figure}[H]
 \includegraphics[width = \columnwidth]{figs/tf.pdf}
 \caption{Total transfer function (CDM+baryon+neutrinos) as calculated by $CAMB$.}
 \label{tf}
 \end{figure}
-
+}\fi
 The primordial densities grow in a complicated way as explained in the previous section; the evolved matter power spectrum can be written as fucntion redshift and wave number as
 \begin{equation}
 P(k,z) = P_{primordial} (k) D(z)^{2} T(k,z)^{2}
@@ -127,18 +127,18 @@ D(z) = H(z) \int^{\infty}_{z} \frac{dz'(1+z')}{H^{3}(z')}.
 \end{equation}
 The transfer function depends on the complex interactions between various components in the universe. 
 While there are approximated expression for transfer function, however, the exact solution of the transfer function can only be obtained numerically. 
-Numerical codes such as CAMB, CLASS etc., solve the multi -component Boltzmann equations to provide T(k,z) for a given set of parameters. 
+Numerical codes such as CAMB \citep{lewis00}, CLASS \citep{seljak96} etc., solve the multi -component Boltzmann equations to provide T(k,z) for a given set of parameters. 
 
-The shape of transfer function gives insight into the growth of perturbations. At early phase of the universe during radiation dominated epoch, super horizon scales grew according to the growth factor D(z) as the transfer function is unity. However, sub horizon perturbations grow only logarithmically; smaller modes entered horizon earlier than longer modes, hence had more logarithmic growth. After matter-radiation equality, perturbations grew equally on all scales. The wiggles in the transfer function at intermediate scales is due to Baryon Acoustic Oscillations (BAO). Before recombination, photons and baryons were tightly coupled, baryons experienced two opposing forces: gravitational pull due to dark matter potential well and pressure due to the radiation component resulting in oscillations of photon-baryon plasma. However, at recombination photons-baryons decouple and the baryon perturbations evolve according to the background universe. This length scale can be used as a standard ruler to measure the geometry of the universe \cite{chang07}.
+%The shape of transfer function gives insight into the growth of perturbations. At early phase of the universe during radiation dominated epoch, super horizon scales grew according to the growth factor D(z) as the transfer function is unity. However, sub horizon perturbations grow only logarithmically; smaller modes entered horizon earlier than longer modes, hence had more logarithmic growth. After matter-radiation equality, perturbations grew equally on all scales. The wiggles in the transfer function at intermediate scales is due to Baryon Acoustic Oscillations (BAO). Before recombination, photons and baryons were tightly coupled, baryons experienced two opposing forces: gravitational pull due to dark matter potential well and pressure due to the radiation component resulting in oscillations of photon-baryon plasma. However, at recombination photons-baryons decouple and the baryon perturbations evolve according to the background universe. This length scale can be used as a standard ruler to measure the geometry of the universe \citep{chang07}.
 
-Fig. ~\ref{fig_ps} shows the matter power spectrum at two different redshifts for $Planck$ 2018 cosmological parameters.The power at large scales i.e., $k<k_{eq}$ obtained by multiplying the primordial power spectrum with growth factor (as transfer function is unity at those scales). As one expects, the maximum of the power spectrum is directly linked to the horizon at matter-radiation equality, $k_{eq} = 0.01$.  
-
+%Fig. ~\ref{fig_ps} shows the matter power spectrum at two different redshifts for $Planck$ 2018 cosmological parameters.The power at large scales i.e., $k<k_{eq}$ obtained by multiplying the primordial power spectrum with growth factor (as transfer function is unity at those scales). As one expects, the maximum of the power spectrum is directly linked to the horizon at matter-radiation equality, $k_{eq} = 0.01$.  
+\iffalse{
 \begin{figure}[H]
 \includegraphics[width = \columnwidth]{figs/ps.pdf}
 \caption{Total matter power spectrum generated by $CAMB$ for two different redshifts.}
 \label{fig_ps}
 \end{figure}
-
+}\fi
 \section{Statistics of spherically collapsed objects}
 \label{stats}
 In the previous sections we introduced equations for density perturbations in both real and Fourier space. However, in practice, we observe the density perturbation averaged over a given volume which we define as 'density contrast'. Mathematically, density contrast within a radius `R' is given by
