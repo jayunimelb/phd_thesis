@@ -353,7 +353,7 @@
         \vfil%
         \centerline{\hbox to \wd0 {\hbox{}\hrulefill\hbox{}}}%
         \vfil%
-        Submitted in Total Fulfillment \\%
+        Submitted in Total Fulfillment \\[-2.5ex]%%
         of the Requirements of the Degree of \\%
         \@degree%
         \vfil%

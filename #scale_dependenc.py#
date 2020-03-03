@@ -1,0 +1,7 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+')
+fig.savefig("dummy.pdf",bbox_inches = 'tight')
+plt.show()
+

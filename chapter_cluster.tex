@@ -3,14 +3,14 @@
 \section{Overview}
 %As described in the last chapter, on average the universe is homogenous - the expansion history, mean energy densities are reasonably well understood, at least empirically. However, the inhomogenities in the universe in the form of large scale structures such as galaxies, cluster of galaxies etc., carry a wealth of cosmological information. Given that ~85\% of matter in the universe is made up of cold dark matter, the growth of cosmic structure can be attributed to two main factors mainly: gravitational growth of initial density perturbations controlled by expansion of space and baryonic physics. According to inflationary paradigm and also observationally corroborated by CMB data, the initial density perturbations are scale independent. The matter distribution at late times can be probed by number of different observations: galaxy redshift surveys, weak gravitational lensing, galaxy cluster abundance; latter being the focus of this chapter.  %The chapter is organised as follows: in ~\ref{growth} I discuss the growth density perturbations during various regimes, followed by density power spectrum in ~\ref{density_ps}. In ~\ref{stats}, I explain the statistics of collapsed objects
 In the last chapter, I introduced the CMB anisotropies which are sourced by small pertrubations of density in the early Universe.
-With time and gravity, these initially tiny perturbations grow to become galaxies, galaxy clusters etc.,
+With time and gravity, these initially tiny perturbations grow to become structures such as galaxies, galaxy clusters.
 This process of structure growth yields a plethora of tests of the cosmological model.
 \section{Linear theory of structure formation}
 \label{growth}
-In this section, I will describe the evolution of matter density perturbations in the linear regime. This section closely follows Ryden 2003.
+In this section, I will describe the evolution of matter density perturbations in the linear regime. This section closely follows \citet{ryden_book}.
 Assuming that universe is filled with pressure less matter with mean mass density $\rho_{m}(t)$. 
 %As we saw in the last chapter, mass density is related to scale parameter as $\rho_{m}(t) \propto a^{-3}(t)$. 
-By inducing a small density fluctuation ($\delta \ll 1$) within a region of spherical radius `R'
+By inducing a small density fluctuation ($\delta \ll 1$) within a region of spherical radius `$R$'
 \begin{equation}
 \rho(t) = \rho_{m}(t)(1+\delta).
 \end{equation}
@@ -41,7 +41,7 @@ Taking two time derivatives of the above equation we get
 \end{equation}
 Rearranging the above equations we get 
 \begin{equation}
-\frac{\ddot{a}}{a} - \frac{1}{3}\ddot{\delta} - \frac{2\dot{a}}{3a} \dot{\delta} = -\frac{4 \pi}{3} G\rho_{m} (1-\delta).
+\frac{\ddot{a}}{a} - \frac{1}{3}\ddot{\delta} - \frac{2\dot{a}}{3a} \dot{\delta} = -\frac{4 \pi}{3} G\rho_{m} (1+\delta).
 \label{eq1}
 \end{equation}
 %$\frac{\ddot{a}}{a}$ is the expansion of the background universe, substituting $\delta = 0$ in the above equation we get
@@ -57,18 +57,18 @@ or
 \begin{equation}
 \ddot{\delta} + 2 H\dot{\delta} = 4\pi G \rho_{m} \delta.
 \end{equation}
-Considering the relativistic corrections the above equation changes to 
-\begin{equation}
-\ddot{\delta} + 2 H \dot{\delta} = \frac{4\pi G}{c^{2}} \rho_{m} \delta.
-\label{eq2}
-\end{equation}
+%A fully relativistic calculation for the growth of density perturbations yield the more general result 
+%\begin{equation}
+%\ddot{\delta} + 2 H \dot{\delta} = \frac{4\pi G}{c^{2}} \rho_{m} \delta.
+%\label{eq2}
+%\end{equation}
 In the early radiation dominated phase of the universe $\Omega_{m} \ll 1$ and $H = 1/(2t)$ which results in 
 \begin{equation}
 \ddot{\delta} + \frac{1}{t} \dot{\delta} \approx 0,
 \end{equation}
 solving which we get,
 \begin{equation}
-\delta(t) \approx C_{1} + C_{2} lnt
+\delta(t) \approx C_{1} + C_{2} \ln t
 \end{equation}
 During the radiation dominated epoch, baryon density oscillated as baryons and photons were tightly coupled. 
 Whereas the dark matter density grew at a logarithmic rate as predicted by the above equation.  
@@ -96,7 +96,7 @@ Thus during matter domination matter perturbation grow as $t^{2/3}$. Given these
 \label{density_ps}
 In Fourier space the perturbations can be written as 
 \begin{equation}
-\delta_{k} = \frac{1}{V} \int^{\infty}_{0} \delta(x) e^{ik.x} d^{3}x .
+\delta(k) = \frac{1}{V} \int^{\infty}_{0} \delta(x) e^{ik.x} d^{3}x .
 \end{equation}
 The matter power spectrum and auto correlation are related as follows:
 \begin{equation}
@@ -120,13 +120,13 @@ The primordial densities grow in a complicated way as explained in the previous 
 \begin{equation}
 P(k,z) = P_{primordial} (k) D(z)^{2} T(k,z)^{2}
 \end{equation}
-where D(z) is the growth factor and T(k,z) is the transfer function. 
+where $D(z)$ is the growth factor and $T(k,z)$ is the transfer function. 
 Growth factor for cold dark matter is given by
 \begin{equation}
 D(z) = H(z) \int^{\infty}_{z} \frac{dz'(1+z')}{H^{3}(z')}.
 \end{equation}
 The transfer function depends on the complex interactions between various components in the universe. 
-While there are approximated expression for transfer function, however, the exact solution of the transfer function can only be obtained numerically. 
+While there are approximated expression for transfer function, however, the robust solution of the transfer function can only be obtained numerically. 
 Numerical codes such as CAMB \citep{lewis00}, CLASS \citep{seljak96} etc., solve the multi -component Boltzmann equations to provide T(k,z) for a given set of parameters. 
 
 %The shape of transfer function gives insight into the growth of perturbations. At early phase of the universe during radiation dominated epoch, super horizon scales grew according to the growth factor D(z) as the transfer function is unity. However, sub horizon perturbations grow only logarithmically; smaller modes entered horizon earlier than longer modes, hence had more logarithmic growth. After matter-radiation equality, perturbations grew equally on all scales. The wiggles in the transfer function at intermediate scales is due to Baryon Acoustic Oscillations (BAO). Before recombination, photons and baryons were tightly coupled, baryons experienced two opposing forces: gravitational pull due to dark matter potential well and pressure due to the radiation component resulting in oscillations of photon-baryon plasma. However, at recombination photons-baryons decouple and the baryon perturbations evolve according to the background universe. This length scale can be used as a standard ruler to measure the geometry of the universe \citep{chang07}.
@@ -141,14 +141,22 @@ Numerical codes such as CAMB \citep{lewis00}, CLASS \citep{seljak96} etc., solve
 }\fi
 \section{Statistics of spherically collapsed objects}
 \label{stats}
-In the previous sections we introduced equations for density perturbations in both real and Fourier space. However, in practice, we observe the density perturbation averaged over a given volume which we define as 'density contrast'. Mathematically, density contrast within a radius `R' is given by
+In the previous sections we introduced equations for density perturbations in both real and Fourier space. However, in practice, we observe the density perturbation averaged over a given volume which we define as 'density contrast'. Mathematically, density contrast within a radius `$R$' is given by
 \begin{eqnarray}
 \Delta(x, R) = \int d^{3}x' W(|x' - x|) \delta(x') \\
 \Delta(k, R) = W(k,R) \delta(k)
 \end{eqnarray}
+where W(x,R) (W(k,R) is its Fourier transform) is the window which weighs the density field, 
+%\begin{equation}
+\begin{align}
+W(x, R) = constant \; (x <R)\\
+&= 0 \; (x \ge R)
+\end{align}
+%\end{equation}
+
 The variation in the observed density contrast in a sphere of radius R is given by
 \begin{equation}
-\sigma^{2}(R) = \langle \Delta^{2}(x,R) \rangle = \int d lnk \nabla^{2}(k) |W(k,R)|^{2}
+\sigma^{2}(R) = \langle \Delta^{2}(x,R) \rangle = \int d \ln k \nabla^{2}(k) |W(k,R)|^{2}
 \end{equation}
 where $\nabla(k) = \sqrt{k^{3}P(k)/2\pi^{2}}$ is the dimensionless power spectrum.
 %\begin{equation}
@@ -156,45 +164,52 @@ where $\nabla(k) = \sqrt{k^{3}P(k)/2\pi^{2}}$ is the dimensionless power spectru
 %\end{equation}
 Assuming that the density field follows Gaussian random distribution, which is well supported by observation. The probability that the sphere of radius, R, has density contrast $\delta$ is given by
 \begin{equation}
-P(\Delta, R) = \frac{1}{\sqrt(2 \pi \sigma^{2}(R))} exp(-\frac{\delta^{2}}{2\sigma^{2}(R)}) d\delta.
+P(\Delta, R) = \frac{1}{\sqrt(2 \pi \sigma^{2}(R))} \exp \left(-\frac{\delta^{2}}{2\sigma^{2}(R)}\right) d\delta.
 \end{equation}
-It is important to note here that we can also express $P(\Delta, R) = P(\Delta, M)$, where R is related to M as $M = \frac{4\pi}{3} R^{3}$
+It is important to note here that we can also express $P(\Delta, R) = P(\Delta, M)$, where $R$ is related to $M$ as $M = \frac{4\pi}{3} \rho R^{3}$. Also, $\sigma_{8}$, a standard cosmological parameter is nothing but the density contrast in a sphere of radius $8h^{-1} \, {\rm Mpc}$%$\si{\mega\parsec}$.
+
 \subsection{The Press-Schechter Theory}
 \label{halo-theory}
-In 1974 Press-Schechter came up with a simple model to predict the number of dark matter halos \citep{press74}. The basic idea is that a sphere of radius `R' with density contrast $\Delta$ will form a dark matter if $\Delta$ greater than a critical value $\Delta_{c}$. The probability of finding dark matter halos with mass greater than M is given by
+In 1974, Press and Schechter came up with a simple model to predict the number of dark matter halos \citep{press74}. The basic idea is that a sphere of radius `R' with density contrast $\Delta$ will form a dark matter if $\Delta$ greater than a critical value $\Delta_{c}$. The probability of finding dark matter halos with mass greater than M is given by
 \begin{equation}
-F(M) = \int^{\infty}_{\Delta_{c}} P(\Delta, M) d\Delta = \frac{1}{2} erfc(\frac{\nu}{\sqrt(2)})
+F(M) = \int^{\infty}_{\Delta_{c}} P(\Delta, M) d\Delta = \frac{1}{2} erfc \left(\frac{\nu}{\sqrt(	2)}\right)
 \end{equation}
 where $\nu = \Delta_{c}/ \sigma(M)$. The halo mass function, i.e, the number density of halos between mass M and M+dM is given by 
 \begin{equation}
-\frac{dn(M,z)}{dM} = -\sqrt{\frac{2}{\pi}} \frac{\rho_{m}}{M} \frac{\Delta_{c}}{\sigma^{2}(M,z)} \frac{d\sigma(M,z)}{dM}  exp(-\frac{\Delta^{2}_{c}}{2 \sigma^{2}(M,z)}).
+\frac{dn(M,z)}{dM} = -\sqrt{\frac{2}{\pi}} \frac{\rho_{m}}{M} \frac{\Delta_{c}}{\sigma^{2}(M,z)} \frac{d\sigma(M,z)}{dM}  \exp\left(-\frac{\Delta^{2}_{c}}{2 \sigma^{2}(M,z)}\right).
 \label{eq_press-shcech}
 \end{equation}
 The above equation predicts too many low-mass halos and too few high-mass halos compared to the N-body simulations. 
-For precise cosmological applications, current estimates of the halo mass function rely on some form of Eqn. ~\ref{eq_press-shcech} with some additional fitting parameters to achieve a better fit, for example \cite{tinker08, jenkins01}.
-
+For precise cosmological applications, current estimates of the halo mass function rely on some form of Eqn. ~\ref{eq_press-shcech} with some additional fitting parameters to achieve a better fit, for example \cite{tinker08, jenkins01}. 
 \section{Galaxy Clusters \& Cosmology}
 \subsection{Galaxy Clusters}
 According to the standard model of cosmology, galaxy clusters are the largest and most recent gravitationally collapsed objects to form because structure grows hierarchically. 
 A galaxy cluster contains hundreds to thousands of galaxies that are bound together by gravity.
 These are very massive objects with typical masses ranging from $10^{14} - 10^{15} $ times the mass of Sun ($M_{\odot}$). %\footnote{Virial radius corresponds to the radius of a spherical region which is sufficiently over dense with respect to the background density that it will detach from the Hubble expansion and start collapsing to form a structure}.
-The majority the mass is in the form of invisible dark matter (80-87\%), which generally follows a spherically symmetric Navarro-Frenk-White (NFW) model  \citep{navarro97}. 
-Around 12\% of the cluster mass is in the form of hot intracluster medium (ICM)- a sparse hot plasma that fills the cluster. 
+The majority the mass is in the form of invisible dark matter (80-87\%), which on an average follows a spherically symmetric Navarro-Frenk-White (NFW) model  \citep{navarro97}\footnote{There is considerable deviation from NFW for individual clusters due to asphericity, sub-structure, recent merger activity etc.,}. 
+On an average around 12\% of the cluster mass is in the form of hot intracluster medium (ICM)- a sparse hot plasma that fills the cluster. 
 The temperature of the ICM is of order ten million Kelvin and thus the ICM predominantly emits X-rays. 
-The remaining 2\% of the cluster mass is in the form of stars, cold gas, and dust in galaxies.
+The remaining 2\% (on average) of the cluster mass is in the form of stars, cold gas, and dust in galaxies. \footnote{ Note that the percentage contribution of ICM and stars may considerably deviate for individual clusters}
 \begin{figure}[H]
 \includegraphics[width = \columnwidth]{figs/Abell_1689.jpg}
-\caption{Galaxy cluster Abell 1689. Galaxy cluster are multi wavelength objects- optical galaxies are in yellow colour and X-ray emission from the hot intra cluster medium appears in purple.  Credits: HST/Chandra X-ray observatory. }
+\caption{Galaxy cluster Abell 1689. Galaxy clusters produce a range of measurable signals and are often studied using a combination of radio, mm-wave, IR, optical, UV, and/or X-ray observations.%Galaxy cluster are multi wavelength objects- optical galaxies are in yellow colour and X-ray emission from the hot intra cluster medium appears in purple. 
+ Credits: HST/Chandra X-ray observatory. }
 \label{cluster}
 \end{figure}
 
 Fig. ~\ref{cluster} shows the image of a galaxy cluster Abell 1689 which is in constellation Virgo. The X-ray emission due to hot ICM is shown as purple in the image; galaxies from the optical data are coloured yellow. The long arcs in the optical image is caused by distortion due to strong gravitational lensing. \\
 
 \subsection{Cluster cosmology}
-Clusters have long provided crucial information about the cosmological model. Dark matter was discovered in Coma cluster in 1930s, when Fritz Zwicky observed that galaxies in cluster were moving too fast to be held by the gravitational pull of the visible galaxies \citep{zwicky33}. In the 1990s clusters provided evidence for low matter density universe \citep{white93a}. Clusters are so large that the ratio of baryon to dark matter content in the cluster should be equal to that of universe as a whole. So, the gas mass fraction $f_{gas}$ should be equal to  $\Omega_{b} /\Omega_{m}$.
- With the values of $\Omega_{b}$ and $f_{gas}$ from baryon acoustic oscillations and X-ray observations, we can calculate $\Omega_{m}$. 
+Clusters have long provided crucial information about the cosmological model. Dark matter was discovered in Coma cluster in 1930s, when Fritz Zwicky observed that galaxies in cluster were moving too fast to be held by the gravitational pull of the visible galaxies \citep{zwicky33}. 
+In the 1990s clusters provided evidence for low matter density universe \citep{white93a}. 
+
+Using the `$f_{gas}$' test which is based on the fair sample hypothesis: since clusters are so large and have so deep gravitational potential wells their baryonic and dark matter content should be a fair sample of the Universe as a whole. In detail, this is not exactly fair; simulations place the depletion of baryons in clusters relative to the cosmic mean at $\sim$10\% within the virial radius.  At smaller radii that present X-ray observations can reliably probe, the depletion is closer to 15- 20 per cent. 
+ Because the X-ray emissivity of the ICM depends on the square of the density (and weakly on the temperature) of the gas, X-ray observations can measure the gas mass very precisely. In dynamically relaxed systems, the assumption of hydrostatic equilibrium can also be used to determine the total mass, based on the gas temperature and density profiles. Hence, X-ray observations of dynamically relaxed systems can determine the gas mass fraction, $f_{gas} = M_{gas}/ M_{tot}$. With a rudimentary estimate of the baryon depletion, measurements of the total mass, mass in stars, and mass in hot gas for a cluster, and an estimate of the cosmic mean baryon density based on big bang nucleosynthesis data, one can constrain the mean matter density in the Universe. 
+
+%Clusters are so large that the ratio of baryon to dark matter content in the cluster should be equal to that of universe as a whole. So, the gas mass fraction $f_{gas}$ should be equal to  $\Omega_{b} /\Omega_{m}$.
+% With the values of $\Omega_{b}$ and $f_{gas}$ from baryon acoustic oscillations and X-ray observations, we can calculate $\Omega_{m}$. 
 % The total baryonic mass can be calculated in rudimentary way by calculating mass of stars and hot gas in the cluster, $\Omega_{b}$ is obtained from big bang nucleosynthesis, one can constrain $\Omega_{m}$ \pending{white}.
-More recently, the community has been interested in using galaxy clusters to probe dark energy, neutrinos and cosmic growth of structure \citep{allen11,mantz08,mantz10a,mantz15,dehaan16,bocquet18,rozo10,vikhlinin09,salvati17,zubeldia19}.
+More recently, the community has been interested in using galaxy clusters to probe dark energy, neutrinos and cosmic growth of structure \citep{allen11,mantz08,mantz10a,mantz15,dehaan16,hasselfield13,plancksz15,bocquet18,rozo10,vikhlinin09,salvati17,zubeldia19}.
 
 
 Galaxy clusters are powerful probes of dark energy. The dark energy effects the evolution of universe in two different ways. 
@@ -213,35 +228,108 @@ As can be inferred from the plot, cluster constraints are complementary to that 
 
 \begin{figure}[H]
 \includegraphics[width = \columnwidth]{figs/cosmology.png}
-\caption{On the left is flat $\Lambda$CDM model: constraints on $\Omega_{m}$ and $\sigma_{8}$ from clusters in purple, from CMB observations in blue ($Planck$) and grey ($Planck$ and WMAP). On the right we have flat $w$CDM: constraints on $w$ and $\Omega_{m}$ for various cosmological probes. Cluster (purple) provide the tightest single-probe constraints \citep{mantz15}.  }
+\caption{On the left is flat $\Lambda$CDM model: constraints on $\Omega_{m}$ and $\sigma_{8}$ from clusters in purple, from CMB observations in blue ($Planck$) and grey ($Planck$ and WMAP). On the right we have flat $w$CDM: constraints on $w$ and $\Omega_{m}$ for various cosmological probes. Cluster (purple) provide the tightest single-probe constraints \citep{mantz15} (with standard prior on $h$ and $\Omega_{b} h^{2}$).  }
 \label{clustercosmology}
 \end{figure}
 \subsection{Cluster cosmology is limited by mass estimation}
 
-While clusters are powerful probes of cosmology, the use of clusters for cosmology is currently limited by the fidelity of the mass estimation. Many ways to measure the cluster mass relate a cluster observable $'O'$ to the cluster mass through a parametric relation 
+While clusters are powerful probes of cosmology, the use of clusters for cosmology is currently limited by the accuracy of the mass estimation. Many ways to measure the cluster mass relate a cluster observable $'O'$ to the cluster mass through a parametric relation 
 \begin{equation}
-O = A M^{B} f(z)^{C} +D
+O = A M^{B} f(z)^{C} 
 \label{obs-mass}
 \end{equation} 
-where A is the normalisation parameter, D is the intrinsic scatter, B and C are the mass and redshift evolution parameters respectively. The trouble is that these depend on complicated baryonic physics which is not well understood and any error in the estimated mass will affect the inferred constraints from cluster cosmology. 
+where A is the normalisation parameter, D is the intrinsic scatter, B and C are the mass and redshift evolution parameters respectively. The trouble is that these depend on complicated baryonic physics which is not well understood and any scatter in the estimated mass will affect the inferred constraints from cluster cosmology. 
 \begin{figure}[H]
 \includegraphics[width = \columnwidth]{figs/mass_cosmology.png}
-\caption{Effects of systematics in mass estimation on cluster cosmology. Constraints on matter fluctuation amplitude parameter ($\sigma_{8}$) and matter density parameter ($\Omega_{m}$) from CMB data is shown in black contour. The coloured counters (orange, green, and blue) are the constraints obtained using cluster counts for three different mass observable scaling relation. }
+\caption{Effects of systematics in mass estimation on cluster cosmology. Constraints on matter fluctuation amplitude parameter ($\sigma_{8}$) and matter density parameter ($\Omega_{m}$) from CMB data is shown in black contour. The coloured contours (orange, green, and blue) are the constraints obtained using cluster counts (excluding CMB information) for three different SZ-mass scaling relations. While constraint obtained by any one of the scaling relations would complement the information obtained from CMB, the results from three different scaling relations span the range of parameters allowed by CMB data. }
 \label{m_cosmo}
 \end{figure}
 Fig. ~\ref{m_cosmo} shows the systematic effects of cluster mass estimation on cosmological parameters $\Omega_{m}$ and $\sigma_{8}$. The black contour represents the cosmological constraints obtained using CMB.
-The green, blue, and orange contours represent constraints due to cluster number count for three different mass-observable scaling relations.
+The green, blue, and orange contours represent constraints due to cluster number count for three different SZ-mass scaling relations.
+ The three colored contours assume different cluster gas physics. The orange contour represents the \citet{arnaud10} profile. 
+ In the green contour the SZ-mass scaling relation is calibrated using \citet{bode12} simulations and the blue contour represents the calibration using Nonthermal20 models described in \citet{trac11}. %The green contour represent the \citet{bode12} where the SZ-ma
 While cluster number counts provide complementary constraints to that of CMB, however, any systematic in mass estimation will eventually lead to uncertainties in cosmological parameters \citep{hasselfield13}. 
 
 
 Accurate cluster mass estimates are essential to fully realise the potential of cluster cosmology.
 One of the ways to obtain robust cluster masses is through weak gravitational lensing \citep{becker10}. 
-Unlike the mass observable scaling relation, cluster mass estimation through lensing of a background source is independent of baryonic physics and directly probes the total mass distribution in the galaxy cluster. 
-While lensing is nearly unbiased, it is weak to provide mass of single galaxy cluster. Thus we use lensing to reduce the scatter in the parameters of Eq. \ref{obs-mass}.
+Unlike the mass observable scaling relation, cluster mass estimation through gravitational lensing of a background source is independent of baryonic physics and directly probes the total mass distribution in the galaxy cluster. 
+%While lensing is nearly unbiased, it is weak to provide mass of single galaxy cluster. 
+Lensing measurements provide a low-bias measurement of cluster mass that can be used to improve the accuracy of the mass-scaling relation \ref{obs-mass}. %Thus we use lensing to reduce the scatter in the parameters of Eq. \ref{obs-mass}. 
+Below I provide brief formalism of gravitational lensing.
 
-The background source can either optical or CMB, with CMB having the following advantages over optical:
+
+\textbf{Gravitational lensing formalism:}
+\\In this section, I provide a very brief introduction of gravitational lensing formalism and strongly recommend the reader to refer \citep{bartelmann01} for a detailed review.  According to General Relativity, a point mass $M$ deflects the light ray with impact parameter $b$ by an angle approximately equal to 
+\begin{equation}
+\hat{\alpha} = \frac{4GM}{c^{2}b}
+\end{equation}
+ where $G$ is the gravitational constant, $M$ is mass of the deflection source, and $c$ is the speed of light. 
+  
+  
+Under linear approximation, the deflection due to a spatially extended mass can be written simply as a vector sum over point masses, which is given by
+\begin{equation}
+\vec{\hat{\alpha}}(\vec{\xi}) = \frac{4G}{c^{2}} \int d^{2}\xi' \int dz \rho(\vec{\xi'},z) \frac{\vec{b}}{|\vec{b}|^{2}}
+\end{equation}
+where $z$ is the line-of-sight coordinate, and $\vec{b} = \vec{\xi} - \vec{\xi'}$ is the vector impact parameter of the actual ray path from the infinitesimal mass $d^{2} \xi' dz \rho(\vec{\xi'},z)$ located at the coordinates $(\vec{\xi'},z)$.
+
+In the case of thin lens where the distance between the source, lens, and the observer is much larger than the physical size of the lens, we can define the projected mass density as 
+\begin{equation}
+{\displaystyle \Sigma ({\vec {\xi }}^{\prime })=\int \rho ({\vec {\xi }}^{\prime },z)dz}
+\end{equation}
+where $\vec{\xi'}$ is a vector in the plane of the sky. The deflection angle is then
+\begin{equation}
+{\displaystyle {\vec {\hat {\alpha }}}({\vec {\xi }})={\frac {4G}{c^{2}}}\int {\frac {({\vec {\xi }}-{\vec {\xi }}^{\prime })\Sigma ({\vec {\xi }}^{\prime })}{|{\vec {\xi }}-{\vec {\xi }}^{\prime }|^{2}}}d^{2}\xi ^{\prime }}
+\end{equation}
+
+In the schematic representation shown in Fig. ~\ref{grav_lens} the difference between the unlensed angular position $\vec{\beta}$ and the observed position $\vec{\theta}$ is this deflection angle, reduced by a ratio of distances, described as the lens equation
+
+\begin{equation}
+{\displaystyle {\vec {\beta }}={\vec {\theta }}-{\vec {\alpha }}({\vec {\theta }})={\vec {\theta }}-{\frac {D_{ds}}{D_{s}}}{\vec {\hat {\alpha }}}({\vec {D_{d}\theta }})}%{\vec {\beta }}={\vec {\theta }}-{\vec {\alpha }}({\vec {\theta }})={\vec {\theta }}-{\frac {D_{ds}}{D_{s}}}{\vec {\hat {\alpha }}}({\vec {D_{d}\theta }})
+\end{equation}
+where ${\displaystyle D_{ds}}$ is the distance from the lens to the source, ${\displaystyle D_{s}}$ is the distance from the observer to the source, and ${\displaystyle D_{d}}$ is the distance from the observer to the lens. For extragalactic lenses, these must be angular diameter distances.
+
+In strong gravitational lensing, this equation can have multiple solutions, because a single source at ${\displaystyle {\vec {\beta}}}$ can be lensed into multiple images.
+
+The reduced deflection angle $\vec{\alpha}(\vec{\theta})$ can be written as
+
+\begin{equation}
+{\displaystyle {\vec {\alpha }}({\vec {\theta }})={\frac {1}{\pi }}\int d^{2}\theta ^{\prime }{\frac {({\vec {\theta }}-{\vec {\theta }}^{\prime })\kappa ({\vec {\theta }}^{\prime })}{|{\vec {\theta }}-{\vec {\theta }}^{\prime }|^{2}}}}%{\vec {\alpha }}({\vec {\theta }})={\frac {1}{\pi }}\int d^{2}\theta ^{\prime }{\frac {({\vec {\theta }}-{\vec {\theta }}^{\prime })\kappa ({\vec {\theta }}^{\prime })}{|{\vec {\theta }}-{\vec {\theta }}^{\prime }|^{2}}}
+\end{equation}
+where we define the convergence
+\begin{equation}
+{\displaystyle \kappa ({\vec {\theta }})={\frac {\Sigma (D_{d}{\vec {\theta }})}{\Sigma _{cr}}}}%\kappa ({\vec {\theta }})={\frac {\Sigma (D_{d}{\vec {\theta }})}{\Sigma _{cr}}}
+\end{equation}
+%and the critical surface density (not to be confused with the critical density of the universe)
+and the critical surface density (not to be confused with the critical density of the universe)
+\begin{equation}
+{\displaystyle \Sigma _{cr}={\frac {c^{2}D_{s}}{4\pi GD_{ds}D_{d}}}}
+\end{equation}
+We can also define the deflection potential
+
+\begin{equation}
+{\displaystyle \psi ({\vec {\theta }})={\frac {1}{\pi }}\int d^{2}\theta ^{\prime }\kappa ({\vec {\theta }}^{\prime })\ln |{\vec {\theta }}-{\vec {\theta }}^{\prime }|}%\psi ({\vec {\theta }})={\frac {1}{\pi }}\int d^{2}\theta ^{\prime }\kappa ({\vec {\theta }}^{\prime })\ln |{\vec {\theta }}-{\vec {\theta }}^{\prime }|
+\end{equation}
+such that the scaled deflection angle is just the gradient of the potential and the convergence is half the Laplacian of the potential:
+\begin{eqnarray}
+{\displaystyle {\vec {\beta }}-{\vec {\theta }}={\vec {\alpha }}({\vec {\theta }})={\vec {\nabla }}\psi ({\vec {\theta }})}%{\displaystyle {\vec {\beta }}-{\vec {\theta }}={\vec {\alpha }}({\vec {\theta }})={\vec {\nabla }}\psi ({\vec {\theta }})}
+\\
+{\displaystyle \kappa ({\vec {\theta }})={\frac {1}{2}}\nabla ^{2}\psi ({\vec {\theta }})}%\kappa ({\vec {\theta }})={\frac {1}{2}}\nabla ^{2}\psi ({\vec {\theta }})
+\end{eqnarray}
+%{\displaystyle \Sigma _{cr}={\frac {c^{2}D_{s}}{4\pi GD_{ds}D_{d}}}}\Sigma _{cr}={\frac {c^{2}D_{s}}{4\pi GD_{ds}D_{d}}}
+
+\begin{figure}[H]
+\includegraphics[width = \columnwidth]{figs/schematic_grav_lens.png}
+\caption{}
+\label{grav_lens}
+\end{figure}
+
+\textbf{Source of Gravitational lensing:}
+
+The background source can either optical galaxies or CMB, with CMB having the following advantages over optical:
 \begin{itemize}
-\item CMB is at precise redshift of $z \approx 1100$, on the other hand, the probability of finding an optical source behind a high redshift ($z$ >1) galaxy cluster decreases exponentially.
+\item CMB is at precise redshift of $z \approx 1100$%, on the other hand, the probability of detecting an optical source behind a high redshift ($z$ >1) galaxy cluster decrease significantly.
+\item CMB lensing signal remains uniform over with cluster redshift
 \item CMB has relatively less systematics
 \item the statistical properties of CMB are very studied and hence easy to model
 \end{itemize}

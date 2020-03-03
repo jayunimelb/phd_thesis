@@ -1,0 +1,76 @@
+\BOOKMARK [0][-]{chapter.1}{5.5emIntroduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Expanding universe}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Cosmological distances}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Friedmann Equations}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Cosmic Microwave Background}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.5}{Temperature primary anisotropies}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.6}{CMB polarisation}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.7}{Other cosmological probes}{chapter.1}% 8
+\BOOKMARK [0][-]{chapter.2}{5.5emCluster Cosmology}{}% 9
+\BOOKMARK [1][-]{section.2.1}{Overview}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{Linear theory of structure formation}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.3}{Power spectrum}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.4}{Statistics of spherically collapsed objects}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.4.1}{The Press-Schechter Theory}{section.2.4}% 14
+\BOOKMARK [1][-]{section.2.5}{Galaxy Clusters \046 Cosmology}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.5.1}{Galaxy Clusters}{section.2.5}% 16
+\BOOKMARK [2][-]{subsection.2.5.2}{Cluster cosmology}{section.2.5}% 17
+\BOOKMARK [2][-]{subsection.2.5.3}{Cluster cosmology is limited by mass estimation}{section.2.5}% 18
+\BOOKMARK [0][-]{chapter.3}{5.5emMaximum Likelihood Estimator}{}% 19
+\BOOKMARK [1][-]{section.3.1}{CMB lensing overview}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.2}{Maximum Likelihood Estimator}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.2.1}{Covariance matrix calculation}{section.3.2}% 22
+\BOOKMARK [1][-]{section.3.3}{Results}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.3.1}{Idealised simulations}{section.3.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.2}{Effects of extragalactic foregrounds on lensing analysis}{section.3.3}% 25
+\BOOKMARK [1][-]{section.3.4}{Systematic bias checks}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.4.1}{Halos along the line of sight}{section.3.4}% 27
+\BOOKMARK [2][-]{subsection.3.4.2}{Cluster mass profiles}{section.3.4}% 28
+\BOOKMARK [2][-]{subsection.3.4.3}{Cluster miscentering}{section.3.4}% 29
+\BOOKMARK [2][-]{subsection.3.4.4}{Bias due to redshift uncertainty}{section.3.4}% 30
+\BOOKMARK [2][-]{subsection.3.4.5}{Bias due to the kinematic SZ signal}{section.3.4}% 31
+\BOOKMARK [2][-]{subsection.3.4.6}{Thermal Sunayev-Zel'dovich effect}{section.3.4}% 32
+\BOOKMARK [2][-]{subsection.3.4.7}{Dusty galaxies in the cluster and other foregrounds}{section.3.4}% 33
+\BOOKMARK [1][-]{section.3.5}{A look into the future}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.5.1}{Expected lensing mass uncertainties for future CMB experiments}{section.3.5}% 35
+\BOOKMARK [2][-]{subsection.3.5.2}{Optimizing survey design: SNR as a function of beam size and map noise levels}{section.3.5}% 36
+\BOOKMARK [1][-]{section.3.6}{Conclusion}{chapter.3}% 37
+\BOOKMARK [0][-]{chapter.4}{5.5emModified Quadratic Estimator}{}% 38
+\BOOKMARK [1][-]{section.4.1}{Thermal Sunayev-Zel'dovich effect}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.2}{Quadratic Estimator}{chapter.4}% 40
+\BOOKMARK [2][-]{subsection.4.2.1}{SZ induced bias}{section.4.2}% 41
+\BOOKMARK [2][-]{subsection.4.2.2}{Modified quadratic estimator}{section.4.2}% 42
+\BOOKMARK [1][-]{section.4.3}{Cluster cutouts}{chapter.4}% 43
+\BOOKMARK [1][-]{section.4.4}{Model Fitting}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.5}{Data}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.5.1}{South Pole Telescope}{section.4.5}% 46
+\BOOKMARK [2][-]{subsection.4.5.2}{DES and the redMaPPer catalog}{section.4.5}% 47
+\BOOKMARK [1][-]{section.4.6}{Pipeline verification}{chapter.4}% 48
+\BOOKMARK [2][-]{subsection.4.6.1}{Simulations}{section.4.6}% 49
+\BOOKMARK [2][-]{subsection.4.6.2}{``Curl'' null test}{section.4.6}% 50
+\BOOKMARK [2][-]{subsection.4.6.3}{Systematic error budget}{section.4.6}% 51
+\BOOKMARK [1][-]{section.4.7}{Results and Discussion}{chapter.4}% 52
+\BOOKMARK [2][-]{subsection.4.7.1}{Stacked mass measurements}{section.4.7}% 53
+\BOOKMARK [2][-]{subsection.4.7.2}{Mass-richness M- scaling relation calibration}{section.4.7}% 54
+\BOOKMARK [1][-]{section.4.8}{Conclusions}{chapter.4}% 55
+\BOOKMARK [0][-]{chapter.5}{5.5emTemplate Fitting}{}% 56
+\BOOKMARK [1][-]{section.5.1}{Simulations}{chapter.5}% 57
+\BOOKMARK [2][-]{subsection.5.1.1}{thermal Sunyaev-Zel'dovich signal}{section.5.1}% 58
+\BOOKMARK [1][-]{section.5.2}{Method}{chapter.5}% 59
+\BOOKMARK [2][-]{subsection.5.2.1}{Template fitting to reduce the SZ variance}{section.5.2}% 60
+\BOOKMARK [2][-]{subsection.5.2.2}{Sources of uncertainty in the CMB-Cluster Lensing Measurement}{section.5.2}% 61
+\BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 62
+\BOOKMARK [2][-]{subsection.5.3.1}{Robustness of template fitting method}{section.5.3}% 63
+\BOOKMARK [1][-]{section.5.4}{Forecasts}{chapter.5}% 64
+\BOOKMARK [1][-]{section.5.5}{Discussion and Conclusion}{chapter.5}% 65
+\BOOKMARK [0][-]{chapter.6}{5.5emDiscussions \046 Future Work}{}% 66
+\BOOKMARK [1][-]{section.6.1}{Summary}{chapter.6}% 67
+\BOOKMARK [1][-]{section.6.2}{Polarisation detection}{chapter.6}% 68
+\BOOKMARK [1][-]{section.6.3}{Inpainting approach}{chapter.6}% 69
+\BOOKMARK [1][-]{section.6.4}{Constraining SZ-mass scaling relation}{chapter.6}% 70
+\BOOKMARK [1][-]{section.6.5}{Final remarks}{chapter.6}% 71
+\BOOKMARK [0][-]{appendix.A}{5.5emAppendix A}{}% 72
+\BOOKMARK [1][-]{section.A.1}{Simulated skies}{appendix.A}% 73
+\BOOKMARK [2][-]{subsection.A.1.1}{Cosmic Microwave Background}{section.A.1}% 74
+\BOOKMARK [2][-]{subsection.A.1.2}{Sunyaev-Zel'dovich \(SZ\) effect}{section.A.1}% 75
+\BOOKMARK [2][-]{subsection.A.1.3}{Radio and Dusty Galaxies}{section.A.1}% 76

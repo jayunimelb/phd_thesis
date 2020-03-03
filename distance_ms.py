@@ -1,0 +1,26 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from astropy.cosmology import FlatLambdaCDM
+fig = plt.figure()
+cdm = FlatLambdaCDM(H0=67.4, Om0=1.0, Tcmb0=2.725)
+lcdm = FlatLambdaCDM(H0=67.4, Om0=0.315, Tcmb0=2.725)
+redshift = np.arange(0.01,10,0.01)
+
+plt.rc('font', family='serif', weight = 'bold', size = 12);plt.rc('xtick', labelsize='x-small');plt.rc('ytick', labelsize='x-small')
+comoving_dist_cdm =  cdm.comoving_distance(redshift)
+ang_dist_cdm  = cdm.angular_diameter_distance(redshift)
+lum_dist_cdm = cdm.luminosity_distance(redshift)
+comoving_dist_lcdm = lcdm.comoving_distance(redshift)
+ang_dist_lcdm  = lcdm.angular_diameter_distance(redshift)
+lum_dist_lcdm = lcdm.luminosity_distance(redshift)
+plt.loglog(redshift, comoving_dist_cdm.value,'r', label = 'comoving distance')
+plt.loglog(redshift, ang_dist_cdm.value,'b', label = 'angular diameter distance')
+plt.loglog(redshift, lum_dist_cdm.value,'g', label = 'luminosity distance')
+plt.loglog(redshift, comoving_dist_lcdm.value,'r--')
+plt.loglog(redshift, ang_dist_lcdm.value,'b--')
+plt.loglog(redshift, lum_dist_lcdm.value,'g--')
+plt.ylabel('Distance (Mpc)')
+plt.xlabel('redshift')
+legend = plt.legend(loc='upper left', shadow=False, fontsize='medium')
+#fig.savefig('phd_thesis/figs/dist_redshift.pdf',bbox_inches = 'tight')
+plt.show()

@@ -1,0 +1,551 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{amsmath,amsfonts,bm}
+\usepackage{caption,booktabs}
+\usepackage{tabularx}
+\usepackage{siunitx}
+%\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{bibentry}
+\usepackage{dcolumn}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{MnSymbol}
+\usepackage{mathtools}
+%\usepackage[numbers]{natbib}
+\usepackage[round]{natbib}
+\usepackage[compact]{titlesec}
+\usepackage[acronym]{glossaries} % Used to make a list of abbreviations
+\usepackage{afterpage}
+\usepackage[export]{adjustbox}[2011/08/13]
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{dcolumn}
+\usepackage{lineno}
+\usepackage{seqsplit}
+\usepackage{hyperref}	
+\usepackage{afterpage}
+\usepackage{float}
+\usepackage[top=3.0cm, bottom=2.25cm, left=3.5cm, right=3.0cm, headheight=16.5pt, includeheadfoot]{geometry}
+\usepackage[parfill]{parskip}
+
+\DeclareSIUnit \h {$h$}
+\DeclareSIUnit \parsec {pc}
+\newcommand{\boxsize}{$300^{\prime} \times 300^{\prime}$}
+\newcommand{\smallboxsize}{$10^{\prime} \times 10^{\prime}$}
+\newcommand{\mediumboxsize}{$50^{\prime} \times 50^{\prime}$}
+\newcommand{\pending}[1]{\textcolor{red}{#1}}
+\newcommand{\arcmin}{\ensuremath{^{\prime}}}
+\newcommand{\figwidth}{1.0\textwidth}
+\newcommand{\bL}{\bm{\ell}}
+\newcommand{\kappaonehalofull}{$\kappa^{1h}(\theta)$}
+\newcommand{\kappatwohalofull}{$\kappa^{2h}(\theta)$}
+\newcommand{\kappatotalmz}{${\kappa}(M, z)$}
+\newcommand{\kappatotalaalphaz}{${\kappa}^{tot}(A, \alpha, z)$}
+\newcommand{\kappaonehalo}{${\kappa}^{1h}$}
+\newcommand{\kappatwohalo}{${\kappa}^{2h}$}
+\newcommand{\kappatotal}{${\kappa}^{tot}$}
+\newcommand{\kappaonehalomz}{${\kappa}^{1h}(M,z)$}
+\newcommand{\kappatwohalomz}{${\kappa}^{2h}(M, z)$}
+\newcommand{\am}{$^{\prime}$}
+\begin{document}
+\begin{center}
+Examiner report
+\end{center}
+I thank the Examiner for the thorough read and useful comments on my thesis. My response to Examiner's questions are
+in blue, while the thesis page number where the text that has been changed/added to the paper is quoted in red.
+
+\begin{center}
+\textbf{Examiner's comments on chapter 1}
+\end{center}
+
+
+1. What I would call ?textbook? level cosmology is explained in great detail (distance
+measures, Friedmann eqns, etc.), but the chapter lacks several details which I
+think are essential in the context of this thesis. In particular, it should describe
+how CMB temperature and polarization measurements of the primary
+anisotropies are used to constrain cosmological parameters, and it should
+provide examples of the most recent results from Planck, BICEP/Keck, SPT, etc.
+I think it should also include a description of other current cosmological probes
+like SNe, BAO, RSD, along with recent constraints from such measurements.
+Finally, it should discuss the parameter degeneracies and complementarity of
+these various probes. Such text would then provide a natural transition to the
+discussion of cluster cosmology in Chapter 2.
+
+\textcolor{blue}{Yes, I thank Examiner for pointing it out. Now, I have included a brief description of physics of CMB anisotropies and have a discussion on how different angular scales in CMB power spectrum provide us cosmological information. In section 1.7, I have given a brief overview of other cosmological probes. }
+
+\textcolor{red}{Thesis: page numbers 10,11, and 14.}
+
+2. The caption of Figure 1.1 should include a description of what the dashed lines
+represent.
+
+\textcolor{blue}{Yes, now I have description of dashed lines.}
+
+\textcolor{red}{Thesis: page number 4.}
+
+3. In the ?dark energy? bullet on page 6, it would be good to say ?the current data
+are consistent with w = -1, with the best constraints indicating w = X.XX+-0.XX?
+
+\textcolor{blue}{updated as per Examiner's suggestion}
+
+\textcolor{red}{Thesis: page number 6.}
+
+4. In the final paragraph of page 8, I think it?s a bit misleading to say the CMB
+confirmed the inflationary prediction of homogeneity in the early universe.
+Instead, I would say the theory of inflation is able to describe the homogeneity
+measured in the CMB.
+
+\textcolor{blue}{Yes, Examiner is correct in pointing it out and I have changed it accordingly.}
+
+\textcolor{red}{Thesis: page number 8.}
+
+5. Near the top of page 10, it should be noted that most inflationary models predict
+a small amount of non-Gaussianity.
+
+\textcolor{red}{Thesis: now included in the footnote of page number 10.}
+
+6.  Section 1.6 only discusses primordial E-mode polarization, but it should at least
+mention other polarization sources (e.g., potential inflationary B-modes and
+lensing). The only observational reference given is based on DASI (from almost
+20 years ago). More recent results should be cited and described.
+
+\textcolor{blue}{I thank Examiner for pointing it out. I have included more information on B-modes and have also cited the latest results.}
+
+\textcolor{red}{Thesis: page number 12 and 13.}
+
+
+\begin{center}
+\textbf{Examiner's comments on chapter 2}
+\end{center}
+
+1. In section 2.1 the perturbations are described to grow into galaxies, galaxy
+clusters, etc. The ?etc.? seems to imply the existence of collapsed structures
+larger than galaxy clusters.
+
+\textcolor{blue}{corrected}
+
+\textcolor{red}{Thesis: page number 15.}
+
+2. I don?t quite follow the progression from equation 2.11 to 2.12, which only differ
+by a factor of $c^2$ on the RHS of the equation.
+
+\textcolor{blue}{A fully relativistic calculation for the growth of density perturbations yields Eqn. 2.12. However, it is outside the scope of my thesis to include the derivation.}
+
+3. At the end of section 2.3 the claim is made that an ?exact solution? can be
+obtained numerically. By definition, numerical solutions are an approximation of
+the exact (i.e., analytic) solution.
+
+\textcolor{blue}{Yes, Examiner is correct. What I meant was we can get a robust solution numerically, thesis has been changed accordingly.}
+
+\textcolor{red}{Thesis: page number 18.}
+
+4. In section 2.5.1 the claim is made that the dark matter ?generally follows a
+spherically symmetric NFW model?. I understand what is meant here, but as
+written I find this statement misleading. While it?s true that the ensemble average
+mean profile, when considering large samples of clusters, is well approximated
+by a spherically symmetric NFW model, in general any given cluster?s profile will
+differ significantly due to e.g., asphericity, sub-structure, recent merger activity,
+etc.
+
+\textcolor{blue}{Yes, the examiner is correct. As we are using stacking analysis we are much concerned with the ensemble average. I have changed the text in the thesis accordingly.}
+
+\textcolor{red}{Thesis: footnote in page number 20}
+
+
+5. At the top of page 18 values of 12\% and 2\% are given as the mass fractions of
+ICM and stars. As currently written, these values imply a level of precision and
+self-similarity that does not match reality (i.e, the mean mass fractions are fairly
+strong functions of cluster total mass, and individual clusters can deviate
+significantly from the values of 12\% and 2\%).
+
+\textcolor{blue}{Yes, Examiner is again correct in pointing it out.}
+
+\textcolor{red}{Thesis: footnote in page number 20}
+
+6. The caption of Figure 2.1 says galaxies are ?multi wavelength objects?. I suspect
+what is meant is that galaxy clusters produce a range of measurable signals, and
+are often studied using a combination of radio, mm-wave, IR, optical, UV, and/or
+X-ray observations.
+
+\textcolor{blue}{Yes, what I meant to say was "galaxy clusters produce a range of measurable signals". }
+
+\textcolor{red}{Thesis: page number 21.}
+
+
+7. In the first paragraph of 2.5.2 the claim is made that fgas should be equal to
+$omega_b/omega_m$. This is not true, as most simulations predict a small amount
+of gas depletion (~5-10\%), even at radii as large as R200. I also don?t follow the
+second sentence describing the use of $omega_b$ and fgas to constrain
+$omega_m$. I?m not aware of any recent measurements using such a technique.
+
+\textcolor{blue}{The earlier text wasn't very clear about $f_{gas}$ test. Detailed text is now in updated thesis, I hope it answers all the Examiner's questions}
+
+\textcolor{red}{Thesis: page number 22.}
+
+
+8. Section 2.5.3 should contain text introducing the basics of gravitational lensing,
+perhaps using equations and schematics. Such details are not included
+anywhere in this thesis, even though they form the basis of all of the candidate?s
+research.
+
+\textcolor{blue}{Yes, I agree with the Examiner.}
+
+\textcolor{red}{I have provided a brief overview of lensing formalism in pages 26, 27, and 28.}
+
+9. In the first sentence of section 2.5.3, ?fidelity? should be replaced with something
+like ?accuracy?.
+
+\textcolor{blue}{corrected}
+
+\textcolor{red}{Thesis: section 2.5.3}
+
+10. Following equation 2.30, the claim is made that scaling relations depend on
+baryonic physics, with the end result that the estimated mass may be in error.
+While it may be true that the masses are in error if they are derived directly from
+?baryonic observables? (i.e., X-ray hydrostatic masses), as noted in this thesis
+the bias is quite small for lensing-derived masses (obtained either via traditional
+optical lensing measurements or via the CMB measurements presented in this
+thesis). While the scaling relation of a baryonic observable will contain scatter
+due to baryonic physics, this does not mean that there is an error in the mass
+estimate.
+
+\textcolor{blue}{What I meant was that any misestimate in modeling baryonic physics will lead to misestimation of mass and hence the cosmological parameters. I have changed ``error'' to scatter.}
+
+\textcolor{red}{Thesis: page number 24.}
+
+
+11. A more detailed description of figure 2.4 is required. What are the three scaling
+relations used for the different contours? Are any thought to be more (or less)
+robust than the others?
+
+\textcolor{blue}{Yes, I agree the text should be have been more detailed. All of the scaling relations are SZ-mass scaling relations and each of them differ by assuming different cluster gas physics. The paper doesn't  mention which one is more robust. I have included detailed text in thesis.}
+
+\textcolor{red}{Thesis: page number 25.}
+
+12. At the top of page 23 there is a claim about using lensing to reduce the scatter in
+the parameters of equation 2.30. This statement is a bit confusing, and I think
+what the candidate meant is that ?lensing measurements provide a low-bias
+measurement of cluster mass that can be used to improve the accuracy of the
+mean scaling relation? or something similar.
+
+\textcolor{blue}{I have changed the text according to Examiner's suggestion.}
+
+\textcolor{red}{Thesis: page number 26.}
+
+13. In the second paragraph of page 23, ?optical? is given as a possible background
+source. This should be made more precise (e.g., optical galaxies).
+
+\textcolor{blue}{I have changed the text according to Examiner's suggestion.}
+
+\textcolor{red}{Thesis: page number 28.}
+
+14. The first bullet on page 23 claims that optical detections decrease ?exponentially?
+behind high redshift clusters. While lensing measurements do become more
+difficult at high z for a range of reasons (e.g., lens is geometrically closer to most
+background galaxies, increased potential for foreground contamination, and the
+lower density of background sources at a given depth), the number of
+background sources should not decrease according to an exponential function. In
+addition, this bullet is a bit of a non-sequitur. Knowledge of the precise redshift of
+the CMB is useful for reducing systematics, because the geometry of the lens is
+precisely known. This has nothing to do with the fact that background galaxies
+are more difficult to detect at higher redshift. I suggest splitting this bullet into two
+parts, one noting the benefit of having a single (well known) redshift for the
+lensed source(s), and one noting the benefit of the signal from the lensed
+source(s) being uniform with cluster redshift.
+
+\textcolor{blue}{I have changed the text according to Examiner's suggestion.}
+
+\textcolor{red}{Thesis: page numbers 28 and 29.}
+
+\begin{center}
+\textbf{Examiner's comments on chapter 3}
+\end{center}
+
+
+1. ?c? is described following equation 3.9, but it is not actually a part of that
+equation.
+
+\textcolor{blue}{Yes, I described before I used it in an equations. But now it has been fixed}
+
+2. Following equation 3.12 you state that the lensing signal is ?too weak to be
+detected in a single cluster? and stacking is needed for a ?reasonable? SNR.
+More details are needed here. Why is the signal too weak? Is it weak relative to
+current measurement noise levels? Is it weak compared to the intrinsic variations
+in the CMB? Is this true for both temperature and polarization? For clusters at all
+masses/redshifts? What is a ?reasonable? SNR when considering the stack?
+
+\textcolor{blue}{The lensing signal of a single cluster is too weak compared to the intrinsic variations in CMB.  %decrease the experimental noise levels for future experiments  
+  For example, the lensing signal of a massive galaxy cluster $M_{200m} = 5 \times 10^{14} M_{\odot}$ at redshift $z = 0.7$ is of the order of 5 $\mu K$, whereas the background gradient is an order of magnitude greater (50$\mu K$).}
+  
+\textcolor{red}{Thesis: page number 35.}
+
+3. Missing reference after equation 3.14
+
+\textcolor{blue}{Thanks for pointing it out, it has been fixed.}
+
+4. The top of page 30 states that the lensing signal is mainly within a radius of 10?,
+with less than a 1\% increase in SNR for a 14? boxsize. A redshift (and mass)
+qualifier should be added to these statements.
+
+\textcolor{blue}{For a cluster of mass $M_{200m} = 2 \times 10^{14} M_{\odot}$ at redshift $z = 0.7$, increasing the boxsize to 14' $\times$ 14'  increases the SNR by $\le$ 1\%.}
+
+\textcolor{red}{Thesis: page number 36.}
+
+
+5. The number ?1,30,000? is given on page 30. I guess there is a missing 0?
+
+\textcolor{blue}{Sorry for the confusion, it is 130,000. It has been corrected}
+
+\textcolor{red}{Thesis: page number 36.}
+
+6. It is not clear in chapter 3 whether asphericity was considered. If not, then it
+should be clearly stated that was the case. In addition, the reason for not
+considering it should be stated (e.g., it was beyond the scope of what was
+possible in this analysis for reasons XXX and YYY or we think it will have a
+minimal impact for reasons XXX and YYY).
+
+\textcolor{blue}{No, asphericity was not considered. For a stacking analysis we expect the impact of asphericity to be minimal. It is outside the scope of my thesis to consider asphericity, however, a future study should quantify the impact.}
+
+\textcolor{red}{Thesis: page number 52.}
+
+
+7. On the top of page 35, which of the foregrounds sets the effective noise floor of 5
+uK-arcmin?
+
+\textcolor{blue}{Cluster's tSZ effect and kSZ effect, radio galaxies, and dusty galaxies set an effect noise floor of 5 $\mu K'$}
+ 
+ \textcolor{red}{Thesis: page 41.}
+ 
+ 8. In the second to last paragraph of section 3.3, can you explain why foreground
+cleaning enlarges the beam? I can understand that a standard ILC method would
+result in an effective resolution equal to the lowest frequency channel, but is
+something else going on?
+ 
+ \textcolor{blue}{Yes, it is just because ILC method would result in an effective resolution equal to the lowest frequency channel. Now, I state that explicitly in the text.}
+ 
+ \textcolor{red}{Thesis: page 41.}
+ 
+ 9. Top bullet of page 36 - isn?t a more relevant centroid offset that between the SZ
+and WL? Or SZ and BCG? It?s not obvious why an offset between two ICM
+observables is relevant.
+ 
+ \textcolor{blue}{Yes it is relevant, because we can constrain the mass of clusters detected in X-ray survey using CMB cluster lensing (assuming the CMB maps are available). The offset between X-ray and SZ centers may result in an error.}
+ 
+10. Second bullet of page 36 - again, does the mismatch include some estimate of
+asphericity?
+
+\textcolor{blue}{No, it doesn't.}
+
+11. Third bullet of page 36 - does LOS structure include that which is correlated with
+the cluster? Section 3.4.1 seems to indicate correlated structure is included,
+although even there it is not entirely clear. Clarification of this issue should be
+included throughout this chapter.
+
+\textcolor{blue}{Yes, correlated structure is considered. Now, the text has been updated to specify.}
+
+\textcolor{red}{Thesis: page 44.}
+
+12. Top of page 37 - missing reference
+
+\textcolor{blue}{Thank you, it has been fixed}
+
+13. Table 3.1 seems to indicate that only DG within the cluster are considered, and
+not field galaxies. Is this correct? More exact details of the DG population should
+be included both within this table and the rest of this chapter.
+
+\textcolor{blue}{Only the DG correlated with the cluster is considered by using tSZ X CIB correlation term as described in appendix of the thesis. Now, the text has been updated to be more specific.}
+
+\textcolor{red}{Thesis: page number 51}
+
+14. For the 50? maps described at the top of page 38, the text seems to indicate that
+correlated structure in the POS is included in these maps. Is correlated structure
+along the LOS also included?
+
+\textcolor{blue}{Yes, the correlated structure along the line of sight is also considered.}
+
+
+15. Second paragraph of 3.4.3 - I again don?t fully understand the relevance of
+considering offsets between SZ and X-ray. How is that relevant to lensing offsets
+from your assumed SZ center? The SZ/BCG offset seems like a better indicator.
+
+\textcolor{blue}{Again as I mentioned earlier, it is relevant because we can constrain the mass of clusters detected in X-ray survey using CMB cluster lensing (assuming the CMB maps are available). The offset between X-ray and SZ centers may result in an error.}
+
+16. In the final paragraph of 3.4.3, I don?t understand the statement regarding
+knowing the rms offset to 2\%. Does this mean that you need to understand this
+offset to within 2\% of 0.5? (i.e., to a precision of 0.01??) Or am I misunderstanding
+what is being described?
+
+\textcolor{blue}{Yes, I mean 2\% of 0.5\am\ i.e., to a precision of 0.01\am}
+
+
+17. The final sentence of chapter 3 suggests ~1\% mass calibration for CMB-S4. My
+understanding is that this calibration is based on the assumption that all of the
+clusters are in a single mass and redshift bin (i.e., it is based solely on
+constraining the values of A, and possibly D, from equation 2.30). Is this the
+case? If so, then how will the values of B and C be constrained?
+
+\textcolor{blue}{The claim we made for CMB-S4 is that we can determine the stacked mass of the clusters by ~1\%. In order to constrain the mass-scaling relation we need to bin the clusters in observable redshift space, which will decrease the number of clusters. }
+
+\begin{center}
+\textbf{Examiner's comments on chapter 4}
+\end{center}
+
+1. In the first paragraph of Section 4.1, I think you mean a fictional cluster with a
+value of y 1000 times larger than typical (1000 times more massive would imply
+$1000^{5/3}$ larger y).
+
+\textcolor{blue}{No, it is for 1000 times more massive cluster as mentioned in the cited paper.}
+
+2. At the bottom of page 56 (and elsewhere), the term ?blue blob? is used. This
+seems a bit too informal, and the interpretation of ?blue? is ambiguous (e.g.,
+?blue? vs. ?red? galaxies). I suggest changing to something like ?semi-resolved
+negative signal decrement?.
+
+\textcolor{blue}{Thank you for pointing out.}
+
+\textcolor{red}{Thesis: page number 62.}
+
+3. The caption of figure 4.2 needs to have more details. Are the units uK? What is
+the total size of the thumbnail (how many arcmin on each side)? What redshift is
+assumed for the cluster?
+
+\textcolor{blue}{Yes, the units are in uK. The total size of each size is \smallboxsize and the redshift of the cluster is $z = 0.7$.}
+
+\textcolor{red}{Thesis: page 57.}
+
+4. The top of page 62 discusses the mass dependence of the magnification bias. It
+seems like the redshift dependence would be even larger (at least at lower z).
+This redshift dependence should also be discussed.
+
+\textcolor{blue}{The magnification bias in not due to the redshift but due to lensing which will decrease the gradient of the background CMB as mentioned in the cited paper.}
+
+
+5. In the middle of page 65 you talk about including the 20\% scatter in Ysz-M in
+estimating the SZ-induced noise. Did you also consider the scatter in SZ profile
+shapes (which is also measured by Arnaud+2010, along with more recent
+references)?
+
+\textcolor{blue}{No, we didn't consider the scatter in SZ profile.}
+
+6. The bottom of page 65 states that the SZ-free maps have x3 times more noise
+than the single frequency maps. Why a factor of 3? It?s not obvious to me why
+that would be the case, and I can?t find any explanation in the thesis.
+
+\textcolor{blue}{The text should have been more clear. I meant to say that for SPTpol frequency and noise levels, the noise level of tSZ free maps increased by a factor of 3.}
+
+\textcolor{red}{Thesis: page numbers 71 and 72.}
+
+7. At the top of page 67, I don?t understand the statement about the X-ray
+observations with $f_{mis}$=0.22+-0.11. Would you please clarify this?
+
+\textcolor{blue}{Sorry for the confusion, the updated text is now detailed. Rykoff et al., 2016 compared the centroids DES RM clusters with SZ (Bleem et al., 2015) and X-ray observations and found a fraction, $f_{mis} = 0.22 \pm 0.11$, of the DES clusters to be mis-centered by $\sigma_{R}$, which is a fraction of the cluster radius $R_{\lambda} = (\lambda/100)^{0.2} \: h^{-1}$.
+They further modelled the mis-centering as a Rayleigh distribution with $\sigma_{R} = c_{mis} R_{\lambda}$ where $\ln c_{mis} = -1.13 \pm 0.22$.}
+
+\textcolor{red}{Thesis: page number 73.}
+
+8. At the top of page 71 you state that clusters within the redshift range 0.1<z<0.95
+are considered. At the low redshift end of this range, the clusters will be quite
+large in angular size, and it?s not obvious that all of the assumptions/
+optimizations previously described will be valid. Would you please provide some
+discussion of this?
+
+\textcolor{blue}{No, it doesn't. Even massive cluster $M = 5 \times 10^{14} M_{\odot}$ at a redshift of 0.1 with subtend an angle of ~5-arcmin. The coherence length of CMB is 10 arcmin, so as explained in Hu et al., 2007 the quadratic estimator should still be valid.}
+
+9. There is a missing reference at the start of section 4.6.2.
+
+\textcolor{blue}{Thank you it has been fixed.}
+
+10. I don?t understand the statement at the top of page 74 that more massive clusters
+host more galaxies, and so the bias will increase with mass. In fact, the opposite
+is true in general ($f_star$ decreases with increasing mass), and so I would expect
+the fractional contamination to decrease with increasing mass. Also, I suspect the
+bigger issue is redshift evolution, and the increasing fraction of DSFGs within the
+cluster at increasing redshift. Did you consider this issue?
+
+\textcolor{blue}{Thank you for pointing this out. I have removed the sentence. We have used realistic foreground simulations of Sehgal et al .,  2010 to quantify the foreground bias. One of the problems with realistic simulations is that we are sample variance limited at higher mass and redshift end. }
+
+11. In the second paragraph of page 74 you talk about including emission associated
+with the cluster. Would you please provide more details of how this is done? Do
+you make random realizations of individual cluster galaxies? Or just an average
+radial profile? What is assumed for the radial distribution of the emission? Is it
+mass/redshift dependent?
+
+\textcolor{blue}{For each cluster, we select halos from Sehgal et al., 2010 simulations with a redshift and mass tolerance. The updated thesis text is detailed}
+
+\textcolor{red}{Thesis: page number 80.}
+
+12. Lower in the same paragraph you note that the foreground maps are not lensed
+by the cluster. Can you estimate the impact of not including lensing for these
+signals? Or describe why it was beyond the scope of work for this project to
+include lensing of these signals?
+
+\textcolor{blue}{We expect the impact of foreground lensing to be minimal and is outside the scope of my thesis.}
+
+13. Please provide a detailed description of the parameters $f_mis$ and $c_mis$, which
+are given at the top of page 78.
+
+\textcolor{red}{Thesis: page number 73.}
+
+14. In figure 4.10, the error bars in adjacent bins appear to be highly correlated. Is
+this the case?
+
+\textcolor{blue}{Yes, because of the beam convolution.}
+
+\begin{center}
+\textbf{Examiner's comments on chapter 5}
+\end{center}
+
+
+1. At the top of page 85 you state that cluster member emission is expected to be
+small compared to the SZ signal for massive clusters. While this is generally true,
+radio emission from the AGN core can be much larger than the SZ signal for local
+clusters, and at higher redshifts the dust emission from member galaxies is
+significant (although few observational constraints are available in this regime)
+
+\textcolor{blue}{I thank Examiner for pointing this out, I have updated the text accordingly. }
+
+\textcolor{red}{Thesis: footnote of page number 91.}
+
+2. In figure 5.4, the performance looks considerably worse compared to the results
+for spherical clusters in figure 5.3 (a factor of ~2?). The text notes this
+degradation is from residual SZ signal. I assume this is entirely due to
+asphericity, since the thesis shows that the exact profile shape assumed for the
+spherical results did not impact the performance? If this is the case, then would it
+be possible to improve the results by allowing for more morphological freedom in
+the SZ fits (e.g., ellipticity in the POS)?
+
+\textcolor{blue}{By residual SZ signal I also meant the SZ signal due to assumed cluster profile and the real cluster profile (which has apshericity). Yes, future work can reduce this by have more morphological freedom, however, it is outside the scope of this thesis.}
+
+
+
+
+
+\begin{center}
+\textbf{Examiner's comments on chapter 6}
+\end{center}
+
+1. At several locations in this chapter you state that the tSZ bias is ?eliminated?. This
+isn?t correct, e.g., due to relativistic variations in the SZ spectrum, and should
+therefore be replaced with a term such as ?largely eliminated?.
+
+\textcolor{blue}{Yes, it has been replaced.}
+
+2. It appears that the project described in section 6.4 is still in the early phases. It
+would be useful to include a list of the nominal tasks remaining for the project,
+along with an approximate timeline for completion.
+
+\textcolor{blue}{Now it includes detailed timeline.}
+
+\textcolor{red}{Thesis: page number 104.}
+
+3. The final remarks on page 99 talk about the need for precise theoretical models
+and foreground simulations. I would argue that additional observational
+constraints are also needed (e.g., ALMA observations of high-z clusters to
+measure the dust signal from cluster-member galaxies, resolved SZ observations
+to confirm the morphologies predicted by simulations, etc.).
+
+\textcolor{blue}{Thanks for pointing this out. Yes, additional observational constraints are also needed. }
+
+\textcolor{red}{Thesis: section 6.5}
+
+\end{document}

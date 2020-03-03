@@ -1,0 +1,69 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Main.aux
+A level-1 auxiliary file: MacroAstroJour.aux
+A level-1 auxiliary file: Stmt_of_cont.aux
+A level-1 auxiliary file: Dedication.aux
+A level-1 auxiliary file: Abstract.aux
+A level-1 auxiliary file: Preface.aux
+A level-1 auxiliary file: chapter1.aux
+A level-1 auxiliary file: chapter_cluster.aux
+A level-1 auxiliary file: chapter2.aux
+A level-1 auxiliary file: chapter3.aux
+A level-1 auxiliary file: chapter4.aux
+A level-1 auxiliary file: conclusion.aux
+The style file: plainnat.bst
+A level-1 auxiliary file: appendix1.aux
+Database file #1: spt.bib
+Repeated entry---line 8580 of file spt.bib
+ : @article{george15
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15277 of file spt.bib
+ : @article{mather94
+ :                  ,
+I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--there's a number but no volume in madhavacheril18
+You've used 152 entries,
+            2773 wiz_defined-function locations,
+            1510 strings with 107055 characters,
+and the built_in function-call counts, 266611 in all, are:
+= -- 18000
+> -- 39599
+< -- 51
++ -- 13213
+- -- 13054
+* -- 30002
+:= -- 46400
+add.period$ -- 579
+call.type$ -- 152
+change.case$ -- 4801
+chr.to.int$ -- 145
+cite$ -- 305
+duplicate$ -- 3205
+empty$ -- 5541
+format.name$ -- 13250
+if$ -- 49914
+int.to.chr$ -- 8
+int.to.str$ -- 1
+missing$ -- 154
+newline$ -- 891
+num.names$ -- 610
+pop$ -- 9257
+preamble$ -- 1
+purify$ -- 4651
+quote$ -- 0
+skip$ -- 6080
+stack$ -- 0
+substring$ -- 1942
+swap$ -- 352
+text.length$ -- 19
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1662
+warning$ -- 1
+while$ -- 548
+width$ -- 0
+write$ -- 2223
+(There were 2 error messages)

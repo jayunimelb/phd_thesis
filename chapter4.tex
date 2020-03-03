@@ -4,7 +4,7 @@
 The modified Quadratic Estimator (mQE) developed in the last chapter completely eliminates the thermal Sunyaev-Zel'dovich (SZ) bias by using a SZ free gradient map. 
 Though SZ bias is removed in the mQE, SZ present in the lensing map induces extra variance in the reconstructed lensing convergence profile. 
 Unlike the variance due to other sources (such as instrumental noise, uncorrelated foregrounds etc.,), SZ variance depends on the mass of the galaxy cluster.
-The SZ variance scales roughly with the mass of the cluster as $M^{5/3}$.
+The SZ variance scales roughly with the mass of the cluster as $M^{3.33}$.
 For DES X SPTpol clusters which we used in the previous chapter, we downweighed the massive clusters to take the SZ variance into account. 
 This didn't have much effect on the final SNR as we had only few massive clusters. 
 However, with future low noise CMB surveys such as SPT-3G, CMB-S4, Simons Observatory etc.,\citep{bender18,cmbs4-sb1,so18} downweighing won't be an optimal solution.
@@ -55,7 +55,7 @@ However, template fitting can significantly reduce the SZ power in the lensing m
 To be unbiased, we must fit the template to a CMB-subtracted map or account for the information loss from template projection in the normalization factor $A_l$ of Eqn.~\ref{mqe_convergence_eqn}. 
 The latter tact (correcting $A_l$) might have advantages if one needed to suppress multiple kinds of cluster emission, e.g., dusty and radio galaxies in addition to the thermal SZ effect. 
 Projecting a template from the Compton-$y$ map will not help these other cluster signals. 
-However, we expect these other signals to be small compared to the SZ flux for massive galaxy clusters. %\pending{citations needed}. 
+However, we expect these other signals to be small compared to the SZ flux for massive galaxy clusters \footnote{While the statement is generally true, it is important to note that in some low redshift clusters radio emission from the AGN core can be much larger than the SZ signal and CIB may be significant for some high redshift clusters.}. %\pending{citations needed}. 
 In this work, we take the first approach and fit the template to a Compton-$y$ map created from a linear combination of 95 and 150\,GHz maps. 
 Effectively, we have used the different spectral dependence of the SZ and CMB to eliminate the CMB, and thus any correlation between the removed template and the lensing dipole in the CMB map. 
 
@@ -114,7 +114,7 @@ Compared to the modified QE \citep{madhavacheril18,raghunathan18}, the new eleme
  \caption{
  Ratio of SZ variance over kappa variance as a function of cluster mass and experimental noise level. 
  As expected the ratio increases with mass for a given experimental noise level. 
- The black solid line represents the points where the ratio SZ variance is equal to that of experimental noise.
+ The black solid line represents the points where the SZ variance is equal to the non-SZ variance.
  %\pending{(SR 20190130: Can you make a contour plot here to also include the effect of map depth? That will be more intuitive and one can easily figure out the mass threshold for which this method will be effective for different surveys.)\\}
  %\pending{Axis labels and caption disagree: sigma/variance} 
  %\pending{\textbf{Plot change: Keep the dashed line for 'SZ variance'. Add several horizontal lines at eg 1uk-arcmin, 3-uk-arcmin, 10uk-arcmin. Y-axis will no longer be the ratio}}
@@ -133,7 +133,7 @@ We apply the lensing pipeline to the simulated skies to estimate the convergence
 We fit the convergence map  to determine  a mass, and take the scatter in these inferred masses over 1000 simulations to be $\sigma_{\kappa}$. 
 
 
-In contrast, the SZ variance should increase with cluster mass, $M$, roughly as $\sigma_{sz}^2 \propto M^{5/3}$, while being independent of the survey parameters. 
+In contrast, the SZ variance should increase with cluster mass, $M$, roughly as $\sigma_{sz}^2 \propto M^{10/3}$, while being independent of the survey parameters. 
 We estimate the SZ variance using the same suite of simulations, however now adding the cluster's SZ emission to the lensing map. 
 We continue using an SZ-free map for other leg of the QE, the large-scale gradient map. 
 As before, we estimate the convergence maps, fit for masses and take the scatter in these inferred masses to estimate $\sigma_{SZ}^{2}$ + $\sigma_{\kappa}^{2}$.
@@ -262,7 +262,7 @@ The solid lines are without template fitting, while the dashed lines show the im
  The apparent flattening of the red curve is due the limited number of higher mass clusters in the Sehgal simulation. 
  %Sehgal simulations are sample variance limited especially at higher masses.
  In this case of realistic SZ signals, however, we note that the performance is not equivalent to the idealized case presented as black solid curve in Fig. \ref{fig:template_fitting}. 
-This is due to the residual SZ signals in the map coming from the template mismatch and from adjacent haloes which we do not attempt to remove.
+This is due to the residual SZ signals in the map coming from the template mismatch, for example fitting a spherically symmetric template does not account for the cluster asphericity \footnote{By allowing more morphological freedom to the template might reduce this variance.}. In addition, the SZ signal from adjacent halos which we do not attempt to remove will also result in additional variance.
  
 
 
@@ -341,7 +341,7 @@ In part this is because upcoming CMB experiments will not have sufficient angula
 For mock SZ signals modeled using Arnaud profile, we find that the template removal approach reduces all of the additional variance due to the SZ signal. 
 The improvement is not 100\% for realistic SZ signals \citep{sehgal10, takahashi17} because of the SZ emission from the adjacent haloes along the line-of-sight that we do not attempt to remove. 
 
-The method presented in this work is not limited to the lensing lensing. 
+The method presented in this work is not limited to the cluster lensing. 
 For example, \citet{madhavacheril18} demonstrated that the modified QE can also be employed to CMB lensing in general. 
 However, as shown here the thermal SZ signal from clusters detected at high \snr{} adds extra variance in the reconstructed lensing maps. 
 By using template fitting approach we reduced the variance significantly. 
@@ -395,7 +395,7 @@ We apply the lensing pipeline to the simulated skies to estimate the convergence
 We fit the convergence map  to determine  a mass, and take the scatter in these inferred masses over 1000 simulations to be $\sigma_{\kappa}$. 
 \tbd{think I've made this inaccurate. need to fix/explain better}
 
-In contrast, the SZ variance should increase with cluster mass, $M$, roughly as $\sigma_{sz}^2 \propto M^{5/3}$, while being independent of the survey parameters. 
+In contrast, the SZ variance should increase with cluster mass, $M$, roughly as $\sigma_{sz}^2 \propto M^{10/3}$, while being independent of the survey parameters. 
 We estimate the SZ variance using the same suite as simulations, however now adding the cluster's SZ emission to the lensing lensing map. 
 We continue using an SZ-free map for other leg of the QE, the large-scale gradient map. 
 As before, we estimate the convergence maps, fit for masses and take the scatter in these inferred masses to estimate $\sigma_{SZ}^{2}$ + $\sigma_{\kappa}^{2}$.

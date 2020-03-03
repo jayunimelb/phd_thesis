@@ -5,6 +5,7 @@
 \usepackage{amsmath,amsfonts,bm}
 \usepackage{caption,booktabs}
 \usepackage{tabularx}
+\usepackage{siunitx}
 %\usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{color}
@@ -29,10 +30,14 @@
 \usepackage{afterpage}
 \usepackage{float}
 \usepackage[section]{placeins}	
-% Set up geometry and line spacing `
-% \usepackage[top=0.5in, bottom=0.5in, left=1.0in, right=0.75in, headheight=13.0pt, includeheadfoot]{geometry} % Pinched Crown @ 10pt
-\usepackage[top=3.0cm, bottom=2.25cm, left=3.5cm, right=3.0cm, headheight=16.5pt, includeheadfoot]{geometry} % A4 @ 11pt
+% Set up geometry and line spacing 
+%\usepackage[top=0.5in, bottom=0.5in, left=1.0in, right=0.75in, headheight=13.0pt, includeheadfoot]{geometry} % Pinched Crown @ 10pt
+\usepackage[top=3.0cm, bottom=2.25cm, left=3.5cm, right=3.0cm, headheight=16.5pt,includeheadfoot]{geometry} % A4 @ 11pt
 % \usepackage[top=4cm, bottom=3.0cm, left=3.5cm, right=3.0cm, headheight=15.5pt]{geometry}
+
+
+\DeclareSIUnit \h {$h$}
+\DeclareSIUnit \parsec {pc}
 \newcommand{\boxsize}{$300^{\prime} \times 300^{\prime}$}
 \newcommand{\smallboxsize}{$10^{\prime} \times 10^{\prime}$}
 \newcommand{\mediumboxsize}{$50^{\prime} \times 50^{\prime}$}
@@ -115,7 +120,7 @@
 \include{macros}
 
 % Define the thesis metadata
-\title{\Huge\textbf{\textsc{Weighing the giants using Cosmic Microwave Background lensing}}}
+\title{\Huge\textbf{\textsc{Weighing the Giants: Measuring galaxy cluster masses with CMB lensing.}}}
 
 \author{\Large{\textsc{Sanjaykumar Patil}}}
 
@@ -138,7 +143,7 @@
     \frontmatter%
 
 	\include{Stmt_of_cont}
-	%\include{Dedication}
+	\include{Dedication}
 	\include{Abstract}
 	\include{Preface}
 	%\include{Acknowledgements}
@@ -165,7 +170,7 @@
 \setcounter{chapter}{3} %3
 		 \include{chapter3}
 
-%  -------  Template Fitting  -------  
+%  -------  Te{}plate Fitting  -------  c_ssh
 \setcounter{chapter}{4} %4
 		 \include{chapter4}
 		 

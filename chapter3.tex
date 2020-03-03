@@ -12,7 +12,7 @@ However, SZ-free maps have higher noise resulting in decrease of signal to noise
 This chapter is organised as follows. First, we provide a brief review of the SZ effect in ~\ref{SZ} (refer \cite{sunyaev70b} for a detailed review) and its effect on CMB-cluster lensing in \S\ref{sec_sz_induced_bias}.
 We discuss the modifications done to the QE in order to remove the SZ bias in \S\ref{sec_method}.
  %We explain the data sets used in \S\ref{sec_data} and the model fitting in \S\ref{sec_model_fitting}. 
- The datasets and model fitting are described in  \S\ref{sec_data} and \S\ref{sec_model_fitting} respectively.
+ The datasets and model fitting are described in  \S\ref{sec_model_fitting} and \S\ref{sec_data} respectively.
  Before we apply our new method to data in \S\ref{mqe_sec_results}, we validate our pipeline using simulations in \S\ref{sec:pipeline_verfication}. The effect of systematics involved in the analysis  is quantified in \S\ref{mqe_sec_systematics}.
 Finally, we conclude in \S\ref{sec_con}. %we compare our results with similar work in \S\ref{mqe_sec_results}.
 This chapter closely follows \citet{raghunathan18}.%\citet*{raghunathan18_2}
@@ -34,7 +34,7 @@ The fractional change in temperature is given by
 \end{equation}
 where $y$ is Compton $y$-parameter, $n_{e}$ is the electron number density, $m_{e}$ is the electron rest mass, $c$ is the speed of light,  $T_{e}$ is the electron temperature, $\sigma_{T}$ is the Thompson cross-section, and $f(x)$ is the dimensionless frequency given by
 \begin{equation}
-f(x) = (x\frac{e^{x}+1}{e^{x}-1} -4)(1 + \delta_{SZE}(x,T_{e}))
+f(x) = \left(x\frac{e^{x}+1}{e^{x}-1} -4 \right ) \left(1 + \delta_{SZE}(x,T_{e}) \right)
 \end{equation} 
 where $\delta_{SZE}(x,T_{e})$ is the relativistic correction to the frequency dependence.
 \begin{figure}[ht]
@@ -43,15 +43,15 @@ where $\delta_{SZE}(x,T_{e})$ is the relativistic correction to the frequency de
 \label{ned_plot}
 \end{figure}
 
-The CMB surveys make use of the SZ effect to detect galaxy clusters which appear as a blue blob at frequencies lesser than 220 GHz.
+The CMB surveys make use of the SZ effect to detect galaxy clusters which appear as a semi-resolved negative signal decrement at frequencies lower than 220 GHz.
 As can be inferred from Eq. \ref{eq:sz_eqn}, the SZ effect is independent of redshift and has the potential to detect high redshift clusters, where the cluster abundance critically depends on the underlying cosmological model.
 %The CMB surveys make use the SZ effect to detect galaxy clusters which appear as a blue blob at frequencies lesser than 220 GHz.
 
-Fig. \ref{fig:clus_in_cmb} shows a galaxy cluster of mass $M_{200m}\footnote{$M_{200m}$ is defined as the mass of the cluster within radius, $R_{200}$, within which the cluster density is 200 times the critical density of the Universe at cluster redshift} = 5 \times 10^{14} M_{\odot}$ as observed by a CMB survey in 90 GHz and 150 GHz channels. While the beam size of 90 GHz channel is bigger than the 150 GHz for a given CMB experiment, here we have assumed the beam sizes of both frequency channels to be 1\am\ in order to show the amplitude difference.  
+Fig. \ref{fig:clus_in_cmb} shows a galaxy cluster of mass $M_{200m}= 5 \times 10^{14} M_{\odot}$\footnote{$M_{200m}$ is defined as the mass of the cluster within radius, $R_{200}$, within which the cluster density is 200 times the mean density of the Universe at cluster redshift.}  at a redshift of $z = 0.7$ as observed by a CMB survey in 90 GHz and 150 GHz channels. While the beam size of 90 GHz channel is bigger than the 150 GHz for a given CMB experiment, here we have assumed the beam sizes of both frequency channels to be 1\am\ in order to show the amplitude difference.  
 \begin{figure}[ht]
 \includegraphics[width=\linewidth]{figs/clus_in_cmb_new}
-\caption{A galaxy cluster of mass $M_{200m} = 5 \times 10^{14} M_{\odot}$ as observed by a CMB survey with a beam size of 1\am\ in both 90 and 150 GHz channels.  % \footnote{in general beam size of 90 \,GHz channel is bigger than \,150 GHz}
- It is worth noting that the amplitude of SZ signal in the 90 GHz channel is higher by a factor $\sim$ 1.67 compared to the corresponding SZ signal in the 150 GHz channel.}
+\caption{A galaxy cluster of mass $M_{200m} = 5 \times 10^{14} M_{\odot}$ at redshift of $z = 0.7$ as observed by a CMB survey with a beam size of 1\am\ in both 90 and 150 GHz channels.  % \footnote{in general beam size of 90 \,GHz channel is bigger than \,150 GHz}
+ Each image extends \smallboxsize \; and the colorbar is $\mu$K. It is worth noting that the amplitude of SZ signal in the 90 GHz channel is higher by a factor $\sim$ 1.67 compared to the corresponding SZ signal in the 150 GHz channel.}
 \label{fig:clus_in_cmb}
 \end{figure}
  %Effect of SZ signal on CMB lensing is discussed in ~\ref{sec_sz_induced_bias}.
@@ -120,10 +120,10 @@ We obtain the filtered gradient map and lensing map from the observed map as fol
 \end{split}
  \end{equation}
   Under the assumption that cluster lensing is a small perturbation to the unlensed image, we can neglect the quadratic terms in $\phi$.
-  By averaging over realisations of the unlensed temperature field we get a quantity proportional to $\nabla \phi$ or the lensing convergence profile, $k$,
+  By averaging over realisations of the unlensed temperature field we get a quantity proportional to $\nabla \phi$ or the lensing convergence profile, $\kappa$,
   %With filtered gradient and lensing maps in hand we can write down the expression for lensing convergence profile as 
  \begin{equation}
- \hat{k_{l}} = -A_{l} \: \int d^{2}\hat{n} \: e^{i\hat{n}.l} \:Re{\nabla .[G(\hat{n}) L^{*}(\hat{n})]}
+ \hat{\kappa_{l}} = -A_{l} \: \int d^{2}\hat{n} \: e^{i\hat{n}.l} \:Re{\nabla .[G(\hat{n}) L^{*}(\hat{n})]}
  \label{mqe_convergence_eqn}
  \end{equation}
  where $A_{l}$ is the normalisation parameter given by
@@ -137,11 +137,11 @@ We obtain the filtered gradient map and lensing map from the observed map as fol
 \label{fig:QE_schem}
 \end{figure}
 The schematic representation of quadratic estimator is shown in Fig. ~\ref{fig:QE_schem}. 
-The top panel is the 10\arcmin\ X 10\arcmin\ cutout of the observed temperature map. 
+The top panel is the \smallboxsize \; cutout of the observed temperature map. 
 %\footnote{note that it is an ideal case, we haven't used either experimental noise level or foregrounds which are present in the real data}.
 The observed temperature maps is then filtered in the fourier space (using Eqs. ~\ref{eqn_filters} and ~\ref{eqn_filter1}) to obtain the filtered gradient and lensed maps, shown in middle right and left panels respectively.
 The lensing convergence map is reconstructed by extracting the correlations between the lensing and the gradient map, which is shown in the bottom panel.
- Note that Fig. ~\ref{fig:QE_schem} is for only idealised simulations and we have niether included experimental noise nor foregrounds.
+ Note that Fig. ~\ref{fig:QE_schem} is for only idealised simulations and we have neither included experimental noise nor foregrounds.
 
   \subsection*{mitigating the magnification bias:}
 \begin{figure}[ht]
@@ -179,7 +179,7 @@ Fig ~\ref{fig:SZ_effect} shows the effect of SZ on the lensing convergence profi
  We simulate 1000 clusters each with a mass of $2 \times 10^{14}$ $M_{\odot}$ and at a redshfit of $z= 0.7$.
  To these simulated clusters we add experimental white noise noise level of 3\ukam\ 
 . On the top panels we show the stacked lensing convergence profile of these 1000 clusters - the left panel is without adding SZ and the right panel is after adding \citet{arnaud10} SZ profile. % to these 1000 clusters. %and on the right panel is with the SZ.  
- As can be inferred from the plot, the presence of SZ induces a blue blob in the center resulting in a negative bias.
+ As can be inferred from the plot, the presence of SZ induces a semi-resolved negative signal decrement (blue blob) in the center resulting in a negative bias.
  In the bottom panel we have the radial profiles of the two-dimensional kappa profiles.
  The blue (green) solid curve represents the radial lensing convergence profile with (without) SZ; the solid black curve represents the theoretical model.
  % without SZ in solid green and with SZ in solid blue curves.
@@ -261,10 +261,11 @@ The mean-field arises because of two following reasons:
 We obtain the mean field bias by stacking the convergence maps reconstructed at \howmanyrandomsforMF{} random locations in the maps. 
 
 
-{\it Weighing scheme:} By using SZ-free gradient map we completely eliminate the SZ-induced bias, however, SZ present in the lensing map induces extra variance.
+{\it Weighing scheme:}  We completely eliminated the SZ-induced bias by using SZ-free maps. However, the SZ present in the lensing map induces extra variance.
 The SZ variance is proportional to the SZ brightness and scales roughly as $M^{5/3}$.
 %For example, the lensing signal of a cluster is proportional to its mass $M$ while the SZ signal scales roughly as $M^{5/3}$.
-While we will discuss in detail a refined mQE to suppress the SZ induced variance in the next chapter ~\ref{ch:template}, here we just down weigh the clusters based on their SZ variance.
+We will discuss in detail a refined mQE to suppress the SZ induced variance in the next chapter ~\ref{ch:template}.
+ Here we just down weigh the clusters based on their SZ variance.
 We decompose the weights assigned for each cluster into two components: inverse noise variance weight and SZ variance weight. 
  
  
@@ -304,7 +305,10 @@ The total weight is now:
  This reduces the contribution of clusters with $\sigma_{\rm SZ} > \sigma_{\kappa}$ resulting in a decrease of SNR. 
  The number of clusters with dominate SZ variance depend on the mass distribution of cluster catalog and the experimental noise level (which will be discussed in detail in next chapter \ref{ch:template}).
  One of the alternative ways to tackle this problem would be to swap the maps, by using SZ-free lensing map and single frequency channel for gradient map.
-However, this still won't help us in gaining SNR as the SZ-free maps have 3 $\times$ higher noise level than a single frequency map. % in a minimal gain as the
+However, this still won't help us in gaining SNR as the SZ-free maps have higher noise level than a single frequency map. 
+%The increase in the noise level of SZ-free channel depends on the noise level and beam size of different frequency channels used. 
+For SPTpol like experiment which observes sky in 90 and 150 GHz the SZ-free noise level is 3 $\times$ larger than 150 GHz noise level. %noise level of SZ-free maps is 3 $\times$ the noise level of 150GHz maps.  
+% in a minimal gain as the
   % in the two legs of the QE (i.e gradient and lensing map) for massive clusters. 
 %As expected introducing $w_{\rm SZ}$ down weighs the massive clusters as the SZ variance is $\sim$ $M^{5/3}$.
 %This reduces the contribution of clusters with $\lambda \ge 60$ to less than 1\% in the final stacked sample. 
@@ -319,10 +323,10 @@ However, this still won't help us in gaining SNR as the SZ-free maps have 3 $\ti
  \label{sec_model_fitting}
  With cluster cutouts obtained from \S\ref{sec:cluster_cutouts} and the method to extract convergence profile (\S\ref{sec_method}) in hand, we can fit the model to the observed convergence.
 To obtain the mass of the cluster, we need to compare the observed lensing profile to the convergence model generated using an assumed halo mass profile.
- The observed lensing convergence profile of cluster has contributions from its own halo density ($k_{1h}$) as well as from the correlated structures along the line of sight known as two halo term ($k_{2h}$) \citep{oguri11}.
- For $k_{1h}$, we assume the galaxy cluster density to follow Navarro Frenk White (NFW,\citep{navarro96}) profile and in \ref{mqe_sec_systematics} we quantify the robustness of this assumption by using Einasto profile \citep{einasto89}.
+ The observed lensing convergence profile of cluster has contributions from its own halo density ($\kappa_{1h}$) as well as from the correlated structures along the line of sight known as two halo term ($\kappa_{2h}$) \citep{oguri11}.
+ For $\kappa_{1h}$, we assume the galaxy cluster density to follow Navarro Frenk White (NFW,\citep{navarro96}) profile and in \ref{mqe_sec_systematics} we quantify the robustness of this assumption by using Einasto profile \citep{einasto89}.
  A NFW halo profile is characterized by its scale radius $R_{s}$, the dimensionless concentration parameter c, and the dimensionless characteristic over-density $\delta_{c}$.
- The lensing convergence profile for NFW is obtained as discussed in the previous chapter \S\ref{sec_def_field} which we represent as $k(\theta)$.
+ The lensing convergence profile for NFW is obtained as discussed in the previous chapter \S\ref{sec_def_field} which we represent as $\kappa_{1h}(\theta)$. We also add two halo term ($\kappa_{2h}$) \citep{oguri11} to the  $\kappa_{1h}(\theta)$ to get $\kappa(\theta)$.
 %\iffalse{
  %The characteristic over density is defined as the ratio of central cluster density to the critical density of the Universe at the cluster redshift.
  %In terms of these quantities the NFW halo density profile is written as 
@@ -331,7 +335,7 @@ To obtain the mass of the cluster, we need to compare the observed lensing profi
  %\end{equation} 
  %where $\rho_{crit,z}$ is the critical density of the Universe at cluster redshift.
 %
- %The lensing convergence profile is the ratio of surface mass density to the critical surface density of the Universe at cluster redshift, $k(x) = \frac{\Sigma(x)}{\Sigma_{crit}}$, where
+ %The lensing convergence profile is the ratio of surface mass density to the critical surface density of the Universe at cluster redshift, $\kappa(x) = \frac{\Sigma(x)}{\Sigma_{crit}}$, where
 % \begin{eqnarray}
  %\Sigma(x) = 2 \int^{\inf}_{0} \rho(r) ds\\
  %\Sigma(crit) = \frac{c^{2}}{4\pi G} \frac{D_{CMB}}{D_{clus} D_{CMB,clus}} 
@@ -368,13 +372,15 @@ We apply the \citet{hartlap06} correction to $\hat{{\rm C}}^{-1}$ to account for
 % can enhance other frequency dependent foregrounds. This  can lead to: (a) an increased variance in the final lensing signal; and more importantly (b) enhance the emission due to radio/dusty galaxies that live in the cluster. The latter effect can lead to a biased lensing signal as it is correlated to the galaxy cluster of interest. This is expected to be particularly large for massive clusters. We use the \cite{sehgal10} simulations to estimate this bias (see Fig. \ref{fig_QE_sehgal_sims}) and impose a conservative cut of $\lambda \ge 60$ to remove 125 (88) massive clusters in our analysis from the full (cosmology) sample of the DES RM catalog.
 
 While fitting model to the real data we need to account for mis-centering of cluster, otherwise the results are biased low. 
-For instance \citet{rykoff16} compared the centroids of optically selected clusters (Dark Energy Survey) with SZ \citep{bleem15} and X-ray observations and found a fraction, $f_{mis} = 0.22 \pm 0.11$, of the DES clusters to be mis-centered by $\sigma_{R}$, which is a fraction of cluster radius $R_{\lambda} = (\lambda/100)^{0.2} \: h^{-1}$. Mis-centering smears the convergence profiles and we use the prescription provided in Eq. (34) of \citet{oguri11} to account for cluster mis-centering in the real data. %In addition to the cluster mis-centering, for real data we also need to account for the experimental filter and beam transfer functions. 
+For instance \citet{rykoff16} compared the centroids DES RM clusters with SZ \citep{bleem15} and X-ray observations and found a fraction, $f_{mis} = 0.22 \pm 0.11$, of the DES clusters to be mis-centered by $\sigma_{R}$, which is a fraction of the cluster radius $R_{\lambda} = (\lambda/100)^{0.2} \: h^{-1}$.
+They further modelled the mis-centering as a Rayleigh distribution with $\sigma_{R} = c_{mis} R_{\lambda}$ where $\ln c_{mis} = -1.13 \pm 0.22$.
+ Mis-centering smears the convergence profiles and we use the prescription provided in Eq. (34) of \citet{oguri11} to account for cluster mis-centering in the real data. %In addition to the cluster mis-centering, for real data we also need to account for the experimental filter and beam transfer functions. 
 As we will see in \S\ref{sec_data}, we lose some modes due to data filtering and the experimental beam size. The modes corresponding to the filtering and beam scale are removed from the model before fitting to the real data.
  
   
 \section{Data}
 \label{sec_data}
-In order estimate the mass of a cluster catalog all we need is the cluster location and CMB map corresponding to the cluster location.
+In order to estimate the mass of a cluster catalog, we need the cluster location and the CMB map corresponding to the cluster location.
  Both catalog and CMB map can come from the same experiment (for example SZ surveys) or from different experiments whose survey areas overlap.
 In our case we used data sets from two different experiments: CMB maps from South Pole Telescope explained in \S\ref{sec_SPT} and 
 optical cluster catalog from Dark Energy Survey explained in \S\ref{sec_DES}
@@ -420,10 +426,10 @@ We use this SZ-free map to reconstruct the background gradient of the CMB at the
 %As we will see later in \S\ref{sec_method_QE}, the gradient estimation using the SZ-free map helps in removing the SZ-induced lensing bias.
 The minimal filtering on this map allows us to recover large-scale modes which indeed helps in a better estimation of the background gradient.
 The 0.\am5{} resolution of 150 GHz temperature map has a white noise level of \mbox{$\Delta_{\rm T} = $ 6 \ukam} estimated using a jackknife approach. %estimated within the multipole band $4500 \le \ell \le 7500$.
-The low-resolution SZ-free combination is noisier with \mbox{$\Delta_{\rm T} \sim $ 17 \ukam}.
+The low-resolution SZ-free combination is noisier with \mbox{$\Delta_{\rm T} \sim $ 22 \ukam}.
 
 Fig. ~\ref{noise_ps} shows the noise power spectrum of temperature and polarisation maps. 
-Top panel in the figure represents the temperature noise power spectrum, bottom two panels correspond to polarisation stokes Q and U maps. 
+Top panel in the figure represents the temperature noise power spectrum and the bottom two panels correspond to polarisation stokes Q and U maps. 
 The purple and maroon curve in all the panels correspond to noise spectrum of 90 and 150 GHz channels respectively.
 The orange curve in the top panel represents the noise power spectrum of the tSZ-free maps obtained by using linear combination 90 and 150 GHz channels. 
 In all the three panels the vertical green curves represent the multipole range across which the white noise level is calculated.
@@ -489,19 +495,19 @@ The filtered model of all the individual clusters is weighted (\S\ref{subsec_wei
 %Before applying our pipeline to the date, we validated our pipeline using simulations.
 In this section, we describe tests used to investigate the known and unknown systematic effects in the data and to validate the pipeline.
 We describe simulations used in ~\ref{sims_used} followed by the test for unknown systematics through the ``curl'' null test (\S\ref{sec_null_tests}).
-Next we calculate the expected systematic error budget from known sources of systematic uncertainty (\S\ref{mqe_sec_systematics}). 
+We then calculate the expected systematic error budget from known sources of systematic uncertainty (\S\ref{mqe_sec_systematics}). 
 
 \subsection{Simulations}
 \label{sims_used}
 %We create Gaussian realizations of the ``lensed'' CMB power spectra from \texttt{CAMB} \citep{lewis00} for the fiducial \planck\ 2015 cosmology \citep{planck15-something}.
 In this section, we describe the simulations used for the pipeline validation. % presented in \S\ref{sec_pipeline_validation}.
-We calculate the large-scale structure lensed CMB power spectra for the fiducial \citet{planck15-13} cosmology using \texttt{CAMB}\citep{lewis00}.
+We calculate the large-scale structure lensed CMB power spectra for the fiducial \citet{planck15-13} cosmology using \texttt{CAMB} \citep{lewis00} 
 and create \boxsize\ Gaussian realizations of the CMB temperature map with $0.^{\prime}25$ pixel resolution.%s\footnote{We have confirmed that the results are unchanged when going to smaller initial pixels.}
 %We create these simulated T/Q/U maps with $0.^{\prime}25$ pixels in \boxsize\ boxes.\footnote{We have confirmed that the results are unchanged when going to smaller initial pixels.} 
  Given the small angular extent, these simulations are done in the flat-sky approximation. 
 %Thus we can employ 2D Fourier transforms instead of spherical harmonic transforms, with the angular wavenumber $\bar{k}$ related to multipole $\ell$ by $\ell = |\bar{k}|$. 
 These simulations are then lensed using the simulated galaxy cluster convergence profiles from the next section. 
-Next we apply frequency-dependent foreground 
+We next apply the frequency-dependent foreground 
 %(not lensed by the cluster) 
 realizations. %(see \S\ref{sec_validation}). 
 The simulated maps are convolved by the beam functions, and are rebinned to $0.^{\prime}5$ pixels to reduce the computational requirements. 
@@ -520,7 +526,7 @@ For the gradient map, we set: \mbox{$\ell_{1}$ = 0} (as the gradient map does no
 \subsection{``Curl'' null test}\label{sec_null_tests}
 
 We perform a ``curl'' null test \citep{hu07} at \howmanyclustersinfullsample{} cluster locations from the DES RM \whichyear{} flux-limited sample.
-Specifically, we replace the divergence of the gradient field, $\nabla \cdot [G(\bnhat) L^{*}(\bnhat)]$, in Eq. (\ref{eq_QE_kappa}) with the curl operator. 
+Specifically, we replace the divergence of the gradient field, $\nabla \cdot [G(\bnhat) L^{*}(\bnhat)]$, in Eq. (\ref{mqe_convergence_eqn}) with the curl operator. 
 Since the curl of a gradient field is zero, the reconstructed field should be consistent with zero unless there is a systematic bias in the data. 
 The result of the curl test is shown in Fig. \ref{curl_test}. 
 We radially bin the test results similar to the cluster stack as described in \S\ref{sec_model_fitting} and compare it to a null signal.
@@ -593,18 +599,19 @@ Total & 3.53\% & 0.15$\sigma$ \\\hline
 
 In this work we eliminate the bias due to SZ signal in the reconstructed convergence maps using a SZ-free gradient map. 
 %Since \sptpol{} has only two frequency channels, a simple SZ cleaning operation will tend to modify other frequency dependent foregrounds and the resultant map is not an optimal foreground free CMB map for the lensing reconstruction. 
-However, projecting just the SZ signal out tends to modify other frequency-dependent foregrounds, and the resultant map is not an optimal foreground-free CMB map for the lensing reconstruction. 
+However, projecting only the SZ signal out tends to modify other frequency-dependent foregrounds, and the resultant map is not an optimal foreground-free CMB map for the lensing reconstruction. 
 This enhancement of foregrounds generally acts as an additional source of noise and tends to increase the variance of the reconstructed convergence maps. 
 At the cluster locations, however, an increase in foreground emission due to galaxies inside the cluster can introduce undesired mode coupling between the SZ-free gradient map and the lensing map resulting in a biased lensing signal. 
-Since massive clusters host more galaxies, we can expect the bias to increase with the cluster mass or equivalently richness. 
+%Since massive clusters host more galaxies, we can expect the bias to increase with the cluster mass or equivalently richness. 
 Here we quantify this bias using the \cite{sehgal10} foreground simulations.
 
 To this end, we begin with the simulated skies described in \S\ref{sims_used}, to which we then add simulated clusters, including the lensing signal (only the {\it 1-halo} term), thermal and kinetic SZ effects, and emission associated with the cluster (e.g. from member galaxies). %(like dusty galaxies). 
 These simulations also include foregrounds uncorrelated with the clusters such as field radio galaxies.
-%The foregrounds, unless specified otherwise, come from the \cite{sehgal10} simulations described below.
+The foregrounds (cluster tSZ and kSZ, radio galaxies etc.,), unless specified otherwise, come from the \cite{sehgal10} simulations described below.
 %Note that the foreground maps, whether associated with the cluster or not, are not lensed by the cluster in these simulations. 
-The addition of foregrounds using \cite{sehgal10} simulations is described below. 
+%The addition of foregrounds using \cite{sehgal10} simulations is described below. 
 Note that the foreground maps, whether associated with the cluster or not, are not lensed by the cluster in these simulations. 
+We expect the lensing due to foregrounds is minimal and outside the scope this thesis. 
 The number of simulated clusters and their redshifts and richnesses are derived from the  DES RM \whichyear{} flux-limited sample. %check_again
 The richnesses and redshifts are converted to cluster masses according to the \ML{} relation (Eq.~\ref{eq_ML}) with best-fit parameters from \citet{melchoir17}: $A_{\rm M17} = 2.35\ \times$ \munits, $\alpha_{\rm M17} = 1.12$, and $\beta_{M17} = 0.18$.  
 
@@ -714,7 +721,7 @@ The mean lensing mass of the volume-limited sample goes up 3.2\% but the change 
 
 The main results of this work are the lensing-derived cluster mass constraints for the DES RM \whichyear\ cluster samples using \sptpol{} SZ-free gradient maps $\times$ 150 GHz temperature maps.
 %using three different combination of the \sptpol{} and \planck{} temperature maps: (A) \sptpol{} SZ-free $\times$ 150 GHz maps (baseline); (B) \lgmca $\times$ \sptpol 150 GHz maps; and (C) baseline $+$ \sptpol{} SZ-free $\times$ SZ-free maps for clusters with $\lambda \ga 40$.
-Below, we first present the lensing mass estimates in \S\ref{sec_temp_results} and use the lensing measurements from the DES \whichyear{} volume-limited sample to independently calibrate the \ML{} relation of the cluster sample in %\S\ref{sec_ML_scaling}. 
+Below, we first present the lensing mass estimates in \S\ref{sec_temp_results} and use the lensing measurements from the DES \whichyear{} volume-limited sample to independently calibrate the \ML{} relation of the cluster sample in \S\ref{sec_ML_scaling}. 
 \subsection{Stacked mass measurements}
 \label{sec_temp_results}
 In Fig. \ref{fig:fig_QE_stacked_maps}, we present the results of our stacked lensing measurements. 
@@ -733,7 +740,7 @@ The radially binned convergence profiles that are used to estimate the cluster m
 
 \begin{figure}[ht]
 \includegraphics[width=\linewidth]{figs/kappa_model_MF_y3_v6_4_22_full_vl_radprf_JODY.pdf}
-\caption{The azimuthally averaged radial profile of the stacked convergence maps from Fig. ~\ref{fig:fig_QE_stacked_maps}. The black circles and orange diamonds correspond to the flux and volume-limited Year-3 DES RM cluster samples. The error bars are the diagonal value of the covariance matrix estimated using the jackknife technique in Eq. ~\ref{eq_JK_cov}. The data points for the two sample have been artificially shifted from the bin centres to avoid cluttering. }
+\caption{The azimuthally averaged radial profile of the stacked convergence maps from Fig. ~\ref{fig:fig_QE_stacked_maps}. The black circles and orange diamonds correspond to the flux and volume-limited Year-3 DES RM cluster samples. The error bars are the diagonal value of the covariance matrix estimated using the jackknife technique in Eq. ~\ref{eq_JK_cov}. The data points for the two samples have been artificially shifted from the bin centres to avoid cluttering (orange diamonds are shifted to left and solid black circles to right). }
 \label{fig:avg_fig_QE_stacked_maps}
 \end{figure}
 
@@ -753,7 +760,7 @@ For this reason, we restrict our analysis to the volume-limited sample in the su
 \subsection{Mass-richness \ML{} scaling relation calibration}\label{sec_ML_scaling}
 
 We now apply the lensing mass measurements from \S\ref{sec_temp_results} to constrain the relationship between a cluster's mass, $M$, and optical richness, $\lambda$, in the DES RM \whichyear{} volume-limited sample. 
-We limit the analysis to just the volume-limited sample since the flux-limited sample has selection bias as explained above in \S\ref{sec_temp_results}.
+We limit the analysis to just the volume-limited sample since the flux-limited sample has selection bias as explained previously in \S\ref{sec_temp_results}.
 %Due to its higher S/N, we use the QE  with a SZ-free gradient map; we do not combine the two estimators due to the complexity in combining the different bases of the MLE and QE. 
 Following earlier weak-lensing analyses of RM clusters \citep{simet18, melchoir17, mcclintock18}, we use a power-law scaling relation for cluster mass, $M$, as a function of richness, $\lambda$, and redshift, $z$,
 \begin{eqnarray}
@@ -814,7 +821,7 @@ All the others use galaxy weak-lensing measurements and are represented as open 
 \section{Conclusions}
 \label{sec_con}
 
-In this chapter, we introduced the QE which extracts CMB-cluster lensing signal by exploiting the correlation between the gradient map and lensing map. 
+In this chapter, we introduced the quadratic estimator which extracts CMB-cluster lensing signal by exploiting the correlation between the gradient map and lensing map. 
 Though QE is just a first order approximation, it holds excellently well even in the strong lensing regime as CMB doesn't have structures at galaxy cluster angular scales. 
 The SZ effect acts as a major source of systematic and statistical contaminant for CMB-cluster lensing analysis.
 We developed a modified QE to eliminate the SZ induced systematic bias. 
@@ -822,7 +829,7 @@ In the modified QE, the undesired SZ correlation between the gradient and the le
 %We modified the QE to eliminate the SZ bias with negligible affect on the SNR.
 Our pipeline returned unbiased results when tested using simulations. 
  
-We used our new method to constrain the mass of DES year-3 cluster catalog.
+We used our proposed method to constrain the mass of DES year-3 cluster catalog.
 The DES year-3 catalog consists of 4002 (1741) clusters in the full (volume) limited sample. 
 We model the lensing convergence profile assuming a NFW profile and found the average mass of full (volume) limited cluster sample to be $M_{200m} = 1.28^{+0.14}_{-0.18}$ ($M_{200m} = 1.62^{+0.32}_{-0.25}$). 
 In addition to that, we also reported several sources of systematics in Table \ref{tab:sys} and found that all the systematics are much smaller than the statistical error.% cluster centroids to be dominant systematic source. 

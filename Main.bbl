@@ -1,0 +1,2507 @@
+\begin{thebibliography}{152}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Adachi} et~al.(2019){Adachi}, {Aguilar Fa{\'u}ndez}, {Arnold},
+  {Baccigalupi}, {Barron}, {Beck}, {Beckman}, {Bianchini}, {Boettger},
+  {Borrill}, {Carron}, {Chapman}, {Cheung}, {Chinone}, {Crowley}, {Cukierman},
+  {Dobbs}, {El Bouhargani}, {Elleflot}, {Errard}, {Fabbian}, {Feng}, {Fujino},
+  {Galitzki}, {Goeckner-Wald}, {Groh}, {Hall}, {Halverson}, {Hamada},
+  {Hasegawa}, {Hazumi}, {Hill}, {Howe}, {Inoue}, {Jaehnig}, {Jeong}, {Kaneko},
+  {Katayama}, {Keating}, {Keskitalo}, {Kikuchi}, {Kisner}, {Krachmalnicoff},
+  {Kusaka}, {Lee}, {Leon}, {Linder}, {Lowry}, {Mangu}, {Matsuda}, {Minami},
+  {Navaroli}, {Nishino}, {Pham}, {Poletti}, {Puglisi}, {Reichardt}, {Segawa},
+  {Silva-Feaver}, {Siritanasak}, {Stebor}, {Stompor}, {Suzuki}, {Tajima},
+  {Takakura}, {Takatori}, {Tanabe}, {Teply}, {Tsai}, {Verges}, {Westbrook}, and
+  {Zhou}]{wald2019}
+S.~{Adachi}, M.~A.~O. {Aguilar Fa{\'u}ndez}, K.~{Arnold}, C.~{Baccigalupi},
+  D.~{Barron}, D.~{Beck}, S.~{Beckman}, F.~{Bianchini}, D.~{Boettger},
+  J.~{Borrill}, J.~{Carron}, S.~{Chapman}, K.~{Cheung}, Y.~{Chinone},
+  K.~{Crowley}, A.~{Cukierman}, M.~{Dobbs}, H.~{El Bouhargani}, T.~{Elleflot},
+  J.~{Errard}, G.~{Fabbian}, C.~{Feng}, T.~{Fujino}, N.~{Galitzki},
+  N.~{Goeckner-Wald}, J.~{Groh}, G.~{Hall}, N.~{Halverson}, T.~{Hamada},
+  M.~{Hasegawa}, M.~{Hazumi}, C.~A. {Hill}, L.~{Howe}, Y.~{Inoue},
+  G.~{Jaehnig}, O.~{Jeong}, D.~{Kaneko}, N.~{Katayama}, B.~{Keating},
+  R.~{Keskitalo}, S.~{Kikuchi}, T.~{Kisner}, N.~{Krachmalnicoff}, A.~{Kusaka},
+  A.~T. {Lee}, D.~{Leon}, E.~{Linder}, L.~N. {Lowry}, A.~{Mangu}, F.~{Matsuda},
+  Y.~{Minami}, M.~{Navaroli}, H.~{Nishino}, A.~T.~P. {Pham}, D.~{Poletti},
+  G.~{Puglisi}, C.~L. {Reichardt}, Y.~{Segawa}, M.~{Silva-Feaver},
+  P.~{Siritanasak}, N.~{Stebor}, R.~{Stompor}, A.~{Suzuki}, O.~{Tajima},
+  S.~{Takakura}, S.~{Takatori}, D.~{Tanabe}, G.~P. {Teply}, C.~{Tsai},
+  C.~{Verges}, B.~{Westbrook}, and Y.~{Zhou}.
+\newblock {A Measurement of the Degree Scale CMB B-mode Angular Power Spectrum
+  with POLARBEAR}.
+\newblock \emph{arXiv e-prints}, art. arXiv:1910.02608, Oct 2019.
+
+\bibitem[{Alam} et~al.(2017){Alam}, {Ata}, {Bailey}, {Beutler}, {Bizyaev},
+  {Blazek}, {Bolton}, {Brownstein}, {Burden}, {Chuang}, {Comparat}, {Cuesta},
+  {Dawson}, {Eisenstein}, {Escoffier}, {Gil-Mar{\'\i}n}, {Grieb}, {Hand}, {Ho},
+  {Kinemuchi}, {Kirkby}, {Kitaura}, {Malanushenko}, {Malanushenko}, {Maraston},
+  {McBride}, {Nichol}, {Olmstead}, {Oravetz}, {Padmanabhan},
+  {Palanque-Delabrouille}, {Pan}, {Pellejero-Ibanez}, {Percival}, {Petitjean},
+  {Prada}, {Price-Whelan}, {Reid}, {Rodr{\'\i}guez-Torres}, {Roe}, {Ross},
+  {Ross}, {Rossi}, {Rubi{\~n}o-Mart{\'\i}n}, {Saito}, {Salazar-Albornoz},
+  {Samushia}, {S{\'a}nchez}, {Satpathy}, {Schlegel}, {Schneider},
+  {Sc{\'o}ccola}, {Seo}, {Sheldon}, {Simmons}, {Slosar}, {Strauss}, {Swanson},
+  {Thomas}, {Tinker}, {Tojeiro}, {Maga{\~n}a}, {Vazquez}, {Verde}, {Wake},
+  {Wang}, {Weinberg}, {White}, {Wood-Vasey}, {Y{\`e}che}, {Zehavi}, {Zhai}, and
+  {Zhao}]{alam16}
+Shadab {Alam}, Metin {Ata}, Stephen {Bailey}, Florian {Beutler}, Dmitry
+  {Bizyaev}, Jonathan~A. {Blazek}, Adam~S. {Bolton}, Joel~R. {Brownstein},
+  Angela {Burden}, Chia-Hsun {Chuang}, Johan {Comparat}, Antonio~J. {Cuesta},
+  Kyle~S. {Dawson}, Daniel~J. {Eisenstein}, Stephanie {Escoffier}, H{\'e}ctor
+  {Gil-Mar{\'\i}n}, Jan~Niklas {Grieb}, Nick {Hand}, Shirley {Ho}, Karen
+  {Kinemuchi}, David {Kirkby}, Francisco {Kitaura}, Elena {Malanushenko},
+  Viktor {Malanushenko}, Claudia {Maraston}, Cameron~K. {McBride}, Robert~C.
+  {Nichol}, Matthew~D. {Olmstead}, Daniel {Oravetz}, Nikhil {Padmanabhan},
+  Nathalie {Palanque-Delabrouille}, Kaike {Pan}, Marcos {Pellejero-Ibanez},
+  Will~J. {Percival}, Patrick {Petitjean}, Francisco {Prada}, Adrian~M.
+  {Price-Whelan}, Beth~A. {Reid}, Sergio~A. {Rodr{\'\i}guez-Torres}, Natalie~A.
+  {Roe}, Ashley~J. {Ross}, Nicholas~P. {Ross}, Graziano {Rossi}, Jose~Alberto
+  {Rubi{\~n}o-Mart{\'\i}n}, Shun {Saito}, Salvador {Salazar-Albornoz}, Lado
+  {Samushia}, Ariel~G. {S{\'a}nchez}, Siddharth {Satpathy}, David~J.
+  {Schlegel}, Donald~P. {Schneider}, Claudia~G. {Sc{\'o}ccola}, Hee-Jong {Seo},
+  Erin~S. {Sheldon}, Audrey {Simmons}, An{\v{z}}e {Slosar}, Michael~A.
+  {Strauss}, Molly E.~C. {Swanson}, Daniel {Thomas}, Jeremy~L. {Tinker}, Rita
+  {Tojeiro}, Mariana~Vargas {Maga{\~n}a}, Jose~Alberto {Vazquez}, Licia
+  {Verde}, David~A. {Wake}, Yuting {Wang}, David~H. {Weinberg}, Martin {White},
+  W.~Michael {Wood-Vasey}, Christophe {Y{\`e}che}, Idit {Zehavi}, Zhongxu
+  {Zhai}, and Gong-Bo {Zhao}.
+\newblock {The clustering of galaxies in the completed SDSS-III Baryon
+  Oscillation Spectroscopic Survey: cosmological analysis of the DR12 galaxy
+  sample}.
+\newblock \emph{\mnras}, 470\penalty0 (3):\penalty0 2617--2652, Sep 2017.
+\newblock \doi{10.1093/mnras/stx721}.
+
+\bibitem[{Allen} et~al.(2011){Allen}, {Evrard}, and {Mantz}]{allen11}
+S.~W. {Allen}, A.~E. {Evrard}, and A.~B. {Mantz}.
+\newblock {Cosmological Parameters from Observations of Galaxy Clusters}.
+\newblock \emph{\araa}, 49:\penalty0 409--470, September 2011.
+\newblock \doi{10.1146/annurev-astro-081710-102514}.
+
+\bibitem[{Arnaud} et~al.(2010){Arnaud}, {Pratt}, {Piffaretti}, {Bohringer},
+  {Croston}, and {Pointecouteau}]{arnaud10}
+M.~{Arnaud}, G.~W. {Pratt}, R.~{Piffaretti}, H.~{Bohringer}, J.~H. {Croston},
+  and E.~{Pointecouteau}.
+\newblock {The universal galaxy cluster pressure profile from a representative
+  sample of nearby systems (REXCESS) and the Y$_{SZ}$ - M$_{500}$ relation}.
+\newblock \emph{\aap}, 517:\penalty0 A92+, July 2010.
+\newblock \doi{10.1051/0004-6361/200913416}.
+
+\bibitem[{Austermann} et~al.(2012){Austermann}, {Aird}, {Beall}, {Becker},
+  {Bender}, {Benson}, {Bleem}, {Britton}, {Carlstrom}, {Chang}, {Chiang},
+  {Cho}, {Crawford}, {Crites}, {Datesman}, {de Haan}, {Dobbs}, {George},
+  {Halverson}, {Harrington}, {Henning}, {Hilton}, {Holder}, {Holzapfel},
+  {Hoover}, {Huang}, {Hubmayr}, {Irwin}, {Keisler}, {Kennedy}, {Knox}, {Lee},
+  {Leitch}, {Li}, {Lueker}, {Marrone}, {McMahon}, {Mehl}, {Meyer}, {Montroy},
+  {Natoli}, {Nibarger}, {Niemack}, {Novosad}, {Padin}, {Pryke}, {Reichardt},
+  {Ruhl}, {Saliwanchik}, {Sayre}, {Schaffer}, {Shirokoff}, {Stark}, {Story},
+  {Vanderlinde}, {Vieira}, {Wang}, {Williamson}, {Yefremenko}, {Yoon}, and
+  {Zahn}]{austermann12}
+J.~E. {Austermann}, K.~A. {Aird}, J.~A. {Beall}, D.~{Becker}, A.~{Bender},
+  B.~A. {Benson}, L.~E. {Bleem}, J.~{Britton}, J.~E. {Carlstrom}, C.~L.
+  {Chang}, H.~C. {Chiang}, H.-M. {Cho}, T.~M. {Crawford}, A.~T. {Crites},
+  A.~{Datesman}, T.~{de Haan}, M.~A. {Dobbs}, E.~M. {George}, N.~W.
+  {Halverson}, N.~{Harrington}, J.~W. {Henning}, G.~C. {Hilton}, G.~P.
+  {Holder}, W.~L. {Holzapfel}, S.~{Hoover}, N.~{Huang}, J.~{Hubmayr}, K.~D.
+  {Irwin}, R.~{Keisler}, J.~{Kennedy}, L.~{Knox}, A.~T. {Lee}, E.~{Leitch},
+  D.~{Li}, M.~{Lueker}, D.~P. {Marrone}, J.~J. {McMahon}, J.~{Mehl}, S.~S.
+  {Meyer}, T.~E. {Montroy}, T.~{Natoli}, J.~P. {Nibarger}, M.~D. {Niemack},
+  V.~{Novosad}, S.~{Padin}, C.~{Pryke}, C.~L. {Reichardt}, J.~E. {Ruhl}, B.~R.
+  {Saliwanchik}, J.~T. {Sayre}, K.~K. {Schaffer}, E.~{Shirokoff}, A.~A.
+  {Stark}, K.~{Story}, K.~{Vanderlinde}, J.~D. {Vieira}, G.~{Wang},
+  R.~{Williamson}, V.~{Yefremenko}, K.~W. {Yoon}, and O.~{Zahn}.
+\newblock {SPTpol: an instrument for CMB polarization measurements with the
+  South Pole Telescope}.
+\newblock In \emph{Society of Photo-Optical Instrumentation Engineers (SPIE)
+  Conference Series}, volume 8452, September 2012.
+\newblock \doi{10.1117/12.927286}.
+
+\bibitem[{Bartelmann}(1996)]{bartelmann96}
+M.~{Bartelmann}.
+\newblock {Arcs from a universal dark-matter halo profile.}
+\newblock \emph{\aap}, 313:\penalty0 697--702, September 1996.
+
+\bibitem[{Bartelmann} and {Schneider}(2001)]{bartelmann01}
+M.~{Bartelmann} and P.~{Schneider}.
+\newblock {Weak gravitational lensing}.
+\newblock \emph{\physrep}, 340\penalty0 (4-5):\penalty0 291--472, Jan 2001.
+\newblock \doi{10.1016/S0370-1573(00)00082-X}.
+
+\bibitem[{Battaglia}(2016)]{battaglia16b}
+N.~{Battaglia}.
+\newblock {The tau of galaxy clusters}.
+\newblock \emph{\jcap}, 2016\penalty0 (8):\penalty0 058, Aug 2016.
+\newblock \doi{10.1088/1475-7516/2016/08/058}.
+
+\bibitem[{Baumann} et~al.(2009){Baumann}, {Jackson}, {Adshead}, {Amblard},
+  {Ashoorioon}, {Bartolo}, {Bean}, {Beltr{\'a}n}, {de Bernardis}, {Bird},
+  {Chen}, {Chung}, {Colombo}, {Cooray}, {Creminelli}, {Dodelson}, {Dunkley},
+  {Dvorkin}, {Easther}, {Finelli}, {Flauger}, {Hertzberg}, {Jones-Smith},
+  {Kachru}, {Kadota}, {Khoury}, {Kinney}, {Komatsu}, {Krauss}, {Lesgourgues},
+  {Liddle}, {Liguori}, {Lim}, {Linde}, {Matarrese}, {Mathur}, {McAllister},
+  {Melchiorri}, {Nicolis}, {Pagano}, {Peiris}, {Peloso}, {Pogosian},
+  {Pierpaoli}, {Riotto}, {Seljak}, {Senatore}, {Shandera}, {Silverstein},
+  {Smith}, {Vaudrevange}, {Verde}, {Wandelt}, {Wands}, {Watson}, {Wyman},
+  {Yadav}, {Valkenburg}, and {Zaldarriaga}]{baumann08}
+D.~{Baumann}, M.~G. {Jackson}, P.~{Adshead}, A.~{Amblard}, A.~{Ashoorioon},
+  N.~{Bartolo}, R.~{Bean}, M.~{Beltr{\'a}n}, F.~{de Bernardis}, S.~{Bird},
+  X.~{Chen}, D.~J.~H. {Chung}, L.~{Colombo}, A.~{Cooray}, P.~{Creminelli},
+  S.~{Dodelson}, J.~{Dunkley}, C.~{Dvorkin}, R.~{Easther}, F.~{Finelli},
+  R.~{Flauger}, M.~P. {Hertzberg}, K.~{Jones-Smith}, S.~{Kachru}, K.~{Kadota},
+  J.~{Khoury}, W.~H. {Kinney}, E.~{Komatsu}, L.~M. {Krauss}, J.~{Lesgourgues},
+  A.~{Liddle}, M.~{Liguori}, E.~{Lim}, A.~{Linde}, S.~{Matarrese}, H.~{Mathur},
+  L.~{McAllister}, A.~{Melchiorri}, A.~{Nicolis}, L.~{Pagano}, H.~V. {Peiris},
+  M.~{Peloso}, L.~{Pogosian}, E.~{Pierpaoli}, A.~{Riotto}, U.~{Seljak},
+  L.~{Senatore}, S.~{Shandera}, E.~{Silverstein}, T.~{Smith}, P.~{Vaudrevange},
+  L.~{Verde}, B.~{Wandelt}, D.~{Wands}, S.~{Watson}, M.~{Wyman}, A.~{Yadav},
+  W.~{Valkenburg}, and M.~{Zaldarriaga}.
+\newblock {Probing Inflation with CMB Polarization}.
+\newblock In S.~{Dodelson}, D.~{Baumann}, A.~{Cooray}, J.~{Dunkley},
+  A.~{Fraisse}, M.~G. {Jackson}, A.~{Kogut}, L.~{Krauss}, M.~{Zaldarriaga}, and
+  K.~{Smith}, editors, \emph{American Institute of Physics Conference Series},
+  volume 1141 of \emph{American Institute of Physics Conference Series}, pages
+  10--120, June 2009.
+\newblock \doi{10.1063/1.3160885}.
+
+\bibitem[{Baxter} et~al.(2015){Baxter}, {Keisler}, {Dodelson}, {Aird}, {Allen},
+  {Ashby}, {Bautz}, {Bayliss}, {Benson}, {Bleem}, {Bocquet}, {Brodwin},
+  {Carlstrom}, {Chang}, {Chiu}, {Cho}, {Clocchiatti}, {Crawford}, {Crites},
+  {Desai}, {Dietrich}, {de Haan}, {Dobbs}, {Foley}, {Forman}, {George},
+  {Gladders}, {Gonzalez}, {Halverson}, {Harrington}, {Hennig}, {Hoekstra},
+  {Holder}, {Holzapfel}, {Hou}, {Hrubes}, {Jones}, {Knox}, {Lee}, {Leitch},
+  {Liu}, {Lueker}, {Luong-Van}, {Mantz}, {Marrone}, {McDonald}, {McMahon},
+  {Meyer}, {Millea}, {Mocanu}, {Murray}, {Padin}, {Pryke}, {Reichardt}, {Rest},
+  {Ruhl}, {Saliwanchik}, {Saro}, {Sayre}, {Schaffer}, {Shirokoff}, {Song},
+  {Spieler}, {Stalder}, {Stanford}, {Staniszewski}, {Stark}, {Story}, {van
+  Engelen}, {Vanderlinde}, {Vieira}, {Vikhlinin}, {Williamson}, {Zahn}, and
+  {Zenteno}]{baxter15}
+E.~J. {Baxter}, R.~{Keisler}, S.~{Dodelson}, K.~A. {Aird}, S.~W. {Allen},
+  M.~L.~N. {Ashby}, M.~{Bautz}, M.~{Bayliss}, B.~A. {Benson}, L.~E. {Bleem},
+  S.~{Bocquet}, M.~{Brodwin}, J.~E. {Carlstrom}, C.~L. {Chang}, I.~{Chiu},
+  H.-M. {Cho}, A.~{Clocchiatti}, T.~M. {Crawford}, A.~T. {Crites}, S.~{Desai},
+  J.~P. {Dietrich}, T.~{de Haan}, M.~A. {Dobbs}, R.~J. {Foley}, W.~R. {Forman},
+  E.~M. {George}, M.~D. {Gladders}, A.~H. {Gonzalez}, N.~W. {Halverson}, N.~L.
+  {Harrington}, C.~{Hennig}, H.~{Hoekstra}, G.~P. {Holder}, W.~L. {Holzapfel},
+  Z.~{Hou}, J.~D. {Hrubes}, C.~{Jones}, L.~{Knox}, A.~T. {Lee}, E.~M. {Leitch},
+  J.~{Liu}, M.~{Lueker}, D.~{Luong-Van}, A.~{Mantz}, D.~P. {Marrone},
+  M.~{McDonald}, J.~J. {McMahon}, S.~S. {Meyer}, M.~{Millea}, L.~M. {Mocanu},
+  S.~S. {Murray}, S.~{Padin}, C.~{Pryke}, C.~L. {Reichardt}, A.~{Rest}, J.~E.
+  {Ruhl}, B.~R. {Saliwanchik}, A.~{Saro}, J.~T. {Sayre}, K.~K. {Schaffer},
+  E.~{Shirokoff}, J.~{Song}, H.~G. {Spieler}, B.~{Stalder}, S.~A. {Stanford},
+  Z.~{Staniszewski}, A.~A. {Stark}, K.~T. {Story}, A.~{van Engelen},
+  K.~{Vanderlinde}, J.~D. {Vieira}, A.~{Vikhlinin}, R.~{Williamson}, O.~{Zahn},
+  and A.~{Zenteno}.
+\newblock {A Measurement of Gravitational Lensing of the Cosmic Microwave
+  Background by Galaxy Clusters Using Data from the South Pole Telescope}.
+\newblock \emph{\apj}, 806:\penalty0 247, June 2015.
+\newblock \doi{10.1088/0004-637X/806/2/247}.
+
+\bibitem[{Baxter} et~al.(2018){Baxter}, {Raghunathan}, {Crawford}, {Fosalba},
+  {Hou}, {Holder}, {Omori}, {Patil}, {Rozo}, {Abbott}, {Annis}, {Aylor},
+  {Benoit-L{\'e}vy}, {Benson}, {Bertin}, {Bleem}, {Buckley-Geer}, {Burke},
+  {Carlstrom}, {Carnero Rosell}, {Carrasco Kind}, {Carretero}, {Chang}, {Cho},
+  {Crites}, {Crocce}, {Cunha}, {da Costa}, {D'Andrea}, {Davis}, {de Haan},
+  {Desai}, {Dietrich}, {Dobbs}, {Dodelson}, {Doel}, {Drlica-Wagner}, {Estrada},
+  {Everett}, {Fausti Neto}, {Flaugher}, {Frieman}, {Garc{\'{\i}}a-Bellido},
+  {George}, {Gaztanaga}, {Giannantonio}, {Gruen}, {Gruendl}, {Gschwend},
+  {Gutierrez}, {Halverson}, {Harrington}, {Hartley}, {Holzapfel}, {Honscheid},
+  {Hrubes}, {Jain}, {James}, {Jarvis}, {Jeltema}, {Knox}, {Krause}, {Kuehn},
+  {Kuhlmann}, {Kuropatkin}, {Lahav}, {Lee}, {Leitch}, {Li}, {Lima},
+  {Luong-Van}, {Manzotti}, {March}, {Marrone}, {Marshall}, {Martini},
+  {McMahon}, {Melchior}, {Menanteau}, {Meyer}, {Miller}, {Miquel}, {Mocanu},
+  {Mohr}, {Natoli}, {Nord}, {Ogando}, {Padin}, {Plazas}, {Pryke}, {Rapetti},
+  {Reichardt}, {Romer}, {Roodman}, {Ruhl}, {Rykoff}, {Sako}, {Sanchez},
+  {Sayre}, {Scarpine}, {Schaffer}, {Schindler}, {Schubnell}, {Sevilla-Noarbe},
+  {Shirokoff}, {Smith}, {Smith}, {Soares-Santos}, {Sobreira}, {Staniszewski},
+  {Stark}, {Story}, {Suchyta}, {Tarle}, {Thomas}, {Troxel}, {Vanderlinde},
+  {Vieira}, {Walker}, {Williamson}, {Zhang}, and {Zuntz}]{baxter18}
+E.~J. {Baxter}, S.~{Raghunathan}, T.~M. {Crawford}, P.~{Fosalba}, Z.~{Hou},
+  G.~P. {Holder}, Y.~{Omori}, S.~{Patil}, E.~{Rozo}, T.~M.~C. {Abbott},
+  J.~{Annis}, K.~{Aylor}, A.~{Benoit-L{\'e}vy}, B.~A. {Benson}, E.~{Bertin},
+  L.~{Bleem}, E.~{Buckley-Geer}, D.~L. {Burke}, J.~{Carlstrom}, A.~{Carnero
+  Rosell}, M.~{Carrasco Kind}, J.~{Carretero}, C.~L. {Chang}, H.-M. {Cho},
+  A.~T. {Crites}, M.~{Crocce}, C.~E. {Cunha}, L.~N. {da Costa}, C.~B.
+  {D'Andrea}, C.~{Davis}, T.~{de Haan}, S.~{Desai}, J.~P. {Dietrich}, M.~A.
+  {Dobbs}, S.~{Dodelson}, P.~{Doel}, A.~{Drlica-Wagner}, J.~{Estrada}, W.~B.
+  {Everett}, A.~{Fausti Neto}, B.~{Flaugher}, J.~{Frieman},
+  J.~{Garc{\'{\i}}a-Bellido}, E.~M. {George}, E.~{Gaztanaga},
+  T.~{Giannantonio}, D.~{Gruen}, R.~A. {Gruendl}, J.~{Gschwend},
+  G.~{Gutierrez}, N.~W. {Halverson}, N.~L. {Harrington}, W.~G. {Hartley}, W.~L.
+  {Holzapfel}, K.~{Honscheid}, J.~D. {Hrubes}, B.~{Jain}, D.~J. {James},
+  M.~{Jarvis}, T.~{Jeltema}, L.~{Knox}, E.~{Krause}, K.~{Kuehn}, S.~{Kuhlmann},
+  N.~{Kuropatkin}, O.~{Lahav}, A.~T. {Lee}, E.~M. {Leitch}, T.~S. {Li},
+  M.~{Lima}, D.~{Luong-Van}, A.~{Manzotti}, M.~{March}, D.~P. {Marrone}, J.~L.
+  {Marshall}, P.~{Martini}, J.~J. {McMahon}, P.~{Melchior}, F.~{Menanteau},
+  S.~S. {Meyer}, C.~J. {Miller}, R.~{Miquel}, L.~M. {Mocanu}, J.~J. {Mohr},
+  T.~{Natoli}, B.~{Nord}, R.~L.~C. {Ogando}, S.~{Padin}, A.~A. {Plazas},
+  C.~{Pryke}, D.~{Rapetti}, C.~L. {Reichardt}, A.~K. {Romer}, A.~{Roodman},
+  J.~E. {Ruhl}, E.~{Rykoff}, M.~{Sako}, E.~{Sanchez}, J.~T. {Sayre},
+  V.~{Scarpine}, K.~K. {Schaffer}, R.~{Schindler}, M.~{Schubnell},
+  I.~{Sevilla-Noarbe}, E.~{Shirokoff}, M.~{Smith}, R.~C. {Smith},
+  M.~{Soares-Santos}, F.~{Sobreira}, Z.~{Staniszewski}, A.~{Stark}, K.~{Story},
+  E.~{Suchyta}, G.~{Tarle}, D.~{Thomas}, M.~A. {Troxel}, K.~{Vanderlinde},
+  J.~D. {Vieira}, A.~R. {Walker}, R.~{Williamson}, Y.~{Zhang}, and J.~{Zuntz}.
+\newblock {A Measurement of CMB Cluster Lensing with SPT and DES Year 1 Data}.
+\newblock \emph{\mnras}, February 2018.
+\newblock \doi{10.1093/mnras/sty305}.
+
+\bibitem[{Becker} and {Kravtsov}(2010)]{becker10}
+M.~R. {Becker} and A.~V. {Kravtsov}.
+\newblock {On the Accuracy of Weak Lensing Cluster Mass Reconstructions}.
+\newblock \emph{ArXiv e-prints}, November 2010.
+
+\bibitem[{Bender} et~al.(2018){Bender}, {Ade}, {Ahmed}, {Anderson}, {Avva},
+  {Aylor}, {Barry}, {Basu Thakur}, {Benson}, {Bleem}, {Bocquet}, {Byrum},
+  {Carlstrom}, {Carter}, {Cecil}, {Chang}, {Cho}, {Cliche}, {Crawford},
+  {Cukierman}, {de Haan}, {Denison}, {Ding}, {Dobbs}, {Dodelson}, {Dutcher},
+  {Everett}, {Foster}, {Gallicchio}, {Gilbert}, {Groh}, {Guns}, {Halverson},
+  {Harke-Hosemann}, {Harrington}, {Henning}, {Hilton}, {Holder}, {Holzapfel},
+  {Huang}, {Irwin}, {Jeong}, {Jonas}, {Jones}, {Khaire}, {Knox}, {Kofman},
+  {Korman}, {Kubik}, {Kuhlmann}, {Kuo}, {Lee}, {Leitch}, {Lowitz}, {Meyer},
+  {Michalik}, {Montgomery}, {Nadolski}, {Natoli}, {Ngyuen}, {Noble}, {Novosad},
+  {Padin}, {Pan}, {Pearson}, {Posada}, {Quan}, {Raghunathan}, {Rahlin},
+  {Reichardt}, {Ruhl}, {Sayre}, {Shirokoff}, {Smecher}, {Sobrin}, {Stark},
+  {Story}, {Suzuki}, {Thompson}, {Tucker}, {Vale}, {Vand erlinde}, {Vieira},
+  {Wang}, {Whitehorn}, {Wu}, {Yefremenko}, {Yoon}, and {Young}]{bender18}
+A.~N. {Bender}, P.~A.~R. {Ade}, Z.~{Ahmed}, A.~J. {Anderson}, J.~S. {Avva},
+  K.~{Aylor}, P.~S. {Barry}, R.~{Basu Thakur}, B.~A. {Benson}, L.~S. {Bleem},
+  S.~{Bocquet}, K.~{Byrum}, J.~E. {Carlstrom}, F.~W. {Carter}, T.~W. {Cecil},
+  C.~L. {Chang}, H.~M. {Cho}, J.~F. {Cliche}, T.~M. {Crawford}, A.~{Cukierman},
+  T.~{de Haan}, E.~V. {Denison}, J.~{Ding}, M.~A. {Dobbs}, S.~{Dodelson},
+  D.~{Dutcher}, W.~{Everett}, A.~{Foster}, J.~{Gallicchio}, A.~{Gilbert}, J.~C.
+  {Groh}, S.~T. {Guns}, N.~W. {Halverson}, A.~H. {Harke-Hosemann}, N.~L.
+  {Harrington}, J.~W. {Henning}, G.~C. {Hilton}, G.~P. {Holder}, W.~L.
+  {Holzapfel}, N.~{Huang}, K.~D. {Irwin}, O.~B. {Jeong}, M.~{Jonas},
+  A.~{Jones}, T.~S. {Khaire}, L.~{Knox}, A.~M. {Kofman}, M.~{Korman}, D.~L.
+  {Kubik}, S.~{Kuhlmann}, C.~L. {Kuo}, A.~T. {Lee}, E.~M. {Leitch}, A.~E.
+  {Lowitz}, S.~S. {Meyer}, D.~{Michalik}, J.~{Montgomery}, A.~{Nadolski},
+  T.~{Natoli}, H.~{Ngyuen}, G.~I. {Noble}, V.~{Novosad}, S.~{Padin}, Z.~{Pan},
+  J.~{Pearson}, C.~M. {Posada}, W.~{Quan}, S.~{Raghunathan}, A.~{Rahlin}, C.~L.
+  {Reichardt}, J.~E. {Ruhl}, J.~T. {Sayre}, E.~{Shirokoff}, G.~{Smecher}, J.~A.
+  {Sobrin}, A.~A. {Stark}, K.~T. {Story}, A.~{Suzuki}, K.~L. {Thompson},
+  C.~{Tucker}, L.~R. {Vale}, K.~{Vand erlinde}, J.~D. {Vieira}, G.~{Wang},
+  N.~{Whitehorn}, W.~L.~K. {Wu}, V.~{Yefremenko}, K.~W. {Yoon}, and M.~R.
+  {Young}.
+\newblock {Year two instrument status of the SPT-3G cosmic microwave background
+  receiver}.
+\newblock In \emph{Millimeter, Submillimeter, and Far-Infrared Detectors and
+  Instrumentation for Astronomy IX}, volume 10708 of \emph{Society of
+  Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, page
+  1070803, Jul 2018.
+\newblock \doi{10.1117/12.2312426}.
+
+\bibitem[{Benoit-L{\'e}vy} et~al.(2013){Benoit-L{\'e}vy}, {D{\'e}chelette},
+  {Benabed}, {Cardoso}, {Hanson}, and {Prunet}]{benoitlevy13}
+A.~{Benoit-L{\'e}vy}, T.~{D{\'e}chelette}, K.~{Benabed}, J.~F. {Cardoso},
+  D.~{Hanson}, and S.~{Prunet}.
+\newblock {Full-sky CMB lensing reconstruction in presence of sky-cuts}.
+\newblock \emph{\aap}, 555:\penalty0 A37, July 2013.
+\newblock \doi{10.1051/0004-6361/201321048}.
+
+\bibitem[{Benson} et~al.(2014){Benson}, {Ade}, {Ahmed}, {Allen}, {Arnold},
+  {Austermann}, {Bender}, {Bleem}, {Carlstrom}, {Chang}, {Cho}, {Cliche},
+  {Crawford}, {Cukierman}, {de Haan}, {Dobbs}, {Dutcher}, {Everett}, {Gilbert},
+  {Halverson}, {Hanson}, {Harrington}, {Hattori}, {Henning}, {Hilton},
+  {Holder}, {Holzapfel}, {Irwin}, {Keisler}, {Knox}, {Kubik}, {Kuo}, {Lee},
+  {Leitch}, {Li}, {McDonald}, {Meyer}, {Montgomery}, {Myers}, {Natoli},
+  {Nguyen}, {Novosad}, {Padin}, {Pan}, {Pearson}, {Reichardt}, {Ruhl},
+  {Saliwanchik}, {Simard}, {Smecher}, {Sayre}, {Shirokoff}, {Stark}, {Story},
+  {Suzuki}, {Thompson}, {Tucker}, {Vanderlinde}, {Vieira}, {Vikhlinin}, {Wang},
+  {Yefremenko}, and {Yoon}]{benson14}
+B.~A. {Benson}, P.~A.~R. {Ade}, Z.~{Ahmed}, S.~W. {Allen}, K.~{Arnold}, J.~E.
+  {Austermann}, A.~N. {Bender}, L.~E. {Bleem}, J.~E. {Carlstrom}, C.~L.
+  {Chang}, H.~M. {Cho}, J.~F. {Cliche}, T.~M. {Crawford}, A.~{Cukierman},
+  T.~{de Haan}, M.~A. {Dobbs}, D.~{Dutcher}, W.~{Everett}, A.~{Gilbert}, N.~W.
+  {Halverson}, D.~{Hanson}, N.~L. {Harrington}, K.~{Hattori}, J.~W. {Henning},
+  G.~C. {Hilton}, G.~P. {Holder}, W.~L. {Holzapfel}, K.~D. {Irwin},
+  R.~{Keisler}, L.~{Knox}, D.~{Kubik}, C.~L. {Kuo}, A.~T. {Lee}, E.~M.
+  {Leitch}, D.~{Li}, M.~{McDonald}, S.~S. {Meyer}, J.~{Montgomery}, M.~{Myers},
+  T.~{Natoli}, H.~{Nguyen}, V.~{Novosad}, S.~{Padin}, Z.~{Pan}, J.~{Pearson},
+  C.~{Reichardt}, J.~E. {Ruhl}, B.~R. {Saliwanchik}, G.~{Simard}, G.~{Smecher},
+  J.~T. {Sayre}, E.~{Shirokoff}, A.~A. {Stark}, K.~{Story}, A.~{Suzuki}, K.~L.
+  {Thompson}, C.~{Tucker}, K.~{Vanderlinde}, J.~D. {Vieira}, A.~{Vikhlinin},
+  G.~{Wang}, V.~{Yefremenko}, and K.~W. {Yoon}.
+\newblock {SPT-3G: a next-generation cosmic microwave background polarization
+  experiment on the South Pole telescope}.
+\newblock In \emph{Society of Photo-Optical Instrumentation Engineers (SPIE)
+  Conference Series}, volume 9153 of \emph{Society of Photo-Optical
+  Instrumentation Engineers (SPIE) Conference Series}, page~1, July 2014.
+\newblock \doi{10.1117/12.2057305}.
+
+\bibitem[{B{\'e}thermin} et~al.(2011){B{\'e}thermin}, {Dole}, {Lagache}, {Le
+  Borgne}, and {Penin}]{bethermin11}
+M.~{B{\'e}thermin}, H.~{Dole}, G.~{Lagache}, D.~{Le Borgne}, and A.~{Penin}.
+\newblock {Modeling the evolution of infrared galaxies: a parametric backward
+  evolution model}.
+\newblock \emph{\aap}, 529:\penalty0 A4+, May 2011.
+\newblock \doi{10.1051/0004-6361/201015841}.
+
+\bibitem[{Beutler} et~al.(2011){Beutler}, {Blake}, {Colless}, {Jones},
+  {Staveley-Smith}, {Campbell}, {Parker}, {Saunders}, and {Watson}]{beutler11}
+F.~{Beutler}, C.~{Blake}, M.~{Colless}, D.~H. {Jones}, L.~{Staveley-Smith},
+  L.~{Campbell}, Q.~{Parker}, W.~{Saunders}, and F.~{Watson}.
+\newblock {The 6dF Galaxy Survey: baryon acoustic oscillations and the local
+  Hubble constant}.
+\newblock \emph{\mnras}, 416:\penalty0 3017--3032, October 2011.
+\newblock \doi{10.1111/j.1365-2966.2011.19250.x}.
+
+\bibitem[{Bhattacharya} et~al.(2013){Bhattacharya}, {Habib}, {Heitmann}, and
+  {Vikhlinin}]{bhattacharya13}
+Suman {Bhattacharya}, Salman {Habib}, Katrin {Heitmann}, and Alexey
+  {Vikhlinin}.
+\newblock {Dark Matter Halo Profiles of Massive Clusters: Theory versus
+  Observations}.
+\newblock \emph{\apj}, 766\penalty0 (1):\penalty0 32, Mar 2013.
+\newblock \doi{10.1088/0004-637X/766/1/32}.
+
+\bibitem[{BICEP2 and Keck Array Collaborations} et~al.(2015){BICEP2 and Keck
+  Array Collaborations}, {Ade}, {Ahmed}, {Aikin}, {Alexander}, {Barkats},
+  {Benton}, {Bischoff}, {Bock}, {Brevik}, {Buder}, {Bullock}, {Buza},
+  {Connors}, {Crill}, {Dowell}, {Dvorkin}, {Duband}, {Filippini}, {Fliescher},
+  {Golwala}, {Halpern}, {Harrison}, {Hasselfield}, {Hildebrandt}, {Hilton},
+  {Hristov}, {Hui}, {Irwin}, {Karkare}, {Kaufman}, {Keating}, {Kefeli},
+  {Kernasovskiy}, {Kovac}, {Kuo}, {Leitch}, {Lueker}, {Mason}, {Megerian},
+  {Netterfield}, {Nguyen}, {O'Brient}, {Ogburn}, {Orlando}, {Pryke},
+  {Reintsema}, {Richter}, {Schwarz}, {Sheehy}, {Staniszewski}, {Sudiwala},
+  {Teply}, {Thompson}, {Tolan}, {Turner}, {Vieregg}, {Weber}, {Willmert},
+  {Wong}, and {Yoon}]{bicep15}
+{BICEP2 and Keck Array Collaborations}, P.~A.~R. {Ade}, Z.~{Ahmed}, R.~W.
+  {Aikin}, K.~D. {Alexander}, D.~{Barkats}, S.~J. {Benton}, C.~A. {Bischoff},
+  J.~J. {Bock}, J.~A. {Brevik}, I.~{Buder}, E.~{Bullock}, V.~{Buza},
+  J.~{Connors}, B.~P. {Crill}, C.~D. {Dowell}, C.~{Dvorkin}, L.~{Duband}, J.~P.
+  {Filippini}, S.~{Fliescher}, S.~R. {Golwala}, M.~{Halpern}, S.~{Harrison},
+  M.~{Hasselfield}, S.~R. {Hildebrandt}, G.~C. {Hilton}, V.~V. {Hristov},
+  H.~{Hui}, K.~D. {Irwin}, K.~S. {Karkare}, J.~P. {Kaufman}, B.~G. {Keating},
+  S.~{Kefeli}, S.~A. {Kernasovskiy}, J.~M. {Kovac}, C.~L. {Kuo}, E.~M.
+  {Leitch}, M.~{Lueker}, P.~{Mason}, K.~G. {Megerian}, C.~B. {Netterfield},
+  H.~T. {Nguyen}, R.~{O'Brient}, IV~{Ogburn}, R.~W., A.~{Orlando}, C.~{Pryke},
+  C.~D. {Reintsema}, S.~{Richter}, R.~{Schwarz}, C.~D. {Sheehy}, Z.~K.
+  {Staniszewski}, R.~V. {Sudiwala}, G.~P. {Teply}, K.~L. {Thompson}, J.~E.
+  {Tolan}, A.~D. {Turner}, A.~G. {Vieregg}, A.~C. {Weber}, J.~{Willmert}, C.~L.
+  {Wong}, and K.~W. {Yoon}.
+\newblock {BICEP2/Keck Array V: Measurements of B-mode Polarization at Degree
+  Angular Scales and 150 GHz by the Keck Array}.
+\newblock \emph{\apj}, 811\penalty0 (2):\penalty0 126, Oct 2015.
+\newblock \doi{10.1088/0004-637X/811/2/126}.
+
+\bibitem[{BICEP2 Collaboration} et~al.(2018){BICEP2 Collaboration}, {Keck Array
+  Collaboration}, {Ade}, {Ahmed}, {Aikin}, {Alexand er}, {Barkats}, {Benton},
+  {Bischoff}, {Bock}, {Bowens-Rubin}, {Brevik}, {Buder}, {Bullock}, {Buza},
+  {Connors}, {Cornelison}, {Crill}, {Crumrine}, {Dierickx}, {Duband},
+  {Dvorkin}, {Filippini}, {Fliescher}, {Grayson}, {Hall}, {Halpern},
+  {Harrison}, {Hildebrand t}, {Hilton}, {Hui}, {Irwin}, {Kang}, {Karkare},
+  {Karpel}, {Kaufman}, {Keating}, {Kefeli}, {Kernasovskiy}, {Kovac}, {Kuo},
+  {Larsen}, {Lau}, {Leitch}, {Lueker}, {Megerian}, {Moncelsi}, {Namikawa},
+  {Netterfield}, {Nguyen}, {O'Brient}, {Ogburn}, {Palladino}, {Pryke},
+  {Racine}, {Richter}, {Schillaci}, {Schwarz}, {Sheehy}, {Soliman}, {St.
+  Germaine}, {Staniszewski}, {Steinbach}, {Sudiwala}, {Teply}, {Thompson},
+  {Tolan}, {Tucker}, {Turner}, {Umilt{\`a}}, {Vieregg}, {Wand ui}, {Weber},
+  {Wiebe}, {Willmert}, {Wong}, {Wu}, {Yang}, {Yoon}, and {Zhang}]{bicep18}
+{BICEP2 Collaboration}, {Keck Array Collaboration}, P.~A.~R. {Ade}, Z.~{Ahmed},
+  R.~W. {Aikin}, K.~D. {Alexand er}, D.~{Barkats}, S.~J. {Benton}, C.~A.
+  {Bischoff}, J.~J. {Bock}, R.~{Bowens-Rubin}, J.~A. {Brevik}, I.~{Buder},
+  E.~{Bullock}, V.~{Buza}, J.~{Connors}, J.~{Cornelison}, B.~P. {Crill},
+  M.~{Crumrine}, M.~{Dierickx}, L.~{Duband}, C.~{Dvorkin}, J.~P. {Filippini},
+  S.~{Fliescher}, J.~{Grayson}, G.~{Hall}, M.~{Halpern}, S.~{Harrison}, S.~R.
+  {Hildebrand t}, G.~C. {Hilton}, H.~{Hui}, K.~D. {Irwin}, J.~{Kang}, K.~S.
+  {Karkare}, E.~{Karpel}, J.~P. {Kaufman}, B.~G. {Keating}, S.~{Kefeli}, S.~A.
+  {Kernasovskiy}, J.~M. {Kovac}, C.~L. {Kuo}, N.~A. {Larsen}, K.~{Lau}, E.~M.
+  {Leitch}, M.~{Lueker}, K.~G. {Megerian}, L.~{Moncelsi}, T.~{Namikawa}, C.~B.
+  {Netterfield}, H.~T. {Nguyen}, R.~{O'Brient}, R.~W. {Ogburn}, S.~{Palladino},
+  C.~{Pryke}, B.~{Racine}, S.~{Richter}, A.~{Schillaci}, R.~{Schwarz}, C.~D.
+  {Sheehy}, A.~{Soliman}, T.~{St. Germaine}, Z.~K. {Staniszewski},
+  B.~{Steinbach}, R.~V. {Sudiwala}, G.~P. {Teply}, K.~L. {Thompson}, J.~E.
+  {Tolan}, C.~{Tucker}, A.~D. {Turner}, C.~{Umilt{\`a}}, A.~G. {Vieregg},
+  A.~{Wand ui}, A.~C. {Weber}, D.~V. {Wiebe}, J.~{Willmert}, C.~L. {Wong},
+  W.~L.~K. {Wu}, H.~{Yang}, K.~W. {Yoon}, and C.~{Zhang}.
+\newblock {Constraints on Primordial Gravitational Waves Using Planck, WMAP,
+  and New BICEP2/Keck Observations through the 2015 Season}.
+\newblock \emph{\prl}, 121\penalty0 (22):\penalty0 221301, Nov 2018.
+\newblock \doi{10.1103/PhysRevLett.121.221301}.
+
+\bibitem[{Bleem} et~al.(2015){Bleem}, {Stalder}, {Brodwin}, {Busha},
+  {Gladders}, {High}, {Rest}, and {Wechsler}]{bleem15}
+L.~E. {Bleem}, B.~{Stalder}, M.~{Brodwin}, M.~T. {Busha}, M.~D. {Gladders},
+  F.~W. {High}, A.~{Rest}, and R.~H. {Wechsler}.
+\newblock {A New Reduction of the Blanco Cosmology Survey: An Optically
+  Selected Galaxy Cluster Catalog and a Public Release of Optical Data
+  Products}.
+\newblock \emph{\apjs}, 216:\penalty0 20, January 2015.
+\newblock \doi{10.1088/0067-0049/216/1/20}.
+
+\bibitem[{Bocquet} et~al.(2018){Bocquet}, {Dietrich}, {Schrabback}, {Bleem},
+  {Klein}, {Allen}, {Applegate}, {Ashby}, {Bautz}, {Bayliss}, {Benson},
+  {Brodwin}, {Bulbul}, {Canning}, {Capasso}, {Carlstrom}, {Chang}, {Chiu},
+  {Cho}, {Clocchiatti}, {Crawford}, {Crites}, {de Haan}, {Desai}, {Dobbs},
+  {Foley}, {Forman}, {Garmire}, {George}, {Gladders}, {Gonzalez}, {Grandis},
+  {Gupta}, {Halverson}, {Hlavacek-Larrondo}, {Hoekstra}, {Holder}, {Holzapfel},
+  {Hou}, {Hrubes}, {Huang}, {Jones}, {Khullar}, {Knox}, {Kraft}, {Lee}, {von
+  der Linden}, {Luong-Van}, {Mantz}, {Marrone}, {McDonald}, {McMahon}, {Meyer},
+  {Mocanu}, {Mohr}, {Morris}, {Padin}, {Patil}, {Pryke}, {Rapetti},
+  {Reichardt}, {Rest}, {Ruhl}, {Saliwanchik}, {Saro}, {Sayre}, {Schaffer},
+  {Shirokoff}, {Stalder}, {Stanford}, {Staniszewski}, {Stark}, {Story},
+  {Strazzullo}, {Stubbs}, {Vanderlinde}, {Vieira}, {Vikhlinin}, {Williamson},
+  and {Zenteno}]{bocquet18}
+S.~{Bocquet}, J.~P. {Dietrich}, T.~{Schrabback}, L.~E. {Bleem}, M.~{Klein},
+  S.~W. {Allen}, D.~E. {Applegate}, M.~L.~N. {Ashby}, M.~{Bautz}, M.~{Bayliss},
+  B.~A. {Benson}, M.~{Brodwin}, E.~{Bulbul}, R.~E.~A. {Canning}, R.~{Capasso},
+  J.~E. {Carlstrom}, C.~L. {Chang}, I.~{Chiu}, H-M. {Cho}, A.~{Clocchiatti},
+  T.~M. {Crawford}, A.~T. {Crites}, T.~{de Haan}, S.~{Desai}, M.~A. {Dobbs},
+  R.~J. {Foley}, W.~R. {Forman}, G.~P. {Garmire}, E.~M. {George}, M.~D.
+  {Gladders}, A.~H. {Gonzalez}, S.~{Grandis}, N.~{Gupta}, N.~W. {Halverson},
+  J.~{Hlavacek-Larrondo}, H.~{Hoekstra}, G.~P. {Holder}, W.~L. {Holzapfel},
+  Z.~{Hou}, J.~D. {Hrubes}, N.~{Huang}, C.~{Jones}, G.~{Khullar}, L.~{Knox},
+  R.~{Kraft}, A.~T. {Lee}, A.~{von der Linden}, D.~{Luong-Van}, A.~{Mantz},
+  D.~P. {Marrone}, M.~{McDonald}, J.~J. {McMahon}, S.~S. {Meyer}, L.~M.
+  {Mocanu}, J.~J. {Mohr}, R.~G. {Morris}, S.~{Padin}, S.~{Patil}, C.~{Pryke},
+  D.~{Rapetti}, C.~L. {Reichardt}, A.~{Rest}, J.~E. {Ruhl}, B.~R.
+  {Saliwanchik}, A.~{Saro}, J.~T. {Sayre}, K.~K. {Schaffer}, E.~{Shirokoff},
+  B.~{Stalder}, S.~A. {Stanford}, Z.~{Staniszewski}, A.~A. {Stark}, K.~T.
+  {Story}, V.~{Strazzullo}, C.~W. {Stubbs}, K.~{Vanderlinde}, J.~D. {Vieira},
+  A.~{Vikhlinin}, R.~{Williamson}, and A.~{Zenteno}.
+\newblock {Cluster Cosmology Constraints from the 2500 deg\$\^2\$ SPT-SZ
+  Survey: Inclusion of Weak Gravitational Lensing Data from Magellan and the
+  Hubble Space Telescope}.
+\newblock \emph{\apj}, art. arXiv:1812.01679, Dec 2018.
+
+\bibitem[{Bode} et~al.(2012){Bode}, {Ostriker}, {Cen}, and {Trac}]{bode12}
+Paul {Bode}, Jeremiah~P. {Ostriker}, Renyue {Cen}, and Hy~{Trac}.
+\newblock {Calibration of Nonthermal Pressure in Global Dark Matter Simulations
+  of Clusters of Galaxies}.
+\newblock \emph{arXiv e-prints}, art. arXiv:1204.1762, Apr 2012.
+
+\bibitem[{Calabretta} and {Greisen}(2002)]{calabretta02}
+M.~R. {Calabretta} and E.~W. {Greisen}.
+\newblock {Representations of celestial coordinates in FITS}.
+\newblock \emph{\aap}, 395:\penalty0 1077--1122, December 2002.
+\newblock \doi{10.1051/0004-6361:20021327}.
+
+\bibitem[{Cardoso} et~al.(2008){Cardoso}, {Le Jeune}, {Delabrouille},
+  {Betoule}, and {Patanchon}]{cardoso08}
+Jean-Fran{\c{c}}ois {Cardoso}, Maude {Le Jeune}, Jacques {Delabrouille}, Marc
+  {Betoule}, and Guillaume {Patanchon}.
+\newblock {Component Separation With Flexible Models{\textemdash}Application to
+  Multichannel Astrophysical Observations}.
+\newblock \emph{IEEE Journal of Selected Topics in Signal Processing},
+  2\penalty0 (5):\penalty0 735--746, Nov 2008.
+\newblock \doi{10.1109/JSTSP.2008.2005346}.
+
+\bibitem[{Carlstrom} et~al.(2002){Carlstrom}, {Holder}, and
+  {Reese}]{carlstrom02}
+J.~E. {Carlstrom}, G.~P. {Holder}, and E.~D. {Reese}.
+\newblock {Cosmology with the Sunyaev-Zel'dovich Effect}.
+\newblock \emph{\araa}, 40:\penalty0 643--680, 2002.
+
+\bibitem[{Carlstrom} et~al.(2011){Carlstrom}, {Ade}, {Aird}, {Benson}, {Bleem},
+  {Busetti}, {Chang}, {Chauvin}, {Cho}, {Crawford}, {Crites}, {Dobbs},
+  {Halverson}, {Heimsath}, {Holzapfel}, {Hrubes}, {Joy}, {Keisler}, {Lanting},
+  {Lee}, {Leitch}, {Leong}, {Lu}, {Lueker}, {Luong-van}, {McMahon}, {Mehl},
+  {Meyer}, {Mohr}, {Montroy}, {Padin}, {Plagge}, {Pryke}, {Ruhl}, {Schaffer},
+  {Schwan}, {Shirokoff}, {Spieler}, {Staniszewski}, {Stark}, {Tucker},
+  {Vanderlinde}, {Vieira}, and {Williamson}]{carlstrom11}
+J.~E. {Carlstrom}, P.~A.~R. {Ade}, K.~A. {Aird}, B.~A. {Benson}, L.~E. {Bleem},
+  S.~{Busetti}, C.~L. {Chang}, E.~{Chauvin}, H.-M. {Cho}, T.~M. {Crawford},
+  A.~T. {Crites}, M.~A. {Dobbs}, N.~W. {Halverson}, S.~{Heimsath}, W.~L.
+  {Holzapfel}, J.~D. {Hrubes}, M.~{Joy}, R.~{Keisler}, T.~M. {Lanting}, A.~T.
+  {Lee}, E.~M. {Leitch}, J.~{Leong}, W.~{Lu}, M.~{Lueker}, D.~{Luong-van},
+  J.~J. {McMahon}, J.~{Mehl}, S.~S. {Meyer}, J.~J. {Mohr}, T.~E. {Montroy},
+  S.~{Padin}, T.~{Plagge}, C.~{Pryke}, J.~E. {Ruhl}, K.~K. {Schaffer},
+  D.~{Schwan}, E.~{Shirokoff}, H.~G. {Spieler}, Z.~{Staniszewski}, A.~A.
+  {Stark}, C.~{Tucker}, K.~{Vanderlinde}, J.~D. {Vieira}, and R.~{Williamson}.
+\newblock {The 10 Meter South Pole Telescope}.
+\newblock \emph{\pasp}, 123:\penalty0 568--581, May 2011.
+\newblock \doi{10.1086/659879}.
+
+\bibitem[{Child} et~al.(2018){Child}, {Habib}, {Heitmann}, {Frontiere},
+  {Finkel}, {Pope}, and {Morozov}]{child18}
+Hillary~L. {Child}, Salman {Habib}, Katrin {Heitmann}, Nicholas {Frontiere},
+  Hal {Finkel}, Adrian {Pope}, and Vitali {Morozov}.
+\newblock {Halo Profiles and the Concentration-Mass Relation for a
+  {\ensuremath{\Lambda}}CDM Universe}.
+\newblock \emph{\apj}, 859\penalty0 (1):\penalty0 55, May 2018.
+\newblock \doi{10.3847/1538-4357/aabf95}.
+
+\bibitem[{CMB-S4 Collaboration} et~al.(2016){CMB-S4 Collaboration},
+  {Abazajian}, {Adshead}, {Ahmed}, {Allen}, {Alonso}, {Arnold}, {Baccigalupi},
+  {Bartlett}, {Battaglia}, {Benson}, {Bischoff}, {Borrill}, {Buza},
+  {Calabrese}, {Caldwell}, {Carlstrom}, {Chang}, {Crawford}, {Cyr-Racine}, {De
+  Bernardis}, {de Haan}, {di Serego Alighieri}, {Dunkley}, {Dvorkin}, {Errard},
+  {Fabbian}, {Feeney}, {Ferraro}, {Filippini}, {Flauger}, {Fuller},
+  {Gluscevic}, {Green}, {Grin}, {Grohs}, {Henning}, {Hill}, {Hlozek}, {Holder},
+  {Holzapfel}, {Hu}, {Huffenberger}, {Keskitalo}, {Knox}, {Kosowsky}, {Kovac},
+  {Kovetz}, {Kuo}, {Kusaka}, {Le Jeune}, {Lee}, {Lilley}, {Loverde},
+  {Madhavacheril}, {Mantz}, {Marsh}, {McMahon}, {Meerburg}, {Meyers}, {Miller},
+  {Munoz}, {Nguyen}, {Niemack}, {Peloso}, {Peloton}, {Pogosian}, {Pryke},
+  {Raveri}, {Reichardt}, {Rocha}, {Rotti}, {Schaan}, {Schmittfull}, {Scott},
+  {Sehgal}, {Shandera}, {Sherwin}, {Smith}, {Sorbo}, {Starkman}, {Story}, {van
+  Engelen}, {Vieira}, {Watson}, {Whitehorn}, and {Kimmy Wu}]{cmbs4-sb1}
+{CMB-S4 Collaboration}, K.~N. {Abazajian}, P.~{Adshead}, Z.~{Ahmed}, S.~W.
+  {Allen}, D.~{Alonso}, K.~S. {Arnold}, C.~{Baccigalupi}, J.~G. {Bartlett},
+  N.~{Battaglia}, B.~A. {Benson}, C.~A. {Bischoff}, J.~{Borrill}, V.~{Buza},
+  E.~{Calabrese}, R.~{Caldwell}, J.~E. {Carlstrom}, C.~L. {Chang}, T.~M.
+  {Crawford}, F.-Y. {Cyr-Racine}, F.~{De Bernardis}, T.~{de Haan}, S.~{di
+  Serego Alighieri}, J.~{Dunkley}, C.~{Dvorkin}, J.~{Errard}, G.~{Fabbian},
+  S.~{Feeney}, S.~{Ferraro}, J.~P. {Filippini}, R.~{Flauger}, G.~M. {Fuller},
+  V.~{Gluscevic}, D.~{Green}, D.~{Grin}, E.~{Grohs}, J.~W. {Henning}, J.~C.
+  {Hill}, R.~{Hlozek}, G.~{Holder}, W.~{Holzapfel}, W.~{Hu}, K.~M.
+  {Huffenberger}, R.~{Keskitalo}, L.~{Knox}, A.~{Kosowsky}, J.~{Kovac}, E.~D.
+  {Kovetz}, C.-L. {Kuo}, A.~{Kusaka}, M.~{Le Jeune}, A.~T. {Lee}, M.~{Lilley},
+  M.~{Loverde}, M.~S. {Madhavacheril}, A.~{Mantz}, D.~J.~E. {Marsh},
+  J.~{McMahon}, P.~D. {Meerburg}, J.~{Meyers}, A.~D. {Miller}, J.~B. {Munoz},
+  H.~N. {Nguyen}, M.~D. {Niemack}, M.~{Peloso}, J.~{Peloton}, L.~{Pogosian},
+  C.~{Pryke}, M.~{Raveri}, C.~L. {Reichardt}, G.~{Rocha}, A.~{Rotti},
+  E.~{Schaan}, M.~M. {Schmittfull}, D.~{Scott}, N.~{Sehgal}, S.~{Shandera},
+  B.~D. {Sherwin}, T.~L. {Smith}, L.~{Sorbo}, G.~D. {Starkman}, K.~T. {Story},
+  A.~{van Engelen}, J.~D. {Vieira}, S.~{Watson}, N.~{Whitehorn}, and W.~L.
+  {Kimmy Wu}.
+\newblock {CMB-S4 Science Book, First Edition}.
+\newblock \emph{ArXiv e-prints}, October 2016.
+
+\bibitem[{Cooke} et~al.(2016){Cooke}, {Pettini}, {Nollett}, and
+  {Jorgenson}]{cooke16}
+Ryan~J. {Cooke}, Max {Pettini}, Kenneth~M. {Nollett}, and Regina {Jorgenson}.
+\newblock {The Primordial Deuterium Abundance of the Most Metal-poor Damped
+  Lyman-{\ensuremath{\alpha}} System}.
+\newblock \emph{\apj}, 830\penalty0 (2):\penalty0 148, Oct 2016.
+\newblock \doi{10.3847/0004-637X/830/2/148}.
+
+\bibitem[{Cuceu} et~al.(2019){Cuceu}, {Farr}, {Lemos}, and
+  {Font-Ribera}]{andrei14}
+Andrei {Cuceu}, James {Farr}, Pablo {Lemos}, and Andreu {Font-Ribera}.
+\newblock {Baryon Acoustic Oscillations and the Hubble constant: past, present
+  and future}.
+\newblock \emph{\jcap}, 2019\penalty0 (10):\penalty0 044, Oct 2019.
+\newblock \doi{10.1088/1475-7516/2019/10/044}.
+
+\bibitem[{Das} et~al.(2011{\natexlab{a}}){Das}, {Marriage}, {Ade}, {Aguirre},
+  {Amiri}, {Appel}, {Barrientos}, {Battistelli}, {Bond}, {Brown}, {Burger},
+  {Chervenak}, {Devlin}, {Dicker}, {Bertrand Doriese}, {Dunkley}, {D{\"u}nner},
+  {Essinger-Hileman}, {Fisher}, {Fowler}, {Hajian}, {Halpern}, {Hasselfield},
+  {Hern{\'a}ndez-Monteagudo}, {Hilton}, {Hilton}, {Hincks}, {Hlozek},
+  {Huffenberger}, {Hughes}, {Hughes}, {Infante}, {Irwin}, {Baptiste Juin},
+  {Kaul}, {Klein}, {Kosowsky}, {Lau}, {Limon}, {Lin}, {Lupton}, {Marsden},
+  {Martocci}, {Mauskopf}, {Menanteau}, {Moodley}, {Moseley}, {Netterfield},
+  {Niemack}, {Nolta}, {Page}, {Parker}, {Partridge}, {Reid}, {Sehgal},
+  {Sherwin}, {Sievers}, {Spergel}, {Staggs}, {Swetz}, {Switzer}, {Thornton},
+  {Trac}, {Tucker}, {Warne}, {Wollack}, and {Zhao}]{das11b}
+S.~{Das}, T.~A. {Marriage}, P.~A.~R. {Ade}, P.~{Aguirre}, M.~{Amiri}, J.~W.
+  {Appel}, L.~F. {Barrientos}, E.~S. {Battistelli}, J.~R. {Bond}, B.~{Brown},
+  B.~{Burger}, J.~{Chervenak}, M.~J. {Devlin}, S.~R. {Dicker}, W.~{Bertrand
+  Doriese}, J.~{Dunkley}, R.~{D{\"u}nner}, T.~{Essinger-Hileman}, R.~P.
+  {Fisher}, J.~W. {Fowler}, A.~{Hajian}, M.~{Halpern}, M.~{Hasselfield},
+  C.~{Hern{\'a}ndez-Monteagudo}, G.~C. {Hilton}, M.~{Hilton}, A.~D. {Hincks},
+  R.~{Hlozek}, K.~M. {Huffenberger}, D.~H. {Hughes}, J.~P. {Hughes},
+  L.~{Infante}, K.~D. {Irwin}, J.~{Baptiste Juin}, M.~{Kaul}, J.~{Klein},
+  A.~{Kosowsky}, J.~M. {Lau}, M.~{Limon}, {Y.-T.} {Lin}, R.~H. {Lupton},
+  D.~{Marsden}, K.~{Martocci}, P.~{Mauskopf}, F.~{Menanteau}, K.~{Moodley},
+  H.~{Moseley}, C.~B. {Netterfield}, M.~D. {Niemack}, M.~R. {Nolta}, L.~A.
+  {Page}, L.~{Parker}, B.~{Partridge}, B.~{Reid}, N.~{Sehgal}, B.~D. {Sherwin},
+  J.~{Sievers}, D.~N. {Spergel}, S.~T. {Staggs}, D.~S. {Swetz}, E.~R.
+  {Switzer}, R.~{Thornton}, H.~{Trac}, C.~{Tucker}, R.~{Warne}, E.~{Wollack},
+  and Y.~{Zhao}.
+\newblock {The Atacama Cosmology Telescope: A Measurement of the Cosmic
+  Microwave Background Power Spectrum at 148 and 218 GHz from the 2008 Southern
+  Survey}.
+\newblock \emph{\apj}, 729:\penalty0 62--+, March 2011{\natexlab{a}}.
+\newblock \doi{10.1088/0004-637X/729/1/62}.
+
+\bibitem[{Das} et~al.(2011{\natexlab{b}}){Das}, {Sherwin}, {Aguirre}, {Appel},
+  {Bond}, {Carvalho}, {Devlin}, {Dunkley}, {D{\"u}nner}, {Essinger-Hileman},
+  {Fowler}, {Hajian}, {Halpern}, {Hasselfield}, {Hincks}, {Hlozek},
+  {Huffenberger}, {Hughes}, {Irwin}, {Klein}, {Kosowsky}, {Lupton}, {Marriage},
+  {Marsden}, {Menanteau}, {Moodley}, {Niemack}, {Nolta}, {Page}, {Parker},
+  {Reese}, {Schmitt}, {Sehgal}, {Sievers}, {Spergel}, {Staggs}, {Swetz},
+  {Switzer}, {Thornton}, {Visnjic}, and {Wollack}]{das11}
+S.~{Das}, B.~D. {Sherwin}, P.~{Aguirre}, J.~W. {Appel}, J.~R. {Bond}, C.~S.
+  {Carvalho}, M.~J. {Devlin}, J.~{Dunkley}, R.~{D{\"u}nner},
+  T.~{Essinger-Hileman}, J.~W. {Fowler}, A.~{Hajian}, M.~{Halpern},
+  M.~{Hasselfield}, A.~D. {Hincks}, R.~{Hlozek}, K.~M. {Huffenberger}, J.~P.
+  {Hughes}, K.~D. {Irwin}, J.~{Klein}, A.~{Kosowsky}, R.~H. {Lupton}, T.~A.
+  {Marriage}, D.~{Marsden}, F.~{Menanteau}, K.~{Moodley}, M.~D. {Niemack},
+  M.~R. {Nolta}, L.~A. {Page}, L.~{Parker}, E.~D. {Reese}, B.~L. {Schmitt},
+  N.~{Sehgal}, J.~{Sievers}, D.~N. {Spergel}, S.~T. {Staggs}, D.~S. {Swetz},
+  E.~R. {Switzer}, R.~{Thornton}, K.~{Visnjic}, and E.~{Wollack}.
+\newblock {Detection of the Power Spectrum of Cosmic Microwave Background
+  Lensing by the Atacama Cosmology Telescope}.
+\newblock \emph{Physical Review Letters}, 107\penalty0 (2):\penalty0 021301--+,
+  July 2011{\natexlab{b}}.
+\newblock \doi{10.1103/PhysRevLett.107.021301}.
+
+\bibitem[{de Haan} et~al.(2016){de Haan}, {Benson}, {Bleem}, {Allen},
+  {Applegate}, {Ashby}, {Bautz}, {Bayliss}, {Bocquet}, {Brodwin}, {Carlstrom},
+  {Chang}, {Chiu}, {Cho}, {Clocchiatti}, {Crawford}, {Crites}, {Desai},
+  {Dietrich}, {Dobbs}, {Doucouliagos}, {Foley}, {Forman}, {Garmire}, {George},
+  {Gladders}, {Gonzalez}, {Gupta}, {Halverson}, {Hlavacek-Larrondo},
+  {Hoekstra}, {Holder}, {Holzapfel}, {Hou}, {Hrubes}, {Huang}, {Jones},
+  {Keisler}, {Knox}, {Lee}, {Leitch}, {von der Linden}, {Luong-Van}, {Mantz},
+  {Marrone}, {McDonald}, {McMahon}, {Meyer}, {Mocanu}, {Mohr}, {Murray},
+  {Padin}, {Pryke}, {Rapetti}, {Reichardt}, {Rest}, {Ruel}, {Ruhl},
+  {Saliwanchik}, {Saro}, {Sayre}, {Schaffer}, {Schrabback}, {Shirokoff},
+  {Song}, {Spieler}, {Stalder}, {Stanford}, {Staniszewski}, {Stark}, {Story},
+  {Stubbs}, {Vanderlinde}, {Vieira}, {Vikhlinin}, {Williamson}, and
+  {Zenteno}]{dehaan16}
+T.~{de Haan}, B.~A. {Benson}, L.~E. {Bleem}, S.~W. {Allen}, D.~E. {Applegate},
+  M.~L.~N. {Ashby}, M.~{Bautz}, M.~{Bayliss}, S.~{Bocquet}, M.~{Brodwin}, J.~E.
+  {Carlstrom}, C.~L. {Chang}, I.~{Chiu}, H.-M. {Cho}, A.~{Clocchiatti}, T.~M.
+  {Crawford}, A.~T. {Crites}, S.~{Desai}, J.~P. {Dietrich}, M.~A. {Dobbs},
+  A.~N. {Doucouliagos}, R.~J. {Foley}, W.~R. {Forman}, G.~P. {Garmire}, E.~M.
+  {George}, M.~D. {Gladders}, A.~H. {Gonzalez}, N.~{Gupta}, N.~W. {Halverson},
+  J.~{Hlavacek-Larrondo}, H.~{Hoekstra}, G.~P. {Holder}, W.~L. {Holzapfel},
+  Z.~{Hou}, J.~D. {Hrubes}, N.~{Huang}, C.~{Jones}, R.~{Keisler}, L.~{Knox},
+  A.~T. {Lee}, E.~M. {Leitch}, A.~{von der Linden}, D.~{Luong-Van}, A.~{Mantz},
+  D.~P. {Marrone}, M.~{McDonald}, J.~J. {McMahon}, S.~S. {Meyer}, L.~M.
+  {Mocanu}, J.~J. {Mohr}, S.~S. {Murray}, S.~{Padin}, C.~{Pryke}, D.~{Rapetti},
+  C.~L. {Reichardt}, A.~{Rest}, J.~{Ruel}, J.~E. {Ruhl}, B.~R. {Saliwanchik},
+  A.~{Saro}, J.~T. {Sayre}, K.~K. {Schaffer}, T.~{Schrabback}, E.~{Shirokoff},
+  J.~{Song}, H.~G. {Spieler}, B.~{Stalder}, S.~A. {Stanford},
+  Z.~{Staniszewski}, A.~A. {Stark}, K.~T. {Story}, C.~W. {Stubbs},
+  K.~{Vanderlinde}, J.~D. {Vieira}, A.~{Vikhlinin}, R.~{Williamson}, and
+  A.~{Zenteno}.
+\newblock {Cosmological Constraints from Galaxy Clusters in the 2500
+  Square-degree SPT-SZ Survey}.
+\newblock \emph{\apj}, 832:\penalty0 95, November 2016.
+\newblock \doi{10.3847/0004-637X/832/1/95}.
+
+\bibitem[{De Zotti} et~al.(2005){De Zotti}, {Ricci}, {Mesa}, {Silva},
+  {Mazzotta}, {Toffolatti}, and {Gonz{\'a}lez-Nuevo}]{dezotti05}
+G.~{De Zotti}, R.~{Ricci}, D.~{Mesa}, L.~{Silva}, P.~{Mazzotta},
+  L.~{Toffolatti}, and J.~{Gonz{\'a}lez-Nuevo}.
+\newblock {Predictions for high-frequency radio surveys of extragalactic
+  sources}.
+\newblock \emph{\aap}, 431:\penalty0 893--903, March 2005.
+\newblock \doi{10.1051/0004-6361:20042108}.
+
+\bibitem[{Diemer} and {Kravtsov}(2014)]{diemer14}
+B.~{Diemer} and A.~V. {Kravtsov}.
+\newblock {Dependence of the Outer Density Profiles of Halos on Their Mass
+  Accretion Rate}.
+\newblock \emph{\apj}, 789:\penalty0 1, July 2014.
+\newblock \doi{10.1088/0004-637X/789/1/1}.
+
+\bibitem[{Dodelson}(2003)]{dodelson_book}
+S.~{Dodelson}.
+\newblock \emph{{Modern Cosmology}}.
+\newblock Academic Press, 2003.
+
+\bibitem[{Dodelson}(2004)]{dodelson04}
+S.~{Dodelson}.
+\newblock {CMB-cluster lensing}.
+\newblock \emph{\prd}, 70\penalty0 (2):\penalty0 023009, July 2004.
+\newblock \doi{10.1103/PhysRevD.70.023009}.
+
+\bibitem[{Drlica-Wagner} et~al.(2018){Drlica-Wagner}, {Sevilla-Noarbe},
+  {Rykoff}, {Gruendl}, {Yanny}, {Tucker}, {Hoyle}, {Carnero Rosell},
+  {Bernstein}, {Bechtol}, {Becker}, {Benoit-L{\'e}vy}, {Bertin}, {Carrasco
+  Kind}, {Davis}, {de Vicente}, {Diehl}, {Gruen}, {Hartley}, {Leistedt}, {Li},
+  {Marshall}, {Neilsen}, {Rau}, {Sheldon}, {Smith}, {Troxel}, {Wyatt}, {Zhang},
+  {Abbott}, {Abdalla}, {Allam}, {Banerji}, {Brooks}, {Buckley-Geer}, {Burke},
+  {Capozzi}, {Carretero}, {Cunha}, {D'Andrea}, {da Costa}, {DePoy}, {Desai},
+  {Dietrich}, {Doel}, {Evrard}, {Fausti Neto}, {Flaugher}, {Fosalba},
+  {Frieman}, {Garc{\'{\i}}a-Bellido}, {Gerdes}, {Giannantonio}, {Gschwend},
+  {Gutierrez}, {Honscheid}, {James}, {Jeltema}, {Kuehn}, {Kuhlmann},
+  {Kuropatkin}, {Lahav}, {Lima}, {Lin}, {Maia}, {Martini}, {McMahon},
+  {Melchior}, {Menanteau}, {Miquel}, {Nichol}, {Ogando}, {Plazas}, {Romer},
+  {Roodman}, {Sanchez}, {Scarpine}, {Schindler}, {Schubnell}, {Smith}, {Smith},
+  {Soares-Santos}, {Sobreira}, {Suchyta}, {Tarle}, {Vikram}, {Walker},
+  {Wechsler}, {Zuntz}, and {DES Collaboration}]{drlica-wagner17}
+A.~{Drlica-Wagner}, I.~{Sevilla-Noarbe}, E.~S. {Rykoff}, R.~A. {Gruendl},
+  B.~{Yanny}, D.~L. {Tucker}, B.~{Hoyle}, A.~{Carnero Rosell}, G.~M.
+  {Bernstein}, K.~{Bechtol}, M.~R. {Becker}, A.~{Benoit-L{\'e}vy}, E.~{Bertin},
+  M.~{Carrasco Kind}, C.~{Davis}, J.~{de Vicente}, H.~T. {Diehl}, D.~{Gruen},
+  W.~G. {Hartley}, B.~{Leistedt}, T.~S. {Li}, J.~L. {Marshall}, E.~{Neilsen},
+  M.~M. {Rau}, E.~{Sheldon}, J.~{Smith}, M.~A. {Troxel}, S.~{Wyatt},
+  Y.~{Zhang}, T.~M.~C. {Abbott}, F.~B. {Abdalla}, S.~{Allam}, M.~{Banerji},
+  D.~{Brooks}, E.~{Buckley-Geer}, D.~L. {Burke}, D.~{Capozzi}, J.~{Carretero},
+  C.~E. {Cunha}, C.~B. {D'Andrea}, L.~N. {da Costa}, D.~L. {DePoy}, S.~{Desai},
+  J.~P. {Dietrich}, P.~{Doel}, A.~E. {Evrard}, A.~{Fausti Neto}, B.~{Flaugher},
+  P.~{Fosalba}, J.~{Frieman}, J.~{Garc{\'{\i}}a-Bellido}, D.~W. {Gerdes},
+  T.~{Giannantonio}, J.~{Gschwend}, G.~{Gutierrez}, K.~{Honscheid}, D.~J.
+  {James}, T.~{Jeltema}, K.~{Kuehn}, S.~{Kuhlmann}, N.~{Kuropatkin},
+  O.~{Lahav}, M.~{Lima}, H.~{Lin}, M.~A.~G. {Maia}, P.~{Martini}, R.~G.
+  {McMahon}, P.~{Melchior}, F.~{Menanteau}, R.~{Miquel}, R.~C. {Nichol},
+  R.~L.~C. {Ogando}, A.~A. {Plazas}, A.~K. {Romer}, A.~{Roodman}, E.~{Sanchez},
+  V.~{Scarpine}, R.~{Schindler}, M.~{Schubnell}, M.~{Smith}, R.~C. {Smith},
+  M.~{Soares-Santos}, F.~{Sobreira}, E.~{Suchyta}, G.~{Tarle}, V.~{Vikram},
+  A.~R. {Walker}, R.~H. {Wechsler}, J.~{Zuntz}, and {DES Collaboration}.
+\newblock {Dark Energy Survey Year 1 Results: The Photometric Data Set for
+  Cosmology}.
+\newblock \emph{\apjs}, 235:\penalty0 33, April 2018.
+\newblock \doi{10.3847/1538-4365/aab4f5}.
+
+\bibitem[{Duffy} et~al.(2008){Duffy}, {Schaye}, {Kay}, and {Dalla
+  Vecchia}]{duffy08}
+A.~R. {Duffy}, J.~{Schaye}, S.~T. {Kay}, and C.~{Dalla Vecchia}.
+\newblock {Dark matter halo concentrations in the Wilkinson Microwave
+  Anisotropy Probe year 5 cosmology}.
+\newblock \emph{\mnras}, 390:\penalty0 L64--L68, October 2008.
+\newblock \doi{10.1111/j.1745-3933.2008.00537.x}.
+
+\bibitem[Dunkley et~al.(2013)Dunkley, Calabrese, Sievers, Addison, Battaglia,
+  Battistelli, Bond, Das, M.JDevlin, Dünner, Fowler, Gralla, Hajian, Halpern,
+  Hasselfield, Hincks, Hlozek, andK.D Irwin, Kosowsky, Louis, Marriage,
+  Marsden, Menanteau, Moodley, Niemack, Nolta, Page, Partridge, Sehgal,
+  Spergel, Staggs, Switzer, Trac, and Wollack]{dunkley13}
+J~Dunkley, E~Calabrese, J~Sievers, G.E Addison, N~Battaglia, E.S Battistelli,
+  J.R Bond, S~Das, M.JDevlin, R~Dünner, J.W Fowler, M~Gralla, A~Hajian,
+  M~Halpern, M~Hasselfield, A.D Hincks, R~Hlozek, J.P~Hughes andK.D Irwin,
+  A~Kosowsky, T~Louis, T.A Marriage, D~Marsden, F~Menanteau, K~Moodley,
+  M~Niemack, M.R Nolta, L.A Page, B~Partridge, N~Sehgal, D.N Spergel, S.T
+  Staggs, E.R Switzer, H~Trac, and E~Wollack.
+\newblock The atacama cosmology telescope: likelihood for small-scale {CMB}
+  data.
+\newblock \emph{Journal of Cosmology and Astroparticle Physics}, 2013\penalty0
+  (07):\penalty0 025--025, jul 2013.
+\newblock \doi{10.1088/1475-7516/2013/07/025}.
+\newblock URL \url{https://doi.org/10.1088%2F1475-7516%2F2013%2F07%2F025}.
+
+\bibitem[{Einasto} and {Haud}(1989)]{einasto89}
+J.~{Einasto} and U.~{Haud}.
+\newblock {Galactic models with massive corona. I - Method. II - Galaxy}.
+\newblock \emph{\aap}, 223:\penalty0 89--106, October 1989.
+
+\bibitem[{Flaugher} et~al.(2015){Flaugher}, {Diehl}, {Honscheid}, {Abbott},
+  {Alvarez}, {Angstadt}, {Annis}, {Antonik}, {Ballester}, {Beaufore},
+  {Bernstein}, {Bernstein}, {Bigelow}, {Bonati}, {Boprie}, {Brooks},
+  {Buckley-Geer}, {Campa}, {Cardiel-Sas}, {Castander}, {Castilla}, {Cease},
+  {Cela-Ruiz}, {Chappa}, {Chi}, {Cooper}, {da Costa}, {Dede}, {Derylo},
+  {DePoy}, {de Vicente}, {Doel}, {Drlica-Wagner}, {Eiting}, {Elliott}, {Emes},
+  {Estrada}, {Fausti Neto}, {Finley}, {Flores}, {Frieman}, {Gerdes},
+  {Gladders}, {Gregory}, {Gutierrez}, {Hao}, {Holland}, {Holm}, {Huffman},
+  {Jackson}, {James}, {Jonas}, {Karcher}, {Karliner}, {Kent}, {Kessler},
+  {Kozlovsky}, {Kron}, {Kubik}, {Kuehn}, {Kuhlmann}, {Kuk}, {Lahav}, {Lathrop},
+  {Lee}, {Levi}, {Lewis}, {Li}, {Mandrichenko}, {Marshall}, {Martinez},
+  {Merritt}, {Miquel}, {Mu{\~n}oz}, {Neilsen}, {Nichol}, {Nord}, {Ogando},
+  {Olsen}, {Palaio}, {Patton}, {Peoples}, {Plazas}, {Rauch}, {Reil}, {Rheault},
+  {Roe}, {Rogers}, {Roodman}, {Sanchez}, {Scarpine}, {Schindler}, {Schmidt},
+  {Schmitt}, {Schubnell}, {Schultz}, {Schurter}, {Scott}, {Serrano}, {Shaw},
+  {Smith}, {Soares-Santos}, {Stefanik}, {Stuermer}, {Suchyta}, {Sypniewski},
+  {Tarle}, {Thaler}, {Tighe}, {Tran}, {Tucker}, {Walker}, {Wang}, {Watson},
+  {Weaverdyck}, {Wester}, {Woods}, {Yanny}, and {DES
+  Collaboration}]{flaugher15}
+B.~{Flaugher}, H.~T. {Diehl}, K.~{Honscheid}, T.~M.~C. {Abbott}, O.~{Alvarez},
+  R.~{Angstadt}, J.~T. {Annis}, M.~{Antonik}, O.~{Ballester}, L.~{Beaufore},
+  G.~M. {Bernstein}, R.~A. {Bernstein}, B.~{Bigelow}, M.~{Bonati}, D.~{Boprie},
+  D.~{Brooks}, E.~J. {Buckley-Geer}, J.~{Campa}, L.~{Cardiel-Sas}, F.~J.
+  {Castander}, J.~{Castilla}, H.~{Cease}, J.~M. {Cela-Ruiz}, S.~{Chappa},
+  E.~{Chi}, C.~{Cooper}, L.~N. {da Costa}, E.~{Dede}, G.~{Derylo}, D.~L.
+  {DePoy}, J.~{de Vicente}, P.~{Doel}, A.~{Drlica-Wagner}, J.~{Eiting}, A.~E.
+  {Elliott}, J.~{Emes}, J.~{Estrada}, A.~{Fausti Neto}, D.~A. {Finley},
+  R.~{Flores}, J.~{Frieman}, D.~{Gerdes}, M.~D. {Gladders}, B.~{Gregory}, G.~R.
+  {Gutierrez}, J.~{Hao}, S.~E. {Holland}, S.~{Holm}, D.~{Huffman},
+  C.~{Jackson}, D.~J. {James}, M.~{Jonas}, A.~{Karcher}, I.~{Karliner},
+  S.~{Kent}, R.~{Kessler}, M.~{Kozlovsky}, R.~G. {Kron}, D.~{Kubik},
+  K.~{Kuehn}, S.~{Kuhlmann}, K.~{Kuk}, O.~{Lahav}, A.~{Lathrop}, J.~{Lee},
+  M.~E. {Levi}, P.~{Lewis}, T.~S. {Li}, I.~{Mandrichenko}, J.~L. {Marshall},
+  G.~{Martinez}, K.~W. {Merritt}, R.~{Miquel}, F.~{Mu{\~n}oz}, E.~H. {Neilsen},
+  R.~C. {Nichol}, B.~{Nord}, R.~{Ogando}, J.~{Olsen}, N.~{Palaio}, K.~{Patton},
+  J.~{Peoples}, A.~A. {Plazas}, J.~{Rauch}, K.~{Reil}, J.-P. {Rheault}, N.~A.
+  {Roe}, H.~{Rogers}, A.~{Roodman}, E.~{Sanchez}, V.~{Scarpine}, R.~H.
+  {Schindler}, R.~{Schmidt}, R.~{Schmitt}, M.~{Schubnell}, K.~{Schultz},
+  P.~{Schurter}, L.~{Scott}, S.~{Serrano}, T.~M. {Shaw}, R.~C. {Smith},
+  M.~{Soares-Santos}, A.~{Stefanik}, W.~{Stuermer}, E.~{Suchyta},
+  A.~{Sypniewski}, G.~{Tarle}, J.~{Thaler}, R.~{Tighe}, C.~{Tran}, D.~{Tucker},
+  A.~R. {Walker}, G.~{Wang}, M.~{Watson}, C.~{Weaverdyck}, W.~{Wester},
+  R.~{Woods}, B.~{Yanny}, and {DES Collaboration}.
+\newblock {The Dark Energy Camera}.
+\newblock \emph{\aj}, 150:\penalty0 150, November 2015.
+\newblock \doi{10.1088/0004-6256/150/5/150}.
+
+\bibitem[{Flender} et~al.(2016){Flender}, {Bleem}, {Finkel}, {Habib},
+  {Heitmann}, and {Holder}]{flender16}
+Samuel {Flender}, Lindsey {Bleem}, Hal {Finkel}, Salman {Habib}, Katrin
+  {Heitmann}, and Gilbert {Holder}.
+\newblock {Simulations of the Pairwise Kinematic
+  Sunyaev-Zel{\textquoteright}dovich Signal}.
+\newblock \emph{\apj}, 823\penalty0 (2):\penalty0 98, Jun 2016.
+\newblock \doi{10.3847/0004-637X/823/2/98}.
+
+\bibitem[{Foreman-Mackey} et~al.(2013){Foreman-Mackey}, {Hogg}, {Lang}, and
+  {Goodman}]{mackey13}
+D.~{Foreman-Mackey}, D.~W. {Hogg}, D.~{Lang}, and J.~{Goodman}.
+\newblock {emcee: The MCMC Hammer}.
+\newblock \emph{\pasp}, 125:\penalty0 306, March 2013.
+\newblock \doi{10.1086/670067}.
+
+\bibitem[{Fowler} et~al.(2010){Fowler}, {Acquaviva}, {Ade}, {Aguirre}, {Amiri},
+  {Appel}, {Barrientos}, {Battistelli}, {Bond}, {Brown}, {Burger}, {Chervenak},
+  {Das}, {Devlin}, {Dicker}, {Doriese}, {Dunkley}, {D{\"u}nner},
+  {Essinger-Hileman}, {Fisher}, {Hajian}, {Halpern}, {Hasselfield},
+  {Hern{\'a}ndez-Monteagudo}, {Hilton}, {Hilton}, {Hincks}, {Hlozek},
+  {Huffenberger}, {Hughes}, {Hughes}, {Infante}, {Irwin}, {Jimenez}, {Juin},
+  {Kaul}, {Klein}, {Kosowsky}, {Lau}, {Limon}, {Lin}, {Lupton}, {Marriage},
+  {Marsden}, {Martocci}, {Mauskopf}, {Menanteau}, {Moodley}, {Moseley},
+  {Netterfield}, {Niemack}, {Nolta}, {Page}, {Parker}, {Partridge}, {Quintana},
+  {Reid}, {Sehgal}, {Sievers}, {Spergel}, {Staggs}, {Swetz}, {Switzer},
+  {Thornton}, {Trac}, {Tucker}, {Verde}, {Warne}, {Wilson}, {Wollack}, and
+  {Zhao}]{flower10}
+J.~W. {Fowler}, V.~{Acquaviva}, P.~A.~R. {Ade}, P.~{Aguirre}, M.~{Amiri}, J.~W.
+  {Appel}, L.~F. {Barrientos}, E.~S. {Battistelli}, J.~R. {Bond}, B.~{Brown},
+  B.~{Burger}, J.~{Chervenak}, S.~{Das}, M.~J. {Devlin}, S.~R. {Dicker}, W.~B.
+  {Doriese}, J.~{Dunkley}, R.~{D{\"u}nner}, T.~{Essinger-Hileman}, R.~P.
+  {Fisher}, A.~{Hajian}, M.~{Halpern}, M.~{Hasselfield},
+  C.~{Hern{\'a}ndez-Monteagudo}, G.~C. {Hilton}, M.~{Hilton}, A.~D. {Hincks},
+  R.~{Hlozek}, K.~M. {Huffenberger}, D.~H. {Hughes}, J.~P. {Hughes},
+  L.~{Infante}, K.~D. {Irwin}, R.~{Jimenez}, J.~B. {Juin}, M.~{Kaul},
+  J.~{Klein}, A.~{Kosowsky}, J.~M. {Lau}, M.~{Limon}, Y.~T. {Lin}, R.~H.
+  {Lupton}, T.~A. {Marriage}, D.~{Marsden}, K.~{Martocci}, P.~{Mauskopf},
+  F.~{Menanteau}, K.~{Moodley}, H.~{Moseley}, C.~B. {Netterfield}, M.~D.
+  {Niemack}, M.~R. {Nolta}, L.~A. {Page}, L.~{Parker}, B.~{Partridge},
+  H.~{Quintana}, B.~{Reid}, N.~{Sehgal}, J.~{Sievers}, D.~N. {Spergel}, S.~T.
+  {Staggs}, D.~S. {Swetz}, E.~R. {Switzer}, R.~{Thornton}, H.~{Trac},
+  C.~{Tucker}, L.~{Verde}, R.~{Warne}, G.~{Wilson}, E.~{Wollack}, and
+  Y.~{Zhao}.
+\newblock {The Atacama Cosmology Telescope: A Measurement of the 600 \&lt; ell
+  \&lt; 8000 Cosmic Microwave Background Power Spectrum at 148 GHz}.
+\newblock \emph{\apj}, 722\penalty0 (2):\penalty0 1148--1161, Oct 2010.
+\newblock \doi{10.1088/0004-637X/722/2/1148}.
+
+\bibitem[{Gamow}(1946)]{article46}
+G.~{Gamow}.
+\newblock {Expanding Universe and the Origin of Elements}.
+\newblock \emph{Physical Review}, 70\penalty0 (7-8):\penalty0 572--573, Oct
+  1946.
+\newblock \doi{10.1103/PhysRev.70.572.2}.
+
+\bibitem[{Geach} and {Peacock}(2017)]{geach17}
+J.~E. {Geach} and J.~A. {Peacock}.
+\newblock {Cluster richness-mass calibration with cosmic microwave background
+  lensing}.
+\newblock \emph{Nature Astronomy}, 1:\penalty0 795--799, November 2017.
+\newblock \doi{10.1038/s41550-017-0259-1}.
+
+\bibitem[{George} et~al.(2015){George}, {Reichardt}, {Aird}, {Benson}, {Bleem},
+  {Carlstrom}, {Chang}, {Cho}, {Crawford}, {Crites}, {de Haan}, {Dobbs},
+  {Dudley}, {Halverson}, {Harrington}, {Holder}, {Holzapfel}, {Hou}, {Hrubes},
+  {Keisler}, {Knox}, {Lee}, {Leitch}, {Lueker}, {Luong-Van}, {McMahon}, {Mehl},
+  {Meyer}, {Millea}, {Mocanu}, {Mohr}, {Montroy}, {Padin}, {Plagge}, {Pryke},
+  {Ruhl}, {Schaffer}, {Shaw}, {Shirokoff}, {Spieler}, {Staniszewski}, {Stark},
+  {Story}, {van Engelen}, {Vanderlinde}, {Vieira}, {Williamson}, and
+  {Zahn}]{george15}
+E.~M. {George}, C.~L. {Reichardt}, K.~A. {Aird}, B.~A. {Benson}, L.~E. {Bleem},
+  J.~E. {Carlstrom}, C.~L. {Chang}, H.~M. {Cho}, T.~M. {Crawford}, A.~T.
+  {Crites}, T.~{de Haan}, M.~A. {Dobbs}, J.~{Dudley}, N.~W. {Halverson}, N.~L.
+  {Harrington}, G.~P. {Holder}, W.~L. {Holzapfel}, Z.~{Hou}, J.~D. {Hrubes},
+  R.~{Keisler}, L.~{Knox}, A.~T. {Lee}, E.~M. {Leitch}, M.~{Lueker},
+  D.~{Luong-Van}, J.~J. {McMahon}, J.~{Mehl}, S.~S. {Meyer}, M.~{Millea}, L.~M.
+  {Mocanu}, J.~J. {Mohr}, T.~E. {Montroy}, S.~{Padin}, T.~{Plagge}, C.~{Pryke},
+  J.~E. {Ruhl}, K.~K. {Schaffer}, L.~{Shaw}, E.~{Shirokoff}, H.~G. {Spieler},
+  Z.~{Staniszewski}, A.~A. {Stark}, K.~T. {Story}, A.~{van Engelen},
+  K.~{Vanderlinde}, J.~D. {Vieira}, R.~{Williamson}, and O.~{Zahn}.
+\newblock {A Measurement of Secondary Cosmic Microwave Background Anisotropies
+  from the 2500 Square-degree SPT-SZ Survey}.
+\newblock \emph{\apj}, 799\penalty0 (2):\penalty0 177, Feb 2015.
+\newblock \doi{10.1088/0004-637X/799/2/177}.
+
+\bibitem[{Gonz{\'a}lez-Nuevo} et~al.(2005){Gonz{\'a}lez-Nuevo}, {Toffolatti},
+  and {Arg{\"u}eso}]{gonzo04}
+J.~{Gonz{\'a}lez-Nuevo}, L.~{Toffolatti}, and F.~{Arg{\"u}eso}.
+\newblock {Predictions of the Angular Power Spectrum of Clustered Extragalactic
+  Point Sources at Cosmic Microwave Background Frequencies from Flat and
+  All-Sky Two-dimensional Simulations}.
+\newblock \emph{\apj}, 621\penalty0 (1):\penalty0 1--14, Mar 2005.
+\newblock \doi{10.1086/427425}.
+
+\bibitem[{G{\'o}rski} et~al.(2005){G{\'o}rski}, {Hivon}, {Banday}, {Wandelt},
+  {Hansen}, {Reinecke}, and {Bartelmann}]{gorski05}
+K.~M. {G{\'o}rski}, E.~{Hivon}, A.~J. {Banday}, B.~D. {Wandelt}, F.~K.
+  {Hansen}, M.~{Reinecke}, and M.~{Bartelmann}.
+\newblock {HEALPix: A Framework for High-Resolution Discretization and Fast
+  Analysis of Data Distributed on the Sphere}.
+\newblock \emph{\apj}, 622:\penalty0 759--771, April 2005.
+\newblock \doi{10.1086/427976}.
+
+\bibitem[{Hartlap} et~al.(2007){Hartlap}, {Simon}, and {Schneider}]{hartlap06}
+J.~{Hartlap}, P.~{Simon}, and P.~{Schneider}.
+\newblock {Why your model parameter confidences might be too optimistic.
+  Unbiased estimation of the inverse covariance matrix}.
+\newblock \emph{\aap}, 464:\penalty0 399--404, March 2007.
+\newblock \doi{10.1051/0004-6361:20066170}.
+
+\bibitem[{Hasselfield} et~al.(2013){Hasselfield}, {Hilton}, {Marriage},
+  {Addison}, {Barrientos}, {Battaglia}, {Battistelli}, {Bond}, {Crichton},
+  {Das}, {Devlin}, {Dicker}, {Dunkley}, {D{\"u}nner}, {Fowler}, {Gralla},
+  {Hajian}, {Halpern}, {Hincks}, {Hlozek}, {Hughes}, {Infante}, {Irwin},
+  {Kosowsky}, {Marsden}, {Menanteau}, {Moodley}, {Niemack}, {Nolta}, {Page},
+  {Partridge}, {Reese}, {Schmitt}, {Sehgal}, {Sherwin}, {Sievers}, {Sif{\'o}n},
+  {Spergel}, {Staggs}, {Swetz}, {Switzer}, {Thornton}, {Trac}, and
+  {Wollack}]{hasselfield13}
+M.~{Hasselfield}, M.~{Hilton}, T.~A. {Marriage}, G.~E. {Addison}, L.~F.
+  {Barrientos}, N.~{Battaglia}, E.~S. {Battistelli}, J.~R. {Bond},
+  D.~{Crichton}, S.~{Das}, M.~J. {Devlin}, S.~R. {Dicker}, J.~{Dunkley},
+  R.~{D{\"u}nner}, J.~W. {Fowler}, M.~B. {Gralla}, A.~{Hajian}, M.~{Halpern},
+  A.~D. {Hincks}, R.~{Hlozek}, J.~P. {Hughes}, L.~{Infante}, K.~D. {Irwin},
+  A.~{Kosowsky}, D.~{Marsden}, F.~{Menanteau}, K.~{Moodley}, M.~D. {Niemack},
+  M.~R. {Nolta}, L.~A. {Page}, B.~{Partridge}, E.~D. {Reese}, B.~L. {Schmitt},
+  N.~{Sehgal}, B.~D. {Sherwin}, J.~{Sievers}, C.~{Sif{\'o}n}, D.~N. {Spergel},
+  S.~T. {Staggs}, D.~S. {Swetz}, E.~R. {Switzer}, R.~{Thornton}, H.~{Trac}, and
+  E.~J. {Wollack}.
+\newblock {The Atacama Cosmology Telescope: Sunyaev-Zel'dovich selected galaxy
+  clusters at 148 GHz from three seasons of data}.
+\newblock \emph{\jcap}, 7:\penalty0 008, July 2013.
+\newblock \doi{10.1088/1475-7516/2013/07/008}.
+
+\bibitem[{Henderson} et~al.(2016){Henderson}, {Allison}, {Austermann},
+  {Baildon}, {Battaglia}, {Beall}, {Becker}, {De Bernardis}, {Bond},
+  {Calabrese}, {Choi}, {Coughlin}, {Crowley}, {Datta}, {Devlin}, {Duff},
+  {Dunkley}, {D{\"u}nner}, {van Engelen}, {Gallardo}, {Grace}, {Hasselfield},
+  {Hills}, {Hilton}, {Hincks}, {Hlo{\^z}ek}, {Ho}, {Hubmayr}, {Huffenberger},
+  {Hughes}, {Irwin}, {Koopman}, {Kosowsky}, {Li}, {McMahon}, {Munson}, {Nati},
+  {Newburgh}, {Niemack}, {Niraula}, {Page}, {Pappas}, {Salatino}, {Schillaci},
+  {Schmitt}, {Sehgal}, {Sherwin}, {Sievers}, {Simon}, {Spergel}, {Staggs},
+  {Stevens}, {Thornton}, {Van Lanen}, {Vavagiakis}, {Ward}, and
+  {Wollack}]{henderson16}
+S.~W. {Henderson}, R.~{Allison}, J.~{Austermann}, T.~{Baildon}, N.~{Battaglia},
+  J.~A. {Beall}, D.~{Becker}, F.~{De Bernardis}, J.~R. {Bond}, E.~{Calabrese},
+  S.~K. {Choi}, K.~P. {Coughlin}, K.~T. {Crowley}, R.~{Datta}, M.~J. {Devlin},
+  S.~M. {Duff}, J.~{Dunkley}, R.~{D{\"u}nner}, A.~{van Engelen}, P.~A.
+  {Gallardo}, E.~{Grace}, M.~{Hasselfield}, F.~{Hills}, G.~C. {Hilton}, A.~D.
+  {Hincks}, R.~{Hlo{\^z}ek}, S.~P. {Ho}, J.~{Hubmayr}, K.~{Huffenberger}, J.~P.
+  {Hughes}, K.~D. {Irwin}, B.~J. {Koopman}, A.~B. {Kosowsky}, D.~{Li},
+  J.~{McMahon}, C.~{Munson}, F.~{Nati}, L.~{Newburgh}, M.~D. {Niemack},
+  P.~{Niraula}, L.~A. {Page}, C.~G. {Pappas}, M.~{Salatino}, A.~{Schillaci},
+  B.~L. {Schmitt}, N.~{Sehgal}, B.~D. {Sherwin}, J.~L. {Sievers}, S.~M.
+  {Simon}, D.~N. {Spergel}, S.~T. {Staggs}, J.~R. {Stevens}, R.~{Thornton},
+  J.~{Van Lanen}, E.~M. {Vavagiakis}, J.~T. {Ward}, and E.~J. {Wollack}.
+\newblock {Advanced ACTPol Cryogenic Detector Arrays and Readout}.
+\newblock \emph{Journal of Low Temperature Physics}, 184:\penalty0 772--779,
+  August 2016.
+\newblock \doi{10.1007/s10909-016-1575-z}.
+
+\bibitem[{Henning} et~al.(2018){Henning}, {Sayre}, {Reichardt}, {Ade},
+  {Anderson}, {Austermann}, {Beall}, {Bender}, {Benson}, {Bleem}, {Carlstrom},
+  {Chang}, {Chiang}, {Cho}, {Citron}, {Corbett Moran}, {Crawford}, {Crites},
+  {de Haan}, {Dobbs}, {Everett}, {Gallicchio}, {George}, {Gilbert},
+  {Halverson}, {Harrington}, {Hilton}, {Holder}, {Holzapfel}, {Hoover}, {Hou},
+  {Hrubes}, {Huang}, {Hubmayr}, {Irwin}, {Keisler}, {Knox}, {Lee}, {Leitch},
+  {Li}, {Lowitz}, {Manzotti}, {McMahon}, {Meyer}, {Mocanu}, {Montgomery},
+  {Nadolski}, {Natoli}, {Nibarger}, {Novosad}, {Padin}, {Pryke}, {Ruhl},
+  {Saliwanchik}, {Schaffer}, {Sievers}, {Smecher}, {Stark}, {Story}, {Tucker},
+  {Vanderlinde}, {Veach}, {Vieira}, {Wang}, {Whitehorn}, {Wu}, and
+  {Yefremenko}]{henning18}
+J.~W. {Henning}, J.~T. {Sayre}, C.~L. {Reichardt}, P.~A.~R. {Ade}, A.~J.
+  {Anderson}, J.~E. {Austermann}, J.~A. {Beall}, A.~N. {Bender}, B.~A.
+  {Benson}, L.~E. {Bleem}, J.~E. {Carlstrom}, C.~L. {Chang}, H.~C. {Chiang},
+  H.-M. {Cho}, R.~{Citron}, C.~{Corbett Moran}, T.~M. {Crawford}, A.~T.
+  {Crites}, T.~{de Haan}, M.~A. {Dobbs}, W.~{Everett}, J.~{Gallicchio}, E.~M.
+  {George}, A.~{Gilbert}, N.~W. {Halverson}, N.~{Harrington}, G.~C. {Hilton},
+  G.~P. {Holder}, W.~L. {Holzapfel}, S.~{Hoover}, Z.~{Hou}, J.~D. {Hrubes},
+  N.~{Huang}, J.~{Hubmayr}, K.~D. {Irwin}, R.~{Keisler}, L.~{Knox}, A.~T.
+  {Lee}, E.~M. {Leitch}, D.~{Li}, A.~{Lowitz}, A.~{Manzotti}, J.~J. {McMahon},
+  S.~S. {Meyer}, L.~{Mocanu}, J.~{Montgomery}, A.~{Nadolski}, T.~{Natoli},
+  J.~P. {Nibarger}, V.~{Novosad}, S.~{Padin}, C.~{Pryke}, J.~E. {Ruhl}, B.~R.
+  {Saliwanchik}, K.~K. {Schaffer}, C.~{Sievers}, G.~{Smecher}, A.~A. {Stark},
+  K.~T. {Story}, C.~{Tucker}, K.~{Vanderlinde}, T.~{Veach}, J.~D. {Vieira},
+  G.~{Wang}, N.~{Whitehorn}, W.~L.~K. {Wu}, and V.~{Yefremenko}.
+\newblock {Measurements of the Temperature and E-mode Polarization of the CMB
+  from 500 Square Degrees of SPTpol Data}.
+\newblock \emph{\apj}, 852:\penalty0 97, January 2018.
+\newblock \doi{10.3847/1538-4357/aa9ff4}.
+
+\bibitem[{Hinshaw} et~al.(2013){Hinshaw}, {Larson}, {Komatsu}, {Spergel},
+  {Bennett}, {Dunkley}, {Nolta}, {Halpern}, {Hill}, {Odegard}, {Page}, {Smith},
+  {Weiland}, {Gold}, {Jarosik}, {Kogut}, {Limon}, {Meyer}, {Tucker}, {Wollack},
+  and {Wright}]{hinshaw13}
+G.~{Hinshaw}, D.~{Larson}, E.~{Komatsu}, D.~N. {Spergel}, C.~L. {Bennett},
+  J.~{Dunkley}, M.~R. {Nolta}, M.~{Halpern}, R.~S. {Hill}, N.~{Odegard},
+  L.~{Page}, K.~M. {Smith}, J.~L. {Weiland}, B.~{Gold}, N.~{Jarosik},
+  A.~{Kogut}, M.~{Limon}, S.~S. {Meyer}, G.~S. {Tucker}, E.~{Wollack}, and
+  E.~L. {Wright}.
+\newblock {Nine-year Wilkinson Microwave Anisotropy Probe (WMAP) Observations:
+  Cosmological Parameter Results}.
+\newblock \emph{\apjs}, 208:\penalty0 19, October 2013.
+\newblock \doi{10.1088/0067-0049/208/2/19}.
+
+\bibitem[{Horowitz} et~al.(2019){Horowitz}, {Ferraro}, and
+  {Sherwin}]{horowitz19}
+Benjamin {Horowitz}, Simone {Ferraro}, and Blake~D. {Sherwin}.
+\newblock {Reconstructing small-scale lenses from the cosmic microwave
+  background temperature fluctuations}.
+\newblock \emph{\mnras}, 485\penalty0 (3):\penalty0 3919--3929, May 2019.
+\newblock \doi{10.1093/mnras/stz566}.
+
+\bibitem[Hu and White(1997)]{hu97d}
+W.~Hu and M.~White.
+\newblock A {CMB} polarization primer.
+\newblock \emph{{New Astronomy}}, 2:\penalty0 323--344, 1997.
+\newblock astro-ph/9706147.
+
+\bibitem[{Hu} et~al.(2007){Hu}, {DeDeo}, and {Vale}]{hu07}
+W.~{Hu}, S.~{DeDeo}, and C.~{Vale}.
+\newblock {Cluster mass estimators from CMB temperature and polarization
+  lensing}.
+\newblock \emph{New Journal of Physics}, 9:\penalty0 441--+, December 2007.
+\newblock \doi{10.1088/1367-2630/9/12/441}.
+
+\bibitem[{Hubble}(1929)]{hubble29}
+Edwin {Hubble}.
+\newblock {A Relation between Distance and Radial Velocity among Extra-Galactic
+  Nebulae}.
+\newblock \emph{Proceedings of the National Academy of Science}, 15\penalty0
+  (3):\penalty0 168--173, Mar 1929.
+\newblock \doi{10.1073/pnas.15.3.168}.
+
+\bibitem[{Jenkins} et~al.(2001){Jenkins}, {Frenk}, {White}, {Colberg}, {Cole},
+  {Evrard}, {Couchman}, and {Yoshida}]{jenkins01}
+A.~{Jenkins}, C.\~S. {Frenk}, S.\ D.\~M. {White}, J.\~M. {Colberg}, S.~{Cole},
+  A.\~E. {Evrard}, H.\ M.\~P. {Couchman}, and N.~{Yoshida}.
+\newblock The mass function of dark matter haloes.
+\newblock \emph{\mnras}, 321:\penalty0 372--384, February 2001.
+
+\bibitem[{Kamionkowski} et~al.(1997){Kamionkowski}, {Kosowsky}, and
+  {Stebbins}]{kamionkowski97}
+M.~{Kamionkowski}, A.~{Kosowsky}, and A.~{Stebbins}.
+\newblock {Statistics of Cosmic Microwave Background Polarization}.
+\newblock \emph{\prd}, 55:\penalty0 7368--7388, June 1997.
+\newblock URL
+  \url{http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1997PhRvD..55.7368K&db_key=AST}.
+
+\bibitem[{Keisler} et~al.(2011){Keisler}, {Reichardt}, {Aird}, {Benson},
+  {Bleem}, {Carlstrom}, {Chang}, {Cho}, {Crawford}, {Crites}, {de Haan},
+  {Dobbs}, {Dudley}, {George}, {Halverson}, {Holder}, {Holzapfel}, {Hoover},
+  {Hou}, {Hrubes}, {Joy}, {Knox}, {Lee}, {Leitch}, {Lueker}, {Luong-Van},
+  {McMahon}, {Mehl}, {Meyer}, {Millea}, {Mohr}, {Montroy}, {Natoli}, {Padin},
+  {Plagge}, {Pryke}, {Ruhl}, {Schaffer}, {Shaw}, {Shirokoff}, {Spieler},
+  {Staniszewski}, {Stark}, {Story}, {van Engelen}, {Vanderlinde}, {Vieira},
+  {Williamson}, and {Zahn}]{keisler11}
+R.~{Keisler}, C.~L. {Reichardt}, K.~A. {Aird}, B.~A. {Benson}, L.~E. {Bleem},
+  J.~E. {Carlstrom}, C.~L. {Chang}, H.~M. {Cho}, T.~M. {Crawford}, A.~T.
+  {Crites}, T.~{de Haan}, M.~A. {Dobbs}, J.~{Dudley}, E.~M. {George}, N.~W.
+  {Halverson}, G.~P. {Holder}, W.~L. {Holzapfel}, S.~{Hoover}, Z.~{Hou}, J.~D.
+  {Hrubes}, M.~{Joy}, L.~{Knox}, A.~T. {Lee}, E.~M. {Leitch}, M.~{Lueker},
+  D.~{Luong-Van}, J.~J. {McMahon}, J.~{Mehl}, S.~S. {Meyer}, M.~{Millea}, J.~J.
+  {Mohr}, T.~E. {Montroy}, T.~{Natoli}, S.~{Padin}, T.~{Plagge}, C.~{Pryke},
+  J.~E. {Ruhl}, K.~K. {Schaffer}, L.~{Shaw}, E.~{Shirokoff}, H.~G. {Spieler},
+  Z.~{Staniszewski}, A.~A. {Stark}, K.~{Story}, A.~{van Engelen},
+  K.~{Vanderlinde}, J.~D. {Vieira}, R.~{Williamson}, and O.~{Zahn}.
+\newblock {A Measurement of the Damping Tail of the Cosmic Microwave Background
+  Power Spectrum with the South Pole Telescope}.
+\newblock \emph{\apj}, 743:\penalty0 28, December 2011.
+\newblock \doi{10.1088/0004-637X/743/1/28}.
+
+\bibitem[{Keisler} et~al.(2015){Keisler}, {Hoover}, {Harrington}, {Henning},
+  {Ade}, {Aird}, {Austermann}, {Beall}, {Bender}, {Benson}, {Bleem},
+  {Carlstrom}, {Chang}, {Chiang}, {Cho}, {Citron}, {Crawford}, {Crites}, {de
+  Haan}, {Dobbs}, {Everett}, {Gallicchio}, {Gao}, {George}, {Gilbert},
+  {Halverson}, {Hanson}, {Hilton}, {Holder}, {Holzapfel}, {Hou}, {Hrubes},
+  {Huang}, {Hubmayr}, {Irwin}, {Knox}, {Lee}, {Leitch}, {Li}, {Luong-Van},
+  {Marrone}, {McMahon}, {Mehl}, {Meyer}, {Mocanu}, {Natoli}, {Nibarger},
+  {Novosad}, {Padin}, {Pryke}, {Reichardt}, {Ruhl}, {Saliwanchik}, {Sayre},
+  {Schaffer}, {Shirokoff}, {Smecher}, {Stark}, {Story}, {Tucker},
+  {Vanderlinde}, {Vieira}, {Wang}, {Whitehorn}, {Yefremenko}, and
+  {Zahn}]{keisler15}
+R.~{Keisler}, S.~{Hoover}, N.~{Harrington}, J.~W. {Henning}, P.~A.~R. {Ade},
+  K.~A. {Aird}, J.~E. {Austermann}, J.~A. {Beall}, A.~N. {Bender}, B.~A.
+  {Benson}, L.~E. {Bleem}, J.~E. {Carlstrom}, C.~L. {Chang}, H.~C. {Chiang},
+  H.~{Cho}, R.~{Citron}, T.~M. {Crawford}, A.~T. {Crites}, T.~{de Haan}, M.~A.
+  {Dobbs}, W.~{Everett}, J.~{Gallicchio}, J.~{Gao}, E.~M. {George},
+  A.~{Gilbert}, N.~W. {Halverson}, D.~{Hanson}, G.~C. {Hilton}, G.~P. {Holder},
+  W.~L. {Holzapfel}, Z.~{Hou}, J.~D. {Hrubes}, N.~{Huang}, J.~{Hubmayr}, K.~D.
+  {Irwin}, L.~{Knox}, A.~T. {Lee}, E.~M. {Leitch}, D.~{Li}, D.~{Luong-Van},
+  D.~P. {Marrone}, J.~J. {McMahon}, J.~{Mehl}, S.~S. {Meyer}, L.~{Mocanu},
+  T.~{Natoli}, J.~P. {Nibarger}, V.~{Novosad}, S.~{Padin}, C.~{Pryke}, C.~L.
+  {Reichardt}, J.~E. {Ruhl}, B.~R. {Saliwanchik}, J.~T. {Sayre}, K.~K.
+  {Schaffer}, E.~{Shirokoff}, G.~{Smecher}, A.~A. {Stark}, K.~T. {Story},
+  C.~{Tucker}, K.~{Vanderlinde}, J.~D. {Vieira}, G.~{Wang}, N.~{Whitehorn},
+  V.~{Yefremenko}, and O.~{Zahn}.
+\newblock {Measurements of Sub-degree B-mode Polarization in the Cosmic
+  Microwave Background from 100 Square Degrees of SPTpol Data}.
+\newblock \emph{\apj}, 807:\penalty0 151, July 2015.
+\newblock \doi{10.1088/0004-637X/807/2/151}.
+
+\bibitem[{King} and {Schneider}(2001)]{king01}
+L.~J. {King} and P.~{Schneider}.
+\newblock {Cluster mass profiles from weak lensing II}.
+\newblock \emph{\aap}, 369:\penalty0 1--15, Apr 2001.
+\newblock \doi{10.1051/0004-6361:20010030}.
+
+\bibitem[Kovac et~al.(2002)Kovac, Leitch, Pryke, Carlstrom, Halverson, and
+  Holzapfel]{kovac02}
+J.~M. Kovac, E.~M. Leitch, C.~Pryke, J.~E. Carlstrom, N.~W. Halverson, and
+  W.~L. Holzapfel.
+\newblock Detection of polarization in the cosmic microwave background using
+  {DASI}.
+\newblock \emph{Nature}, 420:\penalty0 772, December 2002.
+
+\bibitem[{Leistedt} et~al.(2017){Leistedt}, {McEwen}, {B{\"u}ttner}, and
+  {Peiris}]{leistedt16}
+Boris {Leistedt}, Jason~D. {McEwen}, Martin {B{\"u}ttner}, and Hiranya~V.
+  {Peiris}.
+\newblock {Wavelet reconstruction of E and B modes for CMB polarization and
+  cosmic shear analyses}.
+\newblock \emph{\mnras}, 466\penalty0 (3):\penalty0 3728--3740, Apr 2017.
+\newblock \doi{10.1093/mnras/stw3176}.
+
+\bibitem[{Lewis} and {Challinor}(2006)]{lewis06}
+A.~{Lewis} and A.~{Challinor}.
+\newblock {Weak gravitational lensing of the CMB}.
+\newblock \emph{\physrep}, 429:\penalty0 1--65, June 2006.
+\newblock \doi{10.1016/j.physrep.2006.03.002}.
+
+\bibitem[{Lewis} et~al.(2000){Lewis}, {Challinor}, and {Lasenby}]{lewis00}
+A.~{Lewis}, A.~{Challinor}, and A.~{Lasenby}.
+\newblock {Efficient Computation of Cosmic Microwave Background Anisotropies in
+  Closed Friedmann-Robertson-Walker Models}.
+\newblock \emph{\apj}, 538:\penalty0 473--476, August 2000.
+\newblock \doi{10.1086/309179}.
+
+\bibitem[{Louis} et~al.(2017){Louis}, {Grace}, {Hasselfield}, {Lungu},
+  {Maurin}, {Addison}, {Ade}, {Aiola}, {Allison}, {Amiri}, {Angile},
+  {Battaglia}, {Beall}, {de Bernardis}, {Bond}, {Britton}, {Calabrese}, {Cho},
+  {Choi}, {Coughlin}, {Crichton}, {Crowley}, {Datta}, {Devlin}, {Dicker},
+  {Dunkley}, {D{\"u}nner}, {Ferraro}, {Fox}, {Gallardo}, {Gralla}, {Halpern},
+  {Henderson}, {Hill}, {Hilton}, {Hilton}, {Hincks}, {Hlozek}, {Ho}, {Huang},
+  {Hubmayr}, {Huffenberger}, {Hughes}, {Infante}, {Irwin}, {Muya Kasanda},
+  {Klein}, {Koopman}, {Kosowsky}, {Li}, {Madhavacheril}, {Marriage}, {McMahon},
+  {Menanteau}, {Moodley}, {Munson}, {Naess}, {Nati}, {Newburgh}, {Nibarger},
+  {Niemack}, {Nolta}, {Nu{\~n}ez}, {Page}, {Pappas}, {Partridge}, {Rojas},
+  {Schaan}, {Schmitt}, {Sehgal}, {Sherwin}, {Sievers}, {Simon}, {Spergel},
+  {Staggs}, {Switzer}, {Thornton}, {Trac}, {Treu}, {Tucker}, {Van Engelen},
+  {Ward}, and {Wollack}]{louis16}
+Thibaut {Louis}, Emily {Grace}, Matthew {Hasselfield}, Marius {Lungu},
+  Lo{\"\i}c {Maurin}, Graeme~E. {Addison}, Peter A.~R. {Ade}, Simone {Aiola},
+  Rupert {Allison}, Mandana {Amiri}, Elio {Angile}, Nicholas {Battaglia},
+  James~A. {Beall}, Francesco {de Bernardis}, J.~Richard {Bond}, Joe {Britton},
+  Erminia {Calabrese}, Hsiao-mei {Cho}, Steve~K. {Choi}, Kevin {Coughlin},
+  Devin {Crichton}, Kevin {Crowley}, Rahul {Datta}, Mark~J. {Devlin}, Simon~R.
+  {Dicker}, Joanna {Dunkley}, Rolando {D{\"u}nner}, Simone {Ferraro}, Anna~E.
+  {Fox}, Patricio {Gallardo}, Megan {Gralla}, Mark {Halpern}, Shawn
+  {Henderson}, J.~Colin {Hill}, Gene~C. {Hilton}, Matt {Hilton}, Adam~D.
+  {Hincks}, Ren{\'e}e {Hlozek}, S.~P.~Patty {Ho}, Zhiqi {Huang}, Johannes
+  {Hubmayr}, Kevin~M. {Huffenberger}, John~P. {Hughes}, Leopoldo {Infante},
+  Kent {Irwin}, Simon {Muya Kasanda}, Jeff {Klein}, Brian {Koopman}, Arthur
+  {Kosowsky}, Dale {Li}, Mathew {Madhavacheril}, Tobias~A. {Marriage}, Jeff
+  {McMahon}, Felipe {Menanteau}, Kavilan {Moodley}, Charles {Munson}, Sigurd
+  {Naess}, Federico {Nati}, Laura {Newburgh}, John {Nibarger}, Michael~D.
+  {Niemack}, Michael~R. {Nolta}, Carolina {Nu{\~n}ez}, Lyman~A. {Page},
+  Christine {Pappas}, Bruce {Partridge}, Felipe {Rojas}, Emmanuel {Schaan},
+  Benjamin~L. {Schmitt}, Neelima {Sehgal}, Blake~D. {Sherwin}, Jon {Sievers},
+  Sara {Simon}, David~N. {Spergel}, Suzanne~T. {Staggs}, Eric~R. {Switzer},
+  Robert {Thornton}, Hy~{Trac}, Jesse {Treu}, Carole {Tucker}, Alexander {Van
+  Engelen}, Jonathan~T. {Ward}, and Edward~J. {Wollack}.
+\newblock {The Atacama Cosmology Telescope: two-season ACTPol spectra and
+  parameters}.
+\newblock \emph{\jcap}, 2017\penalty0 (6):\penalty0 031, Jun 2017.
+\newblock \doi{10.1088/1475-7516/2017/06/031}.
+
+\bibitem[{LSST Science Collaboration} et~al.(2009){LSST Science Collaboration},
+  {Abell}, {Allison}, {Anderson}, {Andrew}, {Angel}, {Armus}, {Arnett},
+  {Asztalos}, {Axelrod}, and et~al.]{lsst09}
+{LSST Science Collaboration}, P.~A. {Abell}, J.~{Allison}, S.~F. {Anderson},
+  J.~R. {Andrew}, J.~R.~P. {Angel}, L.~{Armus}, D.~{Arnett}, S.~J. {Asztalos},
+  T.~S. {Axelrod}, and et~al.
+\newblock {LSST Science Book, Version 2.0}.
+\newblock \emph{ArXiv e-prints}, December 2009.
+
+\bibitem[{Ludlow} et~al.(2013){Ludlow}, {Navarro}, {Boylan-Kolchin}, {Bett},
+  {Angulo}, {Li}, {White}, {Frenk}, and {Springel}]{ludlow13}
+A.~D. {Ludlow}, J.~F. {Navarro}, M.~{Boylan-Kolchin}, P.~E. {Bett}, R.~E.
+  {Angulo}, M.~{Li}, S.~D.~M. {White}, C.~{Frenk}, and V.~{Springel}.
+\newblock {The mass profile and accretion history of cold dark matter haloes}.
+\newblock \emph{\mnras}, 432:\penalty0 1103--1113, June 2013.
+\newblock \doi{10.1093/mnras/stt526}.
+
+\bibitem[{Lueker} et~al.(2010){Lueker}, {Reichardt}, {Schaffer}, {Zahn}, {Ade},
+  {Aird}, {Benson}, {Bleem}, {Carlstrom}, {Chang}, {Cho}, {Crawford}, {Crites},
+  {de Haan}, {Dobbs}, {George}, {Hall}, {Halverson}, {Holder}, {Holzapfel},
+  {Hrubes}, {Joy}, {Keisler}, {Knox}, {Lee}, {Leitch}, {McMahon}, {Mehl},
+  {Meyer}, {Mohr}, {Montroy}, {Padin}, {Plagge}, {Pryke}, {Ruhl}, {Shaw},
+  {Shirokoff}, {Spieler}, {Stalder}, {Staniszewski}, {Stark}, {Vanderlinde},
+  {Vieira}, and {Williamson}]{lueker10}
+M.~{Lueker}, C.~L. {Reichardt}, K.~K. {Schaffer}, O.~{Zahn}, P.~A.~R. {Ade},
+  K.~A. {Aird}, B.~A. {Benson}, L.~E. {Bleem}, J.~E. {Carlstrom}, C.~L.
+  {Chang}, {H.-M.} {Cho}, T.~M. {Crawford}, A.~T. {Crites}, T.~{de Haan}, M.~A.
+  {Dobbs}, E.~M. {George}, N.~R. {Hall}, N.~W. {Halverson}, G.~P. {Holder},
+  W.~L. {Holzapfel}, J.~D. {Hrubes}, M.~{Joy}, R.~{Keisler}, L.~{Knox}, A.~T.
+  {Lee}, E.~M. {Leitch}, J.~J. {McMahon}, J.~{Mehl}, S.~S. {Meyer}, J.~J.
+  {Mohr}, T.~E. {Montroy}, S.~{Padin}, T.~{Plagge}, C.~{Pryke}, J.~E. {Ruhl},
+  L.~{Shaw}, E.~{Shirokoff}, H.~G. {Spieler}, B.~{Stalder}, Z.~{Staniszewski},
+  A.~A. {Stark}, K.~{Vanderlinde}, J.~D. {Vieira}, and R.~{Williamson}.
+\newblock {Measurements of Secondary Cosmic Microwave Background Anisotropies
+  with the South Pole Telescope}.
+\newblock \emph{\apj}, 719:\penalty0 1045--1066, August 2010.
+\newblock \doi{10.1088/0004-637X/719/2/1045}.
+
+\bibitem[{Macaulay} et~al.(2019){Macaulay}, {Nichol}, {Bacon}, {Brout},
+  {Davis}, {Zhang}, {Bassett}, {Scolnic}, {M{\"o}ller}, {D'Andrea}, {Hinton},
+  {Kessler}, {Kim}, {Lasker}, {Lidman}, {Sako}, {Smith}, {Sullivan}, {Abbott},
+  {Allam}, {Annis}, {Asorey}, {Avila}, {Bechtol}, {Brooks}, {Brown}, {Burke},
+  {Calcino}, {Carnero Rosell}, {Carollo}, {Carrasco Kind}, {Carretero},
+  {Castander}, {Collett}, {Crocce}, {Cunha}, {da Costa}, {Davis}, {De Vicente},
+  {Diehl}, {Doel}, {Drlica-Wagner}, {Eifler}, {Estrada}, {Evrard},
+  {Filippenko}, {Finley}, {Flaugher}, {Foley}, {Fosalba}, {Frieman}, {Galbany},
+  {Garc{\'\i}a-Bellido}, {Gaztanaga}, {Glazebrook}, {Gonz{\'a}lez-Gait{\'a}n},
+  {Gruen}, {Gruendl}, {Gschwend}, {Gutierrez}, {Hartley}, {Hollowood},
+  {Honscheid}, {Hoormann}, {Hoyle}, {Huterer}, {Jain}, {James}, {Jeltema},
+  {Kasai}, {Krause}, {Kuehn}, {Kuropatkin}, {Lahav}, {Lewis}, {Li}, {Lima},
+  {Lin}, {Maia}, {Marshall}, {Martini}, {Miquel}, {Nugent}, {Palmese}, {Pan},
+  {Plazas}, {Romer}, {Roodman}, {Sanchez}, {Scarpine}, {Schindler},
+  {Schubnell}, {Serrano}, {Sevilla-Noarbe}, {Sharp}, {Soares-Santos},
+  {Sobreira}, {Sommer}, {Suchyta}, {Swann}, {Swanson}, {Tarle}, {Thomas},
+  {Thomas}, {Tucker}, {Uddin}, {Vikram}, {Walker}, {Wiseman}, and {DES
+  Collaboration}]{macaulay2018}
+E.~{Macaulay}, R.~C. {Nichol}, D.~{Bacon}, D.~{Brout}, T.~M. {Davis},
+  B.~{Zhang}, B.~A. {Bassett}, D.~{Scolnic}, A.~{M{\"o}ller}, C.~B. {D'Andrea},
+  S.~R. {Hinton}, R.~{Kessler}, A.~G. {Kim}, J.~{Lasker}, C.~{Lidman},
+  M.~{Sako}, M.~{Smith}, M.~{Sullivan}, T.~M.~C. {Abbott}, S.~{Allam},
+  J.~{Annis}, J.~{Asorey}, S.~{Avila}, K.~{Bechtol}, D.~{Brooks}, P.~{Brown},
+  D.~L. {Burke}, J.~{Calcino}, A.~{Carnero Rosell}, D.~{Carollo}, M.~{Carrasco
+  Kind}, J.~{Carretero}, F.~J. {Castander}, T.~{Collett}, M.~{Crocce}, C.~E.
+  {Cunha}, L.~N. {da Costa}, C.~{Davis}, J.~{De Vicente}, H.~T. {Diehl},
+  P.~{Doel}, A.~{Drlica-Wagner}, T.~F. {Eifler}, J.~{Estrada}, A.~E. {Evrard},
+  A.~V. {Filippenko}, D.~A. {Finley}, B.~{Flaugher}, R.~J. {Foley},
+  P.~{Fosalba}, J.~{Frieman}, L.~{Galbany}, J.~{Garc{\'\i}a-Bellido},
+  E.~{Gaztanaga}, K.~{Glazebrook}, S.~{Gonz{\'a}lez-Gait{\'a}n}, D.~{Gruen},
+  R.~A. {Gruendl}, J.~{Gschwend}, G.~{Gutierrez}, W.~G. {Hartley}, D.~L.
+  {Hollowood}, K.~{Honscheid}, J.~K. {Hoormann}, B.~{Hoyle}, D.~{Huterer},
+  B.~{Jain}, D.~J. {James}, T.~{Jeltema}, E.~{Kasai}, E.~{Krause}, K.~{Kuehn},
+  N.~{Kuropatkin}, O.~{Lahav}, G.~F. {Lewis}, T.~S. {Li}, M.~{Lima}, H.~{Lin},
+  M.~A.~G. {Maia}, J.~L. {Marshall}, P.~{Martini}, R.~{Miquel}, P.~{Nugent},
+  A.~{Palmese}, Y.~C. {Pan}, A.~A. {Plazas}, A.~K. {Romer}, A.~{Roodman},
+  E.~{Sanchez}, V.~{Scarpine}, R.~{Schindler}, M.~{Schubnell}, S.~{Serrano},
+  I.~{Sevilla-Noarbe}, R.~{Sharp}, M.~{Soares-Santos}, F.~{Sobreira}, N.~E.
+  {Sommer}, E.~{Suchyta}, E.~{Swann}, M.~E.~C. {Swanson}, G.~{Tarle},
+  D.~{Thomas}, R.~C. {Thomas}, B.~E. {Tucker}, S.~A. {Uddin}, V.~{Vikram},
+  A.~R. {Walker}, P.~{Wiseman}, and {DES Collaboration}.
+\newblock {First cosmological results using Type Ia supernovae from the Dark
+  Energy Survey: measurement of the Hubble constant}.
+\newblock \emph{\mnras}, 486\penalty0 (2):\penalty0 2184--2196, Jun 2019.
+\newblock \doi{10.1093/mnras/stz978}.
+
+\bibitem[{Madhavacheril} et~al.(2015){Madhavacheril}, {Sehgal}, {Allison},
+  {Battaglia}, {Bond}, {Calabrese}, {Caliguiri}, {Coughlin}, {Crichton},
+  {Datta}, {Devlin}, {Dunkley}, {D{\"u}nner}, {Fogarty}, {Grace}, {Hajian},
+  {Hasselfield}, {Hill}, {Hilton}, {Hincks}, {Hlozek}, {Hughes}, {Kosowsky},
+  {Louis}, {Lungu}, {McMahon}, {Moodley}, {Munson}, {Naess}, {Nati},
+  {Newburgh}, {Niemack}, {Page}, {Partridge}, {Schmitt}, {Sherwin}, {Sievers},
+  {Spergel}, {Staggs}, {Thornton}, {Van Engelen}, {Ward}, {Wollack}, and
+  {Atacama Cosmology Telescope Collaboration}]{madhavacheril15}
+M.~{Madhavacheril}, N.~{Sehgal}, R.~{Allison}, N.~{Battaglia}, J.~R. {Bond},
+  E.~{Calabrese}, J.~{Caliguiri}, K.~{Coughlin}, D.~{Crichton}, R.~{Datta},
+  M.~J. {Devlin}, J.~{Dunkley}, R.~{D{\"u}nner}, K.~{Fogarty}, E.~{Grace},
+  A.~{Hajian}, M.~{Hasselfield}, J.~C. {Hill}, M.~{Hilton}, A.~D. {Hincks},
+  R.~{Hlozek}, J.~P. {Hughes}, A.~{Kosowsky}, T.~{Louis}, M.~{Lungu},
+  J.~{McMahon}, K.~{Moodley}, C.~{Munson}, S.~{Naess}, F.~{Nati},
+  L.~{Newburgh}, M.~D. {Niemack}, L.~A. {Page}, B.~{Partridge}, B.~{Schmitt},
+  B.~D. {Sherwin}, J.~{Sievers}, D.~N. {Spergel}, S.~T. {Staggs},
+  R.~{Thornton}, A.~{Van Engelen}, J.~T. {Ward}, E.~J. {Wollack}, and {Atacama
+  Cosmology Telescope Collaboration}.
+\newblock {Evidence of Lensing of the Cosmic Microwave Background by Dark
+  Matter Halos}.
+\newblock \emph{Physical Review Letters}, 114\penalty0 (15):\penalty0 151302,
+  April 2015.
+\newblock \doi{10.1103/PhysRevLett.114.151302}.
+
+\bibitem[{Madhavacheril} and {Hill}(2018)]{madhavacheril18}
+M.~S. {Madhavacheril} and J.~C. {Hill}.
+\newblock {Mitigating Foreground Biases in CMB Lensing Reconstruction Using
+  Cleaned Gradients}.
+\newblock \emph{\prd}, \penalty0 (98):\penalty0 023534, July 2018.
+\newblock \doi{10.1103/PhysRevD.98.023534}.
+
+\bibitem[{Mantz} et~al.(2008){Mantz}, {Allen}, {Ebeling}, and
+  {Rapetti}]{mantz08}
+A.~{Mantz}, S.~W. {Allen}, H.~{Ebeling}, and D.~{Rapetti}.
+\newblock {New constraints on dark energy from the observed growth of the most
+  X-ray luminous galaxy clusters}.
+\newblock \emph{\mnras}, 387:\penalty0 1179--1192, July 2008.
+\newblock \doi{10.1111/j.1365-2966.2008.13311.x}.
+
+\bibitem[{Mantz} et~al.(2010){Mantz}, {Allen}, {Rapetti}, and
+  {Ebeling}]{mantz10a}
+A.~{Mantz}, S.~W. {Allen}, D.~{Rapetti}, and H.~{Ebeling}.
+\newblock {The observed growth of massive galaxy clusters - I. Statistical
+  methods and cosmological constraints}.
+\newblock \emph{\mnras}, 406:\penalty0 1759--1772, August 2010.
+\newblock \doi{10.1111/j.1365-2966.2010.16992.x}.
+
+\bibitem[{Mantz} et~al.(2015){Mantz}, {von der Linden}, {Allen}, {Applegate},
+  {Kelly}, {Morris}, {Rapetti}, {Schmidt}, {Adhikari}, {Allen}, {Burchat},
+  {Burke}, {Cataneo}, {Donovan}, {Ebeling}, {Shandera}, and {Wright}]{mantz15}
+A.~B. {Mantz}, A.~{von der Linden}, S.~W. {Allen}, D.~E. {Applegate}, P.~L.
+  {Kelly}, R.~G. {Morris}, D.~A. {Rapetti}, R.~W. {Schmidt}, S.~{Adhikari},
+  M.~T. {Allen}, P.~R. {Burchat}, D.~L. {Burke}, M.~{Cataneo}, D.~{Donovan},
+  H.~{Ebeling}, S.~{Shandera}, and A.~{Wright}.
+\newblock {Weighing the giants - IV. Cosmology and neutrino mass}.
+\newblock \emph{\mnras}, 446:\penalty0 2205--2225, January 2015.
+\newblock \doi{10.1093/mnras/stu2096}.
+
+\bibitem[{Manzotti} et~al.(2017){Manzotti}, {Story}, {Wu}, {Austermann},
+  {Beall}, {Bender}, {Benson}, {Bleem}, {Bock}, {Carlstrom}, {Chang}, {Chiang},
+  {Cho}, {Citron}, {Conley}, {Crawford}, {Crites}, {de Haan}, {Dobbs},
+  {Dodelson}, {Everett}, {Gallicchio}, {George}, {Gilbert}, {Halverson},
+  {Harrington}, {Henning}, {Hilton}, {Holder}, {Holzapfel}, {Hoover}, {Hou},
+  {Hrubes}, {Huang}, {Hubmayr}, {Irwin}, {Keisler}, {Knox}, {Lee}, {Leitch},
+  {Li}, {McMahon}, {Meyer}, {Mocanu}, {Natoli}, {Nibarger}, {Novosad}, {Padin},
+  {Pryke}, {Reichardt}, {Ruhl}, {Saliwanchik}, {Sayre}, {Schaffer}, {Smecher},
+  {Stark}, {Vanderlinde}, {Vieira}, {Viero}, {Wang}, {Whitehorn}, {Yefremenko},
+  and {Zemcov}]{manzotti17}
+A.~{Manzotti}, K.~T. {Story}, W.~L.~K. {Wu}, J.~E. {Austermann}, J.~A. {Beall},
+  A.~N. {Bender}, B.~A. {Benson}, L.~E. {Bleem}, J.~J. {Bock}, J.~E.
+  {Carlstrom}, C.~L. {Chang}, H.~C. {Chiang}, H.~{Cho}, R.~{Citron},
+  A.~{Conley}, T.~M. {Crawford}, A.~T. {Crites}, T.~{de Haan}, M.~A. {Dobbs},
+  S.~{Dodelson}, W.~{Everett}, J.~{Gallicchio}, E.~M. {George}, A.~{Gilbert},
+  N.~W. {Halverson}, N.~{Harrington}, J.~W. {Henning}, G.~C. {Hilton}, G.~P.
+  {Holder}, W.~L. {Holzapfel}, S.~{Hoover}, Z.~{Hou}, J.~D. {Hrubes},
+  N.~{Huang}, J.~{Hubmayr}, K.~D. {Irwin}, R.~{Keisler}, L.~{Knox}, A.~T.
+  {Lee}, E.~M. {Leitch}, D.~{Li}, J.~J. {McMahon}, S.~S. {Meyer}, L.~M.
+  {Mocanu}, T.~{Natoli}, J.~P. {Nibarger}, V.~{Novosad}, S.~{Padin},
+  C.~{Pryke}, C.~L. {Reichardt}, J.~E. {Ruhl}, B.~R. {Saliwanchik}, J.~T.
+  {Sayre}, K.~K. {Schaffer}, G.~{Smecher}, A.~A. {Stark}, K.~{Vanderlinde},
+  J.~D. {Vieira}, M.~P. {Viero}, G.~{Wang}, N.~{Whitehorn}, V.~{Yefremenko},
+  and M.~{Zemcov}.
+\newblock {CMB Polarization B-mode Delensing with SPTpol and Herschel}.
+\newblock \emph{ArXiv e-prints}, January 2017.
+
+\bibitem[{Mather} et~al.(1994){Mather}, {Cheng}, {Cottingham}, {Eplee},
+  {Fixsen}, {Hewagama}, {Isaacman}, {Jensen}, {Meyer}, {Noerdlinger}, {Read},
+  {Rosen}, {Shafer}, {Wright}, {Bennett}, {Boggess}, {Hauser}, {Kelsall},
+  {Moseley}, {Silverberg}, {Smoot}, {Weiss}, and {Wilkinson}]{mather94}
+J.~C. {Mather}, E.~S. {Cheng}, D.~A. {Cottingham}, Jr. {Eplee}, R.~E., D.~J.
+  {Fixsen}, T.~{Hewagama}, R.~B. {Isaacman}, K.~A. {Jensen}, S.~S. {Meyer},
+  P.~D. {Noerdlinger}, S.~M. {Read}, L.~P. {Rosen}, R.~A. {Shafer}, E.~L.
+  {Wright}, C.~L. {Bennett}, N.~W. {Boggess}, M.~G. {Hauser}, T.~{Kelsall}, Jr.
+  {Moseley}, S.~H., R.~F. {Silverberg}, G.~F. {Smoot}, R.~{Weiss}, and D.~T.
+  {Wilkinson}.
+\newblock {Measurement of the Cosmic Microwave Background Spectrum by the COBE
+  FIRAS Instrument}.
+\newblock \emph{\apj}, 420:\penalty0 439, Jan 1994.
+\newblock \doi{10.1086/173574}.
+
+\bibitem[{McCarthy} et~al.(2014){McCarthy}, {Le Brun}, {Schaye}, and
+  {Holder}]{mccarthy13}
+I.~G. {McCarthy}, A.~M.~C. {Le Brun}, J.~{Schaye}, and G.~P. {Holder}.
+\newblock {The thermal Sunyaev-Zel'dovich effect power spectrum in light of
+  Planck}.
+\newblock \emph{\mnras}, 440:\penalty0 3645--3657, June 2014.
+\newblock \doi{10.1093/mnras/stu543}.
+
+\bibitem[{McClintock} et~al.(2018){McClintock}, {Varga}, {Gruen}, {Rozo},
+  {Rykoff}, {Shin}, {Melchior}, {DeRose}, {Seitz}, {Dietrich}, {Sheldon},
+  {Zhang}, {der Linden}, {Jeltema}, {Mantz}, {Romer}, {Allen}, {Becker},
+  {Bermeo}, {Bhargava}, {Costanzi}, {Everett}, {Farahi}, {Hamaus}, {Hartley},
+  {Hollowood}, {Hoyle}, {Israel}, {Li}, {MacCrann}, {Morris}, {Palmese},
+  {Plazas}, {Pollina}, {Rau}, {Simet}, {Soares-Santos}, {Troxel}, {Cervantes},
+  {Wechsler}, {Zuntz}, {Abbott}, {Abdalla}, {Allam}, {Annis}, {Avila},
+  {Bridle}, {Brooks}, {Burke}, {Rosell}, {Kind}, {Carretero}, {Castander},
+  {Crocce}, {Cunha}, {D'Andrea}, {da Costa}, {Davis}, {De Vicente}, {Diehl},
+  {Doel}, {Drlica-Wagner}, {Evrard}, {Flaugher}, {Fosalba}, {Frieman},
+  {Garc{\'{\i}}a-Bellido}, {Gaztanaga}, {Gerdes}, {Giannantonio}, {Gruendl},
+  {Gutierrez}, {Honscheid}, {James}, {Kirk}, {Krause}, {Kuehn}, {Lahav}, {Li},
+  {Lima}, {March}, {Marshall}, {Menanteau}, {Miquel}, {Mohr}, {Nord}, {Ogando},
+  {Roodman}, {Sanchez}, {Scarpine}, {Schindler}, {Sevilla-Noarbe}, {Smith},
+  {Smith}, {Sobreira}, {Suchyta}, {Swanson}, {Tarle}, {Tucker}, {Vikram},
+  {Walker}, and {Weller}]{mcclintock18}
+T.~{McClintock}, T.~N. {Varga}, D.~{Gruen}, E.~{Rozo}, E.~S. {Rykoff},
+  T.~{Shin}, P.~{Melchior}, J.~{DeRose}, S.~{Seitz}, J.~P. {Dietrich},
+  E.~{Sheldon}, Y.~{Zhang}, A.~v. {der Linden}, T.~{Jeltema}, A.~B. {Mantz},
+  A.~K. {Romer}, S.~{Allen}, M.~R. {Becker}, A.~{Bermeo}, S.~{Bhargava},
+  M.~{Costanzi}, S.~{Everett}, A.~{Farahi}, N.~{Hamaus}, W.~G. {Hartley}, D.~L.
+  {Hollowood}, B.~{Hoyle}, H.~{Israel}, P.~{Li}, N.~{MacCrann}, G.~{Morris},
+  A.~{Palmese}, A.~A. {Plazas}, G.~{Pollina}, M.~M. {Rau}, M.~{Simet},
+  M.~{Soares-Santos}, M.~A. {Troxel}, C.~V. {Cervantes}, R.~H. {Wechsler},
+  J.~{Zuntz}, T.~M.~C. {Abbott}, F.~B. {Abdalla}, S.~{Allam}, J.~{Annis},
+  S.~{Avila}, S.~L. {Bridle}, D.~{Brooks}, D.~L. {Burke}, A.~C. {Rosell}, M.~C.
+  {Kind}, J.~{Carretero}, F.~J. {Castander}, M.~{Crocce}, C.~E. {Cunha}, C.~B.
+  {D'Andrea}, L.~N. {da Costa}, C.~{Davis}, J.~{De Vicente}, H.~T. {Diehl},
+  P.~{Doel}, A.~{Drlica-Wagner}, A.~E. {Evrard}, B.~{Flaugher}, P.~{Fosalba},
+  J.~{Frieman}, J.~{Garc{\'{\i}}a-Bellido}, E.~{Gaztanaga}, D.~W. {Gerdes},
+  T.~{Giannantonio}, R.~A. {Gruendl}, G.~{Gutierrez}, K.~{Honscheid}, D.~J.
+  {James}, D.~{Kirk}, E.~{Krause}, K.~{Kuehn}, O.~{Lahav}, T.~S. {Li},
+  M.~{Lima}, M.~{March}, J.~L. {Marshall}, F.~{Menanteau}, R.~{Miquel}, J.~J.
+  {Mohr}, B.~{Nord}, R.~L.~C. {Ogando}, A.~{Roodman}, E.~{Sanchez},
+  V.~{Scarpine}, R.~{Schindler}, I.~{Sevilla-Noarbe}, M.~{Smith}, R.~C.
+  {Smith}, F.~{Sobreira}, E.~{Suchyta}, M.~E.~C. {Swanson}, G.~{Tarle}, D.~L.
+  {Tucker}, V.~{Vikram}, A.~R. {Walker}, and J.~{Weller}.
+\newblock {Dark Energy Survey Year 1 Results: Weak Lensing Mass Calibration of
+  redMaPPer Galaxy Clusters}.
+\newblock \emph{\mnras}, October 2018.
+\newblock \doi{10.1093/mnras/sty2711}.
+
+\bibitem[{Melchior} et~al.(2017){Melchior}, {Gruen}, {McClintock}, {Varga},
+  {Sheldon}, {Rozo}, {Amara}, {Becker}, {Benson}, {Bermeo}, {Bridle},
+  {Clampitt}, {Dietrich}, {Hartley}, {Hollowood}, {Jain}, {Jarvis}, {Jeltema},
+  {Kacprzak}, {MacCrann}, {Rykoff}, {Saro}, {Suchyta}, {Troxel}, {Zuntz},
+  {Bonnett}, {Plazas}, {Abbott}, {Abdalla}, {Annis}, {Benoit-L{\'e}vy},
+  {Bernstein}, {Bertin}, {Brooks}, {Buckley-Geer}, {Carnero Rosell}, {Carrasco
+  Kind}, {Carretero}, {Cunha}, {D'Andrea}, {da Costa}, {Desai}, {Eifler},
+  {Flaugher}, {Fosalba}, {Garc{\'{\i}}a-Bellido}, {Gaztanaga}, {Gerdes},
+  {Gruendl}, {Gschwend}, {Gutierrez}, {Honscheid}, {James}, {Kirk}, {Krause},
+  {Kuehn}, {Kuropatkin}, {Lahav}, {Lima}, {Maia}, {March}, {Martini},
+  {Menanteau}, {Miller}, {Miquel}, {Mohr}, {Nichol}, {Ogando}, {Romer},
+  {Sanchez}, {Scarpine}, {Sevilla-Noarbe}, {Smith}, {Soares-Santos},
+  {Sobreira}, {Swanson}, {Tarle}, {Thomas}, {Walker}, {Weller}, and
+  {Zhang}]{melchoir17}
+P.~{Melchior}, D.~{Gruen}, T.~{McClintock}, T.~N. {Varga}, E.~{Sheldon},
+  E.~{Rozo}, A.~{Amara}, M.~R. {Becker}, B.~A. {Benson}, A.~{Bermeo}, S.~L.
+  {Bridle}, J.~{Clampitt}, J.~P. {Dietrich}, W.~G. {Hartley}, D.~{Hollowood},
+  B.~{Jain}, M.~{Jarvis}, T.~{Jeltema}, T.~{Kacprzak}, N.~{MacCrann}, E.~S.
+  {Rykoff}, A.~{Saro}, E.~{Suchyta}, M.~A. {Troxel}, J.~{Zuntz}, C.~{Bonnett},
+  A.~A. {Plazas}, T.~M.~C. {Abbott}, F.~B. {Abdalla}, J.~{Annis},
+  A.~{Benoit-L{\'e}vy}, G.~M. {Bernstein}, E.~{Bertin}, D.~{Brooks},
+  E.~{Buckley-Geer}, A.~{Carnero Rosell}, M.~{Carrasco Kind}, J.~{Carretero},
+  C.~E. {Cunha}, C.~B. {D'Andrea}, L.~N. {da Costa}, S.~{Desai}, T.~F.
+  {Eifler}, B.~{Flaugher}, P.~{Fosalba}, J.~{Garc{\'{\i}}a-Bellido},
+  E.~{Gaztanaga}, D.~W. {Gerdes}, R.~A. {Gruendl}, J.~{Gschwend},
+  G.~{Gutierrez}, K.~{Honscheid}, D.~J. {James}, D.~{Kirk}, E.~{Krause},
+  K.~{Kuehn}, N.~{Kuropatkin}, O.~{Lahav}, M.~{Lima}, M.~A.~G. {Maia},
+  M.~{March}, P.~{Martini}, F.~{Menanteau}, C.~J. {Miller}, R.~{Miquel}, J.~J.
+  {Mohr}, R.~C. {Nichol}, R.~{Ogando}, A.~K. {Romer}, E.~{Sanchez},
+  V.~{Scarpine}, I.~{Sevilla-Noarbe}, R.~C. {Smith}, M.~{Soares-Santos},
+  F.~{Sobreira}, M.~E.~C. {Swanson}, G.~{Tarle}, D.~{Thomas}, A.~R. {Walker},
+  J.~{Weller}, and Y.~{Zhang}.
+\newblock {Weak-lensing mass calibration of redMaPPer galaxy clusters in Dark
+  Energy Survey Science Verification data}.
+\newblock \emph{\mnras}, 469:\penalty0 4899--4920, August 2017.
+\newblock \doi{10.1093/mnras/stx1053}.
+
+\bibitem[{Melin} and {Bartlett}(2015)]{melin15}
+J.-B. {Melin} and J.~G. {Bartlett}.
+\newblock {Measuring cluster masses with CMB lensing: a statistical approach}.
+\newblock \emph{\aap}, 578:\penalty0 A21, June 2015.
+\newblock \doi{10.1051/0004-6361/201424720}.
+
+\bibitem[{Merloni} et~al.(2012){Merloni}, {Predehl}, {Becker}, {B{\"o}hringer},
+  {Boller}, {Brunner}, {Brusa}, {Dennerl}, {Freyberg}, {Friedrich},
+  {Georgakakis}, {Haberl}, {Hasinger}, {Meidinger}, {Mohr}, {Nandra}, {Rau},
+  {Reiprich}, {Robrade}, {Salvato}, {Santangelo}, {Sasaki}, {Schwope}, {Wilms},
+  and {German eROSITA Consortium}]{erosita12}
+A.~{Merloni}, P.~{Predehl}, W.~{Becker}, H.~{B{\"o}hringer}, T.~{Boller},
+  H.~{Brunner}, M.~{Brusa}, K.~{Dennerl}, M.~{Freyberg}, P.~{Friedrich},
+  A.~{Georgakakis}, F.~{Haberl}, G.~{Hasinger}, N.~{Meidinger}, J.~{Mohr},
+  K.~{Nandra}, A.~{Rau}, T.~H. {Reiprich}, J.~{Robrade}, M.~{Salvato},
+  A.~{Santangelo}, M.~{Sasaki}, A.~{Schwope}, J.~{Wilms}, and t.~{German
+  eROSITA Consortium}.
+\newblock {eROSITA Science Book: Mapping the Structure of the Energetic
+  Universe}.
+\newblock \emph{ArXiv e-prints}, September 2012.
+
+\bibitem[{Mohr} et~al.(2003){Mohr}, {O'Shea}, {Evrard}, {Bialek}, and
+  {Haiman}]{mohr03}
+Joseph~J. {Mohr}, Brian {O'Shea}, August~E. {Evrard}, John {Bialek}, and Zoltan
+  {Haiman}.
+\newblock {Studying dark energy with galaxy cluster surveys}.
+\newblock \emph{Nuclear Physics B Proceedings Supplements}, 124:\penalty0
+  63--67, Jul 2003.
+\newblock \doi{10.1016/S0920-5632(03)02078-4}.
+
+\bibitem[{Morganson} et~al.(2018){Morganson}, {Gruendl}, {Menanteau}, {Carrasco
+  Kind}, {Chen}, {Daues}, {Drlica-Wagner}, {Friedel}, {Gower}, {Johnson},
+  {Johnson}, {Kessler}, {Paz-Chinch{\'o}n}, {Petravick}, {Pond}, {Yanny},
+  {Allam}, {Armstrong}, {Barkhouse}, {Bechtol}, {Benoit-L{\'e}vy}, {Bernstein},
+  {Bertin}, {Buckley-Geer}, {Covarrubias}, {Desai}, {Diehl}, {Goldstein},
+  {Gruen}, {Li}, {Lin}, {Marriner}, {Mohr}, {Neilsen}, {Ngeow}, {Paech},
+  {Rykoff}, {Sako}, {Sevilla-Noarbe}, {Sheldon}, {Sobreira}, {Tucker},
+  {Wester}, and {DES Collaboration}]{morganson18}
+E.~{Morganson}, R.~A. {Gruendl}, F.~{Menanteau}, M.~{Carrasco Kind}, Y.-C.
+  {Chen}, G.~{Daues}, A.~{Drlica-Wagner}, D.~N. {Friedel}, M.~{Gower}, M.~W.~G.
+  {Johnson}, M.~D. {Johnson}, R.~{Kessler}, F.~{Paz-Chinch{\'o}n},
+  D.~{Petravick}, C.~{Pond}, B.~{Yanny}, S.~{Allam}, R.~{Armstrong},
+  W.~{Barkhouse}, K.~{Bechtol}, A.~{Benoit-L{\'e}vy}, G.~M. {Bernstein},
+  E.~{Bertin}, E.~{Buckley-Geer}, R.~{Covarrubias}, S.~{Desai}, H.~T. {Diehl},
+  D.~A. {Goldstein}, D.~{Gruen}, T.~S. {Li}, H.~{Lin}, J.~{Marriner}, J.~J.
+  {Mohr}, E.~{Neilsen}, C.-C. {Ngeow}, K.~{Paech}, E.~S. {Rykoff}, M.~{Sako},
+  I.~{Sevilla-Noarbe}, E.~{Sheldon}, F.~{Sobreira}, D.~L. {Tucker},
+  W.~{Wester}, and {DES Collaboration}.
+\newblock {The Dark Energy Survey Image Processing Pipeline}.
+\newblock \emph{\pasp}, 130\penalty0 (7):\penalty0 074501, July 2018.
+\newblock \doi{10.1088/1538-3873/aab4ef}.
+
+\bibitem[{Naess} et~al.(2014){Naess}, {Hasselfield}, {McMahon}, {Niemack},
+  {Addison}, {Ade}, {Allison}, {Amiri}, {Battaglia}, {Beall}, {de Bernardis},
+  {Bond}, {Britton}, {Calabrese}, {Cho}, {Coughlin}, {Crichton}, {Das},
+  {Datta}, {Devlin}, {Dicker}, {Dunkley}, {D{\"u}nner}, {Fowler}, {Fox},
+  {Gallardo}, {Grace}, {Gralla}, {Hajian}, {Halpern}, {Henderson}, {Hill},
+  {Hilton}, {Hilton}, {Hincks}, {Hlozek}, {Ho}, {Hubmayr}, {Huffenberger},
+  {Hughes}, {Infante}, {Irwin}, {Jackson}, {Muya Kasanda}, {Klein}, {Koopman},
+  {Kosowsky}, {Li}, {Louis}, {Lungu}, {Madhavacheril}, {Marriage}, {Maurin},
+  {Menanteau}, {Moodley}, {Munson}, {Newburgh}, {Nibarger}, {Nolta}, {Page},
+  {Pappas}, {Partridge}, {Rojas}, {Schmitt}, {Sehgal}, {Sherwin}, {Sievers},
+  {Simon}, {Spergel}, {Staggs}, {Switzer}, {Thornton}, {Trac}, {Tucker},
+  {Uehara}, {Van Engelen}, {Ward}, and {Wollack}]{naess14}
+S.~{Naess}, M.~{Hasselfield}, J.~{McMahon}, M.~D. {Niemack}, G.~E. {Addison},
+  P.~A.~R. {Ade}, R.~{Allison}, M.~{Amiri}, N.~{Battaglia}, J.~A. {Beall},
+  F.~{de Bernardis}, J.~R. {Bond}, J.~{Britton}, E.~{Calabrese}, H.-m. {Cho},
+  K.~{Coughlin}, D.~{Crichton}, S.~{Das}, R.~{Datta}, M.~J. {Devlin}, S.~R.
+  {Dicker}, J.~{Dunkley}, R.~{D{\"u}nner}, J.~W. {Fowler}, A.~E. {Fox},
+  P.~{Gallardo}, E.~{Grace}, M.~{Gralla}, A.~{Hajian}, M.~{Halpern},
+  S.~{Henderson}, J.~C. {Hill}, G.~C. {Hilton}, M.~{Hilton}, A.~D. {Hincks},
+  R.~{Hlozek}, P.~{Ho}, J.~{Hubmayr}, K.~M. {Huffenberger}, J.~P. {Hughes},
+  L.~{Infante}, K.~{Irwin}, R.~{Jackson}, S.~{Muya Kasanda}, J.~{Klein},
+  B.~{Koopman}, A.~{Kosowsky}, D.~{Li}, T.~{Louis}, M.~{Lungu},
+  M.~{Madhavacheril}, T.~A. {Marriage}, L.~{Maurin}, F.~{Menanteau},
+  K.~{Moodley}, C.~{Munson}, L.~{Newburgh}, J.~{Nibarger}, M.~R. {Nolta}, L.~A.
+  {Page}, C.~{Pappas}, B.~{Partridge}, F.~{Rojas}, B.~L. {Schmitt},
+  N.~{Sehgal}, B.~D. {Sherwin}, J.~{Sievers}, S.~{Simon}, D.~N. {Spergel},
+  S.~T. {Staggs}, E.~R. {Switzer}, R.~{Thornton}, H.~{Trac}, C.~{Tucker},
+  M.~{Uehara}, A.~{Van Engelen}, J.~T. {Ward}, and E.~J. {Wollack}.
+\newblock {The Atacama Cosmology Telescope: CMB Polarization at 200$\l l
+  \l$9000}.
+\newblock \emph{\jcap}, 10:\penalty0 007, October 2014.
+\newblock \doi{10.1088/1475-7516/2014/10/007}.
+
+\bibitem[{Navarro} et~al.(1996){Navarro}, {Frenk}, and {White}]{navarro96}
+J.~F. {Navarro}, C.~S. {Frenk}, and S.~D.~M. {White}.
+\newblock {The Structure of Cold Dark Matter Halos}.
+\newblock \emph{\apj}, 462:\penalty0 563--+, May 1996.
+\newblock \doi{10.1086/177173}.
+
+\bibitem[{Navarro} et~al.(1997){Navarro}, {Frenk}, and {White}]{navarro97}
+J.~F. {Navarro}, C.~S. {Frenk}, and S.~D.~M. {White}.
+\newblock {A Universal Density Profile from Hierarchical Clustering}.
+\newblock \emph{\apj}, 490:\penalty0 493--+, December 1997.
+\newblock \doi{10.1086/304888}.
+
+\bibitem[{Oguri} and {Hamana}(2011)]{oguri11}
+M.~{Oguri} and T.~{Hamana}.
+\newblock {Detailed cluster lensing profiles at large radii and the impact on
+  cluster weak lensing studies}.
+\newblock \emph{\mnras}, 414:\penalty0 1851--1861, July 2011.
+\newblock \doi{10.1111/j.1365-2966.2011.18481.x}.
+
+\bibitem[Padin et~al.(2008)Padin, Staniszewski, Keisler, Joy, Stark, Ade, Aird,
+  Benson, Bleem, Carlstrom, Chang, Crawford, Crites, Dobbs, Halverson,
+  Heimsath, Hills, Holzapfel, Lawrie, Lee, Leitch, Leong, Lu, Lueker, McMahon,
+  Meyer, Mohr, Montroy, Plagge, Pryke, Ruhl, Schaffer, Shirokoff, Spieler, and
+  Vieira]{padin08}
+S.~Padin, Z.~Staniszewski, R.~Keisler, M.~Joy, A.~A. Stark, P.~A.~R. Ade, K.~A.
+  Aird, B.~A. Benson, L.~E. Bleem, J.~E. Carlstrom, C.~L. Chang, T.~M.
+  Crawford, A.~T. Crites, M.~A. Dobbs, N.~W. Halverson, S.~Heimsath, R.~E.
+  Hills, W.~L. Holzapfel, C.~Lawrie, A.~T. Lee, E.~M. Leitch, J.~Leong, W.~Lu,
+  M.~Lueker, J.~J. McMahon, S.~S. Meyer, J.~J. Mohr, T.~E. Montroy, T.~Plagge,
+  C.~Pryke, J.~E. Ruhl, K.~K. Schaffer, E.~Shirokoff, H.~G. Spieler, and J.~D.
+  Vieira.
+\newblock South pole telescope optics.
+\newblock \emph{Appl. Opt.}, 47\penalty0 (24):\penalty0 4418--4428, 2008.
+
+\bibitem[{Patil} et~al.(2019){Patil}, {Raghunathan}, and {Reichardt}]{patil19}
+Sanjaykumar {Patil}, Srinivasan {Raghunathan}, and Christian~L. {Reichardt}.
+\newblock {Suppressing the thermal SZ-induced variance in CMB-cluster lensing
+  estimators}.
+\newblock \emph{arXiv e-prints}, art. arXiv:1905.07943, May 2019.
+
+\bibitem[{Penzias} and {Wilson}(1965)]{penzias65}
+A.~A. {Penzias} and R.~W. {Wilson}.
+\newblock {A Measurement of Excess Antenna Temperature at 4080 Mc/s.}
+\newblock \emph{\apj}, 142:\penalty0 419--421, July 1965.
+\newblock URL
+  \url{http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1965ApJ...142..419P&db_key=AST}.
+
+\bibitem[{Perlmutter} et~al.(1999){Perlmutter}, {Aldering}, {Goldhaber},
+  {Knop}, {Nugent}, {Castro}, {Deustua}, {Fabbro}, {Goobar}, {Groom}, {Hook},
+  {Kim}, {Kim}, {Lee}, {Nunes}, {Pain}, {Pennypacker}, {Quimby}, {Lidman},
+  {Ellis}, {Irwin}, {McMahon}, {Ruiz-Lapuente}, {Walton}, {Schaefer}, {Boyle},
+  {Filippenko}, {Matheson}, {Fruchter}, {Panagia}, {Newberg}, {Couch}, and {The
+  Supernova Cosmology Project}]{perlmutter99a}
+S.~{Perlmutter}, G.~{Aldering}, G.~{Goldhaber}, R.\~A. {Knop}, P.~{Nugent},
+  P.\~G. {Castro}, S.~{Deustua}, S.~{Fabbro}, A.~{Goobar}, D.\~E. {Groom},
+  I.\~M. {Hook}, A.\~G. {Kim}, M.\~Y. {Kim}, J.\~C. {Lee}, N.\~J. {Nunes},
+  R.~{Pain}, C.\~R. {Pennypacker}, R.~{Quimby}, C.~{Lidman}, R.\~S. {Ellis},
+  M.~{Irwin}, R.\~G. {McMahon}, P.~{Ruiz-Lapuente}, N.~{Walton}, B.~{Schaefer},
+  B.\~J. {Boyle}, A.\~V. {Filippenko}, T.~{Matheson}, A.\~S. {Fruchter},
+  N.~{Panagia}, H.\ J.\~M. {Newberg}, W.\~J. {Couch}, and {The Supernova
+  Cosmology Project}.
+\newblock Measurements of omega and lambda from 42 high-redshift supernovae.
+\newblock \emph{\apj}, 517:\penalty0 565--586, June 1999.
+\newblock URL
+  \url{http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1999ApJ...517..565P&db_key=AST}.
+
+\bibitem[Perlmutter et~al.(1999)Perlmutter, Turner, and White]{perlmutter99b}
+S.~Perlmutter, M.S. Turner, and M.~White.
+\newblock Constraining dark energy with type ia supernovae and large scale
+  structure.
+\newblock \emph{PRL}, 83:\penalty0 670, 1999.
+
+\bibitem[{Planck Collaboration} et~al.(2014{\natexlab{a}}){Planck
+  Collaboration}, {Ade}, {Aghanim}, {Armitage-Caplan}, {Arnaud}, {Ashdown},
+  {Atrio-Barand ela}, {Aumont}, {Baccigalupi}, {Banday}, and
+  et~al.]{planck14-09}
+{Planck Collaboration}, P.~A.~R. {Ade}, N.~{Aghanim}, C.~{Armitage-Caplan},
+  M.~{Arnaud}, M.~{Ashdown}, F.~{Atrio-Barand ela}, J.~{Aumont},
+  C.~{Baccigalupi}, A.~J. {Banday}, and et~al.
+\newblock {Planck 2013 results. XII. Diffuse component separation}.
+\newblock \emph{\aap}, 571:\penalty0 A12, Nov 2014{\natexlab{a}}.
+\newblock \doi{10.1051/0004-6361/201321580}.
+
+\bibitem[{Planck Collaboration} et~al.(2014{\natexlab{b}}){Planck
+  Collaboration}, {Ade}, {Aghanim}, {Armitage-Caplan}, {Arnaud}, {Ashdown},
+  {Atrio-Barand ela}, {Aumont}, {Baccigalupi}, {Banday}, and et~al.]{planck14d}
+{Planck Collaboration}, P.~A.~R. {Ade}, N.~{Aghanim}, C.~{Armitage-Caplan},
+  M.~{Arnaud}, M.~{Ashdown}, F.~{Atrio-Barand ela}, J.~{Aumont},
+  C.~{Baccigalupi}, A.~J. {Banday}, and et~al.
+\newblock {Planck 2013 results. XXIV. Constraints on primordial
+  non-Gaussianity}.
+\newblock \emph{\aap}, 571:\penalty0 A24, Nov 2014{\natexlab{b}}.
+\newblock \doi{10.1051/0004-6361/201321554}.
+
+\bibitem[{Planck Collaboration} et~al.(2016{\natexlab{a}}){Planck
+  Collaboration}, {Ade}, {Aghanim}, {Arnaud}, {Ashdown}, {Aumont},
+  {Baccigalupi}, {Banday}, {Barreiro}, {Bartlett}, and et~al.]{placksz15}
+{Planck Collaboration}, P.~A.~R. {Ade}, N.~{Aghanim}, M.~{Arnaud},
+  M.~{Ashdown}, J.~{Aumont}, C.~{Baccigalupi}, A.~J. {Banday}, R.~B.
+  {Barreiro}, J.~G. {Bartlett}, and et~al.
+\newblock {Planck 2015 results. XXIV. Cosmology from Sunyaev-Zeldovich cluster
+  counts}.
+\newblock \emph{\aap}, 594:\penalty0 A24, September 2016{\natexlab{a}}.
+\newblock \doi{10.1051/0004-6361/201525833}.
+
+\bibitem[{Planck Collaboration} et~al.(2016{\natexlab{b}}){Planck
+  Collaboration}, {Ade}, {Aghanim}, {Arnaud}, {Ashdown}, {Aumont},
+  {Baccigalupi}, {Banday}, {Barreiro}, {Bartlett}, and et~al.]{planck15-13}
+{Planck Collaboration}, P.~A.~R. {Ade}, N.~{Aghanim}, M.~{Arnaud},
+  M.~{Ashdown}, J.~{Aumont}, C.~{Baccigalupi}, A.~J. {Banday}, R.~B.
+  {Barreiro}, J.~G. {Bartlett}, and et~al.
+\newblock {Planck 2015 results. XIII. Cosmological parameters}.
+\newblock \emph{\aap}, 594:\penalty0 A13, September 2016{\natexlab{b}}.
+\newblock \doi{10.1051/0004-6361/201525830}.
+
+\bibitem[{Planck Collaboration} et~al.(2016{\natexlab{c}}){Planck
+  Collaboration}, {Ade}, {Aghanim}, {Arnaud}, {Ashdown}, {Aumont},
+  {Baccigalupi}, {Banday}, {Barreiro}, {Bartlett}, et~al.]{plancksz15}
+{Planck Collaboration}, P.~A.~R. {Ade}, N.~{Aghanim}, M.~{Arnaud},
+  M.~{Ashdown}, J.~{Aumont}, C.~{Baccigalupi}, A.~J. {Banday}, R.~B.
+  {Barreiro}, J.~G. {Bartlett}, et~al.
+\newblock {Planck 2015 results. XXIV. Cosmology from Sunyaev-Zeldovich cluster
+  counts}.
+\newblock \emph{\aap}, 594:\penalty0 A24, September 2016{\natexlab{c}}.
+\newblock \doi{10.1051/0004-6361/201525833}.
+
+\bibitem[{Planck Collaboration} et~al.(2016{\natexlab{d}}){Planck
+  Collaboration}, {Ade}, {Aghanim}, {Arnaud}, {Aumont}, {Baccigalupi}, {Band
+  ay}, {Barreiro}, {Bartlett}, {Bartolo}, and et~al.]{planck16tsz-cib}
+{Planck Collaboration}, P.~A.~R. {Ade}, N.~{Aghanim}, M.~{Arnaud}, J.~{Aumont},
+  C.~{Baccigalupi}, A.~J. {Band ay}, R.~B. {Barreiro}, J.~G. {Bartlett},
+  N.~{Bartolo}, and et~al.
+\newblock {Planck 2015 results. XXIII. The thermal Sunyaev-Zeldovich
+  effect-cosmic infrared background correlation}.
+\newblock \emph{\aap}, 594:\penalty0 A23, Sep 2016{\natexlab{d}}.
+\newblock \doi{10.1051/0004-6361/201527418}.
+
+\bibitem[{Planck Collaboration} et~al.(2018){Planck Collaboration}, {Aghanim},
+  {Akrami}, {Ashdown}, {Aumont}, {Baccigalupi}, {Ballardini}, {Banday},
+  {Barreiro}, {Bartolo}, {Basak}, {Battye}, {Benabed}, {Bernard}, {Bersanelli},
+  {Bielewicz}, {Bock}, {Bond}, {Borrill}, {Bouchet}, {Boulanger}, {Bucher},
+  {Burigana}, {Butler}, {Calabrese}, {Cardoso}, {Carron}, {Challinor},
+  {Chiang}, {Chluba}, {Colombo}, {Combet}, {Contreras}, {Crill}, {Cuttaia}, {de
+  Bernardis}, {de Zotti}, {Delabrouille}, {Delouis}, {Di Valentino}, {Diego},
+  {Dor{\'e}}, {Douspis}, {Ducout}, {Dupac}, {Dusini}, {Efstathiou}, {Elsner},
+  {En{\ss}lin}, {Eriksen}, {Fantaye}, {Farhang}, {Fergusson},
+  {Fernandez-Cobos}, {Finelli}, {Forastieri}, {Frailis}, {Franceschi},
+  {Frolov}, {Galeotta}, {Galli}, {Ganga}, {G{\'e}nova-Santos}, {Gerbino},
+  {Ghosh}, {Gonz{\'a}lez-Nuevo}, {G{\'o}rski}, {Gratton}, {Gruppuso},
+  {Gudmundsson}, {Hamann}, {Hand ley}, {Herranz}, {Hivon}, {Huang}, {Jaffe},
+  {Jones}, {Karakci}, {Keih{\"a}nen}, {Keskitalo}, {Kiiveri}, {Kim}, {Kisner},
+  {Knox}, {Krachmalnicoff}, {Kunz}, {Kurki-Suonio}, {Lagache}, {Lamarre},
+  {Lasenby}, {Lattanzi}, {Lawrence}, {Le Jeune}, {Lemos}, {Lesgourgues},
+  {Levrier}, {Lewis}, {Liguori}, {Lilje}, {Lilley}, {Lindholm},
+  {L{\'o}pez-Caniego}, {Lubin}, {Ma}, {Mac{\'\i}as-P{\'e}rez}, {Maggio},
+  {Maino}, {Mandolesi}, {Mangilli}, {Marcos-Caballero}, {Maris}, {Martin},
+  {Martinelli}, {Mart{\'\i}nez-Gonz{\'a}lez}, {Matarrese}, {Mauri}, {McEwen},
+  {Meinhold}, {Melchiorri}, {Mennella}, {Migliaccio}, {Millea}, {Mitra},
+  {Miville-Desch{\^e}nes}, {Molinari}, {Montier}, {Morgante}, {Moss}, {Natoli},
+  {N{\o}rgaard-Nielsen}, {Pagano}, {Paoletti}, {Partridge}, {Patanchon},
+  {Peiris}, {Perrotta}, {Pettorino}, {Piacentini}, {Polastri}, {Polenta},
+  {Puget}, {Rachen}, {Reinecke}, {Remazeilles}, {Renzi}, {Rocha}, {Rosset},
+  {Roudier}, {Rubi{\~n}o-Mart{\'\i}n}, {Ruiz-Granados}, {Salvati}, {Sandri},
+  {Savelainen}, {Scott}, {Shellard}, {Sirignano}, {Sirri}, {Spencer},
+  {Sunyaev}, {Suur-Uski}, {Tauber}, {Tavagnacco}, {Tenti}, {Toffolatti},
+  {Tomasi}, {Trombetti}, {Valenziano}, {Valiviita}, {Van Tent}, {Vibert},
+  {Vielva}, {Villa}, {Vittorio}, {Wand elt}, {Wehus}, {White}, {White},
+  {Zacchei}, and {Zonca}]{planck18-6}
+{Planck Collaboration}, N.~{Aghanim}, Y.~{Akrami}, M.~{Ashdown}, J.~{Aumont},
+  C.~{Baccigalupi}, M.~{Ballardini}, A.~J. {Banday}, R.~B. {Barreiro},
+  N.~{Bartolo}, S.~{Basak}, R.~{Battye}, K.~{Benabed}, J.~P. {Bernard},
+  M.~{Bersanelli}, P.~{Bielewicz}, J.~J. {Bock}, J.~R. {Bond}, J.~{Borrill},
+  F.~R. {Bouchet}, F.~{Boulanger}, M.~{Bucher}, C.~{Burigana}, R.~C. {Butler},
+  E.~{Calabrese}, J.~F. {Cardoso}, J.~{Carron}, A.~{Challinor}, H.~C. {Chiang},
+  J.~{Chluba}, L.~P.~L. {Colombo}, C.~{Combet}, D.~{Contreras}, B.~P. {Crill},
+  F.~{Cuttaia}, P.~{de Bernardis}, G.~{de Zotti}, J.~{Delabrouille}, J.~M.
+  {Delouis}, E.~{Di Valentino}, J.~M. {Diego}, O.~{Dor{\'e}}, M.~{Douspis},
+  A.~{Ducout}, X.~{Dupac}, S.~{Dusini}, G.~{Efstathiou}, F.~{Elsner}, T.~A.
+  {En{\ss}lin}, H.~K. {Eriksen}, Y.~{Fantaye}, M.~{Farhang}, J.~{Fergusson},
+  R.~{Fernandez-Cobos}, F.~{Finelli}, F.~{Forastieri}, M.~{Frailis},
+  E.~{Franceschi}, A.~{Frolov}, S.~{Galeotta}, S.~{Galli}, K.~{Ganga}, R.~T.
+  {G{\'e}nova-Santos}, M.~{Gerbino}, T.~{Ghosh}, J.~{Gonz{\'a}lez-Nuevo}, K.~M.
+  {G{\'o}rski}, S.~{Gratton}, A.~{Gruppuso}, J.~E. {Gudmundsson}, J.~{Hamann},
+  W.~{Hand ley}, D.~{Herranz}, E.~{Hivon}, Z.~{Huang}, A.~H. {Jaffe}, W.~C.
+  {Jones}, A.~{Karakci}, E.~{Keih{\"a}nen}, R.~{Keskitalo}, K.~{Kiiveri},
+  J.~{Kim}, T.~S. {Kisner}, L.~{Knox}, N.~{Krachmalnicoff}, M.~{Kunz},
+  H.~{Kurki-Suonio}, G.~{Lagache}, J.~M. {Lamarre}, A.~{Lasenby},
+  M.~{Lattanzi}, C.~R. {Lawrence}, M.~{Le Jeune}, P.~{Lemos}, J.~{Lesgourgues},
+  F.~{Levrier}, A.~{Lewis}, M.~{Liguori}, P.~B. {Lilje}, M.~{Lilley},
+  V.~{Lindholm}, M.~{L{\'o}pez-Caniego}, P.~M. {Lubin}, Y.~Z. {Ma}, J.~F.
+  {Mac{\'\i}as-P{\'e}rez}, G.~{Maggio}, D.~{Maino}, N.~{Mandolesi},
+  A.~{Mangilli}, A.~{Marcos-Caballero}, M.~{Maris}, P.~G. {Martin},
+  M.~{Martinelli}, E.~{Mart{\'\i}nez-Gonz{\'a}lez}, S.~{Matarrese}, N.~{Mauri},
+  J.~D. {McEwen}, P.~R. {Meinhold}, A.~{Melchiorri}, A.~{Mennella},
+  M.~{Migliaccio}, M.~{Millea}, S.~{Mitra}, M.~A. {Miville-Desch{\^e}nes},
+  D.~{Molinari}, L.~{Montier}, G.~{Morgante}, A.~{Moss}, P.~{Natoli}, H.~U.
+  {N{\o}rgaard-Nielsen}, L.~{Pagano}, D.~{Paoletti}, B.~{Partridge},
+  G.~{Patanchon}, H.~V. {Peiris}, F.~{Perrotta}, V.~{Pettorino},
+  F.~{Piacentini}, L.~{Polastri}, G.~{Polenta}, J.~L. {Puget}, J.~P. {Rachen},
+  M.~{Reinecke}, M.~{Remazeilles}, A.~{Renzi}, G.~{Rocha}, C.~{Rosset},
+  G.~{Roudier}, J.~A. {Rubi{\~n}o-Mart{\'\i}n}, B.~{Ruiz-Granados},
+  L.~{Salvati}, M.~{Sandri}, M.~{Savelainen}, D.~{Scott}, E.~P.~S. {Shellard},
+  C.~{Sirignano}, G.~{Sirri}, L.~D. {Spencer}, R.~{Sunyaev}, A.~S. {Suur-Uski},
+  J.~A. {Tauber}, D.~{Tavagnacco}, M.~{Tenti}, L.~{Toffolatti}, M.~{Tomasi},
+  T.~{Trombetti}, L.~{Valenziano}, J.~{Valiviita}, B.~{Van Tent}, L.~{Vibert},
+  P.~{Vielva}, F.~{Villa}, N.~{Vittorio}, B.~D. {Wand elt}, I.~K. {Wehus},
+  M.~{White}, S.~D.~M. {White}, A.~{Zacchei}, and A.~{Zonca}.
+\newblock {Planck 2018 results. VI. Cosmological parameters}.
+\newblock \emph{arXiv e-prints}, art. arXiv:1807.06209, Jul 2018.
+
+\bibitem[{Planck Collaboration} et~al.(2019){Planck Collaboration}, {Aghanim},
+  {Akrami}, {Ashdown}, {Aumont}, {Baccigalupi}, {Ballardini}, {Banday},
+  {Barreiro}, {Bartolo}, {Basak}, {Benabed}, {Bernard}, {Bersanelli},
+  {Bielewicz}, {Bock}, {Bond}, {Borrill}, {Bouchet}, {Boulanger}, {Bucher},
+  {Burigana}, {Butler}, {Calabrese}, {Cardoso}, {Carron}, {Casaponsa},
+  {Challinor}, {Chiang}, {Colombo}, {Combet}, {Crill}, {Cuttaia}, {de
+  Bernardis}, {de Rosa}, {de Zotti}, {Delabrouille}, {Delouis}, {Di Valentino},
+  {Diego}, {Dor{\'e}}, {Douspis}, {Ducout}, {Dupac}, {Dusini}, {Efstathiou},
+  {Elsner}, {En{\ss}lin}, {Eriksen}, {Fantaye}, {Fernand ez-Cobos}, {Finelli},
+  {Frailis}, {Fraisse}, {Franceschi}, {Frolov}, {Galeotta}, {Galli}, {Ganga},
+  {G{\'e}nova-Santos}, {Gerbino}, {Ghosh}, {Giraud-H{\'e}raud},
+  {Gonz{\'a}lez-Nuevo}, {G{\'o}rski}, {Gratton}, {Gruppuso}, {Gudmundsson},
+  {Hamann}, {Handley}, {Hansen}, {Herranz}, {Hivon}, {Huang}, {Jaffe}, {Jones},
+  {Keih{\"a}nen}, {Keskitalo}, {Kiiveri}, {Kim}, {Kisner}, {Krachmalnicoff},
+  {Kunz}, {Kurki-Suonio}, {Lagache}, {Lamarre}, {Lasenby}, {Lattanzi},
+  {Lawrence}, {Le Jeune}, {Levrier}, {Lewis}, {Liguori}, {Lilje}, {Lilley},
+  {Lindholm}, {L{\'o}pez-Caniego}, {Lubin}, {Ma}, {Mac{\'\i}as-P{\'e}rez},
+  {Maggio}, {Maino}, {Mandolesi}, {Mangilli}, {Marcos-Caballero}, {Maris},
+  {Martin}, {Mart{\'\i}nez-Gonz{\'a}lez}, {Matarrese}, {Mauri}, {McEwen},
+  {Meinhold}, {Melchiorri}, {Mennella}, {Migliaccio}, {Millea},
+  {Miville-Desch{\^e}nes}, {Molinari}, {Moneti}, {Montier}, {Morgante}, {Moss},
+  {Natoli}, {N{\o}rgaard-Nielsen}, {Pagano}, {Paoletti}, {Partridge},
+  {Patanchon}, {Peiris}, {Perrotta}, {Pettorino}, {Piacentini}, {Polenta},
+  {Puget}, {Rachen}, {Reinecke}, {Remazeilles}, {Renzi}, {Rocha}, {Rosset},
+  {Roudier}, {Rubi{\~n}o-Mart{\'\i}n}, {Ruiz-Granados}, {Salvati}, {Sandri},
+  {Savelainen}, {Scott}, {Shellard}, {Sirignano}, {Sirri}, {Spencer},
+  {Sunyaev}, {Suur-Uski}, {Tauber}, {Tavagnacco}, {Tenti}, {Toffolatti},
+  {Tomasi}, {Trombetti}, {Valiviita}, {Van Tent}, {Vielva}, {Villa},
+  {Vittorio}, {Wandelt}, {Wehus}, {Zacchei}, and {Zonca}]{planck19}
+{Planck Collaboration}, N.~{Aghanim}, Y.~{Akrami}, M.~{Ashdown}, J.~{Aumont},
+  C.~{Baccigalupi}, M.~{Ballardini}, A.~J. {Banday}, R.~B. {Barreiro},
+  N.~{Bartolo}, S.~{Basak}, K.~{Benabed}, J.~P. {Bernard}, M.~{Bersanelli},
+  P.~{Bielewicz}, J.~J. {Bock}, J.~R. {Bond}, J.~{Borrill}, F.~R. {Bouchet},
+  F.~{Boulanger}, M.~{Bucher}, C.~{Burigana}, R.~C. {Butler}, E.~{Calabrese},
+  J.~F. {Cardoso}, J.~{Carron}, B.~{Casaponsa}, A.~{Challinor}, H.~C. {Chiang},
+  L.~P.~L. {Colombo}, C.~{Combet}, B.~P. {Crill}, F.~{Cuttaia}, P.~{de
+  Bernardis}, A.~{de Rosa}, G.~{de Zotti}, J.~{Delabrouille}, J.~M. {Delouis},
+  E.~{Di Valentino}, J.~M. {Diego}, O.~{Dor{\'e}}, M.~{Douspis}, A.~{Ducout},
+  X.~{Dupac}, S.~{Dusini}, G.~{Efstathiou}, F.~{Elsner}, T.~A. {En{\ss}lin},
+  H.~K. {Eriksen}, Y.~{Fantaye}, R.~{Fernand ez-Cobos}, F.~{Finelli},
+  M.~{Frailis}, A.~A. {Fraisse}, E.~{Franceschi}, A.~{Frolov}, S.~{Galeotta},
+  S.~{Galli}, K.~{Ganga}, R.~T. {G{\'e}nova-Santos}, M.~{Gerbino}, T.~{Ghosh},
+  Y.~{Giraud-H{\'e}raud}, J.~{Gonz{\'a}lez-Nuevo}, K.~M. {G{\'o}rski},
+  S.~{Gratton}, A.~{Gruppuso}, J.~E. {Gudmundsson}, J.~{Hamann}, W.~{Handley},
+  F.~K. {Hansen}, D.~{Herranz}, E.~{Hivon}, Z.~{Huang}, A.~H. {Jaffe}, W.~C.
+  {Jones}, E.~{Keih{\"a}nen}, R.~{Keskitalo}, K.~{Kiiveri}, J.~{Kim}, T.~S.
+  {Kisner}, N.~{Krachmalnicoff}, M.~{Kunz}, H.~{Kurki-Suonio}, G.~{Lagache},
+  J.~M. {Lamarre}, A.~{Lasenby}, M.~{Lattanzi}, C.~R. {Lawrence}, M.~{Le
+  Jeune}, F.~{Levrier}, A.~{Lewis}, M.~{Liguori}, P.~B. {Lilje}, M.~{Lilley},
+  V.~{Lindholm}, M.~{L{\'o}pez-Caniego}, P.~M. {Lubin}, Y.~Z. {Ma}, J.~F.
+  {Mac{\'\i}as-P{\'e}rez}, G.~{Maggio}, D.~{Maino}, N.~{Mandolesi},
+  A.~{Mangilli}, A.~{Marcos-Caballero}, M.~{Maris}, P.~G. {Martin},
+  E.~{Mart{\'\i}nez-Gonz{\'a}lez}, S.~{Matarrese}, N.~{Mauri}, J.~D. {McEwen},
+  P.~R. {Meinhold}, A.~{Melchiorri}, A.~{Mennella}, M.~{Migliaccio},
+  M.~{Millea}, M.~A. {Miville-Desch{\^e}nes}, D.~{Molinari}, A.~{Moneti},
+  L.~{Montier}, G.~{Morgante}, A.~{Moss}, P.~{Natoli}, H.~U.
+  {N{\o}rgaard-Nielsen}, L.~{Pagano}, D.~{Paoletti}, B.~{Partridge},
+  G.~{Patanchon}, H.~V. {Peiris}, F.~{Perrotta}, V.~{Pettorino},
+  F.~{Piacentini}, G.~{Polenta}, J.~L. {Puget}, J.~P. {Rachen}, M.~{Reinecke},
+  M.~{Remazeilles}, A.~{Renzi}, G.~{Rocha}, C.~{Rosset}, G.~{Roudier}, J.~A.
+  {Rubi{\~n}o-Mart{\'\i}n}, B.~{Ruiz-Granados}, L.~{Salvati}, M.~{Sandri},
+  M.~{Savelainen}, D.~{Scott}, E.~P.~S. {Shellard}, C.~{Sirignano}, G.~{Sirri},
+  L.~D. {Spencer}, R.~{Sunyaev}, A.~S. {Suur-Uski}, J.~A. {Tauber},
+  D.~{Tavagnacco}, M.~{Tenti}, L.~{Toffolatti}, M.~{Tomasi}, T.~{Trombetti},
+  J.~{Valiviita}, B.~{Van Tent}, P.~{Vielva}, F.~{Villa}, N.~{Vittorio}, B.~D.
+  {Wandelt}, I.~K. {Wehus}, A.~{Zacchei}, and A.~{Zonca}.
+\newblock {Planck 2018 results. V. CMB power spectra and likelihoods}.
+\newblock \emph{arXiv e-prints}, art. arXiv:1907.12875, Jul 2019.
+
+\bibitem[{POLARBEAR Collaboration}(2014)]{polarbear2014b}
+{POLARBEAR Collaboration}.
+\newblock {A Measurement of the Cosmic Microwave Background B-mode Polarization
+  Power Spectrum at Sub-degree Scales with POLARBEAR}.
+\newblock \emph{\apj}, 794:\penalty0 171, October 2014.
+\newblock \doi{10.1088/0004-637X/794/2/171}.
+
+\bibitem[Press and Schechter(1974)]{press74}
+W.H. Press and P.~Schechter.
+\newblock Formation of galaxies and clusters of galaxies by self-similar
+  gravitational condensation.
+\newblock \emph{\apj}, 187:\penalty0 425, 1974.
+
+\bibitem[Pryke et~al.(2002)Pryke, Halverson, Leitch, Kovac, Carlstrom,
+  Holzapfel, and Dragovan]{Pryke_2002}
+C.~Pryke, N.~W. Halverson, E.~M. Leitch, J.~Kovac, J.~E. Carlstrom, W.~L.
+  Holzapfel, and M.~Dragovan.
+\newblock Cosmological parameter extraction from the first season of
+  observations with the degree angular scale interferometer.
+\newblock \emph{The Astrophysical Journal}, 568\penalty0 (1):\penalty0 46--51,
+  mar 2002.
+\newblock \doi{10.1086/338880}.
+\newblock URL \url{https://doi.org/10.1086%2F338880}.
+
+\bibitem[{Raghunathan} et~al.(2017){Raghunathan}, {Patil}, {Baxter},
+  {Bianchini}, {Bleem}, {Crawford}, {Holder}, {Manzotti}, and
+  {Reichardt}]{raghunathan17a}
+S.~{Raghunathan}, S.~{Patil}, E.~J. {Baxter}, F.~{Bianchini}, L.~E. {Bleem},
+  T.~M. {Crawford}, G.~P. {Holder}, A.~{Manzotti}, and C.~L. {Reichardt}.
+\newblock {Measuring galaxy cluster masses with CMB lensing using a Maximum
+  Likelihood estimator: statistical and systematic error budgets for future
+  experiments}.
+\newblock \emph{\jcap}, 8:\penalty0 030, August 2017.
+\newblock \doi{10.1088/1475-7516/2017/08/030}.
+
+\bibitem[{Raghunathan} et~al.(2019{\natexlab{a}}){Raghunathan}, {Patil},
+  {Baxter}, {Benson}, {Bleem}, {Chou}, {Crawford}, {Holder}, {McClintock},
+  {Reichardt}, {Rozo}, {Varga}, {Abbott}, {Ade}, {Allam}, {Anderson}, {Annis},
+  {Austermann}, {Avila}, {Beall}, {Bechtol}, {Bender}, {Bernstein}, {Bertin},
+  {Bianchini}, {Brooks}, {Burke}, {Carlstrom}, {Carretero}, {Chang}, {Chiang},
+  {Cho}, {Citron}, {Crites}, {Cunha}, {da Costa}, {Davis}, {Desai}, {Diehl},
+  {Dietrich}, {Dobbs}, {Doel}, {Eifler}, {Everett}, {Evrard}, {Flaugher},
+  {Fosalba}, {Frieman}, {Gallicchio}, {Garc{\'{\i}}a-Bellido}, {Gaztanaga},
+  {George}, {Gilbert}, {Gruen}, {Gruendl}, {Gschwend}, {Gupta}, {Gutierrez},
+  {de Haan}, {Halverson}, {Harrington}, {Hartley}, {Henning}, {Hilton},
+  {Hollowood}, {Holzapfel}, {Honscheid}, {Hou}, {Hoyle}, {Hrubes}, {Huang},
+  {Hubmayr}, {Irwin}, {James}, {Jeltema}, {Kim}, {Carrasco Kind}, {Knox},
+  {Kovacs}, {Kuehn}, {Kuropatkin}, {Lee}, {Li}, {Lima}, {Maia}, {Marshall},
+  {McMahon}, {Melchior}, {Menanteau}, {Meyer}, {Miller}, {Miquel}, {Mocanu},
+  {Montgomery}, {Nadolski}, {Natoli}, {Nibarger}, {Novosad}, {Padin}, {Plazas},
+  {Pryke}, {Rapetti}, {Romer}, {Carnero Rosell}, {Ruhl}, {Saliwanchik},
+  {Sanchez}, {Sayre}, {Scarpine}, {Schaffer}, {Schubnell}, {Serrano},
+  {Sevilla-Noarbe}, {Smecher}, {Smith}, {Soares-Santos}, {Sobreira}, {Stark},
+  {Story}, {Suchyta}, {Swanson}, {Tarle}, {Thomas}, {Tucker}, {Vanderlinde},
+  {De Vicente}, {Vieira}, {Wang}, {Whitehorn}, {Wu}, and
+  {Zhang}]{raghunathan18}
+S.~{Raghunathan}, S.~{Patil}, E.~{Baxter}, B.~A. {Benson}, L.~E. {Bleem}, T.~L.
+  {Chou}, T.~M. {Crawford}, G.~P. {Holder}, T.~{McClintock}, C.~L. {Reichardt},
+  E.~{Rozo}, T.~N. {Varga}, T.~M.~C. {Abbott}, P.~A.~R. {Ade}, S.~{Allam},
+  A.~J. {Anderson}, J.~{Annis}, J.~E. {Austermann}, S.~{Avila}, J.~A. {Beall},
+  K.~{Bechtol}, A.~N. {Bender}, G.~{Bernstein}, E.~{Bertin}, F.~{Bianchini},
+  D.~{Brooks}, D.~L. {Burke}, J.~E. {Carlstrom}, J.~{Carretero}, C.~L. {Chang},
+  H.~C. {Chiang}, H.-M. {Cho}, R.~{Citron}, A.~T. {Crites}, C.~E. {Cunha},
+  L.~N. {da Costa}, C.~{Davis}, S.~{Desai}, H.~T. {Diehl}, J.~P. {Dietrich},
+  M.~A. {Dobbs}, P.~{Doel}, T.~F. {Eifler}, W.~{Everett}, A.~E. {Evrard},
+  B.~{Flaugher}, P.~{Fosalba}, J.~{Frieman}, J.~{Gallicchio},
+  J.~{Garc{\'{\i}}a-Bellido}, E.~{Gaztanaga}, E.~M. {George}, A.~{Gilbert},
+  D.~{Gruen}, R.~A. {Gruendl}, J.~{Gschwend}, N.~{Gupta}, G.~{Gutierrez},
+  T.~{de Haan}, N.~W. {Halverson}, N.~{Harrington}, W.~G. {Hartley}, J.~W.
+  {Henning}, G.~C. {Hilton}, D.~L. {Hollowood}, W.~L. {Holzapfel},
+  K.~{Honscheid}, Z.~{Hou}, B.~{Hoyle}, J.~D. {Hrubes}, N.~{Huang},
+  J.~{Hubmayr}, K.~D. {Irwin}, D.~J. {James}, T.~{Jeltema}, A.~G. {Kim},
+  M.~{Carrasco Kind}, L.~{Knox}, A.~{Kovacs}, K.~{Kuehn}, N.~{Kuropatkin},
+  A.~T. {Lee}, T.~S. {Li}, M.~{Lima}, M.~A.~G. {Maia}, J.~L. {Marshall}, J.~J.
+  {McMahon}, P.~{Melchior}, F.~{Menanteau}, S.~S. {Meyer}, C.~J. {Miller},
+  R.~{Miquel}, L.~{Mocanu}, J.~{Montgomery}, A.~{Nadolski}, T.~{Natoli}, J.~P.
+  {Nibarger}, V.~{Novosad}, S.~{Padin}, A.~A. {Plazas}, C.~{Pryke},
+  D.~{Rapetti}, A.~K. {Romer}, A.~{Carnero Rosell}, J.~E. {Ruhl}, B.~R.
+  {Saliwanchik}, E.~{Sanchez}, J.~T. {Sayre}, V.~{Scarpine}, K.~K. {Schaffer},
+  M.~{Schubnell}, S.~{Serrano}, I.~{Sevilla-Noarbe}, G.~{Smecher}, R.~C.
+  {Smith}, M.~{Soares-Santos}, F.~{Sobreira}, A.~A. {Stark}, K.~T. {Story},
+  E.~{Suchyta}, M.~E.~C. {Swanson}, G.~{Tarle}, D.~{Thomas}, C.~{Tucker},
+  K.~{Vanderlinde}, J.~{De Vicente}, J.~D. {Vieira}, G.~{Wang}, N.~{Whitehorn},
+  W.~L.~K. {Wu}, and Y.~{Zhang}.
+\newblock {Mass Calibration of Optically Selected DES Clusters Using a
+  Measurement of CMB-cluster Lensing with SPTpol Data}.
+\newblock \emph{\apj}, 872:\penalty0 170, February 2019{\natexlab{a}}.
+\newblock \doi{10.3847/1538-4357/ab01ca}.
+
+\bibitem[{Raghunathan} et~al.(2019{\natexlab{b}}){Raghunathan}, {Patil},
+  {Baxter}, {Benson}, {Bleem}, {Crawford}, {Holder}, {McClintock}, {Reichardt},
+  {Varga}, {Whitehorn}, {Ade}, {Allam}, {Anderson}, {Austermann}, {Avila},
+  {Avva}, {Bacon}, {Beall}, {Bender}, {Bianchini}, {Bocquet}, {Brooks},
+  {Burke}, {Carlstrom}, {Carretero}, {Castander}, {Chang}, {Chiang}, {Citron},
+  {Costanzi}, {Crites}, {da Costa}, {Desai}, {Diehl}, {Dietrich}, {Dobbs},
+  {Doel}, {Everett}, {Evrard}, {Feng}, {Flaugher}, {Fosalba}, {Frieman},
+  {Gallicchio}, {Garc{\'\i}a-Bellido}, {Gaztanaga}, {George}, {Giannantonio},
+  {Gilbert}, {Gruendl}, {Gschwend}, {Gupta}, {Gutierrez}, {de Haan},
+  {Halverson}, {Harrington}, {Henning}, {Hilton}, {Hollowood}, {Holzapfel},
+  {Honscheid}, {Hrubes}, {Huang}, {Hubmayr}, {Irwin}, {Jeltema}, {Carrasco
+  Kind}, {Knox}, {Kuropatkin}, {Lahav}, {Lee}, {Li}, {Lima}, {Lowitz}, {Maia},
+  {Marshall}, {McMahon}, {Melchior}, {Menanteau}, {Meyer}, {Miquel}, {Mocanu},
+  {Mohr}, {Montgomery}, {Corbett Moran}, {Nadolski}, {Natoli}, {Nibarger},
+  {Noble}, {Novosad}, {Ogand o}, {Padin}, {Plazas}, {Pryke}, {Rapetti},
+  {Romer}, {Roodman}, {Carnero Rosell}, {Rozo}, {Ruhl}, {Rykoff},
+  {Saliwanchik}, {Sanchez}, {Sayre}, {Scarpine}, {Schaffer}, {Schubnell},
+  {Serrano}, {Sevilla-Noarbe}, {Sievers}, {Smecher}, {Smith}, {Soares-Santos},
+  {Stark}, {Story}, {Suchyta}, {Swanson}, {Tarle}, {Tucker}, {Vanderlinde},
+  {Veach}, {De Vicente}, {Vieira}, {Vikram}, {Wang}, {Wu}, {Yefremenko}, and
+  {Zhang}]{raghunathan19}
+S.~{Raghunathan}, S.~{Patil}, E.~{Baxter}, B.~A. {Benson}, L.~E. {Bleem}, T.~M.
+  {Crawford}, G.~P. {Holder}, T.~{McClintock}, C.~L. {Reichardt}, T.~N.
+  {Varga}, N.~{Whitehorn}, P.~A.~R. {Ade}, S.~{Allam}, A.~J. {Anderson}, J.~E.
+  {Austermann}, S.~{Avila}, J.~S. {Avva}, D.~{Bacon}, J.~A. {Beall}, A.~N.
+  {Bender}, F.~{Bianchini}, S.~{Bocquet}, D.~{Brooks}, D.~L. {Burke}, J.~E.
+  {Carlstrom}, J.~{Carretero}, F.~J. {Castander}, C.~L. {Chang}, H.~C.
+  {Chiang}, R.~{Citron}, M.~{Costanzi}, A.~T. {Crites}, L.~N. {da Costa},
+  S.~{Desai}, H.~T. {Diehl}, J.~P. {Dietrich}, M.~A. {Dobbs}, P.~{Doel},
+  S.~{Everett}, A.~E. {Evrard}, C.~{Feng}, B.~{Flaugher}, P.~{Fosalba},
+  J.~{Frieman}, J.~{Gallicchio}, J.~{Garc{\'\i}a-Bellido}, E.~{Gaztanaga},
+  E.~M. {George}, T.~{Giannantonio}, A.~{Gilbert}, R.~A. {Gruendl},
+  J.~{Gschwend}, N.~{Gupta}, G.~{Gutierrez}, T.~{de Haan}, N.~W. {Halverson},
+  N.~{Harrington}, J.~W. {Henning}, G.~C. {Hilton}, D.~L. {Hollowood}, W.~L.
+  {Holzapfel}, K.~{Honscheid}, J.~D. {Hrubes}, N.~{Huang}, J.~{Hubmayr}, K.~D.
+  {Irwin}, T.~{Jeltema}, M.~{Carrasco Kind}, L.~{Knox}, N.~{Kuropatkin},
+  O.~{Lahav}, A.~T. {Lee}, D.~{Li}, M.~{Lima}, A.~{Lowitz}, M.~A.~G. {Maia},
+  J.~L. {Marshall}, J.~J. {McMahon}, P.~{Melchior}, F.~{Menanteau}, S.~S.
+  {Meyer}, R.~{Miquel}, L.~M. {Mocanu}, J.~J. {Mohr}, J.~{Montgomery},
+  C.~{Corbett Moran}, A.~{Nadolski}, T.~{Natoli}, J.~P. {Nibarger}, G.~{Noble},
+  V.~{Novosad}, R.~L.~C. {Ogand o}, S.~{Padin}, A.~A. {Plazas}, C.~{Pryke},
+  D.~{Rapetti}, A.~K. {Romer}, A.~{Roodman}, A.~{Carnero Rosell}, E.~{Rozo},
+  J.~E. {Ruhl}, E.~S. {Rykoff}, B.~R. {Saliwanchik}, E.~{Sanchez}, J.~T.
+  {Sayre}, V.~{Scarpine}, K.~K. {Schaffer}, M.~{Schubnell}, S.~{Serrano},
+  I.~{Sevilla-Noarbe}, C.~{Sievers}, G.~{Smecher}, M.~{Smith},
+  M.~{Soares-Santos}, A.~A. {Stark}, K.~T. {Story}, E.~{Suchyta}, M.~E.~C.
+  {Swanson}, G.~{Tarle}, C.~{Tucker}, K.~{Vanderlinde}, T.~{Veach}, J.~{De
+  Vicente}, J.~D. {Vieira}, V.~{Vikram}, G.~{Wang}, W.~L.~K. {Wu},
+  V.~{Yefremenko}, and Y.~{Zhang}.
+\newblock {A Detection of CMB-Cluster Lensing using Polarization Data from
+  SPTpol}.
+\newblock \emph{arXiv e-prints}, art. arXiv:1907.08605, Jul 2019{\natexlab{b}}.
+
+\bibitem[{Raghunathan} et~al.(2019{\natexlab{c}}){Raghunathan}, {Holder},
+  {Bartlett}, {Patil}, {Reichardt}, and {Whitehorn}]{raghunathan19_in}
+Srinivasan {Raghunathan}, Gilbert~P. {Holder}, James~G. {Bartlett}, SanjayKumar
+  {Patil}, Christian~L. {Reichardt}, and Nathan {Whitehorn}.
+\newblock {An Inpainting Approach to Tackle the Kinematic and Thermal SZ
+  Induced Biases in CMB-Cluster Lensing Estimators}.
+\newblock \emph{arXiv e-prints}, art. arXiv:1904.13392, Apr 2019{\natexlab{c}}.
+
+\bibitem[{Refregier} et~al.(2010){Refregier}, {Amara}, {Kitching}, {Rassat},
+  {Scaramella}, {Weller}, and {Euclid Imaging Consortium}]{euclid10}
+A.~{Refregier}, A.~{Amara}, T.~D. {Kitching}, A.~{Rassat}, R.~{Scaramella},
+  J.~{Weller}, and for~the {Euclid Imaging Consortium}.
+\newblock {Euclid Imaging Consortium Science Book}.
+\newblock \emph{arXiv e-prints}, art. arXiv:1001.0061, Jan 2010.
+
+\bibitem[{Reichardt} et~al.(2009){Reichardt}, {Ade}, {Bock}, {Bond}, {Brevik},
+  {Contaldi}, {Daub}, {Dempsey}, {Goldstein}, {Holzapfel}, {Kuo}, {Lange},
+  {Lueker}, {Newcomb}, {Peterson}, {Ruhl}, {Runyan}, and
+  {Staniszewski}]{reichardt09a}
+C.~L. {Reichardt}, P.~A.~R. {Ade}, J.~J. {Bock}, J.~R. {Bond}, J.~A. {Brevik},
+  C.~R. {Contaldi}, M.~D. {Daub}, J.~T. {Dempsey}, J.~H. {Goldstein}, W.~L.
+  {Holzapfel}, C.~L. {Kuo}, A.~E. {Lange}, M.~{Lueker}, M.~{Newcomb}, J.~B.
+  {Peterson}, J.~{Ruhl}, M.~C. {Runyan}, and Z.~{Staniszewski}.
+\newblock {High-Resolution CMB Power Spectrum from the Complete ACBAR Data
+  Set}.
+\newblock \emph{\apj}, 694:\penalty0 1200--1219, April 2009.
+\newblock \doi{10.1088/0004-637X/694/2/1200}.
+
+\bibitem[Riess et~al.(1998)Riess, Filippenko, Challis, Clocchiattia, Diercks,
+  Garnavich, Gilliland, Hogan, Jha, Kirshner, Leibundgut, Phillips, Reiss,
+  Schmidt, Schommer, Smith, Spyromilio, Stubbs, Suntzeff, and Tonry]{riess98}
+A.~G. Riess, A.~V. Filippenko, P.~Challis, A.~Clocchiattia, A.~Diercks, P.~M.
+  Garnavich, R.~L. Gilliland, C.~J. Hogan, S.~Jha, R.~P. Kirshner,
+  B.~Leibundgut, M.~M. Phillips, D.~Reiss, B.~P. Schmidt, R.~A. Schommer, R.~C.
+  Smith, J.~Spyromilio, C.~Stubbs, N.~B. Suntzeff, and J.~Tonry.
+\newblock Observational evidence from supernovae for an accelerating universe
+  and a cosmological constant.
+\newblock \emph{\aj}, 116:\penalty0 1009, 1998.
+
+\bibitem[{Ross} et~al.(2015){Ross}, {Samushia}, {Howlett}, {Percival},
+  {Burden}, and {Manera}]{ross15}
+Ashley~J. {Ross}, Lado {Samushia}, Cullan {Howlett}, Will~J. {Percival}, Angela
+  {Burden}, and Marc {Manera}.
+\newblock {The clustering of the SDSS DR7 main Galaxy sample - I. A 4 per cent
+  distance measure at z = 0.15}.
+\newblock \emph{\mnras}, 449\penalty0 (1):\penalty0 835--847, May 2015.
+\newblock \doi{10.1093/mnras/stv154}.
+
+\bibitem[{Rozo} et~al.(2010){Rozo}, {Wechsler}, {Rykoff}, {Annis}, {Becker},
+  {Evrard}, {Frieman}, {Hansen}, {Hao}, {Johnston}, {Koester}, {McKay},
+  {Sheldon}, and {Weinberg}]{rozo10}
+E.~{Rozo}, R.~H. {Wechsler}, E.~S. {Rykoff}, J.~T. {Annis}, M.~R. {Becker},
+  A.~E. {Evrard}, J.~A. {Frieman}, S.~M. {Hansen}, J.~{Hao}, D.~E. {Johnston},
+  B.~P. {Koester}, T.~A. {McKay}, E.~S. {Sheldon}, and D.~H. {Weinberg}.
+\newblock {Cosmological Constraints from the Sloan Digital Sky Survey maxBCG
+  Cluster Catalog}.
+\newblock \emph{\apj}, 708:\penalty0 645--660, January 2010.
+\newblock \doi{10.1088/0004-637X/708/1/645}.
+
+\bibitem[{Rozo} et~al.(2016){Rozo}, {Rykoff}, {Abate}, {Bonnett}, {Crocce},
+  {Davis}, {Hoyle}, {Leistedt}, {Peiris}, {Wechsler}, {Abbott}, {Abdalla},
+  {Banerji}, {Bauer}, {Benoit-L{\'e}vy}, {Bernstein}, {Bertin}, {Brooks},
+  {Buckley-Geer}, {Burke}, {Capozzi}, {Rosell}, {Carollo}, {Kind}, {Carretero},
+  {Castander}, {Childress}, {Cunha}, {D'Andrea}, {Davis}, {DePoy}, {Desai},
+  {Diehl}, {Dietrich}, {Doel}, {Eifler}, {Evrard}, {Neto}, {Flaugher},
+  {Fosalba}, {Frieman}, {Gaztanaga}, {Gerdes}, {Glazebrook}, {Gruen},
+  {Gruendl}, {Honscheid}, {James}, {Jarvis}, {Kim}, {Kuehn}, {Kuropatkin},
+  {Lahav}, {Lidman}, {Lima}, {Maia}, {March}, {Martini}, {Melchior}, {Miller},
+  {Miquel}, {Mohr}, {Nichol}, {Nord}, {O'Neill}, {Ogando}, {Plazas}, {Romer},
+  {Roodman}, {Sako}, {Sanchez}, {Santiago}, {Schubnell}, {Sevilla-Noarbe},
+  {Smith}, {Soares-Santos}, {Sobreira}, {Suchyta}, {Swanson}, {Thaler},
+  {Thomas}, {Uddin}, {Vikram}, {Walker}, {Wester}, {Zhang}, and {da
+  Costa}]{rozo15}
+E.~{Rozo}, E.~S. {Rykoff}, A.~{Abate}, C.~{Bonnett}, M.~{Crocce}, C.~{Davis},
+  B.~{Hoyle}, B.~{Leistedt}, H.~V. {Peiris}, R.~H. {Wechsler}, T.~{Abbott},
+  F.~B. {Abdalla}, M.~{Banerji}, A.~H. {Bauer}, A.~{Benoit-L{\'e}vy}, G.~M.
+  {Bernstein}, E.~{Bertin}, D.~{Brooks}, E.~{Buckley-Geer}, D.~L. {Burke},
+  D.~{Capozzi}, A.~C. {Rosell}, D.~{Carollo}, M.~C. {Kind}, J.~{Carretero},
+  F.~J. {Castander}, M.~J. {Childress}, C.~E. {Cunha}, C.~B. {D'Andrea},
+  T.~{Davis}, D.~L. {DePoy}, S.~{Desai}, H.~T. {Diehl}, J.~P. {Dietrich},
+  P.~{Doel}, T.~F. {Eifler}, A.~E. {Evrard}, A.~F. {Neto}, B.~{Flaugher},
+  P.~{Fosalba}, J.~{Frieman}, E.~{Gaztanaga}, D.~W. {Gerdes}, K.~{Glazebrook},
+  D.~{Gruen}, R.~A. {Gruendl}, K.~{Honscheid}, D.~J. {James}, M.~{Jarvis},
+  A.~G. {Kim}, K.~{Kuehn}, N.~{Kuropatkin}, O.~{Lahav}, C.~{Lidman}, M.~{Lima},
+  M.~A.~G. {Maia}, M.~{March}, P.~{Martini}, P.~{Melchior}, C.~J. {Miller},
+  R.~{Miquel}, J.~J. {Mohr}, R.~C. {Nichol}, B.~{Nord}, C.~R. {O'Neill},
+  R.~{Ogando}, A.~A. {Plazas}, A.~K. {Romer}, A.~{Roodman}, M.~{Sako},
+  E.~{Sanchez}, B.~{Santiago}, M.~{Schubnell}, I.~{Sevilla-Noarbe}, R.~C.
+  {Smith}, M.~{Soares-Santos}, F.~{Sobreira}, E.~{Suchyta}, M.~E.~C. {Swanson},
+  J.~{Thaler}, D.~{Thomas}, S.~{Uddin}, V.~{Vikram}, A.~R. {Walker},
+  W.~{Wester}, Y.~{Zhang}, and L.~N. {da Costa}.
+\newblock {redMaGiC: selecting luminous red galaxies from the DES Science
+  Verification data}.
+\newblock \emph{\mnras}, 461:\penalty0 1431--1450, September 2016.
+\newblock \doi{10.1093/mnras/stw1281}.
+
+\bibitem[{Ryden}(2003)]{ryden_book}
+Barbara~Sue {Ryden}.
+\newblock \emph{{Introduction to Cosmology}}.
+\newblock Addison-Wesley, 2003.
+
+\bibitem[{Rykoff} et~al.(2014){Rykoff}, {Rozo}, {Busha}, {Cunha}, {Finoguenov},
+  {Evrard}, {Hao}, {Koester}, {Leauthaud}, {Nord}, {Pierre}, {Reddick},
+  {Sadibekova}, {Sheldon}, and {Wechsler}]{rykoff14}
+E.~S. {Rykoff}, E.~{Rozo}, M.~T. {Busha}, C.~E. {Cunha}, A.~{Finoguenov},
+  A.~{Evrard}, J.~{Hao}, B.~P. {Koester}, A.~{Leauthaud}, B.~{Nord},
+  M.~{Pierre}, R.~{Reddick}, T.~{Sadibekova}, E.~S. {Sheldon}, and R.~H.
+  {Wechsler}.
+\newblock {redMaPPer. I. Algorithm and SDSS DR8 Catalog}.
+\newblock \emph{\apj}, 785:\penalty0 104, April 2014.
+\newblock \doi{10.1088/0004-637X/785/2/104}.
+
+\bibitem[{Rykoff} et~al.(2016){Rykoff}, {Rozo}, {Hollowood},
+  {Bermeo-Hernandez}, {Jeltema}, {Mayers}, {Romer}, {Rooney}, {Saro}, {Vergara
+  Cervantes}, {Wechsler}, {Wilcox}, {Abbott}, {Abdalla}, {Allam}, {Annis},
+  {Benoit-L{\'e}vy}, {Bernstein}, {Bertin}, {Brooks}, {Burke}, {Capozzi},
+  {Carnero Rosell}, {Carrasco Kind}, {Castander}, {Childress}, {Collins},
+  {Cunha}, {D'Andrea}, {da Costa}, {Davis}, {Desai}, {Diehl}, {Dietrich},
+  {Doel}, {Evrard}, {Finley}, {Flaugher}, {Fosalba}, {Frieman}, {Glazebrook},
+  {Goldstein}, {Gruen}, {Gruendl}, {Gutierrez}, {Hilton}, {Honscheid}, {Hoyle},
+  {James}, {Kay}, {Kuehn}, {Kuropatkin}, {Lahav}, {Lewis}, {Lidman}, {Lima},
+  {Maia}, {Mann}, {Marshall}, {Martini}, {Melchior}, {Miller}, {Miquel},
+  {Mohr}, {Nichol}, {Nord}, {Ogando}, {Plazas}, {Reil}, {Sahl{\'e}n},
+  {Sanchez}, {Santiago}, {Scarpine}, {Schubnell}, {Sevilla-Noarbe}, {Smith},
+  {Soares-Santos}, {Sobreira}, {Stott}, {Suchyta}, {Swanson}, {Tarle},
+  {Thomas}, {Tucker}, {Uddin}, {Viana}, {Vikram}, {Walker}, {Zhang}, and {DES
+  Collaboration}]{rykoff16}
+E.~S. {Rykoff}, E.~{Rozo}, D.~{Hollowood}, A.~{Bermeo-Hernandez}, T.~{Jeltema},
+  J.~{Mayers}, A.~K. {Romer}, P.~{Rooney}, A.~{Saro}, C.~{Vergara Cervantes},
+  R.~H. {Wechsler}, H.~{Wilcox}, T.~M.~C. {Abbott}, F.~B. {Abdalla},
+  S.~{Allam}, J.~{Annis}, A.~{Benoit-L{\'e}vy}, G.~M. {Bernstein}, E.~{Bertin},
+  D.~{Brooks}, D.~L. {Burke}, D.~{Capozzi}, A.~{Carnero Rosell}, M.~{Carrasco
+  Kind}, F.~J. {Castander}, M.~{Childress}, C.~A. {Collins}, C.~E. {Cunha},
+  C.~B. {D'Andrea}, L.~N. {da Costa}, T.~M. {Davis}, S.~{Desai}, H.~T. {Diehl},
+  J.~P. {Dietrich}, P.~{Doel}, A.~E. {Evrard}, D.~A. {Finley}, B.~{Flaugher},
+  P.~{Fosalba}, J.~{Frieman}, K.~{Glazebrook}, D.~A. {Goldstein}, D.~{Gruen},
+  R.~A. {Gruendl}, G.~{Gutierrez}, M.~{Hilton}, K.~{Honscheid}, B.~{Hoyle},
+  D.~J. {James}, S.~T. {Kay}, K.~{Kuehn}, N.~{Kuropatkin}, O.~{Lahav}, G.~F.
+  {Lewis}, C.~{Lidman}, M.~{Lima}, M.~A.~G. {Maia}, R.~G. {Mann}, J.~L.
+  {Marshall}, P.~{Martini}, P.~{Melchior}, C.~J. {Miller}, R.~{Miquel}, J.~J.
+  {Mohr}, R.~C. {Nichol}, B.~{Nord}, R.~{Ogando}, A.~A. {Plazas}, K.~{Reil},
+  M.~{Sahl{\'e}n}, E.~{Sanchez}, B.~{Santiago}, V.~{Scarpine}, M.~{Schubnell},
+  I.~{Sevilla-Noarbe}, R.~C. {Smith}, M.~{Soares-Santos}, F.~{Sobreira}, J.~P.
+  {Stott}, E.~{Suchyta}, M.~E.~C. {Swanson}, G.~{Tarle}, D.~{Thomas},
+  D.~{Tucker}, S.~{Uddin}, P.~T.~P. {Viana}, V.~{Vikram}, A.~R. {Walker},
+  Y.~{Zhang}, and {DES Collaboration}.
+\newblock {The RedMaPPer Galaxy Cluster Catalog From DES Science Verification
+  Data}.
+\newblock \emph{\apjs}, 224:\penalty0 1, May 2016.
+\newblock \doi{10.3847/0067-0049/224/1/1}.
+
+\bibitem[{Sachs} and {Wolfe}(1967)]{sachs67}
+R.~K. {Sachs} and A.~M. {Wolfe}.
+\newblock {Perturbations of a Cosmological Model and Angular Variations of the
+  Microwave Background}.
+\newblock \emph{\apj}, 147:\penalty0 73, Jan 1967.
+\newblock \doi{10.1086/148982}.
+
+\bibitem[{Salvati} et~al.(2018){Salvati}, {Douspis}, and {Aghanim}]{salvati17}
+L.~{Salvati}, M.~{Douspis}, and N.~{Aghanim}.
+\newblock {Constraints from thermal Sunyaev-Zel'dovich cluster counts and power
+  spectrum combined with CMB}.
+\newblock \emph{\aap}, 614:\penalty0 A13, June 2018.
+\newblock \doi{10.1051/0004-6361/201731990}.
+
+\bibitem[{Saro} et~al.(2015){Saro}, {Bocquet}, {Rozo}, {Benson}, {Mohr},
+  {Rykoff}, {Soares-Santos}, {Bleem}, {Dodelson}, {Melchior}, {Sobreira},
+  {Upadhyay}, {Weller}, {Abbott}, {Abdalla}, {Allam}, {Armstrong}, {Banerji},
+  {Bauer}, {Bayliss}, {Benoit-L{\'e}vy}, {Bernstein}, {Bertin}, {Brodwin},
+  {Brooks}, {Buckley-Geer}, {Burke}, {Carlstrom}, {Capasso}, {Capozzi},
+  {Carnero Rosell}, {Carrasco Kind}, {Chiu}, {Covarrubias}, {Crawford},
+  {Crocce}, {D'Andrea}, {da Costa}, {DePoy}, {Desai}, {de Haan}, {Diehl},
+  {Dietrich}, {Doel}, {Cunha}, {Eifler}, {Evrard}, {Fausti Neto}, {Fernand ez},
+  {Flaugher}, {Fosalba}, {Frieman}, {Gangkofner}, {Gaztanaga}, {Gerdes},
+  {Gruen}, {Gruendl}, {Gupta}, {Hennig}, {Holzapfel}, {Honscheid}, {Jain},
+  {James}, {Kuehn}, {Kuropatkin}, {Lahav}, {Li}, {Lin}, {Maia}, {March},
+  {Marshall}, {Martini}, {McDonald}, {Miller}, {Miquel}, {Nord}, {Ogando},
+  {Plazas}, {Reichardt}, {Romer}, {Roodman}, {Sako}, {Sanchez}, {Schubnell},
+  {Sevilla}, {Smith}, {Stalder}, {Stark}, {Strazzullo}, {Suchyta}, {Swanson},
+  {Tarle}, {Thaler}, {Thomas}, {Tucker}, {Vikram}, {von der Linden}, {Walker},
+  {Wechsler}, {Wester}, {Zenteno}, and {Ziegler}]{saro15}
+A.~{Saro}, S.~{Bocquet}, E.~{Rozo}, B.~A. {Benson}, J.~{Mohr}, E.~S. {Rykoff},
+  M.~{Soares-Santos}, L.~{Bleem}, S.~{Dodelson}, P.~{Melchior}, F.~{Sobreira},
+  V.~{Upadhyay}, J.~{Weller}, T.~{Abbott}, F.~B. {Abdalla}, S.~{Allam},
+  R.~{Armstrong}, M.~{Banerji}, A.~H. {Bauer}, M.~{Bayliss},
+  A.~{Benoit-L{\'e}vy}, G.~M. {Bernstein}, E.~{Bertin}, M.~{Brodwin},
+  D.~{Brooks}, E.~{Buckley-Geer}, D.~L. {Burke}, J.~E. {Carlstrom},
+  R.~{Capasso}, D.~{Capozzi}, A.~{Carnero Rosell}, M.~{Carrasco Kind},
+  I.~{Chiu}, R.~{Covarrubias}, T.~M. {Crawford}, M.~{Crocce}, C.~B. {D'Andrea},
+  L.~N. {da Costa}, D.~L. {DePoy}, S.~{Desai}, T.~{de Haan}, H.~T. {Diehl},
+  J.~P. {Dietrich}, P.~{Doel}, C.~E. {Cunha}, T.~F. {Eifler}, A.~E. {Evrard},
+  A.~{Fausti Neto}, E.~{Fernand ez}, B.~{Flaugher}, P.~{Fosalba}, J.~{Frieman},
+  C.~{Gangkofner}, E.~{Gaztanaga}, D.~{Gerdes}, D.~{Gruen}, R.~A. {Gruendl},
+  N.~{Gupta}, C.~{Hennig}, W.~L. {Holzapfel}, K.~{Honscheid}, B.~{Jain},
+  D.~{James}, K.~{Kuehn}, N.~{Kuropatkin}, O.~{Lahav}, T.~S. {Li}, H.~{Lin},
+  M.~A.~G. {Maia}, M.~{March}, J.~L. {Marshall}, Paul {Martini}, M.~{McDonald},
+  C.~J. {Miller}, R.~{Miquel}, B.~{Nord}, R.~{Ogando}, A.~A. {Plazas}, C.~L.
+  {Reichardt}, A.~K. {Romer}, A.~{Roodman}, M.~{Sako}, E.~{Sanchez},
+  M.~{Schubnell}, I.~{Sevilla}, R.~C. {Smith}, B.~{Stalder}, A.~A. {Stark},
+  V.~{Strazzullo}, E.~{Suchyta}, M.~E.~C. {Swanson}, G.~{Tarle}, J.~{Thaler},
+  D.~{Thomas}, D.~{Tucker}, V.~{Vikram}, A.~{von der Linden}, A.~R. {Walker},
+  R.~H. {Wechsler}, W.~{Wester}, A.~{Zenteno}, and K.~E. {Ziegler}.
+\newblock {Constraints on the richness-mass relation and the optical-SZE
+  positional offset distribution for SZE-selected clusters}.
+\newblock \emph{\mnras}, 454\penalty0 (3):\penalty0 2305--2319, Dec 2015.
+\newblock \doi{10.1093/mnras/stv2141}.
+
+\bibitem[{Sayre} et~al.(2019){Sayre}, {Reichardt}, {Henning}, {Ade},
+  {Anderson}, {Austermann}, {Avva}, {Beall}, {Bender}, {Benson}, {Bianchini},
+  {Bleem}, {Carlstrom}, {Chang}, {Chiang}, {Citron}, {Corbett Moran},
+  {Crawford}, {Crites}, {de Haan}, {Dobbs}, {Everett}, {Gallicchio}, {George},
+  {Gilbert}, {Gupta}, {Halverson}, {Harrington}, {Hilton}, {Holder},
+  {Holzapfel}, {Hrubes}, {Huang}, {Hubmayr}, {Irwin}, {Knox}, {Lee}, {Li},
+  {Lowitz}, {McMahon}, {Meyer}, {Mocanu}, {Montgomery}, {Nadolski}, {Natoli},
+  {Nibarger}, {Noble}, {Novosad}, {Padin}, {Patil}, {Pryke}, {Ruhl},
+  {Saliwanchik}, {Schaffer}, {Sievers}, {Smecher}, {Stark}, {Tucker},
+  {Vanderlinde}, {Veach}, {Vieira}, {Wang}, {Whitehorn}, {Wu}, and
+  {Yefremenko}]{sayre19}
+J.~T. {Sayre}, C.~L. {Reichardt}, J.~W. {Henning}, P.~A.~R. {Ade}, A.~J.
+  {Anderson}, J.~E. {Austermann}, J.~S. {Avva}, J.~A. {Beall}, A.~N. {Bender},
+  B.~A. {Benson}, F.~{Bianchini}, L.~E. {Bleem}, J.~E. {Carlstrom}, C.~L.
+  {Chang}, H.~C. {Chiang}, R.~{Citron}, C.~{Corbett Moran}, T.~M. {Crawford},
+  A.~T. {Crites}, T.~{de Haan}, M.~A. {Dobbs}, W.~{Everett}, J.~{Gallicchio},
+  E.~M. {George}, A.~{Gilbert}, N.~{Gupta}, N.~W. {Halverson}, N.~{Harrington},
+  G.~C. {Hilton}, G.~P. {Holder}, W.~L. {Holzapfel}, J.~D. {Hrubes},
+  N.~{Huang}, J.~{Hubmayr}, K.~D. {Irwin}, L.~{Knox}, A.~T. {Lee}, D.~{Li},
+  A.~{Lowitz}, J.~J. {McMahon}, S.~S. {Meyer}, L.~M. {Mocanu}, J.~{Montgomery},
+  A.~{Nadolski}, T.~{Natoli}, J.~P. {Nibarger}, G.~{Noble}, V.~{Novosad},
+  S.~{Padin}, S.~{Patil}, C.~{Pryke}, J.~E. {Ruhl}, B.~R. {Saliwanchik}, K.~K.
+  {Schaffer}, C.~{Sievers}, G.~{Smecher}, A.~A. {Stark}, C.~{Tucker},
+  K.~{Vanderlinde}, T.~{Veach}, J.~D. {Vieira}, G.~{Wang}, N.~{Whitehorn},
+  W.~L.~K. {Wu}, and V.~{Yefremenko}.
+\newblock {Measurements of B-mode Polarization of the Cosmic Microwave
+  Background from 500 Square Degrees of SPTpol Data}.
+\newblock \emph{arXiv e-prints}, art. arXiv:1910.05748, Oct 2019.
+
+\bibitem[{Sazonov} and {Sunyaev}(1999)]{sazonov99}
+S.~Y. {Sazonov} and R.~A. {Sunyaev}.
+\newblock Microwave polarization in the direction of galaxy clusters induced by
+  the cmb quadrupole anisotropy.
+\newblock \emph{\mnras}, 310:\penalty0 765, December 1999.
+\newblock URL
+  \url{http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1999MNRAS.310..765S&db_key=AST}.
+
+\bibitem[{Schaffer} et~al.(2011){Schaffer}, {Crawford}, {Aird}, {Benson},
+  {Bleem}, {Carlstrom}, {Chang}, {Cho}, {Crites}, {de Haan}, {Dobbs}, {George},
+  {Halverson}, {Holder}, {Holzapfel}, {Hoover}, {Hrubes}, {Joy}, {Keisler},
+  {Knox}, {Lee}, {Leitch}, {Lueker}, {Luong-Van}, {McMahon}, {Mehl}, {Meyer},
+  {Mohr}, {Montroy}, {Padin}, {Plagge}, {Pryke}, {Reichardt}, {Ruhl},
+  {Shirokoff}, {Spieler}, {Stalder}, {Staniszewski}, {Stark}, {Story},
+  {Vanderlinde}, {Vieira}, and {Williamson}]{schaffer11}
+K.~K. {Schaffer}, T.~M. {Crawford}, K.~A. {Aird}, B.~A. {Benson}, L.~E.
+  {Bleem}, J.~E. {Carlstrom}, C.~L. {Chang}, H.~M. {Cho}, A.~T. {Crites},
+  T.~{de Haan}, M.~A. {Dobbs}, E.~M. {George}, N.~W. {Halverson}, G.~P.
+  {Holder}, W.~L. {Holzapfel}, S.~{Hoover}, J.~D. {Hrubes}, M.~{Joy},
+  R.~{Keisler}, L.~{Knox}, A.~T. {Lee}, E.~M. {Leitch}, M.~{Lueker},
+  D.~{Luong-Van}, J.~J. {McMahon}, J.~{Mehl}, S.~S. {Meyer}, J.~J. {Mohr},
+  T.~E. {Montroy}, S.~{Padin}, T.~{Plagge}, C.~{Pryke}, C.~L. {Reichardt},
+  J.~E. {Ruhl}, E.~{Shirokoff}, H.~G. {Spieler}, B.~{Stalder},
+  Z.~{Staniszewski}, A.~A. {Stark}, K.~{Story}, K.~{Vanderlinde}, J.~D.
+  {Vieira}, and R.~{Williamson}.
+\newblock {The First Public Release of South Pole Telescope Data: Maps of a 95
+  deg$^{2}$ Field from 2008 Observations}.
+\newblock \emph{\apj}, 743:\penalty0 90, December 2011.
+\newblock \doi{10.1088/0004-637X/743/1/90}.
+
+\bibitem[{Scott} and {Smoot}(2010)]{douglas2010}
+Douglas {Scott} and George~F. {Smoot}.
+\newblock {Cosmic Microwave Background Mini-review}.
+\newblock \emph{arXiv e-prints}, art. arXiv:1005.0555, May 2010.
+
+\bibitem[{Sehgal} et~al.(2010){Sehgal}, {Bode}, {Das}, {Hernandez-Monteagudo},
+  {Huffenberger}, {Lin}, {Ostriker}, and {Trac}]{sehgal10}
+N.~{Sehgal}, P.~{Bode}, S.~{Das}, C.~{Hernandez-Monteagudo}, K.~{Huffenberger},
+  {Y.-T.} {Lin}, J.~P. {Ostriker}, and H.~{Trac}.
+\newblock {Simulations of the Microwave Sky}.
+\newblock \emph{\apj}, 709:\penalty0 920--936, February 2010.
+\newblock \doi{10.1088/0004-637X/709/2/920}.
+
+\bibitem[{Seiffert} et~al.(2007){Seiffert}, {Borys}, {Scott}, and
+  {Halpern}]{seiffert07}
+M.~{Seiffert}, C.~{Borys}, D.~{Scott}, and M.~{Halpern}.
+\newblock {An upper limit to polarized submillimetre emission in Arp 220}.
+\newblock \emph{\mnras}, 374:\penalty0 409--414, January 2007.
+\newblock \doi{10.1111/j.1365-2966.2006.11186.x}.
+
+\bibitem[{Seljak} and {Zaldarriaga}(1996)]{seljak96}
+U.~{Seljak} and M.~{Zaldarriaga}.
+\newblock {A Line-of-Sight Integration Approach to Cosmic Microwave Background
+  Anisotropies}.
+\newblock \emph{\apj}, 469:\penalty0 437--444, October 1996.
+\newblock URL
+  \url{http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1996ApJ...469..437S&db_key=AST}.
+\newblock astro-ph/9603033.
+
+\bibitem[{Sereno} et~al.(2016){Sereno}, {Fedeli}, and {Moscardini}]{sereno16}
+Mauro {Sereno}, Cosimo {Fedeli}, and Lauro {Moscardini}.
+\newblock {Comparison of weak lensing by NFW and Einasto halos and systematic
+  errors}.
+\newblock \emph{\jcap}, 2016\penalty0 (1):\penalty0 042, Jan 2016.
+\newblock \doi{10.1088/1475-7516/2016/01/042}.
+
+\bibitem[{Shaw} et~al.(2010){Shaw}, {Nagai}, {Bhattacharya}, and {Lau}]{shaw10}
+L.~D. {Shaw}, D.~{Nagai}, S.~{Bhattacharya}, and E.~T. {Lau}.
+\newblock {Impact of Cluster Physics on the Sunyaev-Zel'dovich Power Spectrum}.
+\newblock \emph{\apj}, 725:\penalty0 1452--1465, December 2010.
+\newblock \doi{10.1088/0004-637X/725/2/1452}.
+
+\bibitem[{Shaw} et~al.(2012){Shaw}, {Rudd}, and {Nagai}]{shaw12}
+L.~D. {Shaw}, D.~H. {Rudd}, and D.~{Nagai}.
+\newblock {Deconstructing the Kinetic SZ Power Spectrum}.
+\newblock \emph{\apj}, 756:\penalty0 15, September 2012.
+\newblock \doi{10.1088/0004-637X/756/1/15}.
+
+\bibitem[{Shirokoff} et~al.(2011){Shirokoff}, {Reichardt}, {Shaw}, {Millea},
+  {Ade}, {Aird}, {Benson}, {Bleem}, {Carlstrom}, {Chang}, {Cho}, {Crawford},
+  {Crites}, {de Haan}, {Dobbs}, {Dudley}, {George}, {Halverson}, {Holder},
+  {Holzapfel}, {Hrubes}, {Joy}, {Keisler}, {Knox}, {Lee}, {Leitch}, {Lueker},
+  {Luong-Van}, {McMahon}, {Mehl}, {Meyer}, {Mohr}, {Montroy}, {Padin},
+  {Plagge}, {Pryke}, {Ruhl}, {Schaffer}, {Spieler}, {Staniszewski}, {Stark},
+  {Story}, {Vanderlinde}, {Vieira}, {Williamson}, and {Zahn}]{shirokoff11}
+E.~{Shirokoff}, C.~L. {Reichardt}, L.~{Shaw}, M.~{Millea}, P.~A.~R. {Ade},
+  K.~A. {Aird}, B.~A. {Benson}, L.~E. {Bleem}, J.~E. {Carlstrom}, C.~L.
+  {Chang}, H.~M. {Cho}, T.~M. {Crawford}, A.~T. {Crites}, T.~{de Haan}, M.~A.
+  {Dobbs}, J.~{Dudley}, E.~M. {George}, N.~W. {Halverson}, G.~P. {Holder},
+  W.~L. {Holzapfel}, J.~D. {Hrubes}, M.~{Joy}, R.~{Keisler}, L.~{Knox}, A.~T.
+  {Lee}, E.~M. {Leitch}, M.~{Lueker}, D.~{Luong-Van}, J.~J. {McMahon},
+  J.~{Mehl}, S.~S. {Meyer}, J.~J. {Mohr}, T.~E. {Montroy}, S.~{Padin},
+  T.~{Plagge}, C.~{Pryke}, J.~E. {Ruhl}, K.~K. {Schaffer}, H.~G. {Spieler},
+  Z.~{Staniszewski}, A.~A. {Stark}, K.~{Story}, K.~{Vanderlinde}, J.~D.
+  {Vieira}, R.~{Williamson}, and O.~{Zahn}.
+\newblock {Improved Constraints on Cosmic Microwave Background Secondary
+  Anisotropies from the Complete 2008 South Pole Telescope Data}.
+\newblock \emph{\apj}, 736:\penalty0 61--+, July 2011.
+\newblock \doi{10.1088/0004-637X/736/1/61}.
+
+\bibitem[Silk(1968)]{silk68}
+J.~Silk.
+\newblock Cosmic black-body radiation and galaxy formation.
+\newblock \emph{\apj}, 151:\penalty0 459, 1968.
+
+\bibitem[{Simet} et~al.(2018){Simet}, {McClintock}, {Mandelbaum}, {Rozo},
+  {Rykoff}, {Sheldon}, and {Wechsler}]{simet18}
+M.~{Simet}, T.~{McClintock}, R.~{Mandelbaum}, E.~{Rozo}, E.~{Rykoff},
+  E.~{Sheldon}, and R.~H. {Wechsler}.
+\newblock {Erratum: Weak Lensing Measurement of the Mass-Richness Relation of
+  SDSS redMaPPer Clusters}.
+\newblock \emph{\mnras}, 480:\penalty0 5385--5385, November 2018.
+\newblock \doi{10.1093/mnras/sty2318}.
+
+\bibitem[{Song} et~al.(2012){Song}, {Zenteno}, {Stalder}, {Desai}, {Bleem},
+  {Aird}, {Armstrong}, {Ashby}, {Bayliss}, {Bazin}, {Benson}, {Bertin},
+  {Brodwin}, {Carlstrom}, {Chang}, {Cho}, {Clocchiatti}, {Crawford}, {Crites},
+  {de Haan}, {Dobbs}, {Dudley}, {Foley}, {George}, {Gettings}, {Gladders},
+  {Gonzalez}, {Halverson}, {Harrington}, {High}, {Holder}, {Holzapfel},
+  {Hoover}, {Hrubes}, {Joy}, {Keisler}, {Knox}, {Lee}, {Leitch}, {Liu},
+  {Lueker}, {Luong-Van}, {Marrone}, {McDonald}, {McMahon}, {Mehl}, {Meyer},
+  {Mocanu}, {Mohr}, {Montroy}, {Natoli}, {Nurgaliev}, {Padin}, {Plagge},
+  {Pryke}, {Reichardt}, {Rest}, {Ruel}, {Ruhl}, {Saliwanchik}, {Saro}, {Sayre},
+  {Schaffer}, {Shaw}, {Shirokoff}, {{\v S}uhada}, {Spieler}, {Stanford},
+  {Staniszewski}, {Stark}, {Story}, {Stubbs}, {van Engelen}, {Vanderlinde},
+  {Vieira}, {Williamson}, and {Zahn}]{song12b}
+J.~{Song}, A.~{Zenteno}, B.~{Stalder}, S.~{Desai}, L.~E. {Bleem}, K.~A. {Aird},
+  R.~{Armstrong}, M.~L.~N. {Ashby}, M.~{Bayliss}, G.~{Bazin}, B.~A. {Benson},
+  E.~{Bertin}, M.~{Brodwin}, J.~E. {Carlstrom}, C.~L. {Chang}, H.~M. {Cho},
+  A.~{Clocchiatti}, T.~M. {Crawford}, A.~T. {Crites}, T.~{de Haan}, M.~A.
+  {Dobbs}, J.~P. {Dudley}, R.~J. {Foley}, E.~M. {George}, D.~{Gettings}, M.~D.
+  {Gladders}, A.~H. {Gonzalez}, N.~W. {Halverson}, N.~L. {Harrington}, F.~W.
+  {High}, G.~P. {Holder}, W.~L. {Holzapfel}, S.~{Hoover}, J.~D. {Hrubes},
+  M.~{Joy}, R.~{Keisler}, L.~{Knox}, A.~T. {Lee}, E.~M. {Leitch}, J.~{Liu},
+  M.~{Lueker}, D.~{Luong-Van}, D.~P. {Marrone}, M.~{McDonald}, J.~J. {McMahon},
+  J.~{Mehl}, S.~S. {Meyer}, L.~{Mocanu}, J.~J. {Mohr}, T.~E. {Montroy},
+  T.~{Natoli}, D.~{Nurgaliev}, S.~{Padin}, T.~{Plagge}, C.~{Pryke}, C.~L.
+  {Reichardt}, A.~{Rest}, J.~{Ruel}, J.~E. {Ruhl}, B.~R. {Saliwanchik},
+  A.~{Saro}, J.~T. {Sayre}, K.~K. {Schaffer}, L.~{Shaw}, E.~{Shirokoff},
+  R.~{{\v S}uhada}, H.~G. {Spieler}, S.~A. {Stanford}, Z.~{Staniszewski}, A.~A.
+  {Stark}, K.~{Story}, C.~W. {Stubbs}, A.~{van Engelen}, K.~{Vanderlinde},
+  J.~D. {Vieira}, R.~{Williamson}, and O.~{Zahn}.
+\newblock {Redshifts, Sample Purity, and BCG Positions for the Galaxy Cluster
+  Catalog from the First 720 Square Degrees of the South Pole Telescope
+  Survey}.
+\newblock \emph{\apj}, 761:\penalty0 22, December 2012.
+\newblock \doi{10.1088/0004-637X/761/1/22}.
+
+\bibitem[{Story} et~al.(2013){Story}, {Reichardt}, {Hou}, {Keisler}, {Aird},
+  {Benson}, {Bleem}, {Carlstrom}, {Chang}, {Cho}, {Crawford}, {Crites}, {de
+  Haan}, {Dobbs}, {Dudley}, {Follin}, {George}, {Halverson}, {Holder},
+  {Holzapfel}, {Hoover}, {Hrubes}, {Joy}, {Knox}, {Lee}, {Leitch}, {Lueker},
+  {Luong-Van}, {McMahon}, {Mehl}, {Meyer}, {Millea}, {Mohr}, {Montroy},
+  {Padin}, {Plagge}, {Pryke}, {Ruhl}, {Sayre}, {Schaffer}, {Shaw}, {Shirokoff},
+  {Spieler}, {Staniszewski}, {Stark}, {van Engelen}, {Vanderlinde}, {Vieira},
+  {Williamson}, and {Zahn}]{story13}
+K.~T. {Story}, C.~L. {Reichardt}, Z.~{Hou}, R.~{Keisler}, K.~A. {Aird}, B.~A.
+  {Benson}, L.~E. {Bleem}, J.~E. {Carlstrom}, C.~L. {Chang}, H.-M. {Cho}, T.~M.
+  {Crawford}, A.~T. {Crites}, T.~{de Haan}, M.~A. {Dobbs}, J.~{Dudley},
+  B.~{Follin}, E.~M. {George}, N.~W. {Halverson}, G.~P. {Holder}, W.~L.
+  {Holzapfel}, S.~{Hoover}, J.~D. {Hrubes}, M.~{Joy}, L.~{Knox}, A.~T. {Lee},
+  E.~M. {Leitch}, M.~{Lueker}, D.~{Luong-Van}, J.~J. {McMahon}, J.~{Mehl},
+  S.~S. {Meyer}, M.~{Millea}, J.~J. {Mohr}, T.~E. {Montroy}, S.~{Padin},
+  T.~{Plagge}, C.~{Pryke}, J.~E. {Ruhl}, J.~T. {Sayre}, K.~K. {Schaffer},
+  L.~{Shaw}, E.~{Shirokoff}, H.~G. {Spieler}, Z.~{Staniszewski}, A.~A. {Stark},
+  A.~{van Engelen}, K.~{Vanderlinde}, J.~D. {Vieira}, R.~{Williamson}, and
+  O.~{Zahn}.
+\newblock {A Measurement of the Cosmic Microwave Background Damping Tail from
+  the 2500-Square-Degree SPT-SZ Survey}.
+\newblock \emph{\apj}, 779:\penalty0 86, December 2013.
+\newblock \doi{10.1088/0004-637X/779/1/86}.
+
+\bibitem[{Sunyaev} and {Zel'dovich}(1970)]{sunyaev70b}
+R.\~A. {Sunyaev} and Y.\~B. {Zel'dovich}.
+\newblock Small-scale fluctuations of relic radiation.
+\newblock \emph{\apss}, 7:\penalty0 3, 1970.
+\newblock URL
+  \url{http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1970Ap%26SS...7....3S&db_key=AST}.
+
+\bibitem[{Sunyaev} and {Zel'dovich}(1972)]{sunyaev72}
+R.~A. {Sunyaev} and Y.~B. {Zel'dovich}.
+\newblock {The Observations of Relic Radiation as a Test of the Nature of X-Ray
+  Radiation from the Clusters of Galaxies}.
+\newblock \emph{Comments on Astrophysics and Space Physics}, 4:\penalty0
+  173--+, November 1972.
+
+\bibitem[{Suzuki} et~al.(2016){Suzuki}, {Ade}, {Akiba}, {Aleman}, {Arnold},
+  {Baccigalupi}, {Barch}, {Barron}, {Bender}, {Boettger}, {Borrill}, {Chapman},
+  {Chinone}, {Cukierman}, {Dobbs}, {Ducout}, {Dunner}, {Elleflot}, {Errard},
+  {Fabbian}, {Feeney}, {Feng}, {Fujino}, {Fuller}, {Gilbert}, {Goeckner-Wald},
+  {Groh}, {Haan}, {Hall}, {Halverson}, {Hamada}, {Hasegawa}, {Hattori},
+  {Hazumi}, {Hill}, {Holzapfel}, {Hori}, {Howe}, {Inoue}, {Irie}, {Jaehnig},
+  {Jaffe}, {Jeong}, {Katayama}, {Kaufman}, {Kazemzadeh}, {Keating}, {Kermish},
+  {Keskitalo}, {Kisner}, {Kusaka}, {Jeune}, {Lee}, {Leon}, {Linder}, {Lowry},
+  {Matsuda}, {Matsumura}, {Miller}, {Mizukami}, {Montgomery}, {Navaroli},
+  {Nishino}, {Peloton}, {Poletti}, {Puglisi}, {Rebeiz}, {Raum}, {Reichardt},
+  {Richards}, {Ross}, {Rotermund}, {Segawa}, {Sherwin}, {Shirley},
+  {Siritanasak}, {Stebor}, {Stompor}, {Suzuki}, {Tajima}, {Takada}, {Takakura},
+  {Takatori}, {Tikhomirov}, {Tomaru}, {Westbrook}, {Whitehorn}, {Yamashita},
+  {Zahn}, and {Zahn}]{suzuki15}
+A.~{Suzuki}, P.~{Ade}, Y.~{Akiba}, C.~{Aleman}, K.~{Arnold}, C.~{Baccigalupi},
+  B.~{Barch}, D.~{Barron}, A.~{Bender}, D.~{Boettger}, J.~{Borrill},
+  S.~{Chapman}, Y.~{Chinone}, A.~{Cukierman}, M.~{Dobbs}, A.~{Ducout},
+  R.~{Dunner}, T.~{Elleflot}, J.~{Errard}, G.~{Fabbian}, S.~{Feeney},
+  C.~{Feng}, T.~{Fujino}, G.~{Fuller}, A.~{Gilbert}, N.~{Goeckner-Wald},
+  J.~{Groh}, T.~De {Haan}, G.~{Hall}, N.~{Halverson}, T.~{Hamada},
+  M.~{Hasegawa}, K.~{Hattori}, M.~{Hazumi}, C.~{Hill}, W.~{Holzapfel},
+  Y.~{Hori}, L.~{Howe}, Y.~{Inoue}, F.~{Irie}, G.~{Jaehnig}, A.~{Jaffe},
+  O.~{Jeong}, N.~{Katayama}, J.~{Kaufman}, K.~{Kazemzadeh}, B.~{Keating},
+  Z.~{Kermish}, R.~{Keskitalo}, T.~{Kisner}, A.~{Kusaka}, M.~Le {Jeune},
+  A.~{Lee}, D.~{Leon}, E.~{Linder}, L.~{Lowry}, F.~{Matsuda}, T.~{Matsumura},
+  N.~{Miller}, K.~{Mizukami}, J.~{Montgomery}, M.~{Navaroli}, H.~{Nishino},
+  J.~{Peloton}, D.~{Poletti}, G.~{Puglisi}, G.~{Rebeiz}, C.~{Raum},
+  C.~{Reichardt}, P.~{Richards}, C.~{Ross}, K.~{Rotermund}, Y.~{Segawa},
+  B.~{Sherwin}, I.~{Shirley}, P.~{Siritanasak}, N.~{Stebor}, R.~{Stompor},
+  J.~{Suzuki}, O.~{Tajima}, S.~{Takada}, S.~{Takakura}, S.~{Takatori},
+  A.~{Tikhomirov}, T.~{Tomaru}, B.~{Westbrook}, N.~{Whitehorn}, T.~{Yamashita},
+  A.~{Zahn}, and O.~{Zahn}.
+\newblock {The Polarbear-2 and the Simons Array Experiments}.
+\newblock \emph{Journal of Low Temperature Physics}, 184\penalty0
+  (3-4):\penalty0 805--810, Aug 2016.
+\newblock \doi{10.1007/s10909-015-1425-4}.
+
+\bibitem[{Takahashi} et~al.(2017){Takahashi}, {Hamana}, {Shirasaki},
+  {Namikawa}, {Nishimichi}, {Osato}, and {Shiroyama}]{takahashi17}
+R.~{Takahashi}, T.~{Hamana}, M.~{Shirasaki}, T.~{Namikawa}, T.~{Nishimichi},
+  K.~{Osato}, and K.~{Shiroyama}.
+\newblock {Full-sky Gravitational Lensing Simulation for Large-area Galaxy
+  Surveys and Cosmic Microwave Background Experiments}.
+\newblock \emph{\apj}, 850:\penalty0 24, November 2017.
+\newblock \doi{10.3847/1538-4357/aa943d}.
+
+\bibitem[{The Simons Observatory Collaboration} et~al.(2019){The Simons
+  Observatory Collaboration}, {Ade}, {Aguirre}, {Ahmed}, {Aiola}, {Ali},
+  {Alonso}, {Alvarez}, {Arnold}, {Ashton}, and et~al.]{so18}
+{The Simons Observatory Collaboration}, P.~{Ade}, J.~{Aguirre}, Z.~{Ahmed},
+  S.~{Aiola}, A.~{Ali}, D.~{Alonso}, M.~A. {Alvarez}, K.~{Arnold}, P.~{Ashton},
+  and et~al.
+\newblock {The Simons Observatory: Science goals and forecasts}.
+\newblock \emph{Journal of Cosmology and Astro-Particle Physics}, 2019\penalty0
+  (2):\penalty0 056, Feb 2019.
+\newblock \doi{10.1088/1475-7516/2019/02/056}.
+
+\bibitem[{Tinker} et~al.(2008){Tinker}, {Kravtsov}, {Klypin}, {Abazajian},
+  {Warren}, {Yepes}, {Gottl{\"o}ber}, and {Holz}]{tinker08}
+J.~{Tinker}, A.~V. {Kravtsov}, A.~{Klypin}, K.~{Abazajian}, M.~{Warren},
+  G.~{Yepes}, S.~{Gottl{\"o}ber}, and D.~E. {Holz}.
+\newblock {Toward a Halo Mass Function for Precision Cosmology: The Limits of
+  Universality}.
+\newblock \emph{\apj}, 688:\penalty0 709--728, December 2008.
+\newblock \doi{10.1086/591439}.
+
+\bibitem[{Trac} et~al.(2011){Trac}, {Bode}, and {Ostriker}]{trac11}
+H.~{Trac}, P.~{Bode}, and J.~P. {Ostriker}.
+\newblock {Templates for the Sunyaev-Zel'dovich Angular Power Spectrum}.
+\newblock \emph{\apj}, 727:\penalty0 94--+, February 2011.
+\newblock \doi{10.1088/0004-637X/727/2/94}.
+
+\bibitem[{Vikhlinin} et~al.(2009){Vikhlinin}, {Kravtsov}, {Burenin}, {Ebeling},
+  {Forman}, {Hornstrup}, {Jones}, {Murray}, {Nagai}, {Quintana}, and
+  {Voevodkin}]{vikhlinin09}
+A.~{Vikhlinin}, A.~V. {Kravtsov}, R.~A. {Burenin}, H.~{Ebeling}, W.~R.
+  {Forman}, A.~{Hornstrup}, C.~{Jones}, S.~S. {Murray}, D.~{Nagai},
+  H.~{Quintana}, and A.~{Voevodkin}.
+\newblock {Chandra Cluster Cosmology Project III: Cosmological Parameter
+  Constraints}.
+\newblock \emph{\apj}, 692:\penalty0 1060--1074, February 2009.
+\newblock \doi{10.1088/0004-637X/692/2/1060}.
+
+\bibitem[{von der Linden} et~al.(2014){von der Linden}, {Allen}, {Applegate},
+  {Kelly}, {Allen}, {Ebeling}, {Burchat}, {Burke}, {Donovan}, {Morris},
+  {Blandford}, {Erben}, and {Mantz}]{linden14}
+A.~{von der Linden}, M.~T. {Allen}, D.~E. {Applegate}, P.~L. {Kelly}, S.~W.
+  {Allen}, H.~{Ebeling}, P.~R. {Burchat}, D.~L. {Burke}, D.~{Donovan}, R.~G.
+  {Morris}, R.~{Blandford}, T.~{Erben}, and A.~{Mantz}.
+\newblock {Weighing the Giants - I. Weak-lensing masses for 51 massive galaxy
+  clusters: project overview, data analysis methods and cluster images}.
+\newblock \emph{\mnras}, 439:\penalty0 2--27, March 2014.
+\newblock \doi{10.1093/mnras/stt1945}.
+
+\bibitem[White et~al.(1993)White, Navarro, Evrard, and Frenk]{white93a}
+S.D.M. White, J.F. Navarro, A.E. Evrard, and C.S. Frenk.
+\newblock The baryon content of galaxy clusters: A challenge to cosmological
+  orthodoxy.
+\newblock \emph{Nature}, 366:\penalty0 429, 1993.
+
+\bibitem[{Yoo} and {Zaldarriaga}(2008)]{yoo08}
+J.~{Yoo} and M.~{Zaldarriaga}.
+\newblock {Improved estimation of cluster mass profiles from the cosmic
+  microwave background}.
+\newblock \emph{\prd}, 78\penalty0 (8):\penalty0 083002, October 2008.
+\newblock \doi{10.1103/PhysRevD.78.083002}.
+
+\bibitem[{Zubeldia} and {Challinor}(2019)]{zubeldia19}
+{\'I}{\~n}igo {Zubeldia} and Anthony {Challinor}.
+\newblock {Cosmological constraints from Planck galaxy clusters with CMB
+  lensing mass bias calibration}.
+\newblock \emph{arXiv e-prints}, art. arXiv:1904.07887, Apr 2019.
+
+\bibitem[{Zwicky}(1933)]{zwicky33}
+F.~{Zwicky}.
+\newblock {Die Rotverschiebung von extragalaktischen Nebeln}.
+\newblock \emph{Helvetica Physica Acta}, 6:\penalty0 110--127, Jan 1933.
+
+\end{thebibliography}

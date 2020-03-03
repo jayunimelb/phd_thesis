@@ -1,0 +1,548 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{amsmath,amsfonts,bm}
+\usepackage{caption,booktabs}
+\usepackage{tabularx}
+\usepackage{siunitx}
+%\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{bibentry}
+\usepackage{dcolumn}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{MnSymbol}
+\usepackage{mathtools}
+%\usepackage[numbers]{natbib}
+\usepackage[round]{natbib}
+\usepackage[compact]{titlesec}
+\usepackage[acronym]{glossaries} % Used to make a list of abbreviations
+\usepackage{afterpage}
+\usepackage[export]{adjustbox}[2011/08/13]
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{dcolumn}
+\usepackage{lineno}
+\usepackage{seqsplit}
+\usepackage{hyperref}	
+\usepackage{afterpage}
+\usepackage{float}
+\usepackage[top=3.0cm, bottom=2.25cm, left=3.5cm, right=3.0cm, headheight=16.5pt, includeheadfoot]{geometry}
+\usepackage[parfill]{parskip}
+
+\DeclareSIUnit \h {$h$}
+\DeclareSIUnit \parsec {pc}
+\newcommand{\boxsize}{$300^{\prime} \times 300^{\prime}$}
+\newcommand{\smallboxsize}{$10^{\prime} \times 10^{\prime}$}
+\newcommand{\mediumboxsize}{$50^{\prime} \times 50^{\prime}$}
+\newcommand{\pending}[1]{\textcolor{red}{#1}}
+\newcommand{\arcmin}{\ensuremath{^{\prime}}}
+\newcommand{\figwidth}{1.0\textwidth}
+\newcommand{\bL}{\bm{\ell}}
+\newcommand{\kappaonehalofull}{$\kappa^{1h}(\theta)$}
+\newcommand{\kappatwohalofull}{$\kappa^{2h}(\theta)$}
+\newcommand{\kappatotalmz}{${\kappa}(M, z)$}
+\newcommand{\kappatotalaalphaz}{${\kappa}^{tot}(A, \alpha, z)$}
+\newcommand{\kappaonehalo}{${\kappa}^{1h}$}
+\newcommand{\kappatwohalo}{${\kappa}^{2h}$}
+\newcommand{\kappatotal}{${\kappa}^{tot}$}
+\newcommand{\kappaonehalomz}{${\kappa}^{1h}(M,z)$}
+\newcommand{\kappatwohalomz}{${\kappa}^{2h}(M, z)$}
+
+\begin{document}
+\begin{center}
+Examiner report
+\end{center}
+I thank the Examiner for the thorough read and useful comments on my thesis. My response to Examiner's questions are
+in blue, while the thesis page number where the text that has been changed/added to the paper is quoted in red.
+
+
+\begin{center}
+\textbf{Examiner's general comments}
+\end{center}
+
+1. missing math style for some variables in the text (e.g. where v is the velocity, d the
+proper distance: v and d should be written in math mode $v$ $d$)
+
+\textcolor{blue}{I thank Examiner for pointing it out and have fixed those now through out the thesis.}
+
+2. units in equations should not be in math mode (e.g. $H_0 = 100 h km s^{-1}
+Mpc^{-1}$)
+
+\textcolor{blue}{corrected}
+
+\textcolor{red}{Thesis: page 2}
+
+3. footnotes should not be included in math equations (e.g. Eq. 1.5)
+
+\textcolor{blue}{Apologies, I have removed all the footnotes from math equations.}
+
+4. use \ left [ and \ right ] to adapt the size of the brackets and parenthesis in math
+mode
+
+\textcolor{blue}{Thank you, I have used Examiner's suggestion through out the thesis. }
+
+5. Copernican Principal -> Copernican Principle
+
+\textcolor{blue}{corrected}
+
+\textcolor{red}{Thesis: page number 2}
+
+6. some unnecessary space between words or sometime missing space (e.g.
+Spectrophotometer (FIRAS) , an instrument mounted) and missing full
+stops (e.g. at redshift of z = 1089.90 ± 0.23 (Planck Collaboration et al.,
+2018))
+
+\textcolor{blue}{Thank you, removed the space.}
+
+\textcolor{red}{Thesis: page number 8.}
+\begin{center}
+\textbf{Examiner's comments on chapter 1}
+\end{center}
+
+1. $v$, $d$ instead of v and d for velocity and proper distance
+
+\textcolor{blue}{Thank you. It has been changed through out the first chapter.}
+
+
+2. math mode should not be used for units (Eq. 1.3 and 1.4)
+
+\textcolor{blue}{Yes, updated.}
+
+\textcolor{red}{Thesis: page number 2} 
+
+3. Copernican Principal -> Copernican Principle
+
+\textcolor{blue}{corrected}
+
+\textcolor{red}{Thesis: page number 2}
+
+4. footnote 1 should not be included in Eq 1.5 but in the text
+
+\textcolor{blue}{corrected}
+
+\textcolor{red}{Thesis: page number 2}
+
+
+5. k zero in flat LCDM -> k is equal to zero in flat LCDM
+
+\textcolor{blue}{corrected}
+
+\textcolor{red}{Thesis: page number 2}
+
+6. Eq 1.7 is false. It should be $\chi(a)=\int_0^z {dz' \over H(z')}$
+
+\textcolor{blue}{corrected}
+
+\textcolor{red}{Thesis: page number 3 Eq. 1.7}
+
+7. Eq 1.8 Please, state clearly that this equation is only valid for $\Omega_{m}=1$ and
+$\Omega_{\lambda}=0$
+
+\textcolor{blue}{corrected}
+
+\textcolor{red}{Thesis: page number 3 Eq. 1.7}
+
+8. Fig 1.1, shows -> remove coma
+
+\textcolor{blue}{comma removed}
+
+\textcolor{red}{Thesis: page number 4}
+
+9. Eq 1.15 should be $H^2=\left ({\dot a \over a} \right )^2=$
+\\Eq 1.16 There is a missing factor 3 in front of P. $(\rho + 3 P)$
+\\Eq 1.19 should be $\dot \rho + H \, 3 \, (\rho +P) = 0$
+\\Eq 1.20 is also incorrect. It should be $\rho(a) \propto \exp \left ( -3\int_1^a {da' \over a'} [1+w(a')] \right )$
+
+\textcolor{blue}{I thank the Examiner for pointing out all the corrections and now they can be found in updated thesis.}
+
+\textcolor{red}{Thesis: page number 5 and 6}
+
+10. meaning that the harmonic coefficients meaning that the harmonic coefficients are drawn from random Gaussian distribution . -> remove part of the sentence and useless space.
+
+\textcolor{blue}{Corrected as per Examiner's advise}
+
+\textcolor{red}{Thesis: page number 10}
+
+11. over many realisation -> realisations
+
+\textcolor{blue}{Corrected}
+
+\textcolor{red}{Thesis: page number 10}
+
+\begin{center}
+\textbf{Examiner's comments on chapter 2}
+\end{center}
+1. Ryden 2003 -> please add the full reference to the bibliography
+
+\textcolor{blue}{Thank you, updated the bibliography accordingly}
+
+\textcolor{red}{Thesis: page number 15}
+
+2. Eq 2.8 I guess this should be (1 + $\delta$)
+
+\textcolor{blue}{Yes, thanks for pointing it out}
+
+\textcolor{red}{Thesis:  equation 2.8 page 16}
+
+3. I don?t think that `` considering relativistic corrections" is the way to move from Eq.
+2.11 to 2.12. Please correct.
+
+\textcolor{blue}{The sentence has been changed to ``A fully relativistic calculations for the growth of density perturbations yield the
+more general result  as in Eq. 2.12''. Deriving fully relativistic calculations is out the scope of this thesis.}
+
+\textcolor{red}{Thesis: page 16}
+
+4. Eq. 2.19 Please use $\delta(k)$ instead of $\delta_k$ to be consistent with other
+equations
+
+\textcolor{blue}{I thank Examiner for pointing it out. }
+
+\textcolor{red}{Thesis: page 17, Eq. 2.19}
+
+5. use math mode for $D(z)$ and $T(k,z)$ in the text
+
+\textcolor{blue}{I thank Examiner for pointing it out.}
+
+\textcolor{red}{Thesis: page 18}
+
+6. After Eq. 2.27 where R is related to M as M = 4$\pi$ R3 There is a missing density of matter in the equation.
+ 
+ \textcolor{blue}{I thank Examiner for pointing it out.}
+
+\textcolor{red}{Thesis: page number 19}
+
+7. In 1974 Press-Schechter came up with -> In 1974, Press and Schechter came up
+
+\textcolor{blue}{I thank Examiner for pointing it out.}
+
+\textcolor{red}{Thesis: page 19}
+
+8. will form a dark matter if ? greater than a critical value ?c -> why not using the usual small $\delta$ and small $\delta_c$?
+
+\textcolor{blue}{small delta $\delta$ is used for density fluctuation, so I have used $\Delta$ for density contrast - density perturbation averaged over a given volume }
+
+9. Eq. 2.28 and 2.29. Please use left ( and right )
+
+\textcolor{blue}{updated accordingly}
+
+\textcolor{red}{Thesis: page 19, Eq. 2.27, 2.28, 2.29 }
+
+10. With the values of $\Omega_{b}$ and $f_{gas}$ from baryon acoustic oscillations and
+X-ray observations -> Do you mean Big Bang Nucleosynthesis (BBN) instead of
+baryon acoustic oscillations?
+
+\textcolor{blue}{Yes, it is BBN. The text has been updated: Using the `$f_{gas}$' test which is based on the fair sample hypothesis: since clusters are so large and have so deep gravitational potential wells their baryonic and dark matter content should be a fair sample of the Universe as a whole. In detail, this is not exactly fair; simulations place the depletion of baryons in clusters relative to the cosmic mean at $\sim$10\% within the virial radius.  At smaller radii that present X-ray observations can reliably probe, the depletion is closer to 15- 20 per cent. 
+ Because the X-ray emissivity of the ICM depends on the square of the density (and weakly on the temperature) of the gas, X-ray observations can measure the gas mass very precisely. In dynamically relaxed systems, the assumption of hydrostatic equilibrium can also be used to determine the total mass, based on the gas temperature and density profiles. Hence, X-ray observations of dynamically relaxed systems can determine the gas mass fraction, $f_{gas} = M_{gas}/ M_{tot}$. With a rudimentary estimate of the baryon depletion, measurements of the total mass, mass in stars, and mass in hot gas for a cluster, and an estimate of the cosmic mean baryon density based on big bang nucleosynthesis data, one can constrain the mean matter density in the Universe. }
+ 
+ \textcolor{red}{Thesis: page 22, 2nd paragraph.}
+ 
+ 11. More recently, the community has been interested in using galaxy
+clusters to probe dark energy, neutrinos and cosmic growth of
+structure (Allen et al., 2011; Mantz et al., 2008, 2010, 2015; de Haan
+et al., 2016; Bocquet et al., 2018; Rozo et al., 2010; Vikhlinin et al.,
+2009; Salvati et al., 2018; Zubeldia and Challinor, 2019)
+
+\textcolor{blue}{The citation list has been updated. } 
+
+\textcolor{red}{Thesis: page 22, 3rd paragraph.}
+
+12. Cluster (purple) provide the tightest single-probe constraints (Mantz et al., 2015)
+
+\textcolor{blue}{Yes, the Examiner is correct. Mantz et al., 2015 uses cluster data with prior on $h$ and $\Omega_{b} h^{2}$.}
+
+\textcolor{red}{Thesis: page 24. }
+
+13. Eq 2.30 If D is the intrinsic scatter, it should not be added as a constant in the equation but only mentioned in the text.
+
+\textcolor{blue}{I have updated the thesis accordingly}
+
+\textcolor{red}{Thesis: page 24.}
+
+14. ''the probability of finding an optical source behind a high redshift (z
+>1) galaxy cluster decreases exponentially" - Is this probability decrease
+exponentially in redshift or as an inverse power law ? Can you provide some
+justification ?
+
+\textcolor{blue}{Other examiner also pointed out the same, the text has been updated accordingly. I am wrong when saying the exponential decrease, what I mean was the redshift of the higher redshift optical galaxies is hard to measure.}
+
+\textcolor{red}{Thesis: page number 28 and 29.}
+
+15. Eq 2.26. Please give the expression for W(k,R) or W(|x-x?|). Also, this is a good placeto define $\sigma_8$.
+
+\textcolor{blue}{The updated thesis have definition of W(k,R) and also $\sigma_{8}$ has been defined.}
+
+\textcolor{red}{Thesis: page number 18 and 19.}
+
+\begin{center}
+\textbf{Examiner's comments on chapter 3}
+\end{center}
+
+1. Caption of Fig. 3.1. Can you provide the size of the image ?
+
+\textcolor{blue}{the size of image is \smallboxsize.}
+
+\textcolor{red}{Thesis: the figure caption has been updated in page 32.}
+
+2. Eq. 3.4 and others Please use $\kappa$ everywhere and not $k$ for the lensing
+convergence. There are some inconsistencies in the rest of the manuscript where
+the two notations are used \\
+$z=1100$
+
+\textcolor{blue}{thanks for pointing it out, it has been updated everywhere in the thesis.}
+
+3. You may use $r$ instead of $x$ in Eq. 3.7 for clarity since x is supposed to be the
+
+\textcolor{blue}{Thank you, yes it may be slightly misleading to use `x'. I have changed it to `r'}
+
+\textcolor{red}{Thesis: page 33.}
+
+4. ``and c is the dimensionless concentration parameter" c is only defined
+after in Eq 3.11. Please re-arrange the text and the Equation.
+
+\textcolor{blue}{Yes, `c' is only used after that. Thanks for pointing it out and I have restructured the text accordingly.}
+
+\textcolor{red}{Thesis: page 34.}
+
+5. Eq. 3.12 use $\ln$
+
+\textcolor{red}{updated to $\ln$ everywhere in the thesis.}
+
+6. Eq. 3.13 missing subscript i $d_{i}$
+(which is obtained as explained in ??) -> Missing reference
+
+\textcolor{blue}{I thank Examiner for pointing it out, I have corrected it.}
+
+\textcolor{red}{Thesis: page 35.}
+
+7. 1,30,000 simulations -> please clarify this number 130,000 or 1,300,000 ?
+
+\textcolor{blue}{it is 130,000}
+
+\textcolor{red}{Thesis: page 36.}
+
+8. We add a white noise realisation of rms ? These simulations are then
+convolved by a beam of FWHM 1?? and then passed through our
+pipeline. -> the beam convolution is actually done before adding the noise I guess.
+Can you correct?
+
+\textcolor{blue}{Yes, the beam convolution is actually done before adding the noise.}
+
+\textcolor{red}{Thesis: page 37.}
+
+9. Fig. 3.3 and explanations are very interesting and clear. Congratulations. However, I
+don?t understand exactly where the 5 muK-arcmin comes from in the last sentence
+« temperature estimators will have effective noise floor of 5?K-arcmin
+if the foregrounds aren?t taken into account. » From Fig. 3.3 right its seems
+to me that the plateau occurs around 1 or 2 muK-arcmin for the dotted line although
+it is not easy to see because the curve is rather flat.
+
+\textcolor{blue}{Yes, it is not very clear from the plot. However, the numerical improvement in mass uncertainty is negligible below 5 $\mu K -arcmin$. So, we have stated noise floor to be $5\mu K-arcmin.$}
+
+10. We report bias for all the sources considered in Table ??. -> missing reference
+
+\textcolor{blue}{I thank Examiner for pointing it out, it has been corrected.}
+
+\textcolor{red}{Thesis: page 43.}
+
+11. We create the 2D apodization kernel -> I guess that this kernel breaks the
+circular symmetry of the profile. Is this a problem?
+
+\textcolor{blue}{We are using radially symmetric Hanning kernel, so I don't think it breaks radial symmetry.}
+
+12. In Eq. 3.19, can you explain what $\kappa^i_{sub}$ are?
+
+\textcolor{blue}{it is the convergence due to substructure.}
+
+\textcolor{red}{Thesis: page 45.}
+
+13. `` To quantify the effect of miscentering, we draw an offset from a normal distribution" - Can the offset be negative ? I guess that you
+took the absolute value.
+
+\textcolor{blue}{Yes, only absolute value is taken.}
+
+14. bias is listed in Table3.1. -> missing space
+
+\textcolor{blue} {removed}
+
+\textcolor{red}{Thesis: page 45.}
+
+15. These are full sky simulations is in the healpix (Górski et al., 2005) ->
+remove is
+
+\textcolor{blue}{removed}
+
+\textcolor{red}{Thesis: page number 48.}
+
+16. To determine the bias that would result due to the uncertainty in kSZ
+effect -> that would be due ?
+
+\textcolor{blue}{any under(over) estimate of kSZ would result in a positive (negative) bias.}
+
+17. Eq. 3.21 is wrong. Missing -4. Check consistency with Eq 4.2
+
+\textcolor{blue}{Yes, corrected.}
+
+\textcolor{red}{Thesis: page number 49.}
+
+18. This results in excess of photons at higher frequency and deficit of
+photons at lower frequency, this is known as tSZ effect. -> split in two
+sentences
+co-efficient -> coefficent
+
+\textcolor{blue}{I have split into two sentences and the typo has been corrected.}
+
+\textcolor{red}{Thesis: page number 49.}
+
+19. Table 3.2 summarizes also important and interesting result. Can you specify or recall
+again in the text the redshift and mass of the clusters considered here to build
+
+\textcolor{blue}{Cluster mass $2 \times 10^{14} M_{\odot}$ and redshift $z = 0.7$.}
+
+\textcolor{red}{Thesis: page number 53.}
+
+20. results tabulated in Table3.2. -> missing space
+
+\textcolor{blue}{corrected}
+
+\textcolor{red}{Thesis: page number 53.}
+
+
+\begin{center}
+\textbf{Examiner's comments on chapter 4}
+\end{center}
+
+1. The datasets and model fitting are described in section 4.5 and 4.4
+respectively. -> You may present 4.4 before 4.5
+
+\textcolor{blue}{corrected}
+
+\textcolor{red}{Thesis: page number 61.}
+
+2. Eq 4.2 Use \ left ( and \ right )
+at frequencies lesser than 220 GHz -> lower than
+
+\textcolor{blue}{corrected as per examiner's suggestion}
+
+\textcolor{red}{Thesis: page number 62.}
+
+3. Footnote of p. 57 I think that M200m is defined with respect to the mean density of
+Universe and not the critical density. Please put the footnote outside the equation.
+
+\textcolor{blue}{Yes, examiner is correct in pointing out.}
+
+\textcolor{red}{Thesis: page number 63}
+
+4. Eq. 4.10 please use \ kappa
+10'  X 10' use 10' $\times$ 10'
+ 
+\textcolor{blue}{corrected as per examiner's suggestion to \smallboxsize}
+
+\textcolor{red}{Thesis: page number 65.}
+
+5.   By using SZ-free gradient map we completely eliminate the SZinduced
+bias, however, SZ present in the lensing map induces extra
+vari- ance. The SZ variance is proportional to the SZ brightness and
+scales roughly as M5/3. While we will discuss in detail a refined mQE
+to suppress the SZ induced variance in the next chapter 5, here we just
+down weigh the clusters based on their SZ variance. -> Too long. Please
+break this sentence in 3 sentences.
+
+\textcolor{blue}{broken down into three sentences}
+
+
+\textcolor{red}{Thesis: page number 71.}
+
+6. Section 4.4 Is the two halo term included in the fit? Can you write it in the text?
+Please use $\kappa$ and not k everywhere
+
+\textcolor{blue}{Yes, two halo term is added.}
+
+\textcolor{red}{Thesis: page number 72.}
+
+7. The low-resolution SZ-free combination is noisier with $\Delta T$ ? 17 $\mu K$->The caption of Fig. 4.6 states 22.426 muKarcmin. Where does the difference come
+from?
+
+\textcolor{blue}{It was a mistake and we have corrected it.}
+
+\textcolor{red}{Thesis: page number 76.}
+
+8. in Eq. (??) with the curl operator -> error in reference
+
+\textcolor{blue}{corrected}
+
+\textcolor{red}{Thesis: page 78.}
+
+9. to independently calibrate the M ? ? relation of the cluster sample in -
+> missing end of sentence
+
+\textcolor{blue}{corrected}
+
+\textcolor{red}{Thesis: page number 84.}
+
+10. Caption of Fig. 4.10. Can you specify which curve is shifted with respect to the other
+and in which direction?
+
+\textcolor{blue}{specified - orange to left and black to right.}
+
+\textcolor{red}{Thesis: page number 86.}
+
+\begin{center}
+\textbf{Examiner's comments on chapter 5}
+\end{center}
+
+1. The SZ variance scales roughly with the mass of the cluster as M5/3
+and $\sigma^{2}_{sz}\propto M^{5/3}$ -> Is it the SZ variance or the SZ standard deviation (square root
+of the variance) which scales as $M^{5/3}$?
+
+\textcolor{blue}{Thanks for pointing it out it is SZ standard deviation, SZ variance is proportional to $M^{10/3}$ }
+
+\textcolor{red}{Thesis: corrected in entire chapter 5.}
+
+2. The black solid line represents the points where the ratio SZ variance
+is equal to that of experimental noise. -> « where the SZ variance is equal to
+the non-SZ variance » would be clearer
+
+\textcolor{blue}{Thank you, it has been corrected}
+
+\textcolor{red}{Thesis: page number 93.}
+
+3. The method presented in this work is not limited to the lensing
+lensing. -> cluster lensing
+
+\textcolor{blue}{corrected}
+
+\textcolor{red}{Thesis: page number 100.}
+
+
+
+\begin{center}
+\textbf{Examiner's comments on chapter 6}
+\end{center}
+
+1. The cluster lensing signal is weaker in polarisation than temperature,
+however, the astophysical foregrounds that significantly affect
+temperature and have negligible effect on polarisation channel. -> split
+in two sentences, typo in astrophysical
+
+\textcolor{blue}{corrected}
+
+\textcolor{red}{Thesis: page number 102 and 103.}
+
+2. In Raghunathan et al. (2019c) we modified the quadratic estimator in
+order to eliminate both tSZ and kSZ induced systematic biases. -> it is
+clear from Eq. 3.12 and 3.13 that the kSZ effect induce a systematic bias for the
+MLE even when stacking multiple clusters. But it seems less obvious that the kSZ
+induces a systematic bias in the QE when stacking multiple clusters. Can you
+provide here some simple explanation for the QE being biased by the kSZ?
+
+\textcolor{blue}{The kSZ signal is present in both gradient map and the small scale lensing map, which results in a bias.}
+
+\textcolor{red}{Thesis: page number 103.}
+
+3. will be using the method we developed in 4 -> in Chapter 4 and 5
+
+\textcolor{blue}{corrected}
+
+\textcolor{red}{Thesis: page 104.}
+
+\end{document}

@@ -1,30 +1,83 @@
-\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Chapter\ 1:}{\relax \mathversion {bold}Introduction}}{1}
-\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Chapter\ 2:}{\relax \mathversion {bold}Data}}{3}
-\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Chapter\ 3:}{\relax \mathversion {bold}modified Quadratic Estimator}}{5}
-\contentsline {section}{\numberline {3.1}Thermal Sunayev-Zel'dovich effect}{5}
-\contentsline {section}{\numberline {3.2}Methods}{7}
-\contentsline {section}{\numberline {3.3}Quadratic Estimator}{7}
-\contentsline {subsection}{\numberline {3.3.1}mitigating magnification bias}{9}
-\contentsline {section}{\numberline {3.4}modifications of Quadratic Estimator}{10}
-\contentsline {subsection}{\numberline {3.4.1}modified Quadratic Estimator}{10}
-\contentsline {section}{\numberline {3.5}Data}{11}
-\contentsline {section}{\numberline {3.6}South Pole Telescope}{11}
-\contentsline {subsection}{\numberline {3.6.1}SPTpol{} {\rm 500} deg$^{2}$ survey}{11}
-\contentsline {subsection}{\numberline {3.6.2}DES and the {\rm redMaPPer} catalog}{12}
-\contentsline {subsection}{\numberline {3.6.3}fitting model}{13}
-\contentsline {section}{\numberline {3.7}cluster cutouts and weighing scheme}{14}
-\contentsline {section}{\numberline {3.8}Results and Discussion}{15}
-\contentsline {subsection}{\numberline {3.8.1}Stacked mass measurements}{16}
-\contentsline {subsection}{\numberline {3.8.2}Mass-richness \ensuremath {M-\lambda }{} scaling relation calibration}{17}
-\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Chapter\ 4:}{\relax \mathversion {bold}Template Fitting}}{19}
-\contentsline {section}{\numberline {4.1}Method}{19}
-\contentsline {subsection}{\numberline {4.1.1}Template fitting to reduce the SZ variance}{20}
-\contentsline {section}{\numberline {4.2}Results}{24}
-\contentsline {subsection}{\numberline {4.2.1}Sources of uncertainty in the CMB-Cluster Lensing Measurement}{24}
-\contentsline {section}{\numberline {4.3}Results}{25}
-\contentsline {subsection}{\numberline {4.3.1}Performance comparision}{26}
-\contentsline {subsection}{\numberline {4.3.2}Robustness of template fitting method}{26}
-\contentsline {subsection}{\numberline {4.3.3}Miscentering}{27}
-\contentsline {section}{\numberline {4.4}Forecasts}{28}
-\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Appendix\ A:}{\relax \mathversion {bold}Appendix A}}{31}
-\contentsline {section}{\numberline {A.1}Section in an appendix}{31}
+\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Chapter\ 1:}{\relax \mathversion {bold}Introduction}}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Expanding universe}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Cosmological distances}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Friedmann Equations}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}Cosmic Microwave Background}{8}{section.1.4}
+\contentsline {section}{\numberline {1.5}Temperature primary anisotropies}{9}{section.1.5}
+\contentsline {section}{\numberline {1.6}CMB polarisation}{12}{section.1.6}
+\contentsline {section}{\numberline {1.7}Other cosmological probes}{14}{section.1.7}
+\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Chapter\ 2:}{\relax \mathversion {bold}Cluster Cosmology}}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Overview}{15}{section.2.1}
+\contentsline {section}{\numberline {2.2}Linear theory of structure formation}{15}{section.2.2}
+\contentsline {section}{\numberline {2.3}Power spectrum}{17}{section.2.3}
+\contentsline {section}{\numberline {2.4}Statistics of spherically collapsed objects}{18}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}The Press-Schechter Theory}{19}{subsection.2.4.1}
+\contentsline {section}{\numberline {2.5}Galaxy Clusters \& Cosmology}{19}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Galaxy Clusters}{19}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Cluster cosmology}{22}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Cluster cosmology is limited by mass estimation}{24}{subsection.2.5.3}
+\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Chapter\ 3:}{\relax \mathversion {bold}Maximum Likelihood Estimator}}{31}{chapter.3}
+\contentsline {section}{\numberline {3.1}CMB lensing overview}{31}{section.3.1}
+\contentsline {section}{\numberline {3.2}Maximum Likelihood Estimator}{34}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Covariance matrix calculation}{35}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Results}{37}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Idealised simulations}{37}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Effects of extragalactic foregrounds on lensing analysis}{40}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Systematic bias checks}{42}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Halos along the line of sight}{44}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Cluster mass profiles}{44}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Cluster miscentering}{46}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Bias due to redshift uncertainty}{47}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Bias due to the kinematic SZ signal}{48}{subsection.3.4.5}
+\contentsline {subsection}{\numberline {3.4.6}Thermal Sunayev-Zel'dovich effect}{49}{subsection.3.4.6}
+\contentsline {subsubsection}{tSZ frequency cleaning}{50}{subsubsection*.19}
+\contentsline {subsubsection}{tSZ fitting}{51}{subsubsection*.20}
+\contentsline {subsection}{\numberline {3.4.7}Dusty galaxies in the cluster and other foregrounds}{51}{subsection.3.4.7}
+\contentsline {section}{\numberline {3.5}A look into the future}{53}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Expected lensing mass uncertainties for future CMB experiments}{53}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Optimizing survey design: SNR as a function of beam size and map noise levels}{57}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}Conclusion}{58}{section.3.6}
+\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Chapter\ 4:}{\relax \mathversion {bold}Modified Quadratic Estimator}}{61}{chapter.4}
+\contentsline {section}{\numberline {4.1}Thermal Sunayev-Zel'dovich effect}{61}{section.4.1}
+\contentsline {section}{\numberline {4.2}Quadratic Estimator}{64}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}SZ induced bias}{68}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Modified quadratic estimator}{68}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Cluster cutouts}{70}{section.4.3}
+\contentsline {section}{\numberline {4.4}Model Fitting}{72}{section.4.4}
+\contentsline {section}{\numberline {4.5}Data}{73}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}South Pole Telescope}{73}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}DES and the {\rm redMaPPer} catalog}{76}{subsection.4.5.2}
+\contentsline {section}{\numberline {4.6}Pipeline verification}{77}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Simulations}{77}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}``Curl'' null test}{78}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Systematic error budget}{78}{subsection.4.6.3}
+\contentsline {subsubsection}{Cluster SZ signal and residual foregrounds}{79}{subsubsection*.32}
+\contentsline {subsubsection}{Cluster profile}{82}{subsubsection*.34}
+\contentsline {subsubsection}{Uncertainties in filter transfer function and beam}{83}{subsubsection*.35}
+\contentsline {subsubsection}{Underlying cosmology}{83}{subsubsection*.36}
+\contentsline {subsubsection}{Uncertainties in $f_{\rm mis}$ parameter}{84}{subsubsection*.37}
+\contentsline {section}{\numberline {4.7}Results and Discussion}{84}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Stacked mass measurements}{84}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Mass-richness \ensuremath {M-\lambda }{} scaling relation calibration}{86}{subsection.4.7.2}
+\contentsline {section}{\numberline {4.8}Conclusions}{88}{section.4.8}
+\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Chapter\ 5:}{\relax \mathversion {bold}Template Fitting}}{89}{chapter.5}
+\contentsline {section}{\numberline {5.1}Simulations}{89}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}thermal Sunyaev-Zel'dovich signal}{90}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Method}{90}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Template fitting to reduce the SZ variance}{90}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Sources of uncertainty in the CMB-Cluster Lensing Measurement}{92}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Results}{96}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Robustness of template fitting method}{97}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Forecasts}{99}{section.5.4}
+\contentsline {section}{\numberline {5.5}Discussion and Conclusion}{100}{section.5.5}
+\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Chapter\ 6:}{\relax \mathversion {bold}Discussions \& Future Work}}{101}{chapter.6}
+\contentsline {section}{\numberline {6.1}Summary}{101}{section.6.1}
+\contentsline {section}{\numberline {6.2}Polarisation detection}{102}{section.6.2}
+\contentsline {section}{\numberline {6.3}Inpainting approach}{103}{section.6.3}
+\contentsline {section}{\numberline {6.4}Constraining SZ-mass scaling relation}{104}{section.6.4}
+\contentsline {section}{\numberline {6.5}Final remarks}{104}{section.6.5}
+\contentsline {chapter}{\@tempdima 5.5em\relax \advance \leftskip \@tempdima \hbox {}\penalty \@M \hskip -\leftskip \numberline {\relax \mathversion {bold}Appendix\ A:}{\relax \mathversion {bold}Appendix A}}{137}{appendix.A}
+\contentsline {section}{\numberline {A.1}Simulated skies}{137}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Cosmic Microwave Background}{138}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Sunyaev-Zel'dovich (SZ) effect}{138}{subsection.A.1.2}
+\contentsline {subsection}{\numberline {A.1.3}Radio and Dusty Galaxies}{139}{subsection.A.1.3}

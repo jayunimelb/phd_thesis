@@ -20,16 +20,16 @@ Gravitational lensing by a galaxy cluster induces a dipole structure on top of t
 As CMB is only polarised at the 10\% level, the lensing signal in polarisation is an order of magnitude smaller than that in temperature. 
 
 
-Fig ~\ref{fig:lensing_signal} shows the lensing signal for a cluster of mass $5 \times 10^{14}$ $M_{\odot}$ at redshift of $z$ = 0.7.
-In  the left panels of Fig ~\ref{fig:lensing_signal}, we have the background CMB gradient for the temperature and polarisation Stokes Q/U parameters, in the middle panel we have the corresponding lensed maps and in the right panel we have difference map which clearly shows the lensing dipole signatures.
+Fig \ref{fig:lensing_signal} shows the lensing signal for a cluster of mass $5 \times 10^{14}$ $M_{\odot}$ at redshift of $z$ = 0.7.
+In  the left panels of Fig \ref{fig:lensing_signal}, we have the background CMB gradient for the temperature and polarisation Stokes Q/U parameters, in the middle panel we have the corresponding lensed maps and in the right panel we have difference map which clearly shows the lensing dipole signatures.
 \begin{figure}[ht]
 \begin{center}
 \includegraphics[width=\linewidth, keepaspectratio]{figs/lensing_signal.pdf}
- \caption{An illustration of the lensing effect on CMB due to a galaxy cluster of mass $5\times 10^{14} M_{\odot}$ .
+ \caption{An illustration of the lensing effect on CMB due to a galaxy cluster of mass $5\times 10^{14} M_{\odot}$ on a \smallboxsize \; box centered around the cluster.
   The top panel shows the effect of cluster lensing on CMB temperature field.
   The bottom two panels are for the Stokes Q and U parameters.
   The amplitude of the lensing signal for temperature is a few $\mu$K and an order of magnitude smaller in polarisation.
-  Note that these images have neither experimental noise nor foregrounds
+  Note that these images have neither experimental noise nor foregrounds.
  } 
 \label{fig:lensing_signal}
 \end{center}
@@ -47,14 +47,14 @@ $\vec{\alpha}(\hat{n})$ is the deflection angle along the $\hat{n}$ direction.
 
 \subsection*{Deflection angle:}
 \label{sec_def_field}
-The lensing induced deflection angles depend on the density profile of a galaxy cluster. Here we provide a detailed calculation of the deflection angle for a spherically symmetric Navarro-Frenk-White (NFW) density profile \citep{navarro96}.  Lensing convergence, $k$, is related to the deflection angle, $\vec{\alpha}$ as %$\nabla \phi (\hat{n})$ and is directly proportional to the mass of the cluster.
+The lensing induced deflection angles depend on the density profile of a galaxy cluster. Here we provide a detailed calculation of the deflection angle for a spherically symmetric Navarro-Frenk-White (NFW) density profile \citep{navarro96}.  Lensing convergence, $\kappa$, is related to the deflection angle, $\vec{\alpha}$ as %$\nabla \phi (\hat{n})$ and is directly proportional to the mass of the cluster.
 %Deflection angle depends on the cluster mass profile. Here we provide the detailed calculation for Navarro-Frenk-White (NFW) density profile \cite{navarro96}. NFW density profile can be characterised by two free parameters $M_{200}$ and concentration parameter $c$ as:
 \begin{equation}
- k = \frac{1}{2}\nabla. \vec{\alpha}. %#= -\nabla^{2} \phi
+ \kappa = \frac{1}{2}\nabla. \vec{\alpha}. %#= -\nabla^{2} \phi
 \label{eq_kappa}
  \end{equation}
 % and $\phi$ is the lensing potential.
- For symmetric density profiles, the lensing convergence is equal to the ratio of surface mass density over the critical surface density of the Universe at the cluster redshift, $k = \frac{\Sigma(x)}{\Sigma_{crit}}$.
+ For symmetric density profiles, the lensing convergence is equal to the ratio of surface mass density over the critical surface density of the Universe at the cluster redshift, $\kappa = \frac{\Sigma(x)}{\Sigma_{crit}}$.
 The surface mass density or the projected mass density of the halo is obtained by integrating the halo density profile along the line of sight. 
  \begin{equation}
  \Sigma(x) = 2 \int^{\infty}_{0} \rho(r) ds
@@ -65,11 +65,11 @@ The surface mass density or the projected mass density of the halo is obtained b
  \begin{equation}
  \Sigma_{crit} = \frac{c^{2}}{4\pi G} \frac{D_{cmb}}{D_{clus}D_{cmb,clus}}
  \end{equation}
- where $D_{cmb}$ is the comoving distance to the epoch of recombination (z= 1100), $D_{clus}$ is the comoving distance to the cluster, and $D_{cmb,clus}$ is the comoving distance between the CMB and the cluster.
+ where $D_{cmb}$ is the comoving distance to the epoch of recombination ($z= 1100$), $D_{clus}$ is the comoving distance to the cluster, $D_{cmb,clus}$ is the comoving distance between the CMB and the cluster, and $c$ is the speed of light.
  
  Unless otherwise mentioned, we define all the cluster quantities in this thesis with respect to $R_{200}$, which is defined as the radius within which the mean cluster density is 200 times the critical surface density of the Universe at cluster redshift $\rho_{crit}(z)$. By definition $M_{200}$ is given by 
  \begin{equation}
- M_{200} = \int^{R_{200}}_{0}  4\pi x^{2} \rho(x) dx,
+ M_{200} = \int^{R_{200}}_{0}  4\pi r^{2} \rho(r) dr,
  \end{equation}
  $M_{200}$ can also be written as
  \begin{equation}
@@ -82,15 +82,15 @@ The surface mass density or the projected mass density of the halo is obtained b
  \begin{equation}
  \rho(r)= \frac{\delta_{c}\rho_{crit}(z)}{(\frac{r}{R_{s}})(1+\frac{r}{R_{s}})^{2}}
  \end{equation}
- where $\delta_{c}$ is the characteristic over-density, $R_{s}$ is the characteristic scale radius, and $c$ is the dimensionless concentration parameter.
+ where $\delta_{c}$ is the characteristic over-density and $R_{s}$ is the characteristic scale radius. %and $c$ is the dimensionless concentration parameter.
  The dimensionless over-density is given by $\delta_{c} = \rho_{0}/\rho_{crit}(z)$, where $\rho_{0}$ is the cluster central density and  $\rho_{crit}(z)$  is the critical density of the universe at cluster redshift.
- Plugging the above equation in ~\ref{eq:surface_density}, we can get the surface density for the NFW halo. 
+ Plugging the above equation in \ref{eq:surface_density}, we can get the surface density for the NFW halo. 
  By changing the variables of integration to $s=\sqrt{r^{2} - x^{2}}$ and $ds = \frac{rdr}{\sqrt{r^{2} - x^{2}}}$ we obtain:
  \begin{equation}
  \Sigma(x) = 2\delta_{c} \rho_{crit}(z) R^{3}_{s} \int^{\infty}_{x} \frac{1}{r(R_{s} + r)^{2}} \frac{rdr}{\sqrt{r^{2} - x^{2}}}
  \label{eq:sr_den}
  \end{equation}
- The scale radius is related to the concentration parameter as follows:
+ The scale radius is related to the dimensionless concentration parameter, c, as follows:
  \begin{equation}
  c = \frac{R_{200}}{R_{s}},
  \end{equation}
@@ -109,14 +109,14 @@ We developed a maximum likelihood estimator to constrain the CMB cluster lensing
  The unlensed CMB is a Gaussian random field to a very good approximation  \citep{planck14d}.
  CMB-cluster cluster lensing remaps this Gaussian random field based on the deflection angle.
  The remapping leads to a non-zero covariance between different map pixels that had formerly been independent. %can be modeled in the form of a covariance between the data pixels. 
- First, we describe the likelihood estimation in \S~\ref{lkhd_est}, followed by covariance matrix calculation in \S~\ref{sec_covmat}.
+ First, we describe the likelihood estimation in \S\ref{lkhd_est}, followed by covariance matrix calculation in \S\ref{sec_covmat}.
 \subsection*{Likelihood Estimation}
 \label{lkhd_est}
   The likelihood of observing a particular map, d, is given by
   %With the covariance matrix in hand we calculate the likelihood given the data as follows 
   
   \begin{equation}
-  -2lnL(d|\Sigma_{lens}) = ln |\Sigma_{lens}| + d^{T} \Sigma^{-1}_{lens} d,
+  -2\ln L(d|\Sigma_{lens}) = \ln |\Sigma_{lens}| + d^{T} \Sigma^{-1}_{lens} d,
   \end{equation}
  where $\Sigma_{lens}$ is the covariance matrix which acts as a model, $d$ is the map vector of pixel values for temperature or polarisation.
   %The likelihood function extracts all the lensing information unlike the QE.
@@ -124,10 +124,13 @@ We developed a maximum likelihood estimator to constrain the CMB cluster lensing
   
   %Since the majority of the lensing singal is within few arcminutes from the cluster center, we carry out the lensing analysis within \smallboxsize\ of the cluster center to simplify and speed up the analysis. 
   %We also checked that by increasing the boxsize to 14\am\ we gain an improvement in a SNR of less than 1\%, however, that the increases the computational complexities. 
- The lensing signal of a single galaxy cluster is too weak to be detected. 
-  We stack many clusters to increase signal to noise ratio (SNR) to a reasonable level
+ 
+  The lensing signal of a single cluster is too weak compared to the intrinsic variations in CMB.  %decrease the experimental noise levels for future experiments  
+  For example, the lensing signal of a massive galaxy cluster $M_{200m} = 5 \times 10^{14} M_{\odot}$ at redshift $z = 0.7$ is of the order of 5 $\mu K$, whereas the background gradient is an order of magnitude greater (50$\mu K$).
+%The lensing signal of a single galaxy cluster is too weak to be detected and  
+So we stack many clusters to increase signal to noise ratio (SNR) to a reasonable level
   \begin{equation}
-  -2ln L(d| \Sigma_{lens})_{tot} = \Sigma^{n}_{i =0} w_{i} [ln |\Sigma_{lens}| + d^{T}_{i} \Sigma^{-1}_{lens}  d]
+  -2\ln L(d| \Sigma_{lens})_{tot} = \Sigma^{n}_{i =0} w_{i} [\ln |\Sigma_{lens}| + d^{T}_{i} \Sigma^{-1}_{lens}  d_{i}]
   \end{equation}
   where n is the total number of clusters in the sample, $w_{i}$ is the weight assigned to the $i^{th}$ cluster.
   Here we assign equal weights to all clusters ($w_{i} = 1$) as we are using simulations and it is not the case while using real data. %While for real data $w_{i}$  which is survey dependent (for example experimental noise etc.,).
@@ -146,16 +149,16 @@ We developed a maximum likelihood estimator to constrain the CMB cluster lensing
  We generate Gaussian random realisations of these power spectra on a \mediumboxsize\ box at 0.25\am\ resolution. 
 The generated E and B maps are converted to Q and U maps using:
  \begin{equation}
- E_{l} \pm i B_{l} = - \int d^{2} \hat{n} e^{-i \hat{n}. l}[Q \pm iU] (\hat{n}) e^{\mp 2 i\phi_{l}}  
+ E_{l} \pm i B_{l} = - \int d^{2} \hat{n} \; e^{-i \hat{n}. l}\; [Q \pm iU] (\hat{n}) \; e^{\mp 2 i\phi_{l}}  
  \label{eq:coord_trans}
  \end{equation}
- where $\phi_{l}$ is the angle of $l$ as measured from stokes Q axis.
+ where $\phi_{l}$ is the angle of $l$ as measured from stokes Q axis \citep{leistedt16}.
  
 
- These Gaussian realizations are then lensed by the deflection field (which is obtained as explained in ~\ref{def_field}). 
+ These Gaussian realizations are then lensed by the deflection field (which is obtained as explained in \ref{sec_def_field}). 
  We use the central \smallboxsize\ to calculate the covariance matrix.\footnote{The lensing maps are generated on \mediumboxsize\ to take into account the large scale gradient, however, the lensing signal is concentrated in the center.}
  The lensing signal is of the order of few arcminutes even for a massive cluster and most of the lensing signal is within a radial distance of  10\am\ from the cluster center.
-Increasing the boxsize to 14\am\ $\times$ 14\am\ increases the SNR by $\le$ 1\%, while increasing the computational complexity several fold.
+For a cluster of mass $M_{200m} = 2 \times 10^{14} M_{\odot}$ at redshift $z = 0.7$, increasing the boxsize to 14\am\ $\times$ 14\am\ increases the SNR by $\le$ 1\%, while increasing the computational complexity several fold.
 
  
  With simulated lensed CMB maps in hand, we calculate the covariance matrix as follows
@@ -169,8 +172,8 @@ Increasing the boxsize to 14\am\ $\times$ 14\am\ increases the SNR by $\le$ 1\%,
  The number of simulated skies depend on the number of degrees of freedom in the covariance matrix. 
  In our case, the maximum number of degrees of freedom is for the polarisation estimator (concatenated Q/U or E/B maps), for which the covariance matrix is an 800 $\times$ 800 matrix. %the covariance matrix is a 800 $\times$ 800 matrix. 
  The number of simulations should scale with the number of elements in the covariance matrix. 
-  We find that 1,30,000 simulations are sufficient to recover cluster masses without any detectable bias. 
-  We then multiply the covariance matrix with Hartlap correction term $\frac{(n_{sims} -n_{d} -1)}{n_{sims}}$, where $n_{sims}$ is 1,30,000 and $n_{d}$ is the length of the data vector 400(800) for T(QU), to remove any possible bias in $\Sigma^{-1}_{lens}$ due to the finite number of simulations \citep{hartlap06}. 
+  We find that 130,000 simulations are sufficient to recover cluster masses without any detectable bias. 
+  We then multiply the covariance matrix with Hartlap correction term $\frac{(n_{sims} -n_{d} -1)}{n_{sims}}$, where $n_{sims}$ is 130,000 and $n_{d}$ is the length of the data vector 400(800) for T(QU), to remove any possible bias in $\Sigma^{-1}_{lens}$ due to the finite number of simulations \citep{hartlap06}. 
   
  We also use these simulated skies to quantify the effects of statistical and systematic uncertainties.
  There are several astrophysical sources which act as a systematic bias for the CMB-cluster lensing analysis. 
@@ -198,7 +201,7 @@ Here we have used simulations to check the performance of MLE and also to quanti
  \lambda = \frac{L (M_{200} =0)}{max(L(M_{200}))}
  \end{equation} 
  According the Wilk's theorem, in many cluster limit $\lambda $ follows chi-square statistic with one degree of freedom ($M_{200}$ in our case).
- The detection significance reported in this chapter is equal to $-2 ln (\chi)$
+ The detection significance reported in this chapter is equal to $-2 \ln (\chi)$
  Similarly, we quote the mass uncertainties by calculating masses at which $-2lnL(M_{est}) + 2 ln L (M_{200})$ is equal to 1, where $M_{est}$ is the best fit mass.
  }\fi
  
@@ -211,11 +214,11 @@ Here we have used simulations to check the performance of MLE and also to quanti
  \item in addition to that, it provides equivalent conditions to allow for a fair comparison between MLE and QE.
 \end{itemize}
  To validate the pipeline we simulate 100,000 galaxy clusters each at a mass of $2 \times10^{14} M{\odot}$ and at redshift of $z = 0.7$.
- We add a white noise realisation of rms 1\ukam\ for temperature maps and  rms $\sqrt{2}$\ukam\ to polarisation maps. 
- These simulations are then convolved by a beam of FWHM 1\am\ and then passed through our pipeline.
- The results are shown in the top panel of Fig. ~\ref{lkhd_curve}, the black solid line represents the combined likelihood for temperature MLE estimator and solid (dashed) orange curve is that for the polarisation QU (EB) estimator.% and the dashed orange curve is for EB estimator. 
+ These simulations convolved by a beam of FWHM 1\am\, we then add a white noise realisation of rms 1$\mu K$-arcmin\ for temperature maps and  rms $\sqrt{2}$$\mu K$-arcmin\ to polarisation maps. 
+ %These simulations are then convolved by a beam of FWHM 1\am\ and then passed through our pipeline.
+ The results are shown in the top panel of Fig. \ref{lkhd_curve}, the black solid line represents the combined likelihood for temperature MLE estimator and solid (dashed) orange curve is that for the polarisation QU (EB) estimator.% and the dashed orange curve is for EB estimator. 
  We calculate the detection significance as mentioned above and measured a lensing significance of 400$\sigma$ and 110$\sigma$ for temperature and polarisation MLE respectively. 
- Null test results are shown in the bottom panel of Fig. ~\ref{lkhd_curve}, for which we turned off lensing in our pipeline.
+ Null test results are shown in the bottom panel of Fig. \ref{lkhd_curve}, for which we turned off lensing in our pipeline.
  As expected likelihoods for all the three MLE estimators (T, QU, and EB) peak at zero mass.
  
  \begin{figure}[t]
@@ -224,58 +227,58 @@ Here we have used simulations to check the performance of MLE and also to quanti
 \label{lkhd_curve}
  \end{figure}
  
- In the left panel of Fig.~\ref{fig_performance}, we compare the performances of the three MLE estimators and the temperature QE estimator as a function of experimental noise levels. 
+ In the left panel of Fig.\ref{fig_performance}, we compare the performances of the three MLE estimators and the temperature QE estimator as a function of experimental noise levels. 
  %Note that, no galactic or extra galactic foregrounds are added. 
  %All the fractional mass uncertainties are stated for 100,000 clusters each at a mass of $2\times 10^{14} M_{\odot}$ and at a redshift of 0.7.
- It is evident from the Fig.~\ref{fig_performance} that in the absence of foregrounds, temperature estimator outperforms polarisation above noise-level of 0.075 \ukam.
+ It is evident from the Fig.\ref{fig_performance} that in the absence of foregrounds, temperature estimator outperforms polarisation above noise-level of 0.075 $\mu K$-arcmin.
  So even for future experiments temperature estimator has to be the primary channel from pure SNR perspective.
- Only below the noise-level of  0.075 \ukam do polarisation estimator begin to be competitive with temperature.
+ Only below the noise-level of  0.075 $\mu K$-arcmin do polarisation estimator begin to be competitive with temperature.
  The relative performance of the temperature and the polarisation estimators can be understood as:
  \begin{itemize}
  \item lensing signal scales the amplitude of the background gradient which is $\sim$10$\times$ brighter in temperature, but
  \item as the experimental noise levels drop, the background CMB acts as an additional source of noise for the temperature estimator.
  \end{itemize}
- %As pointed out earlier, the lensing signal is directly proportional to the background CMB gradient, gradient in polarisation is 10$\times$ smaller than that of temperature as shown in ~\ref{fig:lensing_signal}. However, below noise-level of 0.075\ukam the CMB temperature background gradient acts as a source of noise. 
+ %As pointed out earlier, the lensing signal is directly proportional to the background CMB gradient, gradient in polarisation is 10$\times$ smaller than that of temperature as shown in \ref{fig:lensing_signal}. However, below noise-level of 0.075$\mu K$-arcmin the CMB temperature background gradient acts as a source of noise. 
  
- Orange squares and green circles in Fig. ~\ref{fig_performance} represent MLEs using polarisation QU and EB maps respectively. 
- As expected, there is no significant differences between their performance from a theoretical standpoint. 
- The apparent difference at higher experimental noise levels is not statistically significant.
- However, using QU maps simplifies the analysis as these modes are directly measured by the experiment and doesn't involve co-ordinate transformation. %~\ref{eq:coord_trans}. %In this chapter, I have considered only $QU_{MLE}$ polarisation estimator.
+ The Orange squares and green circles in Fig. \ref{fig_performance} represent MLEs using polarisation QU and EB maps respectively. 
+ As expected from theoretical standpoint there is no significant difference between their performance.
+ The small difference at higher experimental noise levels is not statistically significant.
+ However, using the QU maps simplifies the analysis as these modes are directly measured by the experiment and doesn't require a coordinate transformation. %\ref{eq:coord_trans}. %In this chapter, I have considered only $QU_{MLE}$ polarisation estimator.
  
   
- Lastly, we compare the performance of temperature MLE (solid black triangles) and QE (orange solid squares) in Fig. ~\ref{fig_performance}. 
- QE is a first order approximation of MLE (as we will see in ~\ref{ch:mqe}).
+ Lastly, we compare the performance of the temperature MLE (solid black triangles) and QE (orange solid squares) in Fig. \ref{fig_performance}. 
+ The QE is a first order approximation of MLE (as we will see in next chapter \ref{ch:mqe}).
  %While both temperature MLE and QE perform equally well at higher noise levels, MLE has clear advantage over QE at low noise levels.
- At higher noise levels (low SNRs) the effect of higher order terms are negligible resulting in no difference between the performance of MLE and QE estimators.
- However, at low noise levels (high SNRs) MLE outperforms QE. We find that MLEs performance improves by a factor of 2 at noise level of 0.1\ukam for our fiducial cluster sample. 
- The performance of QE can be improved by using an iterative version as shown in \cite{yoo08}.
+ At higher noise levels (low SNRs) the effect of higher order terms is negligible resulting in no difference between the performance of MLE and QE estimators.
+ However, at low noise levels (high SNRs) the MLE outperforms the QE. We find that the MLE's performance improves over that of the QE by a factor of 2 at a noise level of 0.1 $\mu K$-arcmin for our fiducial cluster sample. 
+ The performance of QE can be improved by using an iterative version as shown by \cite{yoo08}.
   %Though not shown here, there is no difference between polarisation MLE and QE for the range of the experimental noise levels we have considered.
   %This is not surprising as polarisation lensing SNR is low for all the considered noise levels.
  %The effect of higher order terms can be recovered using an iterative version of QE as shown in \cite{yoo08}.
- %We find that MLEs performance is improves by a factor of 2 at noise level of 0.1\ukam  for our fiducial sample of 100,000 clusters each at  $M_{200} = 2 \times 10^{14}$ \msolar and redshift of 0.7. 
+ %We find that MLEs performance is improves by a factor of 2 at noise level of 0.1$\mu K$-arcmin  for our fiducial sample of 100,000 clusters each at  $M_{200} = 2 \times 10^{14}$ \msolar and redshift of 0.7. 
   
-Both MLE and QE estimators share a common difficulty in regards with the assumed cluster density profile.
+Both the MLE and QE share a common difficulty in that they requrire a knowledge of cluster density profile.
 This dependence shows up in different places in each estimator:
  \begin{itemize}
- \item In MLE as explained in ~\ref{sec_MLE} we fit the lensed CMB pixel covariance templates to the observed data pixel covariance. The lensed CMB pixel covariance templates are obtained by assuming a cluster density profile. 
- \item QE works by exploiting the correlation between the background CMB gradient and lensing dipole to obtain lensing convergence profile. 
+ \item In the MLE, as explained in \ref{sec_MLE}, we fit the lensed CMB pixel covariance templates to the observed data pixel covariance. The lensed CMB pixel covariance templates depend on the assumed cluster density profile.
+ \item The QE works by exploiting the correlation between the background CMB gradient and lensing dipole to obtain lensing convergence profile. 
  We fit models to these lensing convergence profile to extract the mass of the cluster.
  
  \end{itemize}
-While MLE outperforms QE at low experimental noise level, QE can be modified to make it robust to the major foreground in lensing analysis as we will see in next chapter (~\ref{ch:mqe}).
+While the MLE outperforms the QE at low experimental noise levels, the QE can be more easily modified to make it robust to the major foreground in lensing analysis as we will see in the next chapter.
  \begin{figure}[t]
 \includegraphics[]{figs/fig1-eps-converted-to.pdf}
- \caption{In the left we show the performance of different estimators for idealised simulations as function of experimental noise levels. We consider the effects of various foregrounds on the estimators in the right panel. All the curves are for a set of 100,000 clusters each at mass of $2\times 10^{14} M_{\odot}$ and at redshift of 0.7.}
+ \caption{In the left hand panel, we show the performance of the MLE and QE for idealised simulations (no foregrounds) as function of experimental noise levels. In the right panel, we consider the effects of various foregrounds on the estimators. All the curves are for a set of 100,000 clusters each at mass of $2\times 10^{14} M_{\odot}$ and at redshift of 0.7.}
  \label{fig_performance}
  \end{figure}
    
    \subsection{Effects of extragalactic foregrounds on lensing analysis}
-   In this section, we look into the effects of extragalactic foregrounds on CMB-cluster lensing analysis. While galactic foregrounds also affect the CMB-cluster lensing analysis, we can exploit their frequency dependence to suppress galactic contamination. Here we consider the effect of extra galactic foregrounds on mass uncertainties. Some of these foregrounds such as clusters own SZ effect etc., also bias the analysis which will be reported in the next section (~\ref{sys_bias}). The level of foregrounds is much higher in temperature than in polarisation channel, thus the effect of foregrounds is higher in temperature estimator than polarisation. We consider the impact of tSZ, kSZ, radio galaxies and dusty galaxies on lensing analysis.
+   In this section, we look into the effects of extragalactic foregrounds on CMB-cluster lensing analysis. While galactic foregrounds also affect the CMB-cluster lensing analysis, we can exploit their frequency dependence to suppress galactic contamination. Here we consider the effect of extra galactic foregrounds on the final mass uncertainties. Some of these foregrounds such as cluster's own SZ effect, will also bias the analysis these biases will be explored in the next section. The level of foregrounds relative to the CMB is much higher in temperature than in polarisation channel, thus the effect of foregrounds is higher in temperature estimator than polarisation. We consider the impact of tSZ, kSZ, radio galaxies and dusty galaxies on lensing analysis.
    
-   The impact of foregrounds on the fractional mass uncertainty of lensing estimators as function of experimental noise level is shown in Fig. ~\ref{fig_performance}. 
+   The impact of foregrounds on the fractional mass uncertainty of lensing estimators as function of experimental noise level can be seen by comparing the left and right panels in Fig. \ref{fig_performance}. 
    As expected foregrounds have negligible effects on the polarisation channel (orange squares) due to their low level of polarisation.
-   For the temperature estimator the extragalactic foregrounds set an effective noise level of 5\ukam if not cleaned, this results in plateauing at 1.8\% in mass uncertainty (black dotted line). 
-   Without any foreground cleaning polarisation QU estimator outperforms the temperature channel at 1.5 \ukam noise level.
+   For the temperature estimator, the extragalactic foregrounds (tSZ effect, kSZ effect, radio galaxies, and dusty galaxies) set an effective noise level of $\sim5\mu K$-arcmin if not cleaned, this results in plateauing at 1.8\% in mass uncertainty (black dotted line). 
+   Without any foreground cleaning polarisation QU estimator outperforms the temperature channel at 1.5 $\mu K$-arcmin noise level.
  However, we can exploit the frequency dependence of various extragalactic foregrounds to reduce their effect.
  While combining multiple frequency channels we assume that the beam size is 1\am\ FWHM Gaussian irrespective of the frequency channel to simplify the analysis \footnote{ this may not be a very good assumption, but here we just want to build an intuition for future surveys.}. 
 Using different spectral dependence of background CMB and tSZ we can completely eliminate the tSZ power.
@@ -283,27 +286,29 @@ While tSZ can be eliminated, kSZ has the same spectral dependence as that of the
  
  
  Furthermore we assume that the frequency cleaning will behind some radio and dusty galaxy power \footnote{note that in all the curves we have assumed 100\% kSZ power and 0\% tSZ power}. 
- The black solid line in Fig. ~\ref{fig_performance} correspond to 100\% removal of radio and dusty galaxy power. 
+ The black solid line in Fig. \ref{fig_performance} correspond to 100\% removal of radio and dusty galaxy power. 
  The dot-dashed (dashed) line corresponds to 90\% (0\%) removal of radio and dusty galaxy power. 
  % represent the performance of temperature estimator with 100\% kSZ signal but no tSZ, radio or dusty galaxy signals.
 %The dot-dashed (dashed) line corresponds to 100\% of kSZ, no tSZ and 100\%(10\%) of radio and dusty galaxy power.
  %The dashed line corresponds to 10 \% of radio and dusty galaxy power, 100\% of kSZ power and no tSZ power. 
  With 90\% cleaning of foreground (dashed black curve), temperature estimator becomes the main channel for estimating lensing signal even for future surveys \citep{cmbs4-sb1}.
   There is only a fractional improvement in the performance above 90\% of cleaning. 
-  It is important to note here that foreground cleaning enlarges the beam which if taken into account will further degrade the mass uncertainties.
+  The foreground cleaning using Internal Linear Combination technique results in an effective resolution equal to that of the lowest frequency channel. 
+  It is important to note here that the enlargement of beam due to foreground cleaning if taken into account will further degrade the mass uncertainties.%foreground cleaning enlarges the beam which if taken into account will further degrade the mass uncertainties.
+  
   
   To summarize, the extragalactic foregrounds have almost no effect on the performance of polarisation estimators. 
-  On the other hand, temperature estimators will have effective noise floor of 5\ukam\ if the foregrounds aren't taken into account. 
+  On the other hand, temperature estimators will have effective noise floor of 5$\mu K$-arcmin\ if the foregrounds aren't taken into account. %(dotted black line on the right panel). 
   %As we will see in next in addition to increasing final mass uncertainties, some of these foregrounds will also acts sources of systematic bias.
   
   \section{Systematic bias checks}
   \label{sys_bias}
-  From Fig ~\ref{fig_performance}, it is evident that we will achieve unprecedented statistical uncertainties for future low noise surveys. 
+  From Fig \ref{fig_performance}, it is evident that we will achieve unprecedented statistical uncertainties for future low noise surveys. 
   However, in order to fully utilise this statistical power, we need to account for all the systematic biases involved in lensing analysis. %to claim our sub-percent mass measurements.
     In this section, we quantify various sources of systematics that could bias our final results.
     We examine the following sources:
     \begin{itemize}
-    \item cluster center - for example, typical offset between SZ and X-ray centroid is 0.5 \am\ \citep{linden14}
+    \item cluster center - for example, typical offset between SZ and X-ray centroid or  the location of brightest central galaxy is 0.5 \am\ \citep{saro15, song12b}
     \item cluster density profile - the assumed NFW profile may not match the true density profile
     \item lensing by other halos - in addition to the galaxy cluster CMB is also lensed by other halos along the line of sight 
     \item redshift - misestimation of cluster redshit
@@ -314,16 +319,16 @@ While tSZ can be eliminated, kSZ has the same spectral dependence as that of the
     The last three sources have negligible effect on the polarisation estimators as they are partially polarised. 
     Note that all these sources may effect polarisation and temperature estimators to different extents as the angular scales are weighed differently in both estimators. %due to the differences in mode weighing between estimators.
      
- The baseline simulations for bias calculations include 1\am\ FWHM Gaussian beam, experimental noise level of 1\ukam in temperature (which corresponds to a noise level of $\sqrt{2}$\ukam in polarisation) and no foregrounds unless otherwise stated.
+ The baseline simulations for bias calculations include 1\am\ FWHM Gaussian beam, experimental noise level of 1$\mu K$-arcmin in temperature (which corresponds to a noise level of $\sqrt{2}$$\mu K$-arcmin in polarisation) and no foregrounds unless otherwise stated.
   While the precise amount of bias depends on experimental beam size, noise-level, and foregrounds as they define the weighing of different angular scales of MLE, here we roughly quantify the magnitude of bias and give a direction to pursue future work in CMB-cluster lensing to reduce the systematic uncertainties. 
-   We report the systematic bias for a sample of 1,000,000 clusters each at a mass of $2 \times 10^{14}  M_{\odot}$ and at redshift of 0.7 (except for redshift uncertainty case). The bias is calculated as follows:
+   We report the systematic bias for a sample of 1,000,000 clusters each with a mass of $2 \times 10^{14}  M_{\odot}$ and redshift of 0.7 (except for redshift uncertainty case). The bias is calculated as follows:
    \begin{equation}
    b = \frac{M_{bias}}{M_{true}} - 1.
    \end{equation}
    where $M_{bias}$ is the final recovered mass when the bias source is included in the lensing analysis and $M_{true}$ is the input mass. 
    Error on the bias is obtained by calculating the scatter in 100 subsamples.
    
-   We report bias for all the sources considered in Table ~\ref{`}. 
+   We report bias for all the sources considered in Table \ref{tab_sys_bias}. 
  Other than errors in redshift, all other sources of bias should be considered carefully to achieve sub-percent uncertainty as claimed for future CMB surveys \citep{cmbs4-sb1}. 
  %Here we have not considered survey specific systematics such as false detections, selection function, and projection effects or some form of bias in weighing the clusters.
  \begin {table}[ht]
@@ -359,7 +364,7 @@ While tSZ can be eliminated, kSZ has the same spectral dependence as that of the
 \vspace*{2mm}
 %}
 %\tablecomments{
-\caption{The percentage mass biases from various systematic uncertainties. A positive (negative) number means the recovered mass is over- (under-)estimated. The first three lines reflect the expected biases from astrophysical foregrounds; these are serious for the temperature estimator, but not the polarization estimator. The next two lines deal with uncertainties in where the cluster is located (whether in redshift or on the sky); these are likely to be manageable for both estimators. The last four lines relate to uncertainties in how the mass is distributed, whether due to projection effects from nearby, lower-mass haloes, or due to uncertainties in the average mass profile for galaxy clusters. These questions about the mass distribution are a concern for both temperature and polarization. }
+\caption{The percentage mass biases from various systematic uncertainties. A positive (negative) number means the recovered mass is over- (under-)estimated. The first three lines reflect the expected biases from astrophysical foregrounds; these are serious for the temperature estimator, but not the polarization estimator. The next two lines deal with uncertainties in where the cluster is located (whether in redshift or on the sky); these are likely to be manageable for both estimators. The last four lines relate to uncertainties in how the mass is distributed, whether due to projection effects from nearby, lower-mass haloes, or due to uncertainties in the average mass profile for galaxy clusters. These questions about the mass distribution are a concern for both temperature and polarization. Note that here we have considered only dusty galaxies in the cluster (tSZ X CIB correlation) and not the field galaxies. }
 %\caption{Systematic bias in the reconstructed lensing mass}
 \label{tab_sys_bias}
 \vspace*{2mm}
@@ -372,6 +377,7 @@ While tSZ can be eliminated, kSZ has the same spectral dependence as that of the
  The \cite{flender16} simulation is an N-body cosmological simulation with 17 million objects.
   For each cluster we randomly select a halo within a mass range of  $M_{200} \in$ [1.8, 2.2] $10^{14} M_{\odot}$ and redshift range of [0.6,0.8].
 We simulate the CMB maps as explained earlier, however, instead of lensing the CMB with just the cluster convergence profile we lens it with all the convergence profiles which are within the 50\am\ from the cluster center. 
+ This includes correlated halos. 
 Analysis proceeds normally after this - these lensed CMB maps are convolved by Gaussian beam after which specified white experimental noise is added. 
 As expected both polarisation and temperature estimators are biased high : 2.5 $\pm$ 0.3\% for temperature MLE and 6.3 $\pm$ 1.1\% for polarisation QU estimator. We can reduce the bias by taking two halo term into account, however, that will include more nuisance parameters increasing the statistical uncertainty of the final results. 
 
@@ -414,6 +420,7 @@ We create the 2D apodization kernel as $m(i,j) = m(i) \times m(j)$ with $m(i) = 
 \label{eq_kappa_sub}
 \end{cases}
 \end{eqnarray}
+where $\kappa_{sub}$ is the convergence due to substructure.
 \item The Einasto profile \citep{einasto89}
 \begin{eqnarray}
 \rho(r)_{_{Ein}} & = &  \rho_{_{0}}\ exp\left( - \frac{2}{\alpha} \left[\left(\frac{r}{R_s} \right)^{\alpha} - 1\right]\right)
@@ -423,7 +430,7 @@ with the shape parameter $\alpha = 0.18$ \citep{ludlow13}. The Einasto convergen
 \end{itemize}
  
  In each of the three cases we lens CMB by the assumed cluster profile, however, we use NFW profile to calculate our model.
- Assuming the wrong cluster profile biases the results from -2.5\% to 3.8\% as shown in Table ~\ref{tab_sys_bias}. 
+ Assuming the wrong cluster profile biases the results from -2.5\% to 3.8\% as shown in Table \ref{tab_sys_bias}. 
  A similar study was done on optical weak-lensing analysis by \citet{sereno16} who used NFW profile in the model and Einasto profile in the simulated data; \citet{sereno16} found a bias of -2 to 7 \% depending on the cluster mass. This level of bias is larger than the statistical mass uncertainties expected for the proposed future experiment \citep{cmbs4-sb1}, and a significant challenge for upcoming experiments.
 More work will be required to accurately measure the cluster mass profiles as a function of radius if we are to achieve the full potential of galaxy cluster cosmology. 
 
@@ -432,12 +439,12 @@ More work will be required to accurately measure the cluster mass profiles as a 
 Any difference between the true cluster center and the model will result in a bias.
  Misestimation of the cluster center even by a small amount results in underestimation of cluster mass as we lose some of the lensing signal.
 To quantify the effect of miscentering, we draw an offset from a normal distribution N(0, $\sigma^{2}$) and lens the CMB with offseted clusters to obtain simulated data, however, model doesn't take the offset into account.
-Fig. ~\ref{fig_sys_bias_cluster_offsets} shows the bias in the final results as a function of offset for both temperature (orange squares) and polaristion estimators (black triangles).
+Fig. \ref{fig_sys_bias_cluster_offsets} shows the bias in the final results as a function of offset for both temperature (orange squares) and polaristion estimators (black triangles).
 As expected the bias increases with the rms offset, `$\sigma$'.
 The bias in temperature estimator is smaller than polarisation is because the temperature estimator draws more information from smaller angular scales than the polarisation estimator. Note that here we haven't considered foregrounds, considering foregrounds would decrease the weight of smaller angular scales. For survey with higher experimental noise, larger beams and foregrounds the bias due to miscentering will be smaller.
 
  
-The typical offset between the SZ-centroid and the X-ray or brightest central galaxy (BCG) is of the order of 0.5\am\  \citep{linden14,song12b,sereno16}.
+The typical offset between the SZ-centroid and the X-ray or brightest central galaxy (BCG) is of the order of 0.5\am\  \citep{linden14,song12b,saro15}.
 For 0.5\am\ offset the mass is underestimated by 7.5 $\pm$ 0.3\% for temperature estimator and 1.5 $\pm$ 1.3 \% for polarisation estimator. 
 For a given constraint on the offset, a correction could be easily applied to eliminate the bias, however, that will result in a slight decrease of SNR.
 Neglecting the foreground power, one would need to know the rms offset $\sigma$ by 2\% (8\%) in order to achieve sub-percent uncertainty for the temperature (polarisation) MLE.
@@ -446,8 +453,7 @@ However, adding foregrounds will reduce the weight of the information from small
 \centering
 %\hspace{-2mm}                                                                                                                               
 \includegraphics[width=0.85\textwidth, height=0.65\textwidth,clip=]{figs/fig2_v2.eps}
-\caption{The positional offset between the assumed and true cluster centroid will bias the estimate low  for $T_{\rm ML}$ (b\
-lack triangles) and $QU_{\rm ML}$ (orange squares) estimators. The typical positional offset of $0.5'$ \citep{linden14,song12b,sereno16} is marked with the vertical dashed line. The error bars are derived using estimates gathered by repeating the test 100 times.}
+\caption{The positional offset between the assumed and true cluster centroid will bias the estimate low  for $T_{\rm ML}$ (black triangles) and $QU_{\rm ML}$ (orange squares) estimators. The typical positional offset of $0.5'$ \citep{linden14,song12b,sereno16} is marked with the vertical dashed line. The error bars are derived using estimates gathered by repeating the test 100 times.}
 \label{fig_sys_bias_cluster_offsets}
 \vspace*{2mm}
 \end{figure}
@@ -468,7 +474,7 @@ The current state of the art for red sequence redshifts can be seen in the  DES 
 \end{equation}
 
 We create mock lensed CMB maps for four sets of redshifts redshifts $z\in[0.5, 1, 1.5, 2]$. While constructing the pixel-pixel covariance matrix we use the `measured' redshift, $z + \sigma_{z}$, for each cluster.                                                                        
-The resulting bias is listed in Table~\ref{tab_sys_bias}. We do not detect a mass bias at any redshift. 
+The resulting bias is listed in Table \ref{tab_sys_bias}. We do not detect a mass bias at any redshift. 
  
 \subsection{Bias due to the kinematic SZ signal}
 \label{sec_ksz_bias}
@@ -478,7 +484,7 @@ We cannot combine multiple frequency channels to eliminate the kSZ effect.
 However, we can use polarisation information as the kSZ effect is largely unpolarised  \citep{sazonov99}.
 
 To quantify the kSZ bias on the temperature estimators we consider the publicly available kSZ maps and halo catalog from \citet{flender16} simulations.
-These are full sky simulations is in the healpix \citep{gorski05} pixelisation scheme with nside of 8192 correpsponding to 0.42 arcminute resolution.
+These are full sky simulations in the healpix \citep{gorski05} pixelisation scheme with nside of 8192 correpsponding to 0.42 arcminute resolution.
 Within the mass range of $M_{200} \in [1.8 \times 10^{14},2.2 \times 10^{14}]$ $M_{\odot}$ and $z$ $\in$ [0.6,0.8] the catalog has 20,000 halos. 
 For each cluster in the simulated data we randomly pick clusters from this set of 20,000 halos. For each cluster we take a 50\am\ $\times$ 50\am\ cutout centered around the halo, smooth it with experimental Gaussian beam of FWHM = 1\am\ and add it to the lensed cluster cutout. 
 
@@ -496,7 +502,8 @@ Final results are significantly biased low at 41\% level if the kSZ effect is no
  \label{tSZ_effect_bias}
 Here we give a brief review of thermal Sunayev-Zel'dovich (tSZ) effect and is explained in detail in the next chapter.
 CMB photons while passing through galaxy cluster are inverse compton scattered of high energetic electrons present in the cluster's hot intra cluster medium.
-This results in excess of photons at higher frequency and deficit of photons at lower frequency, this is known as tSZ effect.
+This results in excess of photons at higher frequency and deficit of photons at lower frequency.
+ This is known as tSZ effect.
 tSZ effect is an order of magnitude greater than lensing signal and will induce significant statistical and systematic uncertainties if not taken into account.
 In the next two chapters we discuss in detail about the methods through which we eliminate the tSZ bias in QE estimator.
 Here, we quantify the tSZ bias in the MLE and discuss the methods that can be used to reduce the bias.
@@ -511,8 +518,8 @@ Either approaches has the potential to completely eliminate the bias, however, d
 To evaluate the performance of each approach,  we use Compton $y$ maps produced on a $5^{\circ} \times 5^{\circ}$ box at resolution $2.'5$ from the smoothed-particle hydrodynamics (SPH) simulations of  \citet{mccarthy13}.
 Neglecting relativistic corrections, we convert the Compton $y$ maps into temperature at an observing frequency according to:
 \begin{eqnarray}
-\Delta T = y T_{\rm CMB} \left[x \left(\frac{e^{x/2} + e^{-x/2}}{e^{x/2} - e^{-x/2}}  \right)\right]
-\end{eqnarray} where $x = \frac{h\nu}{k_{\rm B}T_{\rm CMB}}$, $\nu$ is the frequency in GHz, $T_{\rm CMB} = 2.73\ K$, $k$ is the Boltzmann constant, and $h$ is the Planck constant.
+\Delta T = y T_{\rm CMB} \left[x \left(\frac{e^{x/2} + e^{-x/2}}{e^{x/2} - e^{-x/2}}  \right) - 4\right ]
+\end{eqnarray} where $x = \frac{h\nu}{k_{\rm B}T_{\rm CMB}}$, $\nu$ is the frequency in GHz, $T_{\rm CMB} = 2.73\ K$, $\kappa$ is the Boltzmann constant, and $h$ is the Planck constant.
 
 \subsubsection{tSZ frequency cleaning}
 \label{subsec:tszbias}
@@ -533,9 +540,9 @@ where
  \label{eq_smooth}
  \end{equation}
  is the 150 GHz map convolved by the ratio of the 90 and 150 GHz beam functions. 
- The factor `f' is ratio of tSZ amplitude in 90 and 150 GHz. %It is important to note that 150 GHz has been smoothed with 90 GHz beam using Eqn. ~\ref{eq_smooth} before subtracting out tSZ.
+ The factor `f' is ratio of tSZ amplitude in 90 and 150 GHz. %It is important to note that 150 GHz has been smoothed with 90 GHz beam using Eqn. \ref{eq_smooth} before subtracting out tSZ.
  
-We also assume that the experimental noise level in both 90 and 150 GHz channels is 1 \ukam. 
+We also assume that the experimental noise level in both 90 and 150 GHz channels is 1 $\mu K$-arcmin. 
   Under these assumptions using a tSZ free map will eliminate the bias (b = 0.0 $\pm$ 0.7\%). However, it degrades the final SNR by a factor of three as shown in \citet{baxter15}.
   In practice, it is unlikely to obtain a precise value of factor `f' due the uncertainties in frequency band widths or errors in relative calibration of frequency bands.
   To evaluate the bias in the final results due to the uncertainties in the factor `f', we use simulations. 
@@ -548,7 +555,7 @@ tSZ has no power at 217 GHz and one might consider of using 217 GHz frequency ch
 However, the power of dusty galaxies increase significantly with frequency.
 So, the foreground power in 217 GHz channel is much more than 90 or 150 GHz channels. 
 In addition to that, we should also take into account the contamination due to the correlation between the tSZ and cosmic infrared background due to these dusty galaxies.
- Current estimates find the correlation co-efficient to be $0.113^{+0.057}_{-0.054}$ \citep{george15}; estimating the tSZ-CIB signal at 220 GHz would yeild a signal nearly three quarters of the tSZ signal at 150 GHz. 
+ Current estimates find the correlation coefficient to be $0.113^{+0.057}_{-0.054}$ \citep{george15}; estimating the tSZ-CIB signal at 220 GHz would yeild a signal nearly three quarters of the tSZ signal at 150 GHz. 
  In order to use 217 GHz channel, more work needs to be done in constraining the tSZ-CIB correlation.
  
  \subsubsection{tSZ fitting}
@@ -577,10 +584,12 @@ However, a multi-frequency cleaning scheme will be less effective than for the t
 Here we look only at bias for the fitting approach where the pixel-pixel covariance due to the clustered dusty galaxies is folded into the likelihood.
 The recovered mass is somewhat low: $b=4.5 \pm 1.7\%$.
 The existence of a bias (higher than $2\sigma$) is slightly surprising since one would expect zero bias in the perfect information limit, and the significance is low enough that it may be a statistical fluke.
-The dramatic increase in the uncertainty -- from 0.25\% to 1.7\% -- reflects the plateauing of the dotted line in right panel of Fig.~\ref{fig_performance}.
+The dramatic increase in the uncertainty -- from 0.25\% to 1.7\% -- reflects the plateauing of the dotted line in right panel of Fig.\ref{fig_performance}.
 Unsubtracted foreground power effectively sets a lower bound on the instrumental noise.
+Note that here we have considered only dusty galaxies in the cluster (tSZ X CIB correlation) and not the field galaxies.
 
 
+For stacking analysis we think that cluster asphericity will have negligible impact and so was considered in this thesis. However, future studies should carefully look into the impact of cluster asphericity of CMB cluster lensing. %Cluster asphericity is outside the scope this thesis and should be considered in future studies. 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=1.\textwidth, height=0.68\textwidth,clip=]{figs/fig3.eps}
@@ -619,7 +628,7 @@ Specifications about each experiment are listed in Table \ref{tab_forecast_futur
 }
 \vspace*{2mm}
 %\tablecomments{
-\caption{The forecasted mass uncertainties for large-aperture future CMB experiments. We combine data from 90, 150, and 220 GHz to clean the extragalactic foregrounds using a constrained ILC method designed to remove the tSZ signal while minimizing the residual foreground power and instrumental noise.  For polarization, the ILC is essentially optimal weighting of the bands for minimum noise. }
+\caption{The forecasted mass uncertainties for large-aperture future CMB experiments. We combine data from 90, 150, and 220 GHz to clean the extragalactic foregrounds using a constrained ILC method designed to remove the tSZ signal while minimizing the residual foreground power and instrumental noise.  For polarization, the ILC is essentially optimal weighting of the bands for minimum noise. For simplicity we have assumed all the clusters to have a mass of $2\times 10^{14} M_{\odot}$ and at redshift $z = 0.7$. }
 \label{tab_forecast_future_CMBexp}
 \end{table}
 \section{A look into the future}
@@ -627,7 +636,7 @@ Specifications about each experiment are listed in Table \ref{tab_forecast_futur
 In this final section we forecast the cluster mass uncertainties from CMB-cluster lensing for the AdvACT , Simons Array, and SPT-3G experiments, which we will collectively refer to as the Stage III experiments, as well as the proposed CMB-S4 experiment.
 In addition to presenting estimated mass uncertainties for the fiducial versions of these experiments, we examine how the mass uncertainty depends on  the beam size and map noise levels.
 This information can be used to evaluate design tradeoffs while planning future experiments.
-
+ Note that for the forecasts we have assumed all clusters at  mass $M_{200} = 2 \times 10^{14} M_{\odot}$  and at a redshift of 0.7.
 \subsection{Expected lensing mass uncertainties for future CMB experiments}
 \label{sec_cmbs4}
 
@@ -656,8 +665,8 @@ The saturation of $T_{\rm ML}$ is due to the larger impact of foregrounds on the
 \label{fig_beam_dependency_T_QU}
 \end{figure*}
 
-To provide realistic estimates of the mass uncertainties, we perform a constrained internal linear combination (ILC) of data from 90, 150, and 220 GHz channels based on the \texttt{SMICA} (Spectral Matching Independent Component Analysis) algorithm \citep{cardoso08, planck14-09} to eliminate the tSZ signal from the temperature data and minimize the residual power in other extragalactic foregrounds and instrumental noise in both temperature and polarization.\footnote{Note that unlike in Fig~\ref{fig_performance} we consider the effect of relative beam and noise levels of different frequency channles}
-The resulting power spectra of the instrumental noise and residual foregrounds for different CMB experiments are shown in Fig.~\ref{fig_ILC_res}.
+To provide realistic estimates of the mass uncertainties, we perform a constrained internal linear combination (ILC) of data from 90, 150, and 220 GHz channels based on the \texttt{SMICA} (Spectral Matching Independent Component Analysis) algorithm \citep{cardoso08, planck14-09} to eliminate the tSZ signal from the temperature data and minimize the residual power in other extragalactic foregrounds and instrumental noise in both temperature and polarization.\footnote{Note that unlike in Fig\ref{fig_performance} we consider the effect of relative beam and noise levels of different frequency channles}
+The resulting power spectra of the instrumental noise and residual foregrounds for different CMB experiments are shown in Fig.\ref{fig_ILC_res}.
 At $\ell \le 2000$, the temperature curves are dominated by residual foreground power as three frequency bands are insufficient to completely eliminate the foreground power in the assumed model (see Appendix).
 As a result, the temperature noise curves  converge at $\ell \le 2000$ despite the very different noise levels of the  experiments.
 During this process, we convolve the 90 and 220 GHz spectra by the ratio of 150 GHz beam and their native beams, so that the final effective beam size matches 150 GHz.
@@ -687,19 +696,19 @@ There are plans underway to build a substantially more sensitive CMB experiment,
 on design studies and planning for CMB-S4 and on pathfinder experiments to CMB-S4 such as the Simons Observatory. There is a wide spectrum of science drivers for these experiments, of which CMB-cluster lensing is only one. However, it is useful to consider what CMB-S4 design choices would be optimal for cluster mass calibration. In this section, we consider two lever arms: map noise levels and angular resolution (beam size). In all cases, we assume three frequency bands centered at 90, 150 and 220\,GHz with equal noise levels and beam sizes that scale as the wavelength.                                                                                                                            
 We do not consider the number or relative weight of frequency bands, although these decisions will be important for handling astrophysics foregrounds in the temperature estimator.
 
-In Fig.~\ref{fig_beam_dependency_T_QU}, we present the mass uncertainties on a sample of 100,000 clusters from the temperature and polarization estimators for a grid of five different beam sizes $\theta_{{\rm FWHM}} = 1^\prime, 1.^\prime4, 2^\prime, 3^\prime, 3.^\prime 5$, and four temperature map noise levels (1, 3, 5, or 7\,\ukarcmin{}). We have simplified the problem by using only 150\,GHz data with no foreground \
+In Fig.\ref{fig_beam_dependency_T_QU}, we present the mass uncertainties on a sample of 100,000 clusters from the temperature and polarization estimators for a grid of five different beam sizes $\theta_{{\rm FWHM}} = 1^\prime, 1.^\prime4, 2^\prime, 3^\prime, 3.^\prime 5$, and four temperature map noise levels (1, 3, 5, or 7\,\ukarcmin{}). We have simplified the problem by using only 150\,GHz data with no foreground \
 removal. As a result, the quoted uncertainties are likely to be too large for both temperature and polarization estimators.
 However, the qualitative conclusions are robust to this assumption as will be shown below by spot-checking the results with a full ILC analysis.
 
 Notably, the temperature results show only a minor improvement ($<20$\%) going from 7 to 1 \ukarcmin{} noise levels. The plateauing occurs because the instrumental noise is already smaller than the foreground power. Although the exact level may be off, these 150 GHz only results\
- are consistent with the picture from the full, 3-frequency ILC analysis shown in Fig.~\ref{fig_ILC_res}. In that figure, the residual foreground and noise power curves for temperature are essentially the same, whether from CMB-S4, from small and deep Stage III surveys, or from wide and shallow Stage III surveys. In short, foreground residual power dominates the results even at the lower sensitivities of the Stage III experiments.
+ are consistent with the picture from the full, 3-frequency ILC analysis shown in Fig.\ref{fig_ILC_res}. In that figure, the residual foreground and noise power curves for temperature are essentially the same, whether from CMB-S4, from small and deep Stage III surveys, or from wide and shallow Stage III surveys. In short, foreground residual power dominates the results even at the lower sensitivities of the Stage III experiments.
 The temperature estimator also shows a fairly modest effect from reducing the beam size: a factor of 3.5 reduction in beam size from $3.^\prime5$ to $1^\prime$ only improves the mass uncertainty by a factor of 1.35. This is because the foreground power floor limits the use of small-scale modes where the beam size matters most.
 
-In contrast, as seen in the right panel of Fig.~\ref{fig_beam_dependency_T_QU}, the fidelity with which the QU polarization estimator recovers cluster masses is strongly dependent on the experimental noise level and beam size. The clear improvements are because polarization estimator is still noise instead of residual foreground dominated. Improving map noise levels from 3 to 1 \ukarcmin{} improves the SNR on CMB-cluster lensing by a factor of 2.4 (the equivalent change for the temperature estimator is only 1.04). Similarly, reducing the beam size three\
+In contrast, as seen in the right panel of Fig.\ref{fig_beam_dependency_T_QU}, the fidelity with which the QU polarization estimator recovers cluster masses is strongly dependent on the experimental noise level and beam size. The clear improvements are because polarization estimator is still noise instead of residual foreground dominated. Improving map noise levels from 3 to 1 \ukarcmin{} improves the SNR on CMB-cluster lensing by a factor of 2.4 (the equivalent change for the temperature estimator is only 1.04). Similarly, reducing the beam size three\
 fold from $3^\prime$ to $1^\prime$ leads to an improvement by a factor of 1.9. Both the beam size and instrumental noise levels matter for the performance of the polarized CMB-cluster lensing estimator.
 
 Finally, we confirm this picture by extending these 150\,GHz-only predictions to 3-band data using the ILC method. We assume equal temperature map noise levels of $1 \mu$K-arcmin at 90, 150 and 220\,GHz, with a beam size that scales with the wavelength. We consider three 150\,GHz\
- beam sizes, $1^\prime, 2^\prime$, and $3.^\prime 5$, with the results  tabulated in Table~\ref{tab_forecast_future_CMBexp}.
+ beam sizes, $1^\prime, 2^\prime$, and $3.^\prime 5$, with the results  tabulated in Table \ref{tab_forecast_future_CMBexp}.
 The improvement  as a function of the beam size is consistent between the 150\,GHz and ILC cases. While the improvement is only marginal for\
  the temperature channel, the mass uncertainty from the polarization estimator drops to 0.83\% for a $1^\prime$ beam, a factor of 1.9 better\
  than the results for a $3.^\prime5$ beam. The corresponding improvement for 150\,GHz only is slightly better, at a factor of 2.2.

@@ -1,5 +1,11 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces The percentage mass biases from various systematic uncertainties. A positive (negative) number means the recovered mass is over- (under-)estimated. The first three lines reflect the expected biases from astrophysical foregrounds; these are serious for the temperature estimator, but not the polarization estimator. The next two lines deal with uncertainties in where the cluster is located (whether in redshift or on the sky); these are likely to be manageable for both estimators. The last four lines relate to uncertainties in how the mass is distributed, whether due to projection effects from nearby, lower-mass haloes, or due to uncertainties in the average mass profile for galaxy clusters. These questions about the mass distribution are a concern for both temperature and polarization. Note that here we have considered only dusty galaxies in the cluster (tSZ X CIB correlation) and not the field galaxies. \relax }}{43}{table.caption.17}
+\contentsline {table}{\numberline {3.2}{\ignorespaces The forecasted mass uncertainties for large-aperture future CMB experiments. We combine data from 90, 150, and 220 GHz to clean the extragalactic foregrounds using a constrained ILC method designed to remove the tSZ signal while minimizing the residual foreground power and instrumental noise. For polarization, the ILC is essentially optimal weighting of the bands for minimum noise. For simplicity we have assumed all the clusters to have a mass of $2\times 10^{14} M_{\odot }$ and at redshift $z = 0.7$. \relax }}{53}{table.caption.22}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Systematic error budget for DES RM volume-limited sample\relax }}{80}{table.caption.31}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Forecasted mass uncertainties for SPT-3G, SO and CMB-S4 with the modified QE before and after removing the estimated SZ template.\relax }}{99}{table.caption.45}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -30,7 +30,7 @@ We modified the quadratic estimator (mQE) in chapter \ref{ch:mqe} to eliminate t
 The QE exploits the correlation between the gradient map and the lensing map to extract cluster lensing signal.
 Any foreground present in both the maps will result in undesired correlation inducing a bias. 
 %tSZ present in both the maps induces undesired correlation  
-By using tSZ free gradient map we eliminated the tSZ induced systematic bias with only a slight decrease of SNR. 
+By using tSZ free gradient map we largely eliminated the tSZ induced systematic bias with only a slight decrease of SNR. 
 %Though QE is a first order approximation of MLE, it is indeed a very good approximation as the CMB doesn't have power at small angular scales \citep{silk68}.
 %As shown in Fig.\ref{fig_performance} performance of QE and MLE are comparable at current experimental noise level. 
  We used the mQE to constrain the mass of DES year-3  clusters using SPTpol CMB temperature maps. 
@@ -45,7 +45,8 @@ The tSZ induced statistical uncertainty scales with mass as $\approx M^{5/3}$.
  \section{Polarisation detection}
  \label{pol_detection}
  While the cluster lensing signal has been detected in CMB temperature data by many experiments \citep{baxter15, raghunathan18,geach17, baxter18}, the cluster lensing signal in CMB polarisation maps has been detected only recently by \citet{raghunathan19}. As a second author this publication, I worked on the pipeline to extract the CMB-cluster lensing signal and also wrote the draft of the paper.   
- The cluster lensing signal is weaker in polarisation than temperature, however, the astophysical foregrounds that significantly affect temperature and have negligible effect on polarisation channel.
+ The cluster lensing signal is weaker in polarisation than temperature.
+  However, the astrophysical foregrounds that significantly affect temperature and have negligible effect on polarisation channel.
   The lensing SNR in polarisation is weaker compared to its temperature counter part at the present experimental noise level. However, as shown in Fig. \ref{fig_performance}, the foregrounds set an effective floor for CMB temperature estimator. %On the contrary, polaristion estimator is negligbly effected by foregrounds as foregrounds are largely unpolarised. 
   As forecasts in Table \ref{tab_forecast_future_CMBexp} show, we expect the polarisation estimator to have comparable performance with that of temperature estimator for proposed \citet{cmbs4-sb1}.
  % Although cluster lensing signal in polarisation is an order of magnitude smaller than temperature, polarisation is negligibly affected by foregrounds and systematics. As show in chapter \ref{fig_performance} the foregrounds set an effective floor for CMB temperature estimator. On the contrary, polaristion estimator is negligbly effected by foregrounds and foregrounds are largely unpolarised. As shown in \ref{tab_forecast_future_CMBexp} we expect polarisation estimator to be competent with that of temperature estimator for proposed \citet{cmbs4-sb1}.
@@ -68,8 +69,10 @@ The cluster's own SZ signals, the tSZ and the kSZ, act as major sources of conta
 As shown in \S\ref{sec_ksz_bias}, the kSZ effect induces significant bias on the the lensing analysis if not considered. 
  %During my thesis I was also part of a project which developed inpainting technique to mitigate the SZ bias. 
  In \citet{raghunathan19_in} we modified the quadratic estimator in order to eliminate both tSZ and kSZ induced systematic biases. 
+ Using tSZ-free gradient map largely eliminates the tSZ bias, however, kSZ is still present in the gradient map. 
+ The correlation between the gradient map and the lensing map due to the presence of kSZ signal in both will induce a small bias in the reconstructed convergence maps. 
 Both tSZ and kSZ signals span a radial range of the order of couple of arc minutes from the cluster center.
- We can construct the gradient map by interpolating the pixel values within this radial range using the information from the surroundings.
+ We can construct the gradient map by interpolating the pixel values within this radial range using the information from the surrounding areas.
  %The idea is to use inpainting to eliminate the tSZ and the kSZ signal from the large scale gradient map. 
  In this inpainting approach both the tSZ and the kSZ signals are eliminated from the gradient map by using a constrained Gaussian realisation based on the information from the surrounding region \citet{benoitlevy13}.
  
@@ -85,12 +88,20 @@ The SPT-SZ survey detected clusters via their tSZ signatures on CMB temperature 
 \citet{baxter15} used MLE on temperature maps to measure the average mass of these clusters. 
 In order to eliminate the tSZ bias \citet{baxter15} exploited the frequency dependence of tSZ to generate tSZ free maps, however, that resulted in a significant decrease of SNR. 
 
-In my new project (Patil et al., in preparation), I will be using the method we developed in  \ref{ch:mqe} to constrain the mass of the SPT-SZ cluster catalog (Patil et al. in preparation). This has two advantages over the previous work of \citet{baxter15}:
+In my new project (Patil et al., in preparation), I will be using the method we developed in  \ref{ch:mqe} and \ref{ch:template} to constrain the mass of the SPT-SZ cluster catalog. This has two advantages over the previous work of \citet{baxter15}:
 \begin{itemize}
 \item by using a tSZ free gradient map we will completely eliminate tSZ bias
 \item by subtracting out a tSZ template from the lensing map we will significantly suppress the tSZ variance. 
 \end{itemize}
-So far I have tested template fitting approach \citep{patil19} on the simulated data. The recovered percentage mass uncertainty for SPT-SZ like cluster catalog is 13\%, a significant improvement compared to $3\sigma$ detection of \citet{baxter15}.
+So far I have tested template fitting approach \citep{patil19} on the simulated data. The recovered percentage mass uncertainty for SPT-SZ like cluster catalog is 13\%, a significant improvement compared to $3\sigma$ detection of \citet{baxter15}. The timeline for the project is as follows:
+\begin{itemize}
+\item extract cluster cutouts from 90, 150, and 220 GHz SPT-SZ maps (November 2019  -December 2019)
+\item construct tSZ free maps using ILC technique on 90,150, and 220 GHz (December 2019 - January 2020)
+\item apply \citet{patil19} method to the extracted cutouts (January 2020 - mid-January 2020)
+\item complete the draft (mid-January 2020 - March 2020)
+\end{itemize}
+
+
 
 \section{Final remarks}
 \label{concluding_remarks}
@@ -109,7 +120,7 @@ While this approach is expected to remove the tSZ systematic, it will slightly a
 %by multiple folds. 
 %More work needs to be done in this regard. 
 
-As reported in \S\ref{sys_bias}, dusty galaxies, kinematic Sunyaev-Zel'dovich effect, cluster position, corrleated halos along the line of sight, and density profiles will induce a systematic uncertainty > 1\%. In order to claim our sub-percent mass uncertainty we need to robustly address these systematics. Future work needs to be done in developing new/modified estimators that are robust to these systematics. In addition to that, we also need precise theoretical models and foreground simulations to accurately quantify the bias for the future CMB-S4 experiment. 
+As reported in \S\ref{sys_bias}, dusty galaxies, kinematic Sunyaev-Zel'dovich effect, cluster position, corrleated halos along the line of sight, and density profiles will induce a systematic uncertainty > 1\%. In order to claim our sub-percent mass uncertainty we need to robustly address these systematics. Future work needs to be done in developing new/modified estimators that are robust to these systematics. We need precise theoretical models and foreground simulations to accurately quantify the bias for the future CMB-S4 experiment. In addition we also need observational constraints, for example we need CIB and SZ observations of high redshift clusters to confirm the morphologies predicted by simulations.  
 \iffalse{
 The uncertainty in the cluster mass profile can bias the mass estimate by a few percent. 
 While a few percent systematic bias is well within the statistical uncertainty at the current experimental noise level, however, it will become comparable in the near future. 
